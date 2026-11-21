@@ -74,5 +74,6 @@ note の連載「論文メモ」（AI論文解説、xenoah_memo）と「自律�
 | 019 | diary-pipeline-followup | https://note.com/xenoah_memo/n/n1413e13bc5d9 |
 | 020 | repo-queue-followup | https://note.com/xenoah_memo/n/n6072c6079510 |
 | 021 | homepage-catalog-audit | https://note.com/xenoah_memo/n/n4cc2da72d703 |
+| 022 | verification-data-audit | https://note.com/xenoah_memo/n/nebcfcc7a47d7 |
 
 第004回は記事を取り下げ済みのため、証跡も収録していません。

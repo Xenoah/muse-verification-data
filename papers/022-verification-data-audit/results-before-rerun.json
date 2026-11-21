@@ -1,0 +1,2069 @@
+{
+ "total_files": 200,
+ "total_bytes": 2306088,
+ "by_section": {
+  "(root)": {
+   "files": 1,
+   "bytes": 5194
+  },
+  "explainers": {
+   "files": 44,
+   "bytes": 626577
+  },
+  "papers": {
+   "files": 155,
+   "bytes": 1674317
+  }
+ },
+ "ext_totals": {
+  ".md": 35,
+  ".py": 44,
+  ".log": 36,
+  ".json": 61,
+  ".err": 12,
+  ".txt": 12
+ },
+ "paper_folders": [
+  "001-ai-model-space-audit",
+  "002-cpu-inference-benchmark",
+  "003-space-reaudit",
+  "005-personal-information-privacy",
+  "006-tsubuyai-editorial-audit",
+  "007-diary-pipeline-audit",
+  "008-series-self-audit",
+  "009-cron-fleet-audit",
+  "010-repo-queue-audit",
+  "011-workspace-inventory",
+  "012-memory-inventory",
+  "013-skill-library-inventory",
+  "014-goal-tracking-reconciliation",
+  "015-connector-library-inventory",
+  "016-space-inventory",
+  "017-musio-v3-audit",
+  "018-explainer-production-audit",
+  "019-diary-pipeline-followup",
+  "020-repo-queue-followup",
+  "021-homepage-catalog-audit"
+ ],
+ "explainer_folders": [
+  "2026-11-17-zero-shot-cot",
+  "2026-11-18-opro",
+  "2026-11-19-self-refine",
+  "2026-11-20-tree-of-thoughts",
+  "2026-11-21-step-back-prompting"
+ ],
+ "expected_paper_folders": [
+  "001-ai-model-space-audit",
+  "002-cpu-inference-benchmark",
+  "003-space-reaudit",
+  "005-personal-information-privacy",
+  "006-tsubuyai-editorial-audit",
+  "007-diary-pipeline-audit",
+  "008-series-self-audit",
+  "009-cron-fleet-audit",
+  "010-repo-queue-audit",
+  "011-workspace-inventory",
+  "012-memory-inventory",
+  "013-skill-library-inventory",
+  "014-goal-tracking-reconciliation",
+  "015-connector-library-inventory",
+  "016-space-inventory",
+  "017-musio-v3-audit",
+  "018-explainer-production-audit",
+  "019-diary-pipeline-followup",
+  "020-repo-queue-followup",
+  "021-homepage-catalog-audit"
+ ],
+ "missing_paper_folders": [],
+ "extra_paper_folders": [],
+ "withdrawn_present": [],
+ "paper_folder_stats": {
+  "001-ai-model-space-audit": {
+   "files": 2,
+   "bytes": 94926,
+   "exts": {
+    ".json": 2
+   },
+   "has_py": false,
+   "has_json": true,
+   "has_log": false,
+   "has_md": false,
+   "png": 0
+  },
+  "002-cpu-inference-benchmark": {
+   "files": 48,
+   "bytes": 38440,
+   "exts": {
+    ".json": 2,
+    ".err": 12,
+    ".log": 28,
+    ".txt": 6
+   },
+   "has_py": false,
+   "has_json": true,
+   "has_log": true,
+   "has_md": false,
+   "png": 0
+  },
+  "003-space-reaudit": {
+   "files": 2,
+   "bytes": 189756,
+   "exts": {
+    ".json": 2
+   },
+   "has_py": false,
+   "has_json": true,
+   "has_log": false,
+   "has_md": false,
+   "png": 0
+  },
+  "005-personal-information-privacy": {
+   "files": 2,
+   "bytes": 17105,
+   "exts": {
+    ".md": 2
+   },
+   "has_py": false,
+   "has_json": false,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "006-tsubuyai-editorial-audit": {
+   "files": 5,
+   "bytes": 22563,
+   "exts": {
+    ".md": 2,
+    ".json": 2,
+    ".py": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "007-diary-pipeline-audit": {
+   "files": 5,
+   "bytes": 33419,
+   "exts": {
+    ".md": 2,
+    ".json": 2,
+    ".py": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "008-series-self-audit": {
+   "files": 3,
+   "bytes": 12422,
+   "exts": {
+    ".md": 1,
+    ".json": 1,
+    ".py": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "009-cron-fleet-audit": {
+   "files": 7,
+   "bytes": 73364,
+   "exts": {
+    ".md": 1,
+    ".json": 3,
+    ".py": 2,
+    ".txt": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "010-repo-queue-audit": {
+   "files": 4,
+   "bytes": 6851,
+   "exts": {
+    ".md": 1,
+    ".json": 1,
+    ".py": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "011-workspace-inventory": {
+   "files": 5,
+   "bytes": 29530,
+   "exts": {
+    ".md": 1,
+    ".json": 2,
+    ".py": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "012-memory-inventory": {
+   "files": 6,
+   "bytes": 20915,
+   "exts": {
+    ".md": 1,
+    ".json": 2,
+    ".py": 2,
+    ".txt": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "013-skill-library-inventory": {
+   "files": 5,
+   "bytes": 64047,
+   "exts": {
+    ".md": 1,
+    ".json": 2,
+    ".py": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "014-goal-tracking-reconciliation": {
+   "files": 7,
+   "bytes": 39337,
+   "exts": {
+    ".md": 1,
+    ".json": 4,
+    ".py": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "015-connector-library-inventory": {
+   "files": 6,
+   "bytes": 157764,
+   "exts": {
+    ".md": 1,
+    ".json": 3,
+    ".py": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "016-space-inventory": {
+   "files": 5,
+   "bytes": 45700,
+   "exts": {
+    ".md": 1,
+    ".json": 2,
+    ".py": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "017-musio-v3-audit": {
+   "files": 8,
+   "bytes": 245295,
+   "exts": {
+    ".md": 1,
+    ".json": 3,
+    ".py": 2,
+    ".txt": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "018-explainer-production-audit": {
+   "files": 6,
+   "bytes": 22346,
+   "exts": {
+    ".md": 1,
+    ".json": 2,
+    ".py": 2,
+    ".txt": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "019-diary-pipeline-followup": {
+   "files": 8,
+   "bytes": 85277,
+   "exts": {
+    ".md": 1,
+    ".json": 3,
+    ".py": 4
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "020-repo-queue-followup": {
+   "files": 12,
+   "bytes": 435232,
+   "exts": {
+    ".md": 1,
+    ".json": 6,
+    ".py": 5
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  },
+  "021-homepage-catalog-audit": {
+   "files": 9,
+   "bytes": 40028,
+   "exts": {
+    ".md": 1,
+    ".json": 3,
+    ".py": 4,
+    ".txt": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": false,
+   "has_md": true,
+   "png": 0
+  }
+ },
+ "explainer_folder_stats": {
+  "2026-11-17-zero-shot-cot": {
+   "files": 6,
+   "bytes": 14808,
+   "exts": {
+    ".md": 2,
+    ".py": 2,
+    ".log": 2
+   },
+   "has_py": true,
+   "has_json": false,
+   "has_log": true,
+   "has_md": true,
+   "png": 0
+  },
+  "2026-11-18-opro": {
+   "files": 9,
+   "bytes": 109038,
+   "exts": {
+    ".md": 3,
+    ".py": 2,
+    ".json": 2,
+    ".log": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": true,
+   "has_md": true,
+   "png": 0
+  },
+  "2026-11-19-self-refine": {
+   "files": 10,
+   "bytes": 130040,
+   "exts": {
+    ".md": 4,
+    ".py": 1,
+    ".json": 4,
+    ".log": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": true,
+   "has_md": true,
+   "png": 0
+  },
+  "2026-11-20-tree-of-thoughts": {
+   "files": 7,
+   "bytes": 152670,
+   "exts": {
+    ".md": 2,
+    ".py": 1,
+    ".json": 3,
+    ".log": 1
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": true,
+   "has_md": true,
+   "png": 0
+  },
+  "2026-11-21-step-back-prompting": {
+   "files": 12,
+   "bytes": 220021,
+   "exts": {
+    ".md": 3,
+    ".py": 2,
+    ".json": 5,
+    ".log": 2
+   },
+   "has_py": true,
+   "has_json": true,
+   "has_log": true,
+   "has_md": true,
+   "png": 0
+  }
+ },
+ "papers_png_total": 0,
+ "papers_folders_with_py": 16,
+ "papers_folders_with_json": 19,
+ "explainers_folders_with_py": 5,
+ "explainers_folders_with_results": 4,
+ "email_files": 4,
+ "email_hits": 10,
+ "secret_files": 0,
+ "secret_hits": 0,
+ "abspath_files": 0,
+ "abspath_hits": 0,
+ "abspath_file_list": [],
+ "snapshot_entries": [
+  {
+   "commit": "69cf4bb358efb9609730a2e6caa8f5537bac2733",
+   "n_paths": 45,
+   "repo": "muse-verification-data",
+   "branch": "main"
+  },
+  {
+   "commit": "288fac971a88640ea47b9ff694e0a8ba37eb8f9e",
+   "n_paths": 156,
+   "repo": "muse-verification-data",
+   "branch": "main"
+  }
+ ],
+ "snapshot_union_paths": 200,
+ "unsynced_files": [],
+ "stale_snapshot_paths": [],
+ "files_detail": [
+  {
+   "rel": "README.md",
+   "bytes": 5194,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-17-zero-shot-cot/criteria.md",
+   "bytes": 1599,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-17-zero-shot-cot/desk-check.md",
+   "bytes": 3040,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-17-zero-shot-cot/measure.py",
+   "bytes": 3901,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-17-zero-shot-cot/measure2.py",
+   "bytes": 4085,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-17-zero-shot-cot/run.log",
+   "bytes": 346,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-17-zero-shot-cot/run2.log",
+   "bytes": 1837,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/criteria-addendum.md",
+   "bytes": 1306,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/criteria.md",
+   "bytes": 2464,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/desk-check.md",
+   "bytes": 3514,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/measure.py",
+   "bytes": 4195,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/measure2.py",
+   "bytes": 4330,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/rescoring.json",
+   "bytes": 574,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/results_incremental.json",
+   "bytes": 91369,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/run.log",
+   "bytes": 186,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-18-opro/run2.log",
+   "bytes": 1100,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/criteria-addendum.md",
+   "bytes": 856,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/criteria-addendum2.md",
+   "bytes": 1546,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/criteria.md",
+   "bytes": 2608,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/desk-check.md",
+   "bytes": 3415,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/measure.py",
+   "bytes": 4816,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/raw_outputs.json",
+   "bytes": 64989,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/results.json",
+   "bytes": 6398,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/results_incremental.json",
+   "bytes": 4490,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/results_v2_invalid.json",
+   "bytes": 40471,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-19-self-refine/run.log",
+   "bytes": 451,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-20-tree-of-thoughts/criteria.md",
+   "bytes": 4088,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-20-tree-of-thoughts/desk-check.md",
+   "bytes": 4417,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-20-tree-of-thoughts/measure.py",
+   "bytes": 12437,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-20-tree-of-thoughts/raw_outputs.json",
+   "bytes": 74687,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-20-tree-of-thoughts/results.json",
+   "bytes": 29000,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-20-tree-of-thoughts/results_incremental.json",
+   "bytes": 27314,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-20-tree-of-thoughts/run.log",
+   "bytes": 727,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/criteria-addendum.md",
+   "bytes": 1769,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/criteria.md",
+   "bytes": 5030,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/desk-check.md",
+   "bytes": 6490,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/measure.py",
+   "bytes": 9333,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/measure2.py",
+   "bytes": 3189,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/raw_outputs.json",
+   "bytes": 92532,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/raw_outputs_invalid.json",
+   "bytes": 19284,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/results.json",
+   "bytes": 35590,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/results_incremental.json",
+   "bytes": 35590,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/results_invalid.json",
+   "bytes": 10790,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/run.log",
+   "bytes": 104,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "explainers/2026-11-21-step-back-prompting/run_invalid.log",
+   "bytes": 320,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/001-ai-model-space-audit/audit-001-evidence.json",
+   "bytes": 55455,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/001-ai-model-space-audit/audit-001-space-snapshot.json",
+   "bytes": 39471,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/audit-002-results.json",
+   "bytes": 7285,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-llama-q4km-run1.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-llama-q4km-run1.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-llama-q4km-run2.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-llama-q4km-run2.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-llama-q4km-run3.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-llama-q4km-run3.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-fp16-run1.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-fp16-run1.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-fp16-run2.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-fp16-run2.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-fp16-run3.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-fp16-run3.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q4km-run1.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q4km-run1.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q4km-run2.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q4km-run2.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q4km-run3.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q4km-run3.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q8-run1.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q8-run1.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q8-run2.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q8-run2.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q8-run3.err",
+   "bytes": 0,
+   "ext": ".err",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/bench-qwen-q8-run3.log",
+   "bytes": 522,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/build.log",
+   "bytes": 15938,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/cmake-configure.log",
+   "bytes": 1684,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/env.txt",
+   "bytes": 4174,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/llama-cpp-commit.txt",
+   "bytes": 41,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-llama-q4km-ctx4096-q1.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-llama-q4km-q1.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-llama-q4km-q2.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-llama-q4km-q3.log",
+   "bytes": 125,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-fp16-q1.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-fp16-q2.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-fp16-q3.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-q4km-ctx4096-q1.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-q4km-q1.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-q4km-q2.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-q4km-q3.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-q8-q1.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-q8-q2.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/mem-qwen-q8-q3.log",
+   "bytes": 126,
+   "ext": ".log",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/model-manifest.json",
+   "bytes": 782,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/sha256-llama.txt",
+   "bytes": 100,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/sha256-qwen.txt",
+   "bytes": 296,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/steal-baseline.txt",
+   "bytes": 56,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/002-cpu-inference-benchmark/logs/steal-final.txt",
+   "bytes": 57,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/003-space-reaudit/audit-003-evidence.json",
+   "bytes": 136667,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/003-space-reaudit/audit-003-space-snapshot.json",
+   "bytes": 53089,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/005-personal-information-privacy/README-005.md",
+   "bytes": 1774,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/005-personal-information-privacy/audit-005-evidence-notes.md",
+   "bytes": 15331,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/006-tsubuyai-editorial-audit/README-006.md",
+   "bytes": 2154,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/006-tsubuyai-editorial-audit/audit-006-evidence-notes.md",
+   "bytes": 5366,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/006-tsubuyai-editorial-audit/audit-006-results.json",
+   "bytes": 3803,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/006-tsubuyai-editorial-audit/audit006.py",
+   "bytes": 7436,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/006-tsubuyai-editorial-audit/rerun-output.json",
+   "bytes": 3804,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/007-diary-pipeline-audit/README-007.md",
+   "bytes": 1140,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/007-diary-pipeline-audit/audit-007-corrected.json",
+   "bytes": 10462,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/007-diary-pipeline-audit/audit-007-evidence-notes.md",
+   "bytes": 6288,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/007-diary-pipeline-audit/audit-007-results.json",
+   "bytes": 9046,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/007-diary-pipeline-audit/audit007.py",
+   "bytes": 6483,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/008-series-self-audit/audit-008-evidence-notes.md",
+   "bytes": 4868,
+   "ext": ".md",
+   "email_hits": 1,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/008-series-self-audit/audit-008-results.json",
+   "bytes": 5439,
+   "ext": ".json",
+   "email_hits": 1,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/008-series-self-audit/audit008.py",
+   "bytes": 2115,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/009-cron-fleet-audit/audit-009-evidence-notes.md",
+   "bytes": 2996,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/009-cron-fleet-audit/audit-009-results.json",
+   "bytes": 1413,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/009-cron-fleet-audit/audit009.py",
+   "bytes": 4787,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/009-cron-fleet-audit/cron-runs-raw.json",
+   "bytes": 59922,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/009-cron-fleet-audit/make_fig.py",
+   "bytes": 1419,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/009-cron-fleet-audit/rerun-before.json",
+   "bytes": 1413,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/009-cron-fleet-audit/rerun-output.txt",
+   "bytes": 1414,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/010-repo-queue-audit/audit-010-evidence-notes.md",
+   "bytes": 1287,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/010-repo-queue-audit/audit-010-results.json",
+   "bytes": 1886,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/010-repo-queue-audit/audit010.py",
+   "bytes": 2863,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/010-repo-queue-audit/make_fig.py",
+   "bytes": 815,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/011-workspace-inventory/audit-011-evidence-notes.md",
+   "bytes": 2224,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/011-workspace-inventory/audit-011-results.json",
+   "bytes": 10511,
+   "ext": ".json",
+   "email_hits": 4,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/011-workspace-inventory/audit011.py",
+   "bytes": 5281,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/011-workspace-inventory/make_fig.py",
+   "bytes": 1003,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/011-workspace-inventory/rerun-output.json",
+   "bytes": 10511,
+   "ext": ".json",
+   "email_hits": 4,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/012-memory-inventory/audit-012-evidence-notes.md",
+   "bytes": 2690,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/012-memory-inventory/audit-012-results.json",
+   "bytes": 4680,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/012-memory-inventory/audit012.py",
+   "bytes": 6911,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/012-memory-inventory/make_fig.py",
+   "bytes": 1236,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/012-memory-inventory/rerun-output.json",
+   "bytes": 4680,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/012-memory-inventory/rerun-stdout.txt",
+   "bytes": 718,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/013-skill-library-inventory/audit-013-evidence-notes.md",
+   "bytes": 2799,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/013-skill-library-inventory/audit-013-results.json",
+   "bytes": 26882,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/013-skill-library-inventory/audit013.py",
+   "bytes": 6648,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/013-skill-library-inventory/make_fig.py",
+   "bytes": 836,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/013-skill-library-inventory/rerun-output.json",
+   "bytes": 26882,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/014-goal-tracking-reconciliation/audit-014-evidence-notes.md",
+   "bytes": 3248,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/014-goal-tracking-reconciliation/audit-014-results.json",
+   "bytes": 12992,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/014-goal-tracking-reconciliation/audit014.py",
+   "bytes": 6156,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/014-goal-tracking-reconciliation/make_fig.py",
+   "bytes": 1151,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/014-goal-tracking-reconciliation/rerun-output.json",
+   "bytes": 12992,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/014-goal-tracking-reconciliation/tracking-snapshot.json",
+   "bytes": 2548,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/014-goal-tracking-reconciliation/usergoal-snapshot.json",
+   "bytes": 250,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/015-connector-library-inventory/audit-015-evidence-notes.md",
+   "bytes": 3620,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/015-connector-library-inventory/audit-015-kind-totals.json",
+   "bytes": 626,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/015-connector-library-inventory/audit-015-results.json",
+   "bytes": 72657,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/015-connector-library-inventory/audit015.py",
+   "bytes": 7141,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/015-connector-library-inventory/make_fig.py",
+   "bytes": 1063,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/015-connector-library-inventory/rerun-output.json",
+   "bytes": 72657,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/016-space-inventory/audit-016-evidence-notes.md",
+   "bytes": 1640,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/016-space-inventory/audit-016-results.json",
+   "bytes": 17811,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/016-space-inventory/audit016.py",
+   "bytes": 7543,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/016-space-inventory/make_fig.py",
+   "bytes": 895,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/016-space-inventory/rerun-output.json",
+   "bytes": 17811,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/017-musio-v3-audit/audit-017-evidence-notes.md",
+   "bytes": 4093,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/017-musio-v3-audit/audit-017-results.json",
+   "bytes": 110250,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/017-musio-v3-audit/audit017.py",
+   "bytes": 13675,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/017-musio-v3-audit/factcheck-flagged-claims.json",
+   "bytes": 913,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/017-musio-v3-audit/first-run-results.json",
+   "bytes": 110250,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/017-musio-v3-audit/make_fig.py",
+   "bytes": 2294,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/017-musio-v3-audit/rerun-output.txt",
+   "bytes": 1910,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/017-musio-v3-audit/rerun2-output.txt",
+   "bytes": 1910,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/018-explainer-production-audit/audit-018-evidence-notes.md",
+   "bytes": 2938,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/018-explainer-production-audit/audit-018-results.json",
+   "bytes": 4705,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/018-explainer-production-audit/audit018.py",
+   "bytes": 4043,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/018-explainer-production-audit/first-run-results.json",
+   "bytes": 4705,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/018-explainer-production-audit/make_fig.py",
+   "bytes": 1249,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/018-explainer-production-audit/rerun-output.txt",
+   "bytes": 4706,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/019-diary-pipeline-followup/audit-019-evidence-notes.md",
+   "bytes": 1818,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/019-diary-pipeline-followup/audit-019-results.json",
+   "bytes": 23114,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/019-diary-pipeline-followup/audit019.py",
+   "bytes": 8510,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/019-diary-pipeline-followup/build_review.py",
+   "bytes": 2366,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/019-diary-pipeline-followup/build_review2.py",
+   "bytes": 2193,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/019-diary-pipeline-followup/first-run-results.json",
+   "bytes": 23114,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/019-diary-pipeline-followup/make_fig.py",
+   "bytes": 1048,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/019-diary-pipeline-followup/rerun-output.json",
+   "bytes": 23114,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/audit-020-evidence-notes.md",
+   "bytes": 3420,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/audit-020-results.json",
+   "bytes": 8656,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/audit020.py",
+   "bytes": 5602,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/build_review.py",
+   "bytes": 3023,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/build_review2.py",
+   "bytes": 3705,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/listrepos-010-baseline-raw.json",
+   "bytes": 95225,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/listrepos-raw.json",
+   "bytes": 137951,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/make_diagrams.py",
+   "bytes": 2115,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/make_fig.py",
+   "bytes": 1596,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/rerun-output.json",
+   "bytes": 8657,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/snapshot-010-metadata.json",
+   "bytes": 74827,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/020-repo-queue-followup/snapshot-020-metadata.json",
+   "bytes": 90455,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/audit-021-evidence-notes.md",
+   "bytes": 4257,
+   "ext": ".md",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/audit-021-results.json",
+   "bytes": 7455,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/audit021.py",
+   "bytes": 8488,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/build_review.py",
+   "bytes": 2025,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/gate-check-output.txt",
+   "bytes": 745,
+   "ext": ".txt",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/make_diagrams.py",
+   "bytes": 2025,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/make_fig.py",
+   "bytes": 1708,
+   "ext": ".py",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/rerun-output.json",
+   "bytes": 6663,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  },
+  {
+   "rel": "papers/021-homepage-catalog-audit/results-before-rerun.json",
+   "bytes": 6662,
+   "ext": ".json",
+   "email_hits": 0,
+   "secret_hits": 0,
+   "abspath_hits": 0
+  }
+ ]
+}

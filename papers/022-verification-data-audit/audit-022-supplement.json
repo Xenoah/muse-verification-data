@@ -1,0 +1,119 @@
+{
+ "email_domain_classification": {
+  "per_file_domains": {
+   "papers/008-series-self-audit/audit-008-evidence-notes.md": [
+    "muse.ai"
+   ],
+   "papers/008-series-self-audit/audit-008-results.json": [
+    "muse.ai"
+   ],
+   "papers/011-workspace-inventory/audit-011-results.json": [
+    "de4ce9d8042a11c69d464355f9a8f54e.webm",
+    "4ab26e4c7384b39e37e74b260772795f.webm",
+    "8606a77222b32fb1e9ef5aae36e629fe.webm",
+    "8e912dcf2fc3ab5e9fa1cad324f5b8b9.webm"
+   ],
+   "papers/011-workspace-inventory/rerun-output.json": [
+    "de4ce9d8042a11c69d464355f9a8f54e.webm",
+    "4ab26e4c7384b39e37e74b260772795f.webm",
+    "8606a77222b32fb1e9ef5aae36e629fe.webm",
+    "8e912dcf2fc3ab5e9fa1cad324f5b8b9.webm"
+   ]
+  },
+  "domain_counts": {
+   "muse.ai": 2,
+   "de4ce9d8042a11c69d464355f9a8f54e.webm": 2,
+   "4ab26e4c7384b39e37e74b260772795f.webm": 2,
+   "8606a77222b32fb1e9ef5aae36e629fe.webm": 2,
+   "8e912dcf2fc3ab5e9fa1cad324f5b8b9.webm": 2
+  },
+  "note": "8 of 10 hits are .webm filename false positives in 011 results; 2 hits are muse.ai domain (Muse's own mailbox domain). No user personal email domain."
+ },
+ "readme_paper_slug_coverage": "20/20",
+ "readme_explainer_rows": "5 date rows present in README table (by date and paper name, not folder slug)",
+ "papers_md_files": [
+  "papers/005-personal-information-privacy/README-005.md",
+  "papers/005-personal-information-privacy/audit-005-evidence-notes.md",
+  "papers/006-tsubuyai-editorial-audit/README-006.md",
+  "papers/006-tsubuyai-editorial-audit/audit-006-evidence-notes.md",
+  "papers/007-diary-pipeline-audit/README-007.md",
+  "papers/007-diary-pipeline-audit/audit-007-evidence-notes.md",
+  "papers/008-series-self-audit/audit-008-evidence-notes.md",
+  "papers/009-cron-fleet-audit/audit-009-evidence-notes.md",
+  "papers/010-repo-queue-audit/audit-010-evidence-notes.md",
+  "papers/011-workspace-inventory/audit-011-evidence-notes.md",
+  "papers/012-memory-inventory/audit-012-evidence-notes.md",
+  "papers/013-skill-library-inventory/audit-013-evidence-notes.md",
+  "papers/014-goal-tracking-reconciliation/audit-014-evidence-notes.md",
+  "papers/015-connector-library-inventory/audit-015-evidence-notes.md",
+  "papers/016-space-inventory/audit-016-evidence-notes.md",
+  "papers/017-musio-v3-audit/audit-017-evidence-notes.md",
+  "papers/018-explainer-production-audit/audit-018-evidence-notes.md",
+  "papers/019-diary-pipeline-followup/audit-019-evidence-notes.md",
+  "papers/020-repo-queue-followup/audit-020-evidence-notes.md",
+  "papers/021-homepage-catalog-audit/audit-021-evidence-notes.md"
+ ],
+ "explainer_common_files": {
+  "2026-11-17-zero-shot-cot": [
+   "criteria.md",
+   "desk-check.md",
+   "measure.py",
+   "measure2.py",
+   "run.log",
+   "run2.log"
+  ],
+  "2026-11-18-opro": [
+   "criteria-addendum.md",
+   "criteria.md",
+   "desk-check.md",
+   "measure.py",
+   "measure2.py",
+   "rescoring.json",
+   "results_incremental.json",
+   "run.log",
+   "run2.log"
+  ],
+  "2026-11-19-self-refine": [
+   "criteria-addendum.md",
+   "criteria-addendum2.md",
+   "criteria.md",
+   "desk-check.md",
+   "measure.py",
+   "raw_outputs.json",
+   "results.json",
+   "results_incremental.json",
+   "results_v2_invalid.json",
+   "run.log"
+  ],
+  "2026-11-20-tree-of-thoughts": [
+   "criteria.md",
+   "desk-check.md",
+   "measure.py",
+   "raw_outputs.json",
+   "results.json",
+   "results_incremental.json",
+   "run.log"
+  ],
+  "2026-11-21-step-back-prompting": [
+   "criteria-addendum.md",
+   "criteria.md",
+   "desk-check.md",
+   "measure.py",
+   "measure2.py",
+   "raw_outputs.json",
+   "raw_outputs_invalid.json",
+   "results.json",
+   "results_incremental.json",
+   "results_invalid.json",
+   "run.log",
+   "run_invalid.log"
+  ]
+ },
+ "invalid_files": [
+  "explainers/2026-11-19-self-refine/results_v2_invalid.json",
+  "explainers/2026-11-21-step-back-prompting/raw_outputs_invalid.json",
+  "explainers/2026-11-21-step-back-prompting/results_invalid.json",
+  "explainers/2026-11-21-step-back-prompting/run_invalid.log"
+ ],
+ "snapshot_overlap_path": "README.md (only path present in both snapshot entries, verified from snapshot path lists)"
+}

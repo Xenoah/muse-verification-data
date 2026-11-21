@@ -1,0 +1,111 @@
+{
+ "total_files": 200,
+ "total_bytes": 2306088,
+ "by_section": {
+  "(root)": {
+   "files": 1,
+   "bytes": 5194
+  },
+  "explainers": {
+   "files": 44,
+   "bytes": 626577
+  },
+  "papers": {
+   "files": 155,
+   "bytes": 1674317
+  }
+ },
+ "ext_totals": {
+  ".md": 35,
+  ".py": 44,
+  ".log": 36,
+  ".json": 61,
+  ".err": 12,
+  ".txt": 12
+ },
+ "paper_folders": [
+  "001-ai-model-space-audit",
+  "002-cpu-inference-benchmark",
+  "003-space-reaudit",
+  "005-personal-information-privacy",
+  "006-tsubuyai-editorial-audit",
+  "007-diary-pipeline-audit",
+  "008-series-self-audit",
+  "009-cron-fleet-audit",
+  "010-repo-queue-audit",
+  "011-workspace-inventory",
+  "012-memory-inventory",
+  "013-skill-library-inventory",
+  "014-goal-tracking-reconciliation",
+  "015-connector-library-inventory",
+  "016-space-inventory",
+  "017-musio-v3-audit",
+  "018-explainer-production-audit",
+  "019-diary-pipeline-followup",
+  "020-repo-queue-followup",
+  "021-homepage-catalog-audit"
+ ],
+ "explainer_folders": [
+  "2026-11-17-zero-shot-cot",
+  "2026-11-18-opro",
+  "2026-11-19-self-refine",
+  "2026-11-20-tree-of-thoughts",
+  "2026-11-21-step-back-prompting"
+ ],
+ "expected_paper_folders": [
+  "001-ai-model-space-audit",
+  "002-cpu-inference-benchmark",
+  "003-space-reaudit",
+  "005-personal-information-privacy",
+  "006-tsubuyai-editorial-audit",
+  "007-diary-pipeline-audit",
+  "008-series-self-audit",
+  "009-cron-fleet-audit",
+  "010-repo-queue-audit",
+  "011-workspace-inventory",
+  "012-memory-inventory",
+  "013-skill-library-inventory",
+  "014-goal-tracking-reconciliation",
+  "015-connector-library-inventory",
+  "016-space-inventory",
+  "017-musio-v3-audit",
+  "018-explainer-production-audit",
+  "019-diary-pipeline-followup",
+  "020-repo-queue-followup",
+  "021-homepage-catalog-audit"
+ ],
+ "missing_paper_folders": [],
+ "extra_paper_folders": [],
+ "withdrawn_present": [],
+ "papers_png_total": 0,
+ "papers_folders_with_py": 16,
+ "papers_folders_with_json": 19,
+ "explainers_folders_with_py": 5,
+ "explainers_folders_with_results": 4,
+ "email_files": 4,
+ "email_hits": 10,
+ "secret_files": 0,
+ "secret_hits": 0,
+ "abspath_files": 0,
+ "abspath_hits": 0,
+ "abspath_file_list": [],
+ "snapshot_entries": [
+  {
+   "commit": "69cf4bb358efb9609730a2e6caa8f5537bac2733",
+   "n_paths": 45,
+   "repo": "muse-verification-data",
+   "branch": "main"
+  },
+  {
+   "commit": "288fac971a88640ea47b9ff694e0a8ba37eb8f9e",
+   "n_paths": 156,
+   "repo": "muse-verification-data",
+   "branch": "main"
+  }
+ ],
+ "snapshot_union_paths": 200,
+ "unsynced_files": [],
+ "stale_snapshot_paths": []
+}
+paper folder file counts: {'001-ai-model-space-audit': 2, '002-cpu-inference-benchmark': 48, '003-space-reaudit': 2, '005-personal-information-privacy': 2, '006-tsubuyai-editorial-audit': 5, '007-diary-pipeline-audit': 5, '008-series-self-audit': 3, '009-cron-fleet-audit': 7, '010-repo-queue-audit': 4, '011-workspace-inventory': 5, '012-memory-inventory': 6, '013-skill-library-inventory': 5, '014-goal-tracking-reconciliation': 7, '015-connector-library-inventory': 6, '016-space-inventory': 5, '017-musio-v3-audit': 8, '018-explainer-production-audit': 6, '019-diary-pipeline-followup': 8, '020-repo-queue-followup': 12, '021-homepage-catalog-audit': 9}
+explainer folder file counts: {'2026-11-17-zero-shot-cot': 6, '2026-11-18-opro': 9, '2026-11-19-self-refine': 10, '2026-11-20-tree-of-thoughts': 7, '2026-11-21-step-back-prompting': 12}
