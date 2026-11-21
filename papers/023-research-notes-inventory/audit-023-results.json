@@ -1,0 +1,232 @@
+{
+  "root": "~/workspace/research_notes",
+  "topics": 8,
+  "files": 18,
+  "total_bytes": 139755,
+  "errors": 0,
+  "reports": 3,
+  "agents_md": 3,
+  "notes_dirs": 3,
+  "email_pattern_hits_in_files": 10,
+  "per_topic": [
+    {
+      "topic": "ai-paper-explainer-free-default-20261118",
+      "file_count": 1,
+      "bytes": 2898,
+      "has_report": false,
+      "has_agents": false,
+      "has_notes_dir": false,
+      "notes_files": 0,
+      "filenames": [
+        "proposal.md"
+      ],
+      "md_files": 1
+    },
+    {
+      "topic": "bgm-demand-research-20261119-1110",
+      "file_count": 4,
+      "bytes": 47796,
+      "has_report": true,
+      "has_agents": true,
+      "has_notes_dir": true,
+      "notes_files": 2,
+      "filenames": [
+        "AGENTS.md",
+        "game-segment.md",
+        "key-sources.md",
+        "report.md"
+      ],
+      "md_files": 4
+    },
+    {
+      "topic": "bluesky-misskey-crosspost",
+      "file_count": 1,
+      "bytes": 4368,
+      "has_report": false,
+      "has_agents": false,
+      "has_notes_dir": false,
+      "notes_files": 0,
+      "filenames": [
+        "plan.md"
+      ],
+      "md_files": 1
+    },
+    {
+      "topic": "echo-show-5-hackability-20261104-0104",
+      "file_count": 3,
+      "bytes": 29118,
+      "has_report": true,
+      "has_agents": true,
+      "has_notes_dir": true,
+      "notes_files": 1,
+      "filenames": [
+        "AGENTS.md",
+        "report.md",
+        "source-summary.md"
+      ],
+      "md_files": 3
+    },
+    {
+      "topic": "muse-agent-email-feature-20261111-0836",
+      "file_count": 3,
+      "bytes": 29317,
+      "has_report": true,
+      "has_agents": true,
+      "has_notes_dir": true,
+      "notes_files": 1,
+      "filenames": [
+        "AGENTS.md",
+        "report.md",
+        "sources.md"
+      ],
+      "md_files": 3
+    },
+    {
+      "topic": "muse-monetization-20261115",
+      "file_count": 4,
+      "bytes": 16348,
+      "has_report": false,
+      "has_agents": false,
+      "has_notes_dir": false,
+      "notes_files": 0,
+      "filenames": [
+        "note-demand-baseline-20261115.md",
+        "paid-paper-plan.md",
+        "rescue-booth-draft.md",
+        "strategy.md"
+      ],
+      "md_files": 4
+    },
+    {
+      "topic": "new-ai-models-space",
+      "file_count": 1,
+      "bytes": 5831,
+      "has_report": false,
+      "has_agents": false,
+      "has_notes_dir": false,
+      "notes_files": 0,
+      "filenames": [
+        "seed-2026-11-08.md"
+      ],
+      "md_files": 1
+    },
+    {
+      "topic": "qiita-advent-2026",
+      "file_count": 1,
+      "bytes": 4079,
+      "has_report": false,
+      "has_agents": false,
+      "has_notes_dir": false,
+      "notes_files": 0,
+      "filenames": [
+        "plan.md"
+      ],
+      "md_files": 1
+    }
+  ],
+  "all_files": [
+    {
+      "rel": "ai-paper-explainer-free-default-20261118/proposal.md",
+      "bytes": 2898,
+      "suffix": ".md"
+    },
+    {
+      "rel": "bgm-demand-research-20261119-1110/AGENTS.md",
+      "bytes": 2697,
+      "suffix": ".md"
+    },
+    {
+      "rel": "bgm-demand-research-20261119-1110/report.md",
+      "bytes": 36285,
+      "suffix": ".md"
+    },
+    {
+      "rel": "bgm-demand-research-20261119-1110/notes/key-sources.md",
+      "bytes": 5337,
+      "suffix": ".md"
+    },
+    {
+      "rel": "bgm-demand-research-20261119-1110/notes/game-segment.md",
+      "bytes": 3477,
+      "suffix": ".md"
+    },
+    {
+      "rel": "bluesky-misskey-crosspost/plan.md",
+      "bytes": 4368,
+      "suffix": ".md"
+    },
+    {
+      "rel": "echo-show-5-hackability-20261104-0104/AGENTS.md",
+      "bytes": 2588,
+      "suffix": ".md"
+    },
+    {
+      "rel": "echo-show-5-hackability-20261104-0104/report.md",
+      "bytes": 22204,
+      "suffix": ".md"
+    },
+    {
+      "rel": "echo-show-5-hackability-20261104-0104/notes/source-summary.md",
+      "bytes": 4326,
+      "suffix": ".md"
+    },
+    {
+      "rel": "muse-agent-email-feature-20261111-0836/AGENTS.md",
+      "bytes": 2427,
+      "suffix": ".md"
+    },
+    {
+      "rel": "muse-agent-email-feature-20261111-0836/report.md",
+      "bytes": 18908,
+      "suffix": ".md"
+    },
+    {
+      "rel": "muse-agent-email-feature-20261111-0836/notes/sources.md",
+      "bytes": 7982,
+      "suffix": ".md"
+    },
+    {
+      "rel": "muse-monetization-20261115/strategy.md",
+      "bytes": 5857,
+      "suffix": ".md"
+    },
+    {
+      "rel": "muse-monetization-20261115/paid-paper-plan.md",
+      "bytes": 3959,
+      "suffix": ".md"
+    },
+    {
+      "rel": "muse-monetization-20261115/note-demand-baseline-20261115.md",
+      "bytes": 1632,
+      "suffix": ".md"
+    },
+    {
+      "rel": "muse-monetization-20261115/rescue-booth-draft.md",
+      "bytes": 4900,
+      "suffix": ".md"
+    },
+    {
+      "rel": "new-ai-models-space/seed-2026-11-08.md",
+      "bytes": 5831,
+      "suffix": ".md"
+    },
+    {
+      "rel": "qiita-advent-2026/plan.md",
+      "bytes": 4079,
+      "suffix": ".md"
+    }
+  ],
+  "largest_topic": "bgm-demand-research-20261119-1110",
+  "topics_with_report_names": [
+    "bgm-demand-research-20261119-1110",
+    "echo-show-5-hackability-20261104-0104",
+    "muse-agent-email-feature-20261111-0836"
+  ],
+  "topics_without_report_names": [
+    "ai-paper-explainer-free-default-20261118",
+    "bluesky-misskey-crosspost",
+    "muse-monetization-20261115",
+    "new-ai-models-space",
+    "qiita-advent-2026"
+  ]
+}
