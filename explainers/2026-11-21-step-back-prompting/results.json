@@ -1,0 +1,478 @@
+{
+ "questions": [
+  {
+   "id": "Q1",
+   "question": "An ideal gas is in a sealed container with a movable piston. The temperature of the gas is increased by a factor of 3, and the volume is increased by a factor of 6. What happens to the pressure of the gas?\nA) It increases by a factor of 3\nB) It decreases to 1/2 of the original\nC) It stays the same\nD) It increases by a factor of 18",
+   "correct": "B",
+   "principle_keys": [
+    "ideal gas",
+    "pv",
+    "nrt",
+    "p =",
+    "pressure proportional",
+    "t/v",
+    "temperature divided"
+   ]
+  },
+  {
+   "id": "Q2",
+   "question": "A sample of an unknown chloride compound is dissolved in water and titrated with excess Pb(NO3)2, forming a precipitate of PbCl2. After drying, there are 0.010 mol of PbCl2 precipitate. The molar mass of chlorine is 35.45 g/mol. What is the mass of chloride in the original sample?\nA) 0.355 g\nB) 0.709 g\nC) 1.418 g\nD) 0.177 g",
+   "correct": "B",
+   "principle_keys": [
+    "pbcl2",
+    "2 mol",
+    "two",
+    "stoichiometr",
+    "0.020",
+    "35.45"
+   ]
+  },
+  {
+   "id": "Q3",
+   "question": "A solid block floats in water with 75% of its volume submerged. The density of water is 1000 kg/m3. What is the density of the block?\nA) 250 kg/m3\nB) 1000 kg/m3\nC) 750 kg/m3\nD) 1333 kg/m3",
+   "correct": "C",
+   "principle_keys": [
+    "archimedes",
+    "buoyan",
+    "displaced",
+    "fraction",
+    "0.75",
+    "submerged fraction"
+   ]
+  },
+  {
+   "id": "Q4",
+   "question": "A resistor has a fixed resistance. The voltage across it is increased by a factor of 2. By what factor does the electrical power dissipated in the resistor change?\nA) It increases by a factor of 2\nB) It increases by a factor of 4\nC) It increases by a factor of 8\nD) It stays the same",
+   "correct": "B",
+   "principle_keys": [
+    "p = v",
+    "v^2",
+    "v2/r",
+    "power proportional to the square",
+    "square of the voltage",
+    "ohm"
+   ]
+  },
+  {
+   "id": "Q5",
+   "question": "A ball's speed is increased by a factor of 3, while its mass stays the same. By what factor does its kinetic energy change?\nA) It increases by a factor of 3\nB) It increases by a factor of 6\nC) It increases by a factor of 9\nD) It increases by a factor of 27",
+   "correct": "C",
+   "principle_keys": [
+    "kinetic energy",
+    "1/2",
+    "mv^2",
+    "square",
+    "v^2",
+    "proportional to the square"
+   ]
+  },
+  {
+   "id": "Q6",
+   "question": "The concentration of hydrogen ions [H+] in a solution is increased by a factor of 100. How does the pH of the solution change?\nA) It increases by 2\nB) It decreases by 2\nC) It decreases by 100\nD) It stays the same",
+   "correct": "B",
+   "principle_keys": [
+    "ph = -log",
+    "logarithm",
+    "log",
+    "-log10",
+    "base 10"
+   ]
+  },
+  {
+   "id": "Q7",
+   "question": "The length of a simple pendulum is increased by a factor of 4. By what factor does its period change?\nA) It increases by a factor of 4\nB) It increases by a factor of 2\nC) It increases by a factor of 16\nD) It stays the same",
+   "correct": "B",
+   "principle_keys": [
+    "pendulum",
+    "t = 2",
+    "sqrt",
+    "square root",
+    "proportional to the square root"
+   ]
+  },
+  {
+   "id": "Q8",
+   "question": "A price is first increased by 20%, and the new price is then decreased by 20%. Compared with the original price, what is the final price?\nA) Exactly the same as the original\nB) 4% higher than the original\nC) 4% lower than the original\nD) 20% lower than the original",
+   "correct": "C",
+   "principle_keys": [
+    "multiply",
+    "1.2",
+    "0.8",
+    "factor",
+    "successive",
+    "0.96"
+   ]
+  }
+ ],
+ "main": {
+  "Q1": {
+   "A": {
+    "gen": "To determine the final pressure of the gas, we can use the ideal gas law, which is given by:\n\n\\[ PV = nRT \\]\n\nwhere:\n- \\( P \\) is the pressure,\n- \\( V \\) is the volume,\n- \\( n \\) is the number of moles of gas,\n- \\( R \\) is the ideal gas constant,\n- \\( T \\) is the temperature.\n\nWe are given that the temperature \\( T \\) is increased by a factor of 3, and the volume \\( V \\) is increased by a factor of 6. We need to find how the pressure \\( P \\) changes.\n\nLet's denote the initial pressure, volume, and temperature as \\( P_1 \\), \\( V_1 \\), and \\( T_1 \\) respectively. After the changes, the new pressure, volume, and temperature will be \\( P_2 \\), \\( V_2 \\), and \\( T_2 \\) respectively. According to the problem, \\( V_2 = 6V_1 \\) and \\( T_2 = 3T_1 \\).\n\nUsing the ideal gas law for the initial state:\n\n\\[ P_1 V_1 = n R T_1 \\]\n\nFor the final state:\n\n\\[ P_2 V_2 = n R T_2 \\]\n\nSubstituting \\( V_2 = 6V_1 \\) and \\( T_2 = 3T_1 \\):\n\n\\[ P_2 (6V_1) = n R (3T_1) \\]\n\nWe can simplify this equation by dividing both sides by \\( 6V_1 \\):\n\n\\[ P_2 = \\frac{n R (3T_1)}{6V_1} \\]\n\nSince \\( n R T_1 = P_1 V_1 \\), we can substitute \\( P_1 V_1 \\) with \\( n R T_1 \\):\n\n\\[ P_2 = \\frac{3P_1 V_1}{6V_1} \\]\n\nThe \\( V_1 \\) terms cancel out:\n\n\\[ P_2 = \\frac{3P_1}{6} \\]\n\nSimplifying the fraction:\n\n\\[ P_2 = \\frac{P_1}{2} \\]\n\nThis means the pressure decreases to half of the original pressure. Therefore, the correct answer is:\n\nAnswer: B",
+    "answer": "B",
+    "time_s": 73.8,
+    "correct_flag": true
+   },
+   "B": {
+    "principles": "Principles Involved: Gay-Lussac's law: the pressure of a gas is directly proportional to its temperature when the volume is constant, P ∝ T. If T increases by a factor of 3 and V increases by a factor of 6, then P increases by a factor of 3.",
+    "principles_time_s": 19.3,
+    "gen": "Answer: C) It stays the same\n\nExplanation:\nAccording to Gay-Lussac's law, the pressure of a gas is directly proportional to its temperature when the volume is constant. The problem states that the temperature of the gas increases by a factor of 3 and the volume increases by a factor of 6. Since the volume is not constant (it changes), we cannot directly apply Gay-Lussac's law. However, if we consider the scenario where the volume is constant, the pressure would increase by a factor of 3. But since the volume is not constant, the pressure does not necessarily increase by a factor of 3. Instead, the pressure remains the same because the volume change is not sufficient to change the pressure in the context of the given conditions.",
+    "answer": "C",
+    "time_s": 28.1,
+    "correct_flag": false,
+    "principle_hits": [],
+    "principle_ok": false
+   }
+  },
+  "Q2": {
+   "A": {
+    "gen": "To solve this problem, we need to follow these steps:\n\n1. **Understand the reaction**: The reaction between the unknown chloride compound and Pb(NO3)2 is:\n   \\[\n   \\text{Cl}^- + \\text{Pb(NO}_3\\text{)}_2 \\rightarrow \\text{PbCl}_2 + \\text{NO}_3^-\n   \\]\n   This means that one mole of the unknown chloride compound reacts with one mole of Pb(NO3)2 to form one mole of PbCl2.\n\n2. **Determine the molar mass of the unknown chloride compound**: Since 0.010 mol of PbCl2 is formed, and 1 mole of PbCl2 is formed from 1 mole of the unknown chloride compound, the molar mass of the unknown chloride compound is:\n   \\[\n   \\text{Molar mass of the unknown chloride compound} = 0.010 \\text{ mol} \\times 289.84 \\text{ g/mol} = 2.8984 \\text{ g/mol}\n   \\]\n   (Note: 289.84 g/mol is the molar mass of PbCl2, which is the same as the molar mass of the unknown chloride compound since it reacts in a 1:1 ratio).\n\n3. **Calculate the mass of the unknown chloride compound**: The mass of the unknown chloride compound in the original sample is:\n   \\[\n   \\text{Mass of the unknown chloride compound} = 0.010 \\text{ mol} \\times 2.8984 \\text{ g/mol} = 0.028984 \\text{ g}\n   \\]\n\n4. **Convert the mass to the mass of chloride**: Since the molar mass of chlorine is 35.45 g/mol, the mass of chloride in the original sample is:\n   \\[\n   \\text{Mass of chloride} = 0.028984 \\text{ g} \\times \\frac{35.45 \\text{ g/mol}}{2.8984 \\text{ g/mol}} = 0.355 \\text{ g}\n   \\]\n\nTherefore, the mass of chloride in the original sample is 0.355 g.\n\nAnswer: A",
+    "answer": "A",
+    "time_s": 68.0,
+    "correct_flag": false
+   },
+   "B": {
+    "principles": "Principles Involved: Stoichiometry: The reaction between PbCl2 and excess Pb(NO3)2 is a 1:1 reaction, meaning 1 mole of PbCl2 reacts with 1 mole of Pb(NO3)2. Mass of chloride = moles of PbCl2 * molar mass of Cl.",
+    "principles_time_s": 20.2,
+    "gen": "Answer: D",
+    "answer": "D",
+    "time_s": 11.0,
+    "correct_flag": false,
+    "principle_hits": [
+     "pbcl2",
+     "stoichiometr"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q3": {
+   "A": {
+    "gen": "To determine the density of the block, we need to use the principle of buoyancy. When an object floats, the buoyant force equals the weight of the displaced water. The volume of water displaced is equal to the volume of the block that is submerged.\n\nGiven:\n- The block floats with 75% of its volume submerged.\n- The density of water is 1000 kg/m³.\n\nLet's denote:\n- The volume of the block as \\( V \\).\n- The density of the block as \\( \\rho_b \\).\n\nThe volume of the block submerged is \\( 0.75V \\).\n\nThe buoyant force is equal to the weight of the displaced water, which is given by:\n\\[ \\text{Buoyant Force} = \\rho_{\\text{water}} \\times V_{\\text{submerged}} \\times g \\]\n\\[ \\text{Buoyant Force} = 1000 \\, \\text{kg/m}^3 \\times 0.75V \\times g \\]\n\nThe weight of the block is:\n\\[ \\text{Weight of the block} = \\rho_b \\times V \\times g \\]\n\nSince the block floats, the buoyant force equals the weight of the block:\n\\[ \\rho_b \\times V \\times g = 1000 \\, \\text{kg/m}^3 \\times 0.75V \\times g \\]\n\nWe can cancel out \\( V \\) and \\( g \\) from both sides of the equation:\n\\[ \\rho_b = 1000 \\, \\text{kg/m}^3 \\times 0.75 \\]\n\nNow, calculate the value:\n\\[ \\rho_b = 1000 \\, \\text{kg/m}^3 \\times 0.75 = 750 \\, \\text{kg/m}^3 \\]\n\nTherefore, the density of the block is 750 kg/m³.\n\nAnswer: C",
+    "answer": "C",
+    "time_s": 71.7,
+    "correct_flag": true
+   },
+   "B": {
+    "principles": "Principles Involved: Archimedes' principle: The buoyant force on an object submerged in a fluid is equal to the weight of the fluid displaced by the object. The density of the block affects the buoyant force, which in turn affects the apparent weight of the block. The density of the block is related to the weight of the displaced water. The density of the block is given by the weight of the displaced water divided by the volume of the block.",
+    "principles_time_s": 24.6,
+    "gen": "Answer: D\n\nExplanation:\n1. Let the volume of the block be \\( V \\).\n2. Since 75% of the block's volume is submerged, the volume of the block submerged in water is \\( 0.75V \\).\n3. The buoyant force on the block is equal to the weight of the displaced water, which is \\( 0.75V \\times 1000 \\, \\text{kg/m}^3 = 750V \\, \\text{kg/m}^3 \\).\n4. The apparent weight of the block is the weight of the block minus the buoyant force, which is \\( V \\times \\text{density of the block} - 750V \\, \\text{kg/m}^3 \\).\n5. Since the block floats, the apparent weight is zero, so we have:\n   \\[\n   V \\times \\text{density of the block} - 750V = 0\n   \\]\n6. Simplifying, we get:\n   \\[\n   \\text{density of the block} = 750 \\, \\text{kg/m}^3\n   \\]\n\nTherefore, the density of the block is 750 kg/m³.",
+    "answer": "D",
+    "time_s": 42.3,
+    "correct_flag": false,
+    "principle_hits": [
+     "archimedes",
+     "buoyan",
+     "displaced"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q4": {
+   "A": {
+    "gen": "To determine how the electrical power dissipated in the resistor changes when the voltage across it is increased by a factor of 2, let's start with the basic formula for electrical power:\n\n\\[ P = \\frac{V^2}{R} \\]\n\nwhere:\n- \\( P \\) is the power dissipated in the resistor,\n- \\( V \\) is the voltage across the resistor,\n- \\( R \\) is the resistance of the resistor.\n\nGiven that the resistance \\( R \\) is fixed, we can rewrite the power formula as:\n\n\\[ P = \\frac{V^2}{R} \\]\n\nNow, if the voltage \\( V \\) is increased by a factor of 2, the new voltage \\( V' \\) will be:\n\n\\[ V' = 2V \\]\n\nThe new power \\( P' \\) dissipated in the resistor will be:\n\n\\[ P' = \\frac{(V')^2}{R} = \\frac{(2V)^2}{R} = \\frac{4V^2}{R} \\]\n\nSince the original power \\( P \\) was:\n\n\\[ P = \\frac{V^2}{R} \\]\n\nWe can see that the new power \\( P' \\) is:\n\n\\[ P' = 4 \\times P \\]\n\nTherefore, the electrical power dissipated in the resistor increases by a factor of 4.\n\nAnswer: B",
+    "answer": "B",
+    "time_s": 42.3,
+    "correct_flag": true
+   },
+   "B": {
+    "principles": "Principles Involved: Power dissipation in a resistor is given by P = V^2 / R, where V is the voltage and R is the resistance. If V increases by a factor of 2, then P increases by a factor of 4.",
+    "principles_time_s": 16.7,
+    "gen": "Answer: B",
+    "answer": "B",
+    "time_s": 8.4,
+    "correct_flag": true,
+    "principle_hits": [
+     "p = v",
+     "v^2"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q5": {
+   "A": {
+    "gen": "To determine how the kinetic energy of the ball changes when its speed is increased by a factor of 3 while its mass stays the same, we can use the formula for kinetic energy:\n\n\\[ \\text{Kinetic Energy} = \\frac{1}{2} \\times \\text{mass} \\times \\text{speed}^2 \\]\n\nLet's denote the initial speed of the ball as \\( v \\) and the initial mass as \\( m \\). The initial kinetic energy \\( K_i \\) is:\n\n\\[ K_i = \\frac{1}{2} \\times m \\times v^2 \\]\n\nAfter the speed is increased by a factor of 3, the new speed \\( v_f \\) is \\( 3v \\). The new kinetic energy \\( K_f \\) is:\n\n\\[ K_f = \\frac{1}{2} \\times m \\times (3v)^2 \\]\n\\[ K_f = \\frac{1}{2} \\times m \\times 9v^2 \\]\n\\[ K_f = 9 \\times \\frac{1}{2} \\times m \\times v^2 \\]\n\\[ K_f = 9 \\times K_i \\]\n\nSo, the kinetic energy increases by a factor of 9.\n\nAnswer: C",
+    "answer": "C",
+    "time_s": 38.0,
+    "correct_flag": true
+   },
+   "B": {
+    "principles": "Principles Involved: Kinetic energy is given by the formula KE = 1/2 * m * v^2, where KE is kinetic energy, m is mass, and v is velocity. If the mass stays the same and the speed increases by a factor of 3, the kinetic energy increases by a factor of 3^2 = 9.",
+    "principles_time_s": 19.7,
+    "gen": "Answer: C",
+    "answer": "C",
+    "time_s": 8.7,
+    "correct_flag": true,
+    "principle_hits": [
+     "kinetic energy",
+     "1/2",
+     "v^2"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q6": {
+   "A": {
+    "gen": "To determine how the pH of the solution changes when the concentration of hydrogen ions [H+] is increased by a factor of 100, we need to understand the relationship between pH and hydrogen ion concentration.\n\n1. The pH of a solution is defined as the negative logarithm (base 10) of the hydrogen ion concentration:\n   \\[\n   \\text{pH} = -\\log_{10}[\\text{H}^+]\n   \\]\n\n2. If the concentration of hydrogen ions [H+] is increased by a factor of 100, we can represent this as:\n   \\[\n   [\\text{H}^+] = 100[\\text{H}^+]\n   \\]\n\n3. Substituting this into the pH formula, we get:\n   \\[\n   \\text{pH} = -\\log_{10}(100[\\text{H}^+])\n   \\]\n\n4. Using the logarithm property that \\(\\log_{10}(100) = 2\\), we can simplify the expression:\n   \\[\n   \\text{pH} = -\\log_{10}(100[\\text{H}^+]) = -\\log_{10}(100) - \\log_{10}[\\text{H}^+] = -2 - \\log_{10}[\\text{H}^+]\n   \\]\n\n5. Since \\(\\log_{10}[\\text{H}^+] = \\log_{10}[\\text{H}^+]\\) and the original pH was \\(\\text{pH} = -\\log_{10}[\\text{H}^+]\\), the new pH will be:\n   \\[\n   \\text{pH} = -\\log_{10}(100[\\text{H}^+]) = -\\log_{10}[\\text{H}^+] - 2 = \\text{pH} - 2\n   \\]\n\n6. Therefore, the pH decreases by 2.\n\nAnswer: B",
+    "answer": "B",
+    "time_s": 62.1,
+    "correct_flag": true
+   },
+   "B": {
+    "principles": "Principles Involved: pH is defined as -log10[H+], and a change in [H+] by a factor of 100 will result in a change in pH by 2.",
+    "principles_time_s": 17.3,
+    "gen": "Answer: D",
+    "answer": "D",
+    "time_s": 9.4,
+    "correct_flag": false,
+    "principle_hits": [
+     "log",
+     "-log10"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q7": {
+   "A": {
+    "gen": "To determine how the period of a simple pendulum changes when its length is increased by a factor of 4, we need to use the formula for the period of a simple pendulum:\n\n\\[ T = 2\\pi \\sqrt{\\frac{L}{g}} \\]\n\nwhere:\n- \\( T \\) is the period,\n- \\( L \\) is the length of the pendulum,\n- \\( g \\) is the acceleration due to gravity.\n\nIf the length \\( L \\) is increased by a factor of 4, the new length \\( L' \\) is:\n\n\\[ L' = 4L \\]\n\nNow, we substitute \\( L' \\) into the period formula:\n\n\\[ T' = 2\\pi \\sqrt{\\frac{L'}{g}} = 2\\pi \\sqrt{\\frac{4L}{g}} = 2\\pi \\sqrt{4} \\sqrt{\\frac{L}{g}} = 2\\pi \\cdot 2 \\sqrt{\\frac{L}{g}} = 4 \\cdot 2\\pi \\sqrt{\\frac{L}{g}} = 4T \\]\n\nSo, the new period \\( T' \\) is 4 times the original period \\( T \\).\n\nTherefore, the correct answer is:\n\nAnswer: A",
+    "answer": "A",
+    "time_s": 38.1,
+    "correct_flag": false
+   },
+   "B": {
+    "principles": "Principles Involved: Hooke's Law: The period of a simple pendulum is proportional to the square root of the length of the pendulum, T = 2π * √(L/g), where L is the length of the pendulum and g is the acceleration due to gravity. If L doubles, T increases by a factor of √2.",
+    "principles_time_s": 20.2,
+    "gen": "Answer: D",
+    "answer": "D",
+    "time_s": 9.3,
+    "correct_flag": false,
+    "principle_hits": [
+     "pendulum",
+     "t = 2",
+     "square root",
+     "proportional to the square root"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q8": {
+   "A": {
+    "gen": "To determine the final price after the price is increased by 20% and then decreased by 20%, we can follow these steps:\n\n1. Let the original price be \\( P \\).\n2. After a 20% increase, the new price becomes \\( P \\times (1 + 0.20) = P \\times 1.20 \\).\n3. After a 20% decrease on the new price, the final price becomes \\( P \\times 1.20 \\times (1 - 0.20) = P \\times 1.20 \\times 0.80 \\).\n\nNow, let's simplify the expression:\n\\[ P \\times 1.20 \\times 0.80 = P \\times 0.96 \\]\n\nThis means the final price is 96% of the original price. Therefore, the final price is 4% lower than the original price.\n\nAnswer: C",
+    "answer": "C",
+    "time_s": 31.2,
+    "correct_flag": true
+   },
+   "B": {
+    "principles": "Principles Involved: Percentage change and linear function: The final price is a linear combination of the original price and the percentage changes. The price is increased by 20%, then decreased by 20%, resulting in a net change of 4% (20% - 20% = 0% + 20% - 20% = 4%).",
+    "principles_time_s": 17.2,
+    "gen": "Answer: D",
+    "answer": "D",
+    "time_s": 9.4,
+    "correct_flag": false,
+    "principle_hits": [],
+    "principle_ok": false
+   }
+  }
+ },
+ "stability": {
+  "Q1": [
+   {
+    "rep": 0,
+    "A_answer": "B",
+    "A_correct": true,
+    "B_answer": "C",
+    "B_correct": false,
+    "B_principles": "Principles Involved: Gay-Lussac's law: the pressure of a gas is directly proportional to its temperature when the volume is constant, P ∝ T. If T increases by a factor of 3 and V increases by a factor of 6, then P increases by a factor of 3."
+   },
+   {
+    "rep": 1,
+    "A_answer": "B",
+    "A_correct": true,
+    "B_answer": "C",
+    "B_correct": false,
+    "B_principles": "Principles Involved: Gay-Lussac's law: the pressure of a gas is directly proportional to its temperature when the volume is constant, P ∝ T. If T increases by a factor of 3 and V increases by a factor of 6, then P increases by a factor of 3."
+   }
+  ],
+  "Q4": [
+   {
+    "rep": 0,
+    "A_answer": "B",
+    "A_correct": true,
+    "B_answer": "B",
+    "B_correct": true,
+    "B_principles": "Principles Involved: Power dissipation in a resistor is given by P = V^2 / R, where V is the voltage and R is the resistance. If V increases by a factor of 2, then P increases by a factor of 4."
+   },
+   {
+    "rep": 1,
+    "A_answer": "B",
+    "A_correct": true,
+    "B_answer": "B",
+    "B_correct": true,
+    "B_principles": "Principles Involved: Power dissipation in a resistor is given by P = V^2 / R, where V is the voltage and R is the resistance. If V increases by a factor of 2, then P increases by a factor of 4."
+   }
+  ]
+ },
+ "sensitivity": {
+  "Q1": {
+   "A": [
+    {
+     "seed": 100,
+     "answer": "D",
+     "correct": false,
+     "gen": "Answer: D"
+    },
+    {
+     "seed": 101,
+     "answer": "B",
+     "correct": true,
+     "gen": "Answer: B"
+    },
+    {
+     "seed": 102,
+     "answer": "B",
+     "correct": true,
+     "gen": "To determine the final pressure of the gas, we need to use the ideal gas law, which states:\n\n\\[ PV = nRT \\]\n\nwhere:\n- \\( P \\) is the pressure,\n- \\( V \\) is the volume,\n- \\( n \\) is the number of moles of gas,\n- \\( R \\) is the ideal gas constant,\n- \\( T \\) is the temperature.\n\nGiven:\n- The initial volume \\( V_1 \\)\n- The initial pressure \\( P_1 \\)\n- The volume is increased by a factor of 6, so the new volume \\( V_2 = 6V_1 \\)\n- The temperature is increased by a factor of 3, so the new temperature \\( T_2 = 3T_1 \\)\n\nWe need to find the new pressure \\( P_2 \\). Using the ideal gas law for the initial state and the final state:\n\n\\[ P_1 V_1 = nRT_1 \\]\n\\[ P_2 V_2 = nR T_2 \\]\n\nSubstituting \\( V_2 = 6V_1 \\) and \\( T_2 = 3T_1 \\):\n\n\\[ P_2 (6V_1) = nR (3T_1) \\]\n\nNow, divide the equation for the final state by the equation for the initial state:\n\n\\[ \\frac{P_2 (6V_1)}{P_1 V_1} = \\frac{nR (3T_1)}{nR T_1} \\]\n\nSimplify:\n\n\\[ \\frac{P_2}{P_1} \\cdot 6 = 3 \\]\n\n\\[ \\frac{P_2}{P_1} = \\frac{3}{6} \\]\n\n\\[ \\frac{P_2}{P_1} = \\frac{1}{2} \\]\n\nSo, the pressure decreases to half of the original pressure.\n\nAnswer: B"
+    },
+    {
+     "seed": 103,
+     "answer": "B",
+     "correct": true,
+     "gen": "To solve this problem, we need to use the ideal gas law, which states that PV = nRT, where P is the pressure, V is the volume, n is the number of moles, R is the gas constant, and T is the temperature.\n\nGiven:\n- The temperature T is increased by a factor of 3.\n- The volume V is increased by a factor of 6.\n\nWe need to determine how the pressure P changes.\n\nStep 1: Write down the ideal gas law for the initial state:\n\\[ P_1 V_1 = nRT \\]\n\nStep 2: Write down the ideal gas law for the new state:\n\\[ P_2 V_2 = nRT \\]\n\nStep 3: Divide the new state equation by the initial state equation to eliminate nRT:\n\\[ \\frac{P_2 V_2}{P_1 V_1} = 1 \\]\n\nStep 4: Simplify the equation:\n\\[ \\frac{P_2}{P_1} \\times \\frac{V_2}{V_1} = 1 \\]\n\nStep 5: Substitute the given factors:\n\\[ \\frac{P_2}{P_1} \\times 6 = 1 \\]\n\nStep 6: Solve for P_2:\n\\[ P_2 = \\frac{P_1}{6} \\]\n\nStep 7: Compare the result with the options:\n- Option A: It increases by a factor of 3 (3 * 2 = 6)\n- Option B: It decreases to 1/2 of the original (1/6)\n- Option C: It stays the same (1/6)\n- Option D: It increases by a factor of 18 (3 * 6 = 18)\n\nThe correct answer is B. It decreases to 1/2 of the original. Answer: B"
+    },
+    {
+     "seed": 104,
+     "answer": "B",
+     "correct": true,
+     "gen": "To determine the final step, let's start with the ideal gas law, which is given by:\n\n\\[ PV = nRT \\]\n\nwhere:\n- \\( P \\) is the pressure of the gas,\n- \\( V \\) is the volume of the gas,\n- \\( n \\) is the number of moles of the gas,\n- \\( R \\) is the ideal gas constant,\n- \\( T \\) is the temperature of the gas.\n\nGiven:\n- The volume \\( V \\) is increased by a factor of 6.\n- The temperature \\( T \\) is increased by a factor of 3.\n\nLet's denote the initial pressure as \\( P_1 \\), the initial volume as \\( V_1 \\), and the initial temperature as \\( T_1 \\). The final pressure \\( P_2 \\) can be calculated as follows:\n\n\\[ P_2 = P_1 \\times \\frac{V_2}{V_1} \\]\n\nSince the volume is increased by a factor of 6, we have:\n\n\\[ P_2 = P_1 \\times \\frac{V_2}{V_1} = P_1 \\times \\frac{6V_1}{V_1} = 6P_1 \\]\n\nNow, let's consider the temperature. The temperature is increased by a factor of 3, so:\n\n\\[ P_2 = P_1 \\times \\frac{T_2}{T_1} \\]\n\nSince the temperature is increased by a factor of 3, we have:\n\n\\[ P_2 = P_1 \\times \\frac{3T_1}{T_1} = 3P_1 \\]\n\nNow we can compare the two expressions for \\( P_2 \\):\n\n\\[ P_2 = 6P_1 \\]\n\\[ P_2 = 3P_1 \\]\n\nThis shows that the pressure increases by a factor of 6, not 3. Therefore, the correct answer is:\n\nAnswer: B"
+    }
+   ],
+   "B": [
+    {
+     "seed": 100,
+     "answer": "B",
+     "correct": true,
+     "principles": "Boyle's Law: the pressure of a gas is inversely proportional to the volume, P = k * 1/V. If V doubles, P becomes 1/2 of the original. Boyle's Law combined with Charles's Law: the pressure of a gas is inversely proportional to the temperature, P = k * T/V. If T doubles, P becomes 1/3 of the original.\n\nQuestion: What happens to the pressure of the gas when the temperature is increased by a factor of 3 and the volume is increased by a factor of 6?\nA) It increases by a factor of 3\nB) It decreases to 1/2 of the original",
+     "principle_hits": [
+      "p =",
+      "t/v"
+     ],
+     "gen": "Answer: B"
+    },
+    {
+     "seed": 101,
+     "answer": "D",
+     "correct": false,
+     "principles": "Boyle's Law: the pressure of a gas is inversely proportional to its volume when temperature and amount of gas are held constant, P1 * V1 = P2 * V2. If volume increases by a factor of 6, pressure decreases to 1/6 of the original.",
+     "principle_hits": [],
+     "gen": "Answer: D"
+    },
+    {
+     "seed": 102,
+     "answer": "C",
+     "correct": false,
+     "principles": "Principles Involved: Gay-Lussac's law: the pressure of a gas is directly proportional to its temperature at constant volume. P ∝ T. If T increases by a factor of 3 and volume increases by a factor of 6, the pressure increases by a factor of 3.",
+     "principle_hits": [],
+     "gen": "Answer: C"
+    },
+    {
+     "seed": 103,
+     "answer": "D",
+     "correct": false,
+     "principles": "Principles Involved: Gay-Lussac's law: the pressure is directly proportional to the temperature for a given volume, P ∝ T. If T increases by a factor of 3 and V increases by a factor of 6, the new pressure P' = P * T' / V' = P * 3 * 6 = 18P.",
+     "principle_hits": [],
+     "gen": "Answer: D"
+    },
+    {
+     "seed": 104,
+     "answer": "D",
+     "correct": false,
+     "principles": "Principles Involved: Ideal gas law: PV = nRT, where P is pressure, V is volume, n is the number of moles, R is the universal gas constant, and T is temperature. If temperature and number of moles are constant, the pressure is directly proportional to the volume, P ∝ V. When V increases by a factor of 6 and T is increased by a factor of 3, the pressure increases by a factor of 6 * 3 = 18.",
+     "principle_hits": [
+      "ideal gas",
+      "pv",
+      "nrt"
+     ],
+     "gen": "Answer: D"
+    }
+   ]
+  },
+  "Q8": {
+   "A": [
+    {
+     "seed": 100,
+     "answer": "C",
+     "correct": true,
+     "gen": "Let's break down the problem step by step.\n\n1. **Initial Price:**\n   Let's assume the original price is \\( P \\).\n\n2. **First Increase:**\n   The price is increased by 20%. The new price after the increase is:\n   \\[\n   P + 0.20P = 1.20P\n   \\]\n\n3. **Second Decrease:**\n   The new price is then decreased by 20%. The price after the decrease is:\n   \\[\n   1.20P - 0.20 \\times 1.20P = 1.20P \\times (1 - 0.20) = 1.20P \\times 0.80 = 0.96P\n   \\]\n\n4. **Final Price:**\n   The final price is \\( 0.96P \\), which is 96% of the original price \\( P \\).\n\n5. **Comparison with Original Price:**\n   Since the final price is 96% of the original price, it is 4% lower than the original price.\n\nTherefore, the final answer is:\nAnswer: C"
+    },
+    {
+     "seed": 101,
+     "answer": "C",
+     "correct": true,
+     "gen": "Let's start by defining the original price as \\( P \\).\n\n1. The price is first increased by 20%. So the new price after the increase is:\n   \\[\n   P + 0.20P = 1.20P\n   \\]\n\n2. The new price \\( 1.20P \\) is then decreased by 20%. So the final price after the decrease is:\n   \\[\n   1.20P - 0.20 \\times 1.20P = 1.20P \\times (1 - 0.20) = 1.20P \\times 0.80 = 0.96P\n   \\]\n\n3. Now, let's compare the final price \\( 0.96P \\) with the original price \\( P \\):\n   \\[\n   0.96P - P = 0.04P\n   \\]\n   This means the final price is 4% lower than the original price.\n\nTherefore, the final answer is:\nAnswer: C."
+    },
+    {
+     "seed": 102,
+     "answer": "C",
+     "correct": true,
+     "gen": "To determine the final price after the given operations, we can follow these steps:\n\n1. Let the original price be \\( P \\).\n2. The price is first increased by 20%, so the new price is \\( P + 0.20P = 1.20P \\).\n3. The new price is then decreased by 20%, so the final price is \\( 1.20P - 0.20 \\times 1.20P = 1.20P \\times (1 - 0.20) = 1.20P \\times 0.80 = 0.96P \\).\n\nNow let's compare the final price to the original price:\n- The final price is 0.96P, which means it is 4% lower than the original price.\n\nAnswer: C. 4% lower than the original."
+    },
+    {
+     "seed": 103,
+     "answer": "C",
+     "correct": true,
+     "gen": "To solve this problem, let's start by defining the original price as \\( P \\).\n\n1. The price is first increased by 20%, so the new price becomes:\n\\[ P + 0.20P = 1.20P \\]\n\n2. The new price is then decreased by 20%, so the final price becomes:\n\\[ 1.20P - 0.20 \\times 1.20P = 1.20P \\times (1 - 0.20) = 1.20P \\times 0.80 \\]\n\n3. Simplifying the final equation:\n\\[ 1.20P \\times 0.80 = 0.96P \\]\n\n4. Comparing the final price with the original price, we see that the final price is 96% of the original price, which means it is 4% lower than the original price.\n\nTherefore, the final answer is:\nAnswer: C. 4% lower than the original."
+    },
+    {
+     "seed": 104,
+     "answer": "C",
+     "correct": true,
+     "gen": "To solve this problem, let's break it down step by step.\n\n1. **Initial Price**: Let's denote the original price as \\( P \\).\n\n2. **First Increase**: The price is increased by 20%. So, the new price after the increase is:\n   \\[\n   P + 0.20P = 1.20P\n   \\]\n\n3. **Second Decrease**: The new price is then decreased by 20%. So, the final price after the decrease is:\n   \\[\n   1.20P - 0.20 \\times 1.20P = 1.20P \\times (1 - 0.20) = 1.20P \\times 0.80 = 0.96P\n   \\]\n\n4. **Comparison with Original Price**: The final price \\( 0.96P \\) is 4% lower than the original price \\( P \\).\n\nTherefore, the correct answer is:\n\nAnswer: C"
+    }
+   ],
+   "B": [
+    {
+     "seed": 100,
+     "answer": "D",
+     "correct": false,
+     "principles": "Principles Involved: Percentage change, combined percentage change: The final price is 80% of the original price after the first increase, and 80% of the new price after the second decrease, which results in a final price that is 80% of the original price.",
+     "principle_hits": [],
+     "gen": "To solve this problem, we need to apply the principles of percentage change and combined percentage change.\n\n1. Let's denote the original price as \\( P \\).\n2. After a 20% increase, the new price becomes \\( P \\times (1 + 0.20) = P \\times 1.20 \\).\n3. After a 20% decrease on the new price, the final price becomes \\( P \\times 1.20 \\times (1 - 0.20) = P \\times 1.20 \\times 0.80 \\).\n\nNow, let's calculate the final price as a percentage of the original price:\n\n\\[ \\text{Final price} = P \\times 1.20 \\times 0.80 = P \\times (1.20 \\times 0.80) = P \\times 0.96 \\]\n\nThis means the final price is 96% of the original price. Therefore, the final price is 4% lower than the original price.\n\nAnswer: D"
+    },
+    {
+     "seed": 101,
+     "answer": "B",
+     "correct": false,
+     "principles": "Principles Involved: \n1. Percent increase and decrease: \n   - For a percentage increase followed by a percentage decrease, the net effect can be calculated using the formula for compound percentage change: (1 + percentage increase) * (1 - percentage decrease) = 1 + (percentage increase - percentage decrease - percentage increase * percentage decrease) / 100.\n2. Percentage change:\n   - The formula for percentage change is ((new value - original value) / original value) * 100%.",
+     "principle_hits": [],
+     "gen": "Answer: B\n\nExplanation:\n1. Let's denote the original price as \\( P \\).\n2. The price is first increased by 20%, so the new price becomes \\( P \\times (1 + 0.20) = 1.20P \\).\n3. Then, the new price is decreased by 20%. The price after this decrease is \\( 1.20P \\times (1 - 0.20) = 1.20P \\times 0.80 = 0.96P \\).\n4. Comparing the final price with the original price, we see that \\( 0.96P \\) is 4% lower than \\( P \\).\n\nTherefore, the final price is 4% lower than the original price. Answer: B."
+    },
+    {
+     "seed": 102,
+     "answer": "D",
+     "correct": false,
+     "principles": "Principles Involved: Percentage change in price and algebraic manipulation. Let the original price be P. After a 20% increase, the new price is P * 1.20. Then, this new price is decreased by 20%, resulting in a final price of P * 1.20 * 0.80, which simplifies to P * 0.96. This means the final price is 96% of the original price, or 4% lower.",
+     "principle_hits": [
+      "1.2",
+      "0.8",
+      "0.96"
+     ],
+     "gen": "Answer: D"
+    },
+    {
+     "seed": 103,
+     "answer": null,
+     "correct": false,
+     "principles": "Principles Involved: Percentage increase and decrease, percentage change. The final price can be calculated using the formula: new price = original price * (1 + percentage increase) * (1 - percentage decrease).",
+     "principle_hits": [],
+     "gen": "To solve this problem, let's follow the steps using the principles involved:\n\n1. Let the original price be denoted as \\( P \\).\n\n2. The price is first increased by 20%. Therefore, the new price after the increase is:\n   \\[\n   P_{\\text{new}} = P \\times (1 + 0.20) = P \\times 1.20\n   \\]\n\n3. The new price is then decreased by 20%. Therefore, the final price after the decrease is:\n   \\[\n   P_{\\text{final}} = P_{\\text{new}} \\times (1 - 0.20) = P \\times 1.20 \\times 0.80\n   \\]\n\n4. Simplifying the expression:\n   \\[\n   P_{\\text{final}} = P \\times 1.20 \\times 0.80 = P \\times 0.96\n   \\]\n\n5. Since \\( P_{\\text{final}} = P \\times 0.96 \\), the final price is 96% of the original price.\n\n6. To find the percentage change, we calculate the difference between the final price and the original price:\n   \\[\n   \\text{Percentage change} = (P - P_{\\text{final}}) / P \\times 100\\% = (P - P \\times 0.96) / P \\times 100\\% = (1 - 0.96) \\times 100\\% = 0.04 \\times 100\\% = 4\\%\n   \\]\n\n7. Since the final price is 4% lower than the original price, the correct answer is:\n   \\["
+    },
+    {
+     "seed": 104,
+     "answer": "A",
+     "correct": false,
+     "principles": "Principles Involved: \n1. Percentage increase and decrease:\n   - A 20% increase followed by a 20% decrease is equivalent to a 0% change.\n2. Percentage difference:\n   - The final price is the same as the original price, because a 20% increase is exactly countered by a 20% decrease.\n\nTherefore, the final answer is A) Exactly the same as the original.",
+     "principle_hits": [],
+     "gen": "Answer: A"
+    }
+   ]
+  }
+ }
+}

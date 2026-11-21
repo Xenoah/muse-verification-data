@@ -1,0 +1,20 @@
+P1 A False
+P1 B True
+P2 A False
+P2 B False
+P3 A False
+P3 B False
+P4 A False
+P4 B False
+P5 A False
+P5 B False
+P6 A False
+P6 B False
+P4 A5 False 0 /5
+P5 A5 False 0 /5
+P6 A5 False 0 /5
+STAB P2 0 False
+STAB P2 1 False
+STAB P5 0 False
+STAB P5 1 False
+{"A_success": 0, "B_success": 1, "n": 6, "A5": {"P4": {"any": false, "n_success": 0}, "P5": {"any": false, "n_success": 0}, "P6": {"any": false, "n_success": 0}}, "prop_parsed_total": 143, "prop_valid_total": 114, "evals_total": 68, "eval_sure": {"n": 13, "correct": 1}, "eval_impossible": {"n": 25, "correct": 20}, "eval_maybe": {"n": 30, "oracle_reachable": 5}, "eval_unparsed": 0, "model": "Qwen2.5-1.5B-Instruct Q4_K_M", "engine": "llama.cpp 0.9.0-dev build 1 commit 827466b"}

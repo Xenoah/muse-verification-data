@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "~/workspace/goals/note-10-000/hidden_files/explainer-measurements/2026-11-17/measure2.py", line 37, in <module>
+    outa,ta=run(pa); pred_a=parse_a(outa)
+            ^^^^^^^
+  File "~/workspace/goals/note-10-000/hidden_files/explainer-measurements/2026-11-17/measure2.py", line 20, in run
+    r=subprocess.run([BIN,"-m",MODEL,"-p",full,"-n","256","--temp","0","--seed",str(seed),"-t","4","--no-display-prompt"],capture_output=True,text=True,timeout=600)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/usr/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['~/workspace/research-002/llama.cpp/build/bin/llama-cli', '-m', '~/workspace/research-002/models/qwen2.5-1.5b-instruct-q4_k_m.gguf', '-p', '<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\nA baker makes 6 trays of 24 cookies. He sells 97 cookies in the morning. How many cookies are left?\n\nAnswer with only the final number, no explanation.<|im_end|>\n<|im_start|>assistant\n', '-n', '256', '--temp', '0', '--seed', '42', '-t', '4', '--no-display-prompt']' timed out after 600 seconds

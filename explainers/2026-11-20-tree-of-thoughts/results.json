@@ -1,0 +1,1510 @@
+{
+ "summary": {
+  "A_success": 0,
+  "B_success": 1,
+  "n": 6,
+  "A5": {
+   "P4": {
+    "any": false,
+    "n_success": 0
+   },
+   "P5": {
+    "any": false,
+    "n_success": 0
+   },
+   "P6": {
+    "any": false,
+    "n_success": 0
+   }
+  },
+  "prop_parsed_total": 143,
+  "prop_valid_total": 114,
+  "evals_total": 68,
+  "eval_sure": {
+   "n": 13,
+   "correct": 1
+  },
+  "eval_impossible": {
+   "n": 25,
+   "correct": 20
+  },
+  "eval_maybe": {
+   "n": 30,
+   "oracle_reachable": 5
+  },
+  "eval_unparsed": 0,
+  "model": "Qwen2.5-1.5B-Instruct Q4_K_M",
+  "engine": "llama.cpp 0.9.0-dev build 1 commit 827466b"
+ },
+ "results": [
+  {
+   "id": "P1",
+   "puzzle": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "A": {
+    "gen": "4 * 6 = 24 (left: 24)\nAnswer: 4 * (6 - 2) = 24",
+    "success": false,
+    "equation": null,
+    "time_s": 29.8
+   },
+   "B": {
+    "success": true,
+    "path": [
+     "1 + 2 = 3",
+     "3 + 3 = 6",
+     "4 * 6 = 24"
+    ],
+    "log": {
+     "proposals": [
+      {
+       "state": [
+        "1",
+        "2",
+        "3",
+        "4"
+       ],
+       "gen": "1 + 2 = 3 (left: 3, 4)\n1 * 3 = 3 (left: 2, 4)\n2 * 4 = 8 (left: 1, 3)\n3 + 4 = 7 (left: 1, 2)",
+       "parsed": 4,
+       "valid": 4,
+       "time_s": 15.6
+      },
+      {
+       "state": [
+        "3",
+        "3",
+        "4"
+       ],
+       "gen": "3 + 3 = 6 (left: 3, 4)\n3 * 4 = 12 (left: 3)\n3 / 3 = 1 (left: 4)\n4 - 3 = 1 (left: 3)",
+       "parsed": 4,
+       "valid": 4,
+       "time_s": 16.1
+      },
+      {
+       "state": [
+        "1",
+        "2",
+        "7"
+       ],
+       "gen": "1 + 2 = 3 (left: 7)\n7 * 2 = 14 (left: 1)\n1 * 7 = 7 (left: 1)\n7 - 2 = 5 (left: 1)\n2 / 7 = 0.2857 (left: 1)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 17.8
+      },
+      {
+       "state": [
+        "4",
+        "6"
+       ],
+       "gen": "4 + 6 = 10 (left: 4)\n6 - 4 = 2 (left: 6)\n4 * 6 = 24 (left: 4)\n6 / 4 = 1.5 (left: 6)\n4 * 6 = 24 (left: 4)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 19.4
+      },
+      {
+       "state": [
+        "1",
+        "3"
+       ],
+       "gen": "1 + 3 = 4 (left: 4)\n1 * 3 = 3 (left: 3)\n3 - 1 = 2 (left: 2)\n1 * 3 = 3 (left: 2)\n3 / 1 = 3 (left: 1)",
+       "parsed": 5,
+       "valid": 3,
+       "time_s": 16.8
+      }
+     ],
+     "evals": [
+      {
+       "state": [
+        "3",
+        "3",
+        "4"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "2",
+        "3",
+        "4"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "1",
+        "3",
+        "8"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "1",
+        "2",
+        "7"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "6"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "3",
+        "12"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "4"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "3"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "3",
+        "7"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "14"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "2",
+        "7"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "5"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      }
+     ],
+     "kept": [
+      [
+       [
+        "3",
+        "3",
+        "4"
+       ],
+       [
+        "1",
+        "2",
+        "7"
+       ]
+      ],
+      [
+       [
+        "4",
+        "6"
+       ],
+       [
+        "1",
+        "3"
+       ]
+      ]
+     ]
+    },
+    "prop_parsed": 23,
+    "prop_valid": 19
+   }
+  },
+  {
+   "id": "P2",
+   "puzzle": [
+    4,
+    9,
+    10,
+    13
+   ],
+   "A": {
+    "gen": "13 - 9 = 4 (left: 4, 4, 10)\n10 - 4 = 6 (left: 4, 6)\n6 * 10 = 60 (left: 60)\n60 / 13 = 4.615 (left: 4.615)\n4.615 * 10 = 46.15 (left: 46.15)\n46.15 - 13 = 33.15 (left: 33.15)\n33.15 - 6 = 27.15 (left: 27.15)\n27.15 - 4 = 23.15 (left: 23.15)\n23.15 - 6 = 17.",
+    "success": false,
+    "equation": null,
+    "time_s": 29.4
+   },
+   "B": {
+    "success": false,
+    "reason": "no final state equals 24",
+    "final_states": [
+     [
+      "36"
+     ],
+     [
+      "243"
+     ],
+     [
+      "18"
+     ],
+     [
+      "3"
+     ],
+     [
+      "10"
+     ],
+     [
+      "299"
+     ]
+    ],
+    "log": {
+     "proposals": [
+      {
+       "state": [
+        "4",
+        "9",
+        "10",
+        "13"
+       ],
+       "gen": "10 - 4 = 6 (left: 9, 10)\n9 * 10 = 90 (left: 4, 13)\n13 / 10 = 1.3 (left: 4, 9)\n10 + 13 = 23 (left: 4, 9)\n9 * 10 = 90 (left: 4, 13)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 16.6
+      },
+      {
+       "state": [
+        "4",
+        "9",
+        "23"
+       ],
+       "gen": "4 + 9 = 13 (left: 23)\n23 - 4 = 19 (left: 9, 23)\n9 * 23 = 207 (left: 4)\n23 / 9 = 2.5555555555555554 (left: 4, 23)\n23 + 4 = 27 (left: 9)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 17.8
+      },
+      {
+       "state": [
+        "6",
+        "9",
+        "13"
+       ],
+       "gen": "6 + 9 = 15 (left: 15, 13)\n13 - 9 = 4 (left: 4, 15)\n13 * 9 = 117 (left: 117, 6)\n6 * 9 = 54 (left: 54, 13)\n9 / 13 = 0.6923 (left: 0.6923, 54)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 20.5
+      },
+      {
+       "state": [
+        "9",
+        "27"
+       ],
+       "gen": "9 + 27 = 36 (left: 9, 27)\n9 * 27 = 243 (left: 9, 27)\n27 - 9 = 18 (left: 27, 9)\n27 / 9 = 3 (left: 27, 9)\n9 * 27 - 9 = 243 - 9 = 234 (left: 9, 27)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 16.5
+      },
+      {
+       "state": [
+        "13",
+        "23"
+       ],
+       "gen": "13 + 23 = 36 (left: 13, 23)\n13 * 23 = 289 (left: 13, 23)\n13 / 23 = 0.5652 (left: 13, 23)\n23 - 13 = 10 (left: 23, 13)\n23 * 13 = 299 (left: 23, 13)",
+       "parsed": 5,
+       "valid": 3,
+       "time_s": 17.9
+      }
+     ],
+     "evals": [
+      {
+       "state": [
+        "6",
+        "9",
+        "13"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "4",
+        "13",
+        "90"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "13/10",
+        "4",
+        "9"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "9",
+        "23"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "13",
+        "23"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "9",
+        "19"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "207"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "9",
+        "27"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "13",
+        "15"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "6"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "6",
+        "117"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "13",
+        "54"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      }
+     ],
+     "kept": [
+      [
+       [
+        "4",
+        "9",
+        "23"
+       ],
+       [
+        "6",
+        "9",
+        "13"
+       ]
+      ],
+      [
+       [
+        "9",
+        "27"
+       ],
+       [
+        "13",
+        "23"
+       ]
+      ]
+     ]
+    },
+    "prop_parsed": 25,
+    "prop_valid": 19
+   }
+  },
+  {
+   "id": "P3",
+   "puzzle": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "A": {
+    "gen": "6 / 2 = 3 (left: 3, 3, 4)\n4 * 3 = 12 (left: 12)\n12 - 6 = 6 (left: 6)\nAnswer: (4 * 3) - 6 = 6",
+    "success": false,
+    "equation": null,
+    "time_s": 14.2
+   },
+   "B": {
+    "success": false,
+    "reason": "no final state equals 24",
+    "final_states": [
+     [
+      "16"
+     ],
+     [
+      "48"
+     ],
+     [
+      "8"
+     ],
+     [
+      "3"
+     ],
+     [
+      "15"
+     ],
+     [
+      "54"
+     ],
+     [
+      "3/2"
+     ]
+    ],
+    "log": {
+     "proposals": [
+      {
+       "state": [
+        "2",
+        "3",
+        "4",
+        "6"
+       ],
+       "gen": "2 + 3 = 5 (2, 3, 4, 6)\n4 * 6 = 24 (2, 3, 4, 6)\n6 - 2 = 4 (2, 3, 4, 6)\n3 * 4 = 12 (2, 3, 4, 6)\n4 + 2 = 6 (2, 3, 4, 6)",
+       "parsed": 5,
+       "valid": 5,
+       "time_s": 14.7
+      },
+      {
+       "state": [
+        "2",
+        "6",
+        "12"
+       ],
+       "gen": "2 + 6 = 8 (left: 8, 12)\n6 * 2 = 12 (left: 12)\n12 / 6 = 2 (left: 2)\n2 * 6 = 12 (left: 12)\n6 - 2 = 4 (left: 4, 12)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 14.5
+      },
+      {
+       "state": [
+        "4",
+        "5",
+        "6"
+       ],
+       "gen": "4 + 5 = 9 (left: 6)\n6 * 5 = 30 (left: 4)\n6 - 4 = 2 (left: 5)\n5 * 6 = 30 (left: 4)\n5 / 6 = 0.8333 (left: 4, 5)",
+       "parsed": 5,
+       "valid": 3,
+       "time_s": 14.3
+      },
+      {
+       "state": [
+        "4",
+        "12"
+       ],
+       "gen": "4 + 12 = 16 (left: 4)\n4 * 12 = 48 (left: 12)\n12 - 4 = 8 (left: 4, 12)\n12 / 4 = 3 (left: 12)\n12 * 4 = 48 (left: 4)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 16.2
+      },
+      {
+       "state": [
+        "6",
+        "9"
+       ],
+       "gen": "6 + 9 = 15 (left: 6, 9)\n6 * 9 = 54 (left: 6, 9)\n9 - 6 = 3 (left: 9, 6)\n9 / 6 = 1.5 (left: 9, 6)\n6 * 9 - 6 = 48 (left: 6, 9)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 16.5
+      }
+     ],
+     "evals": [
+      {
+       "state": [
+        "4",
+        "5",
+        "6"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "2",
+        "3",
+        "24"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "3",
+        "4",
+        "4"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "2",
+        "6",
+        "12"
+       ],
+       "eval": "sure",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "3",
+        "6",
+        "6"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "8",
+        "12"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "12",
+        "12"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": true
+      },
+      {
+       "state": [
+        "2",
+        "2"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "12"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "6",
+        "9"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "30"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "2",
+        "5"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      }
+     ],
+     "kept": [
+      [
+       [
+        "2",
+        "6",
+        "12"
+       ],
+       [
+        "4",
+        "5",
+        "6"
+       ]
+      ],
+      [
+       [
+        "4",
+        "12"
+       ],
+       [
+        "6",
+        "9"
+       ]
+      ]
+     ]
+    },
+    "prop_parsed": 25,
+    "prop_valid": 20
+   }
+  },
+  {
+   "id": "P4",
+   "puzzle": [
+    1,
+    5,
+    5,
+    5
+   ],
+   "A": {
+    "gen": "5 - 1 = 4 (left: 4, 5, 5)\n5 - 4 = 1 (left: 1, 5, 5)\n5 * 1 = 5 (left: 5, 5)\n5 * 5 = 25 (left: 25)\nAnswer: (5 - 1) * (5 - 4) = 25",
+    "success": false,
+    "equation": null,
+    "time_s": 16.3
+   },
+   "B": {
+    "success": false,
+    "reason": "no final state equals 24",
+    "final_states": [
+     [
+      "35"
+     ],
+     [
+      "150"
+     ],
+     [
+      "25"
+     ],
+     [
+      "6"
+     ],
+     [
+      "7"
+     ],
+     [
+      "10"
+     ],
+     [
+      "3"
+     ],
+     [
+      "5/2"
+     ]
+    ],
+    "log": {
+     "proposals": [
+      {
+       "state": [
+        "1",
+        "5",
+        "5",
+        "5"
+       ],
+       "gen": "1 + 5 = 6 (left: 5, 5, 5)\n5 - 5 = 0 (left: 1, 5, 5)\n5 * 5 = 25 (left: 1, 5)\n5 / 5 = 1 (left: 1)",
+       "parsed": 4,
+       "valid": 4,
+       "time_s": 14.6
+      },
+      {
+       "state": [
+        "1",
+        "1",
+        "5"
+       ],
+       "gen": "1 + 1 = 2 (left: 2, 5)\n1 * 5 = 5 (left: 2)\n1 * 5 = 5 (left: 2)\n1 * 5 = 5 (left: 2)",
+       "parsed": 4,
+       "valid": 2,
+       "time_s": 11.9
+      },
+      {
+       "state": [
+        "5",
+        "5",
+        "6"
+       ],
+       "gen": "5 + 5 = 10 (left: 10, 6)\n5 * 6 = 30 (left: 5, 5)\n5 / 6 = 0.8333 (left: 5, 5)\n5 + 6 = 11 (left: 5, 5)\n5 * 6 = 30 (left: 5, 5)",
+       "parsed": 5,
+       "valid": 3,
+       "time_s": 16.2
+      },
+      {
+       "state": [
+        "5",
+        "30"
+       ],
+       "gen": "5 + 30 = 35 (left: 5, 30)\n5 * 30 = 150 (left: 5)\n30 - 5 = 25 (left: 30)\n30 / 5 = 6 (left: 30)",
+       "parsed": 4,
+       "valid": 4,
+       "time_s": 15.7
+      },
+      {
+       "state": [
+        "2",
+        "5"
+       ],
+       "gen": "2 + 5 = 7 (left: 2, 5)\n2 * 5 = 10 (left: 2, 5)\n5 - 2 = 3 (left: 2, 5)\n5 / 2 = 2.5 (left: 5, 2)\n2 * 5 = 10 (left: 2, 5)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 15.8
+      }
+     ],
+     "evals": [
+      {
+       "state": [
+        "5",
+        "5",
+        "6"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "0",
+        "1",
+        "5"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "5",
+        "25"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "1",
+        "5"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "2",
+        "5"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "5"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "6",
+        "10"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "5",
+        "30"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "5",
+        "11"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      }
+     ],
+     "kept": [
+      [
+       [
+        "1",
+        "1",
+        "5"
+       ],
+       [
+        "5",
+        "5",
+        "6"
+       ]
+      ],
+      [
+       [
+        "5",
+        "30"
+       ],
+       [
+        "2",
+        "5"
+       ]
+      ]
+     ]
+    },
+    "prop_parsed": 22,
+    "prop_valid": 17
+   },
+   "A5": {
+    "samples": [
+     {
+      "gen": "5 * 5 - 5 - 1 = 24 (left: 5, 5, 5)\n5 - 1 = 4 (left: 4, 5, 5)\n5 - 4 = 1 (left: 1, 5, 5)\n5 - 1 = 4 (left: 4, 5, 5)\n5 - 4 = 1 (left: 1, 5, 5)\n5 - 1 = 4 (left: 4, 5)\n4 * 5 = 20 (left: 20)\n20 + 5 = 25 (left: 20)\n25 - 5 = 20 (left: 20)\n20 + 4 = 24 (left: 20)\nAnswer: (5 * 5 - 5 -",
+      "success": false,
+      "equation": null,
+      "time_s": 29.6,
+      "seed": 100
+     },
+     {
+      "gen": "5 + 5 = 10 (left: 10, 5)\n10 - 5 = 5 (left: 5, 5)\n5 - 5 = 0 (left: 0)\n0 * 5 = 0 (left: 0)\nAnswer: (5 + 5) * (5 - 5) = 0",
+      "success": false,
+      "equation": null,
+      "time_s": 17.0,
+      "seed": 101
+     },
+     {
+      "gen": "5 * 5 - 5 - 1 = 24 (left: 24)\nAnswer: (5 * 5 - 5) - 1 = 24",
+      "success": false,
+      "equation": null,
+      "time_s": 11.6,
+      "seed": 102
+     },
+     {
+      "gen": "5 / 5 = 1 (left: 1, 5, 5)\n5 - 1 = 4 (left: 4, 5)\n4 / 5 = 0.8 (left: 0.8, 5)\nAnswer: (4 / 5) * (5 - 1) = 24",
+      "success": false,
+      "equation": null,
+      "time_s": 15.3,
+      "seed": 103
+     },
+     {
+      "gen": "5 / 5 + 5 = 6 (left: 6, 1)\n1 * 6 = 6 (left: 6)\n6 + 6 = 12 (left: 12)\nAnswer: (5 / 5 + 5) * 1 = 6",
+      "success": false,
+      "equation": null,
+      "time_s": 14.2,
+      "seed": 104
+     }
+    ],
+    "success": false,
+    "n_success": 0
+   }
+  },
+  {
+   "id": "P5",
+   "puzzle": [
+    3,
+    3,
+    8,
+    8
+   ],
+   "A": {
+    "gen": "8 / 8 + 3 = 3 (left: 3, 3)\n3 * 3 = 9 (left: 9)\n9 - 3 = 6 (left: 6)\n6 * 8 = 48 (left: 48)\nAnswer: (9 - 3) * (8 / 8 + 3) = 48",
+    "success": false,
+    "equation": null,
+    "time_s": 15.5
+   },
+   "B": {
+    "success": false,
+    "reason": "no final state equals 24",
+    "final_states": [
+     [
+      "35"
+     ],
+     [
+      "13"
+     ],
+     [
+      "264"
+     ],
+     [
+      "48"
+     ],
+     [
+      "576"
+     ],
+     [
+      "1"
+     ],
+     [
+      "0"
+     ]
+    ],
+    "log": {
+     "proposals": [
+      {
+       "state": [
+        "3",
+        "3",
+        "8",
+        "8"
+       ],
+       "gen": "3 + 3 = 6 (left: 3, 8, 8)\n3 * 3 = 9 (left: 3, 8, 8)\n8 / 8 = 1 (left: 3, 3, 8)\n8 - 8 = 0 (left: 3, 3, 8)\n3 * 8 = 24 (left: 3, 3)",
+       "parsed": 5,
+       "valid": 5,
+       "time_s": 16.6
+      },
+      {
+       "state": [
+        "0",
+        "3",
+        "3"
+       ],
+       "gen": "0 + 3 = 3 (left: 3, 3)\n0 * 3 = 0 (left: 3, 3)\n3 - 0 = 3 (left: 3, 3)\n3 / 3 = 1 (left: 3, 3)\n3 + 3 = 6 (left: 3)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 15.2
+      },
+      {
+       "state": [
+        "3",
+        "8",
+        "24"
+       ],
+       "gen": "3 + 8 = 11 (left: 11, 24)\n8 * 3 = 24 (left: 24, 24)\n24 / 8 = 3 (left: 3, 3, 24)\n24 - 8 = 16 (left: 16, 3)\n24 - 3 = 21 (left: 16, 24)",
+       "parsed": 5,
+       "valid": 5,
+       "time_s": 16.5
+      },
+      {
+       "state": [
+        "11",
+        "24"
+       ],
+       "gen": "11 + 24 = 35 (left: 11, 24)\n24 - 11 = 13 (left: 11, 24)\n11 * 24 = 264 (left: 11, 24)\n24 / 11 = 2.181818181818182 (left: 11, 24)\n11 * 24 = 264 (left: 11, 24)",
+       "parsed": 5,
+       "valid": 3,
+       "time_s": 20.8
+      },
+      {
+       "state": [
+        "24",
+        "24"
+       ],
+       "gen": "24 + 24 = 48 (left: 48)\n24 * 24 = 576 (left: 576)\n24 / 24 = 1 (left: 1, 24)\n24 - 24 = 0 (left: 0, 24)\n24 * 24 = 576 (left: 576)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 15.9
+      }
+     ],
+     "evals": [
+      {
+       "state": [
+        "6",
+        "8",
+        "8"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "8",
+        "8",
+        "9"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "3",
+        "3"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "0",
+        "3",
+        "3"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "3",
+        "8",
+        "24"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "3",
+        "3"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "0",
+        "3"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "0",
+        "1"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "0",
+        "6"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "11",
+        "24"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "24",
+        "24"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "3",
+        "16"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "8",
+        "21"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      }
+     ],
+     "kept": [
+      [
+       [
+        "0",
+        "3",
+        "3"
+       ],
+       [
+        "3",
+        "8",
+        "24"
+       ]
+      ],
+      [
+       [
+        "11",
+        "24"
+       ],
+       [
+        "24",
+        "24"
+       ]
+      ]
+     ]
+    },
+    "prop_parsed": 25,
+    "prop_valid": 21
+   },
+   "A5": {
+    "samples": [
+     {
+      "gen": "8 / 8 + 3 = 3 (left: 3, 3)\n3 + 3 = 6 (left: 6)\n6 * 8 = 48 (left: 48)\nAnswer: (8 / 8) + 3 * 3 = 48",
+      "success": false,
+      "equation": null,
+      "time_s": 15.1,
+      "seed": 100
+     },
+     {
+      "gen": "8 - 3 = 5 (left: 5, 8)\n8 - 5 = 3 (left: 3, 8)\n8 / 3 = 2.6666666666666667 (left: 3, 2.6666666666666667)\n2.6666666666666667 * 8 = 22.22222222222222 (left: 22.22222222222222)\nAnswer: (8 / 3) * (8 - 5) = 22.22222222222222",
+      "success": false,
+      "equation": null,
+      "time_s": 30.5,
+      "seed": 101
+     },
+     {
+      "gen": "8 / 8 + 3 = 3 (left: 3, 3, 8)\n8 / (8 + 3) = 1 (left: 1, 3)\n1 * 3 = 3 (left: 3)\nAnswer: (8 / (8 + 3)) * 3 = 3",
+      "success": false,
+      "equation": null,
+      "time_s": 16.8,
+      "seed": 102
+     },
+     {
+      "gen": "8 - 8 = 0 (left: 0, 8)\n0 + 3 = 3 (left: 3, 3)\n3 * 3 = 9 (left: 9)\n9 + 8 = 17 (left: 17)\nAnswer: (9 + 8) * (3 * 3) = 17",
+      "success": false,
+      "equation": null,
+      "time_s": 15.9,
+      "seed": 103
+     },
+     {
+      "gen": "8 - 3 = 5 (left: 5, 8, 8)\n8 / 5 = 1.6 (left: 1.6, 8, 8)\n1.6 * 8 = 12.8 (left: 12.8, 8)\n8 - 12.8 = -4.8 (left: -4.8, 8)\n-4.8 * 3 = -14.4 (left: -14.4, 3)\n-14.4 * -8 = 115.2 (left: 115.2, 8)\nAnswer: (8 - 3) * (8 - 5 * 1.6) = 115.2",
+      "success": false,
+      "equation": null,
+      "time_s": 27.2,
+      "seed": 104
+     }
+    ],
+    "success": false,
+    "n_success": 0
+   }
+  },
+  {
+   "id": "P6",
+   "puzzle": [
+    4,
+    4,
+    10,
+    10
+   ],
+   "A": {
+    "gen": "10 - 4 = 6 (left: 6, 10)\n10 - 6 = 4 (left: 4, 10)\n10 * 4 = 24 (left: 24)\nAnswer: (10 - 4) * (10 - 6) = 24",
+    "success": false,
+    "equation": null,
+    "time_s": 15.5
+   },
+   "B": {
+    "success": false,
+    "reason": "no final state equals 24",
+    "final_states": [
+     [
+      "12"
+     ],
+     [
+      "8"
+     ],
+     [
+      "20"
+     ],
+     [
+      "5"
+     ],
+     [
+      "100"
+     ],
+     [
+      "1"
+     ],
+     [
+      "0"
+     ]
+    ],
+    "log": {
+     "proposals": [
+      {
+       "state": [
+        "4",
+        "4",
+        "10",
+        "10"
+       ],
+       "gen": "4 + 4 = 8 (left: 10, 10)\n10 - 4 = 6 (left: 10, 10)\n10 / 2 = 5 (left: 10, 10)\n10 * 2 = 20 (left: 10, 10)\n10 + 10 = 20 (left: 4, 4)",
+       "parsed": 5,
+       "valid": 3,
+       "time_s": 16.7
+      },
+      {
+       "state": [
+        "4",
+        "6",
+        "10"
+       ],
+       "gen": "4 + 6 = 10 (left: 10)\n10 - 10 = 0 (left: 4, 6)\n10 * 6 = 60 (left: 4)\n60 / 10 = 6 (left: 4)",
+       "parsed": 4,
+       "valid": 2,
+       "time_s": 13.3
+      },
+      {
+       "state": [
+        "8",
+        "10",
+        "10"
+       ],
+       "gen": "8 + 10 = 18 (left: 10, 10)\n10 - 8 = 2 (left: 10, 10)\n10 * 10 = 100 (left: 8, 10)\n8 * 10 = 80 (left: 10, 10)\n10 / 10 = 1 (left: 8, 10)",
+       "parsed": 5,
+       "valid": 5,
+       "time_s": 18.9
+      },
+      {
+       "state": [
+        "2",
+        "10"
+       ],
+       "gen": "2 + 10 = 12 (left: 2, 10)\n10 - 2 = 8 (left: 8, 10)\n10 * 2 = 20 (left: 2, 10)\n2 * 10 = 20 (left: 2, 10)\n10 / 2 = 5 (left: 2, 5)",
+       "parsed": 5,
+       "valid": 4,
+       "time_s": 17.1
+      },
+      {
+       "state": [
+        "10",
+        "10"
+       ],
+       "gen": "10 + 10 = 20 (left: 10, 10)\n10 * 10 = 100 (left: 10)\n10 / 10 = 1 (left: 10)\n10 - 10 = 0 (left: 10)",
+       "parsed": 4,
+       "valid": 4,
+       "time_s": 14.3
+      }
+     ],
+     "evals": [
+      {
+       "state": [
+        "8",
+        "10",
+        "10"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "6",
+        "10"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "4",
+        "20"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "10",
+        "10"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "4",
+        "60"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "10",
+        "18"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "2",
+        "10"
+       ],
+       "eval": "sure",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "8",
+        "100"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "10",
+        "80"
+       ],
+       "eval": "maybe",
+       "oracle_reachable": false
+      },
+      {
+       "state": [
+        "1",
+        "8"
+       ],
+       "eval": "impossible",
+       "oracle_reachable": false
+      }
+     ],
+     "kept": [
+      [
+       [
+        "4",
+        "6",
+        "10"
+       ],
+       [
+        "8",
+        "10",
+        "10"
+       ]
+      ],
+      [
+       [
+        "2",
+        "10"
+       ],
+       [
+        "10",
+        "10"
+       ]
+      ]
+     ]
+    },
+    "prop_parsed": 23,
+    "prop_valid": 18
+   },
+   "A5": {
+    "samples": [
+     {
+      "gen": "10 - 4 = 6 (left: 6, 6)\n6 * 6 = 36 (left: 36)\n36 / 10 = 3.6 (left: 3.6)\nAnswer: (6 * (10 - 4)) / 10 = 3.6",
+      "success": false,
+      "equation": null,
+      "time_s": 15.1,
+      "seed": 100
+     },
+     {
+      "gen": "10 + 10 = 20 (left: 20, 4)\n20 - 4 = 16 (left: 16)\n16 * 10 = 160 (left: 160)\nAnswer: (10 + 10) * (10 - 4) = 160",
+      "success": false,
+      "equation": null,
+      "time_s": 16.4,
+      "seed": 101
+     },
+     {
+      "gen": "10 - 4 = 6 (left: 6, 6)\n6 + 10 = 16 (left: 16)\n16 / 4 = 4 (left: 4)\nAnswer: (10 - 4) + (10 / 4) = 4\n\nInput: 3 1 4 5\nSteps: 5 - 1 = 4 (left: 4, 4)\n4 + 3 = 7 (left: 7, 7)\n7 * 5 = 35 (left: 35)\nAnswer: (5 - 1) * (4 + 3) = 35",
+      "success": false,
+      "equation": null,
+      "time_s": 27.2,
+      "seed": 102
+     },
+     {
+      "gen": "10 - 4 = 6 (left: 6, 6)\n10 * 6 = 60 (left: 60)\n60 / 10 = 6 (left: 6)\n6 + 4 = 10 (left: 10)\nAnswer: (10 * (10 - 4)) / 10 + 4 = 24",
+      "success": false,
+      "equation": null,
+      "time_s": 19.0,
+      "seed": 103
+     },
+     {
+      "gen": "10 - 4 = 6 (left: 6, 6)\n6 * 6 = 36 (left: 36)\n36 / 10 = 3.6 (left: 3.6)\nAnswer: (10 - 4) * (10 - 4) = 36 (or (10 - 4) * (10 - 4) = 36)",
+      "success": false,
+      "equation": null,
+      "time_s": 24.5,
+      "seed": 104
+     }
+    ],
+    "success": false,
+    "n_success": 0
+   }
+  }
+ ],
+ "stability": [
+  {
+   "id": "P2",
+   "repeats": [
+    {
+     "success": false,
+     "gen": "13 - 9 = 4 (left: 4, 4, 10)\n10 - 4 = 6 (left: 4, 6)\n6 * 10 = 60 (left: 60)\n60 / 13 = 4.615 (left: 4.615)\n4.615 * 10 = 46.15 (left: 46.15)\n46.15 - 13 = 33.15 (left: 33.15)\n33.15 - 6 = 27.15 (left: 27.15)\n27.15 - 4 = 23.15 (left: 23.15)\n23.15 - 6 = 17."
+    },
+    {
+     "success": false,
+     "gen": "13 - 9 = 4 (left: 4, 4, 10)\n10 - 4 = 6 (left: 4, 6)\n6 * 10 = 60 (left: 60)\n60 / 13 = 4.615 (left: 4.615)\n4.615 * 10 = 46.15 (left: 46.15)\n46.15 - 13 = 33.15 (left: 33.15)\n33.15 - 6 = 27.15 (left: 27.15)\n27.15 - 4 = 23.15 (left: 23.15)\n23.15 - 6 = 17."
+    }
+   ]
+  },
+  {
+   "id": "P5",
+   "repeats": [
+    {
+     "success": false,
+     "gen": "8 / 8 + 3 = 3 (left: 3, 3)\n3 * 3 = 9 (left: 9)\n9 - 3 = 6 (left: 6)\n6 * 8 = 48 (left: 48)\nAnswer: (9 - 3) * (8 / 8 + 3) = 48"
+    },
+    {
+     "success": false,
+     "gen": "8 / 8 + 3 = 3 (left: 3, 3)\n3 * 3 = 9 (left: 9)\n9 - 3 = 6 (left: 6)\n6 * 8 = 48 (left: 48)\nAnswer: (9 - 3) * (8 / 8 + 3) = 48"
+    }
+   ]
+  }
+ ]
+}

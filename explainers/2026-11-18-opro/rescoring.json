@@ -1,0 +1,13 @@
+{
+ "strict_preregistered": {
+  "A_stepbystep": 80.0,
+  "B_deepbreath": 60.0,
+  "C_combo": 70.0
+ },
+ "content_manual": {
+  "A_stepbystep": 90.0,
+  "B_deepbreath": 100.0,
+  "C_combo": 100.0,
+  "notes": "Final stated conclusion in the generation text, CLI footer excluded, read manually for all 30 outputs. A P4 is the only genuine reasoning error (35+84 mis-added as 120, concluded 120 vs gold 121). P3 in all conditions stated 380 in the final equation before the 256-token cutoff. B P4/P8/P10 and C P4/P10 concluded correctly in prose without the 'The answer is' line."
+ }
+}

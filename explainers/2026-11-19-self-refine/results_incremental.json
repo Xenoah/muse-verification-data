@@ -1,0 +1,206 @@
+{
+ "results": [
+  {
+   "id": "T1",
+   "keywords": [
+    "cat",
+    "garden",
+    "moon",
+    "bicycle",
+    "whisper"
+   ],
+   "y0": "The cat in the garden heard the moonlight reflecting off the bicycle wheel, causing it to whisper softly.",
+   "y0_coverage": 0.8,
+   "y0_hit": [
+    "cat",
+    "garden",
+    "bicycle",
+    "whisper"
+   ],
+   "feedback": "All required words are present. The sentence is correct as it stands.",
+   "y1": "The cat in the garden heard the moonlight reflecting off the bicycle wheel, causing it to whisper softly.",
+   "y1_coverage": 0.8,
+   "y1_hit": [
+    "cat",
+    "garden",
+    "bicycle",
+    "whisper"
+   ],
+   "times_s": {
+    "gen": 15.9,
+    "fb": 15.3,
+    "refine": 15.1
+   }
+  },
+  {
+   "id": "T2",
+   "keywords": [
+    "robot",
+    "library",
+    "coffee",
+    "rain",
+    "key"
+   ],
+   "y0": "The robot in the library brewed coffee under the rain while using its key to unlock the door.",
+   "y0_coverage": 1.0,
+   "y0_hit": [
+    "robot",
+    "library",
+    "coffee",
+    "rain",
+    "key"
+   ],
+   "feedback": "All required words are present. The sentence is correct as it stands.",
+   "y1": "The robot in the library brewed coffee under the rain while using its key to unlock the door.",
+   "y1_coverage": 1.0,
+   "y1_hit": [
+    "robot",
+    "library",
+    "coffee",
+    "rain",
+    "key"
+   ],
+   "times_s": {
+    "gen": 12.8,
+    "fb": 15.5,
+    "refine": 17.2
+   }
+  },
+  {
+   "id": "T3",
+   "keywords": [
+    "mountain",
+    "chef",
+    "violin",
+    "snow",
+    "map"
+   ],
+   "y0": "The chef prepared a delicious meal on top of the mountain while listening to the violin in the snow, all the while using a map to navigate.",
+   "y0_coverage": 1.0,
+   "y0_hit": [
+    "mountain",
+    "chef",
+    "violin",
+    "snow",
+    "map"
+   ],
+   "feedback": "All required words are present. The sentence is correct as it stands.",
+   "y1": "The chef prepared a delicious meal on top of the mountain while listening to the violin in the snow, all the while using a map to navigate.",
+   "y1_coverage": 1.0,
+   "y1_hit": [
+    "mountain",
+    "chef",
+    "violin",
+    "snow",
+    "map"
+   ],
+   "times_s": {
+    "gen": 15.5,
+    "fb": 19.1,
+    "refine": 19.1
+   }
+  },
+  {
+   "id": "T4",
+   "keywords": [
+    "teacher",
+    "ocean",
+    "clock",
+    "apple",
+    "bridge"
+   ],
+   "y0": "The teacher used a clock to help the students learn about the ocean and bridge while eating an apple.",
+   "y0_coverage": 1.0,
+   "y0_hit": [
+    "teacher",
+    "ocean",
+    "clock",
+    "apple",
+    "bridge"
+   ],
+   "feedback": "All required words are present. The sentence is correct as it stands.",
+   "y1": "The teacher used a clock to help the students learn about the ocean and bridge while eating an apple.",
+   "y1_coverage": 1.0,
+   "y1_hit": [
+    "teacher",
+    "ocean",
+    "clock",
+    "apple",
+    "bridge"
+   ],
+   "times_s": {
+    "gen": 12.2,
+    "fb": 15.2,
+    "refine": 16.0
+   }
+  },
+  {
+   "id": "T5",
+   "keywords": [
+    "dog",
+    "market",
+    "sun",
+    "book",
+    "hat"
+   ],
+   "y0": "The dog chased a cat in the market while the sun shone brightly, and the book fell off the hat.",
+   "y0_coverage": 1.0,
+   "y0_hit": [
+    "dog",
+    "market",
+    "sun",
+    "book",
+    "hat"
+   ],
+   "feedback": "All required words are present. The sentence is correct as it includes \"dog, market, sun, book, and hat\" without any missing words.",
+   "y1": "The dog chased a cat in the market while the sun shone brightly, and the book fell off the hat.",
+   "y1_coverage": 1.0,
+   "y1_hit": [
+    "dog",
+    "market",
+    "sun",
+    "book",
+    "hat"
+   ],
+   "times_s": {
+    "gen": 14.0,
+    "fb": 16.9,
+    "refine": 16.9
+   }
+  },
+  {
+   "id": "T6",
+   "keywords": [
+    "dragon",
+    "castle",
+    "river",
+    "song",
+    "stone"
+   ],
+   "y0": "The dragon guards the ancient castle by the river, where a beautiful song is sung on a nearby stone.",
+   "y0_coverage": 1.0,
+   "y0_hit": [
+    "dragon",
+    "castle",
+    "river",
+    "song",
+    "stone"
+   ],
+   "feedback": "All required words are present. The sentence is correct as it includes \"dragon, castle, river, song, stone\" without any missing words.",
+   "y1": "The majestic dragon watches over the ancient castle by the river, where a haunting song is sung on a nearby stone.",
+   "y1_coverage": 1.0,
+   "y1_hit": [
+    "dragon",
+    "castle",
+    "river",
+    "song",
+    "stone"
+   ],
+   "times_s": {
+    "gen": 13.5,
+    "fb": 19.7,
+    "refine": 17.1
+   }
+  }
+ ]
+}

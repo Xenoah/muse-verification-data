@@ -1,0 +1,2 @@
+Q1 A B True | B C False | princ hits []
+Q2 A A False | B D False | princ hits ['pbcl2', 'stoichiometr']

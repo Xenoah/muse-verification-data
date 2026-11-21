@@ -1,0 +1,5 @@
+Q1 A None False | B C False | princ hits []
+Q2 A None False | B D False | princ hits ['pbcl2', 'stoichiometr']
+Q3 A None False | B D False | princ hits ['archimedes', 'buoyan', 'displaced']
+Q4 A None False | B B True | princ hits ['p = v', 'v^2']
+Q5 A None False | B C True | princ hits ['kinetic energy', '1/2', 'v^2']

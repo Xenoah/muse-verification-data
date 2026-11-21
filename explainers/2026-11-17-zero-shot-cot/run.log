@@ -1,0 +1,12 @@
+P1 A 1.0 False | B 47.0 True
+P2 A 1.0 False | B 115.0 True
+P3 A 1.0 False | B 4.4 False
+P4 A 1.0 False | B 4.8 False
+P5 A 1.0 False | B 133.0 True
+P6 A 1.0 False | B 112.0 True
+P7 A 1.0 False | B 168.0 True
+P8 A 1.0 False | B 89.0 True
+P9 A 1.0 False | B 20.0 True
+P10 A 1.0 False | B 20.0 True
+STAB P1 [47.0, 47.0, 47.0]
+STAB P4 [5.3, 4.6, 6.3]

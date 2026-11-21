@@ -1,0 +1,11 @@
+T1 y0cov 0.8 y1cov 0.8
+T2 y0cov 1.0 y1cov 1.0
+T3 y0cov 1.0 y1cov 1.0
+T4 y0cov 1.0 y1cov 1.0
+T5 y0cov 1.0 y1cov 1.0
+T6 y0cov 1.0 y1cov 1.0
+STAB T1 0 0.8 0.8
+STAB T1 1 0.8 0.8
+STAB T2 0 1.0 1.0
+STAB T2 1 1.0 1.0
+{"mean_y0_coverage_pct": 96.7, "mean_y1_coverage_pct": 96.7, "full_success_y0": 5, "full_success_y1": 5, "n_tasks": 6, "model": "Qwen2.5-1.5B-Instruct Q4_K_M", "engine": "llama.cpp 0.9.0-dev build 1 commit 827466b", "temp": 0.0, "seed": 42}

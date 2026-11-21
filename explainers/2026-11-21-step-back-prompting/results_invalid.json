@@ -1,0 +1,178 @@
+{
+ "questions": [
+  {
+   "id": "Q1",
+   "question": "An ideal gas is in a sealed container with a movable piston. The temperature of the gas is increased by a factor of 3, and the volume is increased by a factor of 6. What happens to the pressure of the gas?\nA) It increases by a factor of 3\nB) It decreases to 1/2 of the original\nC) It stays the same\nD) It increases by a factor of 18",
+   "correct": "B",
+   "principle_keys": [
+    "ideal gas",
+    "pv",
+    "nrt",
+    "p =",
+    "pressure proportional",
+    "t/v",
+    "temperature divided"
+   ]
+  },
+  {
+   "id": "Q2",
+   "question": "A sample of an unknown chloride compound is dissolved in water and titrated with excess Pb(NO3)2, forming a precipitate of PbCl2. After drying, there are 0.010 mol of PbCl2 precipitate. The molar mass of chlorine is 35.45 g/mol. What is the mass of chloride in the original sample?\nA) 0.355 g\nB) 0.709 g\nC) 1.418 g\nD) 0.177 g",
+   "correct": "B",
+   "principle_keys": [
+    "pbcl2",
+    "2 mol",
+    "two",
+    "stoichiometr",
+    "0.020",
+    "35.45"
+   ]
+  },
+  {
+   "id": "Q3",
+   "question": "A solid block floats in water with 75% of its volume submerged. The density of water is 1000 kg/m3. What is the density of the block?\nA) 250 kg/m3\nB) 1000 kg/m3\nC) 750 kg/m3\nD) 1333 kg/m3",
+   "correct": "C",
+   "principle_keys": [
+    "archimedes",
+    "buoyan",
+    "displaced",
+    "fraction",
+    "0.75",
+    "submerged fraction"
+   ]
+  },
+  {
+   "id": "Q4",
+   "question": "A resistor has a fixed resistance. The voltage across it is increased by a factor of 2. By what factor does the electrical power dissipated in the resistor change?\nA) It increases by a factor of 2\nB) It increases by a factor of 4\nC) It increases by a factor of 8\nD) It stays the same",
+   "correct": "B",
+   "principle_keys": [
+    "p = v",
+    "v^2",
+    "v2/r",
+    "power proportional to the square",
+    "square of the voltage",
+    "ohm"
+   ]
+  },
+  {
+   "id": "Q5",
+   "question": "A ball's speed is increased by a factor of 3, while its mass stays the same. By what factor does its kinetic energy change?\nA) It increases by a factor of 3\nB) It increases by a factor of 6\nC) It increases by a factor of 9\nD) It increases by a factor of 27",
+   "correct": "C",
+   "principle_keys": [
+    "kinetic energy",
+    "1/2",
+    "mv^2",
+    "square",
+    "v^2",
+    "proportional to the square"
+   ]
+  }
+ ],
+ "main": {
+  "Q1": {
+   "A": {
+    "gen": "To determine the final pressure of the gas, we can use the ideal gas law, which is given by:\n\n\\[ PV = nRT \\]\n\nwhere:\n- \\( P \\) is the pressure,\n- \\( V \\) is the volume,\n- \\( n \\) is the number of moles of gas,\n- \\( R \\) is the ideal gas constant,\n- \\( T \\) is the temperature.\n\nWe are given that the temperature \\( T \\) is increased by a factor of 3, and the volume \\( V \\) is increased by a factor of 6. We need to find how the pressure \\( P \\) changes.\n\nLet's denote the initial pressure, volume, and temperature as \\( P_1 \\), \\( V_1 \\), and \\( T_1 \\) respectively. After the changes, the new pressure, volume, and temperature will be \\( P_2 \\), \\( V_2 \\), and \\( T_2 \\) respectively. According to the problem, \\( V_2 = 6V_1 \\) and \\( T_",
+    "answer": null,
+    "time_s": 67.0,
+    "correct_flag": false
+   },
+   "B": {
+    "principles": "Principles Involved: Gay-Lussac's law: the pressure of a gas is directly proportional to its temperature when the volume is constant, P ∝ T. If T increases by a factor of 3 and V increases by a factor of 6, then P increases by a factor of 3.",
+    "principles_time_s": 21.7,
+    "gen": "Answer: C) It stays the same\n\nExplanation:\nAccording to Gay-Lussac's law, the pressure of a gas is directly proportional to its temperature when the volume is constant. The problem states that the temperature of the gas increases by a factor of 3 and the volume increases by a factor of 6. Since the volume is not constant (it changes), we cannot directly apply Gay-Lussac's law. However, if we consider the scenario where the volume is constant, the pressure would increase by a factor of 3. But since the volume is not constant, the pressure does not necessarily increase by a factor of 3. Instead, the pressure remains the same because the volume change is not sufficient to change the pressure in the context of the given conditions.",
+    "answer": "C",
+    "time_s": 43.6,
+    "correct_flag": false,
+    "principle_hits": [],
+    "principle_ok": false
+   }
+  },
+  "Q2": {
+   "A": {
+    "gen": "To solve this problem, we need to follow these steps:\n\n1. **Understand the reaction**: The reaction between the unknown chloride compound and Pb(NO3)2 is:\n   \\[\n   \\text{Cl}^- + \\text{Pb(NO}_3\\text{)}_2 \\rightarrow \\text{PbCl}_2 + \\text{NO}_3^-\n   \\]\n   This means that one mole of the unknown chloride compound reacts with one mole of Pb(NO3)2 to form one mole of PbCl2.\n\n2. **Determine the molar mass of the unknown chloride compound**: Since 0.010 mol of PbCl2 is formed, and 1 mole of PbCl2 is formed from 1 mole of the unknown chloride compound, the molar mass of the unknown chloride compound is:\n   \\[\n   \\text{Molar mass of the unknown chloride compound} = 0.010 \\text{ mol} \\times 289.84 \\text{ g/mol} = 2.",
+    "answer": null,
+    "time_s": 121.1,
+    "correct_flag": false
+   },
+   "B": {
+    "principles": "Principles Involved: Stoichiometry: The reaction between PbCl2 and excess Pb(NO3)2 is a 1:1 reaction, meaning 1 mole of PbCl2 reacts with 1 mole of Pb(NO3)2. Mass of chloride = moles of PbCl2 * molar mass of Cl.",
+    "principles_time_s": 18.9,
+    "gen": "Answer: D",
+    "answer": "D",
+    "time_s": 9.0,
+    "correct_flag": false,
+    "principle_hits": [
+     "pbcl2",
+     "stoichiometr"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q3": {
+   "A": {
+    "gen": "To determine the density of the block, we need to use the principle of buoyancy. When an object floats, the buoyant force equals the weight of the displaced water. The volume of water displaced is equal to the volume of the block that is submerged.\n\nGiven:\n- The block floats with 75% of its volume submerged.\n- The density of water is 1000 kg/m³.\n\nLet's denote:\n- The volume of the block as \\( V \\).\n- The density of the block as \\( \\rho_b \\).\n\nThe volume of the block submerged is \\( 0.75V \\).\n\nThe buoyant force is equal to the weight of the displaced water, which is given by:\n\\[ \\text{Buoyant Force} = \\rho_{\\text{water}} \\times V_{\\text{submerged}} \\times g \\]\n\\[ \\text{Buoyant Force} = 1000 \\, \\text{kg/m}^3 \\times 0.75V \\times g \\]\n\nThe weight of",
+    "answer": null,
+    "time_s": 29.1,
+    "correct_flag": false
+   },
+   "B": {
+    "principles": "Principles Involved: Archimedes' principle: The buoyant force on an object submerged in a fluid is equal to the weight of the fluid displaced by the object. The density of the block affects the buoyant force, which in turn affects the apparent weight of the block. The density of the block is related to the weight of the displaced water. The density of the block is given by the weight of the displaced water divided by the volume of the block.",
+    "principles_time_s": 19.6,
+    "gen": "Answer: D\n\nExplanation:\n1. Let the volume of the block be \\( V \\).\n2. Since 75% of the block's volume is submerged, the volume of the block submerged in water is \\( 0.75V \\).\n3. The buoyant force on the block is equal to the weight of the displaced water, which is \\( 0.75V \\times 1000 \\, \\text{kg/m}^3 = 750V \\, \\text{kg/m}^3 \\).\n4. The apparent weight of the block is the weight of the block minus the buoyant force, which is \\( V \\times \\text{density of the block} - 750V \\, \\text{kg/m}^3 \\).\n5. Since the block floats, the apparent weight is zero, so we have:\n   \\[\n   V \\times \\text{density of the block} - 750V = 0\n   \\]\n6. Simplifying, we get:",
+    "answer": "D",
+    "time_s": 36.6,
+    "correct_flag": false,
+    "principle_hits": [
+     "archimedes",
+     "buoyan",
+     "displaced"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q4": {
+   "A": {
+    "gen": "To determine how the electrical power dissipated in the resistor changes when the voltage across it is increased by a factor of 2, let's start with the basic formula for electrical power:\n\n\\[ P = \\frac{V^2}{R} \\]\n\nwhere:\n- \\( P \\) is the power dissipated in the resistor,\n- \\( V \\) is the voltage across the resistor,\n- \\( R \\) is the resistance of the resistor.\n\nGiven that the resistance \\( R \\) is fixed, we can rewrite the power formula as:\n\n\\[ P = \\frac{V^2}{R} \\]\n\nNow, if the voltage \\( V \\) is increased by a factor of 2, the new voltage \\( V' \\) will be:\n\n\\[ V' = 2V \\]\n\nThe new power \\( P' \\) dissipated in the resistor will be:\n\n\\[ P' = \\frac{(V')^2}{R} = \\frac{(2V)^2}{R} = \\frac{4V^2}{R} \\]\n\nSince the original power",
+    "answer": null,
+    "time_s": 36.3,
+    "correct_flag": false
+   },
+   "B": {
+    "principles": "Principles Involved: Power dissipation in a resistor is given by P = V^2 / R, where V is the voltage and R is the resistance. If V increases by a factor of 2, then P increases by a factor of 4.",
+    "principles_time_s": 17.3,
+    "gen": "Answer: B",
+    "answer": "B",
+    "time_s": 9.4,
+    "correct_flag": true,
+    "principle_hits": [
+     "p = v",
+     "v^2"
+    ],
+    "principle_ok": true
+   }
+  },
+  "Q5": {
+   "A": {
+    "gen": "To determine how the kinetic energy of the ball changes when its speed is increased by a factor of 3 while its mass stays the same, we can use the formula for kinetic energy:\n\n\\[ \\text{Kinetic Energy} = \\frac{1}{2} \\times \\text{mass} \\times \\text{speed}^2 \\]\n\nLet's denote the initial speed of the ball as \\( v \\) and the initial mass as \\( m \\). The initial kinetic energy \\( K_i \\) is:\n\n\\[ K_i = \\frac{1}{2} \\times m \\times v^2 \\]\n\nAfter the speed is increased by a factor of 3, the new speed \\( v_f \\) is \\( 3v \\). The new kinetic energy \\( K_f \\) is:\n\n\\[ K_f = \\frac{1}{2} \\times m \\times (3v)^2 \\]\n\\[ K_f = \\frac{1}{2} \\times m \\times 9v^2 \\]\n\\[ K_f = 9 \\times \\frac",
+    "answer": null,
+    "time_s": 33.3,
+    "correct_flag": false
+   },
+   "B": {
+    "principles": "Principles Involved: Kinetic energy is given by the formula KE = 1/2 * m * v^2, where KE is kinetic energy, m is mass, and v is velocity. If the mass stays the same and the speed increases by a factor of 3, the kinetic energy increases by a factor of 3^2 = 9.",
+    "principles_time_s": 17.6,
+    "gen": "Answer: C",
+    "answer": "C",
+    "time_s": 9.1,
+    "correct_flag": true,
+    "principle_hits": [
+     "kinetic energy",
+     "1/2",
+     "v^2"
+    ],
+    "principle_ok": true
+   }
+  }
+ },
+ "stability": {},
+ "sensitivity": {}
+}
