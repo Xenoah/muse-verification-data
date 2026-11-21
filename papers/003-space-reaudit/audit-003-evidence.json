@@ -1,0 +1,3696 @@
+{
+ "auditId": "audit-003",
+ "title": "「新着AIモデル」Space 再監査（第1回監査の追跡調査）",
+ "executedBy": "Muse（AIエージェント、自律リサーチ論文シリーズ第3回の実行担当）",
+ "verificationDate": "2026-11-12",
+ "cost": "¥0（公開API・公開ページのみ。有料API・X API は使用していない）",
+ "snapshotFile": "audit-003-space-snapshot.json",
+ "snapshotRetrievedAt": "2026-11-12T23:12:00+09:00",
+ "snapshotDataLastCheckedAt": "2026-11-12T13:32:17.336Z",
+ "round1SnapshotFile": "audit-001-space-snapshot.json（~/workspace/goals/note/hidden_files/）",
+ "round1SnapshotRetrievedAt": "2026-11-12T21:00:00+09:00",
+ "round1SnapshotDataLastCheckedAt": "2026-11-12T11:31:19.620Z",
+ "round1EvidenceFile": "audit-001-evidence.json（~/workspace/goals/note/hidden_files/）",
+ "verdictLegend": {
+  "match": "一致 — 主要項目が一次資料と整合",
+  "discrepancy": "齟齬 — 一次資料と異なる項目がある",
+  "unverifiable": "一次資料で確認不能 — 一次資料が存在せず判定できない",
+  "not_found": "実在を確認できず — 一次資料・独立カタログのいずれでも実在を裏付けられない"
+ },
+ "methodInheritance": [
+  "判定カテゴリ（一一致／齟齬／一次資料で確認不能／実在を確認できず）と、第1回論文の定義をそのまま踏襲した",
+  "発表日の齟齬の閾値は第1回と同じ「一次資料上の最早期の証拠と2日を超えて異なる場合」。1〜2日差は注記に留める",
+  "一次資料の優先順位は第1回と同一: (1) Hugging Face 実リポジトリの公開API（createdAt・config・safetensors総パラメータ・cardData.license・モデルカード）、(2) 提供元の公式ブログ・ドキュメント・プレスリリースの直接確認",
+  "VRAM は第1回と同様に算術チェックのみ（実測ではない）",
+  "変更点1: 第1回から約2時間後（同一JST日）の再測定であるため、発表日等の歴史的事実については第1回で直接精読した一次資料の所見を基礎とし、本回では HF で再取得可能な全項目を再取得し、記録が変化したエントリと主要な齟齬エントリの公式ページを再読した。理由: 一次資料の歴史的事実は数時間では変化せず、全件の再精読は比較可能性を高めないため",
+  "変更点2: モダリティの問題を「判定級（齟齬）」と「注記級」に分けて数えた。第1回の公表集計（モダリティの誤り9件）は数え方の内訳が明示されておらず厳密な対応が取れないため、本回の内訳を明示して比較する"
+ ],
+ "priorResearchCheck": {
+  "queries": [
+   "longitudinal re-audit follow-up audit AI model catalog data quality repeated measurement",
+   "AI agent autonomous audit model database errors follow-up re-check study"
+  ],
+  "searchedAt": "2026-11-12",
+  "adjacentWorks": [
+   {
+    "name": "Ask Me Twice（Internet Archive Wayback Machine チーム、ACM、2026-10）",
+    "relation": "同一プロンプトを毎日複数モデルに投げ応答の経時変化を測る縦断データセット。対象はモデル「応答の振る舞い」であり、カタログの「収録データの正確性」ではない"
+   },
+   {
+    "name": "VUB コースカタログの LLM 分類と縦断再スキャン（arXiv:2603.13562）",
+    "relation": "大学の課程カタログを LLM で分類し次期カタログで再スキャンする縦断比較。対象は教育カタログ、人手による機関的 QA であり、AI モデル速報 DB の自律再監査ではない"
+   },
+   {
+    "name": "Terminal-Bench の継続監査（Stanford/Cornell、2026-11 プリント）",
+    "relation": "AI エージェント用ベンチマークの欠陥を継続監査し「benchmark maintenance debt」と概念化。対象はベンチマークのタスクであり、モデルリリースのカタログではない"
+   }
+  ],
+  "conclusion": "「稼働中の AI モデル速報データベースを一次資料で全数監査し、同一手法で後日再測定して誤りの解消・継続・悪化を追う」という形式の先行事例は、本回の検索範囲では確認できなかった。隣接する縦断測定・継続監査の実践は存在するため、独創性の主張はこの範囲に限定する"
+ },
+ "composition": {
+  "round1Total": 40,
+  "round3Total": 40,
+  "continuing": 40,
+  "newEntries": [],
+  "vanishedEntries": [],
+  "newCount": 0,
+  "vanishedCount": 0,
+  "entriesWithRecordChanges": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   9,
+   11,
+   17,
+   21,
+   25,
+   26,
+   27,
+   28,
+   32,
+   33,
+   36,
+   39
+  ],
+  "entriesWithRecordChangesCount": 17,
+  "proseChangedEntries": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   9,
+   11,
+   17,
+   21,
+   25,
+   26,
+   27,
+   28,
+   32,
+   33,
+   36,
+   39
+  ],
+  "substantiveChangedEntries": [
+   1,
+   2,
+   3,
+   5,
+   9,
+   25,
+   26,
+   27,
+   28,
+   32,
+   39
+  ],
+  "substantiveChangedCount": 11,
+  "proseOnlyChangedEntries": [
+   4,
+   11,
+   17,
+   21,
+   33,
+   36
+  ],
+  "proseOnlyChangedCount": 6
+ },
+ "tally": {
+  "round1": {
+   "match": 17,
+   "discrepancy": 19,
+   "unverifiable": 2,
+   "not_found": 2,
+   "total": 40,
+   "matchPct": 42.5,
+   "discrepancyPct": 47.5,
+   "unverifiablePct": 5.0,
+   "not_foundPct": 5.0
+  },
+  "round3": {
+   "match": 17,
+   "discrepancy": 19,
+   "unverifiable": 2,
+   "not_found": 2,
+   "total": 40,
+   "matchPct": 42.5,
+   "discrepancyPct": 47.5,
+   "unverifiablePct": 5.0,
+   "not_foundPct": 5.0
+  },
+  "verdictChanges": 0
+ },
+ "errorTypeTally": {
+  "definitions": "dateError=発表日が一次資料の最早期証拠と2日超異なる（判定級）。modalityVerdictError=モダリティ表記が実態と異なり齟齬と判定したもの。modalityNoteLevel=モダリティの過小・過剰を注記として記録したもの。duplicateInvolved=重複収録に関与するエントリ。paramProblem=パラメータ数の未検証・公称転記等の問題。accessProblem=提供形態（含意を含む）の誤り。brokenSourceUrl=出典URL自体の破損",
+  "round1Published": {
+   "dateError": 10,
+   "modalityErrorTotal": 9,
+   "duplicateInvolved": 10,
+   "duplicateExcess": 6,
+   "paramProblem": 3,
+   "accessProblem": 2,
+   "brokenSourceUrl": 1
+  },
+  "round1NoteLevelModalityRecount": 5,
+  "round3": {
+   "dateError": 10,
+   "modalityVerdictError": 8,
+   "modalityNoteLevel": 9,
+   "duplicateInvolved": 10,
+   "duplicateExcess": 6,
+   "paramProblem": 2,
+   "accessProblem": 2,
+   "brokenSourceUrl": 1
+  }
+ },
+ "sourceUrlQuality": {
+  "round1": {
+   "primaryCount": 0,
+   "total": 40
+  },
+  "round3": {
+   "primaryCount": 0,
+   "total": 40
+  },
+  "round3Detail": [
+   {
+    "spaceId": 1,
+    "host": "pulse.ecneproject.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 2,
+    "host": "intelsi.si",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 3,
+    "host": "www.swarchitect.net",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 4,
+    "host": "unicornapi.net",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 5,
+    "host": "csuite.so",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 6,
+    "host": "essamamdani.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 7,
+    "host": "benchlm.ai",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 8,
+    "host": "forum.astracruz.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 9,
+    "host": "intelsi.si",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 10,
+    "host": "www.lyragen.co.uk",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 11,
+    "host": "www.lyragen.co.uk",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 12,
+    "host": "www.llm-releases.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 13,
+    "host": "turbo.gadgets360.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 14,
+    "host": "turbo.gadgets360.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 15,
+    "host": "turbo.gadgets360.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 16,
+    "host": "turbo.gadgets360.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 17,
+    "host": "www.swarchitect.net",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 18,
+    "host": "vorluxai.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 19,
+    "host": "af.net",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 20,
+    "host": "www.bam.dog",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 21,
+    "host": "www.zeniteq.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 22,
+    "host": "neuralbrew.ai",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 23,
+    "host": "ashutoshai.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 24,
+    "host": "www.tun.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 25,
+    "host": "blog.sandbase.ai",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 26,
+    "host": "intelsi.si",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 27,
+    "host": "www.swarchitect.net",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 28,
+    "host": "www.kombitz.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 29,
+    "host": "cryptobriefing.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 30,
+    "host": "forum.astracruz.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 31,
+    "host": "www.swarchitect.net",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 32,
+    "host": "www.swarchitect.net",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 33,
+    "host": "www.goodiebase.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 34,
+    "host": "explainx.ai",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 35,
+    "host": "www.scriptbyai.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 36,
+    "host": "theagenticweekly.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 37,
+    "host": "sxf.si",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 38,
+    "host": "sxf.si",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 39,
+    "host": "springprompt.com",
+    "isPrimary": false
+   },
+   {
+    "spaceId": 40,
+    "host": "latent.space",
+    "isPrimary": false
+   }
+  ],
+  "note": "一次資料 = Hugging Face 実リポジトリまたは提供元公式ドメイン。第3回も全40件が二次情報源であり、一次資料率は 0/40 で変化なし。出所URLが差し替わったエントリ（id5, 25, 26, 39）でも二次情報源のままだった"
+ },
+ "duplicateAnalysis": {
+  "groups": [
+   {
+    "entries": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "release": "Gemini Robotics 1.5 / ER 1.5（公式発表は1回、2025-09-25）",
+    "excess": 3
+   },
+   {
+    "entries": [
+     12,
+     22
+    ],
+    "release": "Kanana-2-v-decide-3b-2611",
+    "excess": 1
+   },
+   {
+    "entries": [
+     4,
+     20
+    ],
+    "release": "Hunyuan Hy4",
+    "excess": 1
+   },
+   {
+    "entries": [
+     6,
+     17
+    ],
+    "release": "GPT-Image-2.6（同一リリースの別側面）",
+    "excess": 1
+   }
+  ],
+  "involvedEntries": 10,
+  "excessCount": 6,
+  "distinctReleasesInCatalog": 34,
+  "distinctExistingReleases": 32,
+  "round1Comparison": "第1回と同一（重複の解消なし）"
+ },
+ "vramArithmeticCheck": {
+  "formula": "fp16 = paramsB*2 + 2 GB / int8 = paramsB + 2 GB / int4 = paramsB/2 + 2 GB（第1回で同定した換算式）",
+  "note": "算術チェックのみ。VRAM の実測は行っていない",
+  "entriesChecked": [
+   1,
+   5,
+   7,
+   8,
+   12,
+   18,
+   22,
+   24,
+   29,
+   38
+  ],
+  "allMatchFormula": true,
+  "detail": [
+   {
+    "spaceId": 1,
+    "paramsB": 594,
+    "spaceVramGbs": {
+     "fp16": 1190,
+     "int8": 596,
+     "int4": 299
+    },
+    "formulaExpected": {
+     "fp16": 1190,
+     "int8": 596,
+     "int4": 299.0
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 5,
+    "paramsB": 2800,
+    "spaceVramGbs": {
+     "fp16": 5602,
+     "int8": 2802,
+     "int4": 1402
+    },
+    "formulaExpected": {
+     "fp16": 5602,
+     "int8": 2802,
+     "int4": 1402.0
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 7,
+    "paramsB": 65,
+    "spaceVramGbs": {
+     "fp16": 132,
+     "int8": 67,
+     "int4": 34.5
+    },
+    "formulaExpected": {
+     "fp16": 132,
+     "int8": 67,
+     "int4": 34.5
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 8,
+    "paramsB": 1600,
+    "spaceVramGbs": {
+     "fp16": 3202,
+     "int8": 1602,
+     "int4": 802
+    },
+    "formulaExpected": {
+     "fp16": 3202,
+     "int8": 1602,
+     "int4": 802.0
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 12,
+    "paramsB": 3.67,
+    "spaceVramGbs": {
+     "fp16": 9.3,
+     "int8": 5.7,
+     "int4": 3.8
+    },
+    "formulaExpected": {
+     "fp16": 9.3,
+     "int8": 5.7,
+     "int4": 3.8
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 18,
+    "paramsB": 280,
+    "spaceVramGbs": {
+     "fp16": 562,
+     "int8": 282,
+     "int4": 142
+    },
+    "formulaExpected": {
+     "fp16": 562,
+     "int8": 282,
+     "int4": 142.0
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 22,
+    "paramsB": 3.67,
+    "spaceVramGbs": {
+     "fp16": 9.3,
+     "int8": 5.7,
+     "int4": 3.8
+    },
+    "formulaExpected": {
+     "fp16": 9.3,
+     "int8": 5.7,
+     "int4": 3.8
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 24,
+    "paramsB": 16,
+    "spaceVramGbs": {
+     "fp16": 34,
+     "int8": 18,
+     "int4": 10
+    },
+    "formulaExpected": {
+     "fp16": 34,
+     "int8": 18,
+     "int4": 10.0
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 29,
+    "paramsB": 33.1,
+    "spaceVramGbs": {
+     "fp16": 68.2,
+     "int8": 35.1,
+     "int4": 18.6
+    },
+    "formulaExpected": {
+     "fp16": 68.2,
+     "int8": 35.1,
+     "int4": 18.6
+    },
+    "matchesFormula": true
+   },
+   {
+    "spaceId": 38,
+    "paramsB": 27,
+    "spaceVramGbs": {
+     "fp16": 56,
+     "int8": 29,
+     "int4": 15.5
+    },
+    "formulaExpected": {
+     "fp16": 56,
+     "int8": 29,
+     "int4": 15.5
+    },
+    "matchesFormula": true
+   }
+  ]
+ },
+ "fieldLevelTracking": {
+  "improvements": [
+   {
+    "spaceId": 5,
+    "field": "announcedDate",
+    "detail": "2026-11-04 → 2026-11-02 に書き換わり、HF 作成日と完全一致。第1回の2日差注記が解消"
+   },
+   {
+    "spaceId": 3,
+    "field": "modalityLabels（出力）",
+    "detail": "「テキスト・画像・動画」→「動画」。公式の中心（動画生成・編集）と整合し、第1回の過剰表記の注記が解消"
+   },
+   {
+    "spaceId": 9,
+    "field": "access / specs",
+    "detail": "access が公式 GA の枠組みと整合する「一般提供」に変更され、公式と一致する導入価格が specs に追加された"
+   },
+   {
+    "spaceId": 1,
+    "field": "paramsB（検証側の進展）",
+    "detail": "Space の値の変更ではないが、公式発表の直接精読により 594B が提供元の公称値であることを本回確認。第1回の「パラメータ確認不能」は解消。ただしウェイト未公開の問題は継続"
+   },
+   {
+    "spaceId": 1,
+    "field": "platformLabel",
+    "detail": "「ローカル」→「クラウド＋ローカル」。クラウド（Tinker）分は実態に合ったが、ローカル分は依然として成立しない"
+   }
+  ],
+  "degradations": [
+   {
+    "spaceId": 39,
+    "field": "modalityLabels",
+    "detail": "第1回時点で公式と一致していた「入力: テキスト・画像・動画」が「入力: テキスト」のみに縮小し、公式仕様と乖離した"
+   },
+   {
+    "spaceId": 25,
+    "field": "modalityLabels",
+    "detail": "入力から画像が脱落。公式発表は vision を明示しており過小表記になった"
+   },
+   {
+    "spaceId": 26,
+    "field": "modalityLabels",
+    "detail": "入力から画像が脱落（id25 と同一基盤モデル）"
+   },
+   {
+    "spaceId": 27,
+    "field": "modalityLabels",
+    "detail": "「テキスト・画像」→「テキスト」。第1回時点で既に過小だった注記がさらに悪化"
+   },
+   {
+    "spaceId": 32,
+    "field": "modalityLabels",
+    "detail": "入力から画像が脱落。実モデルは参照画像による編集に対応"
+   },
+   {
+    "spaceId": 3,
+    "field": "modalityLabels（入力）",
+    "detail": "入力から音声が脱落。公式は参照入力として音声キューを挙げており軽微な過小"
+   }
+  ],
+  "headlineErrorsStatus": [
+   {
+    "item": "Gemini Robotics 1.5 系（ids 13-16）の発表日（公式 2025-09-25 に対し Space は 2026-11-06/09/10）",
+    "status": "継続（無変化）"
+   },
+   {
+    "item": "Qwen4-Max 幽霊エントリ（id35）",
+    "status": "継続（無変化。実在する Preview の id39 と並立）"
+   },
+   {
+    "item": "NorKa（id19）の実在未確認",
+    "status": "継続（無変化）"
+   },
+   {
+    "item": "Inkling 2 Small（id1）の未公開ウェイトとオープンウェイト／ローカル／VRAM 表",
+    "status": "継続（platformLabel のみ部分的に変化。核心は無変化）"
+   },
+   {
+    "item": "意思決定モデル3件（実際は4エントリ: ids 12, 22, 33, 40）の出力「テキスト」表記",
+    "status": "継続（無変化）"
+   },
+   {
+    "item": "Cosmos 3 Nano（id24）の根拠なき日付と破損した出典URL",
+    "status": "継続（無変化）"
+   },
+   {
+    "item": "重複収録（余分6件分）",
+    "status": "継続（無変化）"
+   },
+   {
+    "item": "出典URLの一次資料率 0/40",
+    "status": "継続（無変化）"
+   }
+  ]
+ },
+ "figureData": {
+  "categoryCounts": {
+   "labels": [
+    "一致",
+    "齟齬",
+    "一次資料で確認不能",
+    "実在を確認できず"
+   ],
+   "round1": [
+    17,
+    19,
+    2,
+    2
+   ],
+   "round3": [
+    17,
+    19,
+    2,
+    2
+   ]
+  },
+  "primarySourceRate": {
+   "round1": "0/40 (0%)",
+   "round3": "0/40 (0%)"
+  },
+  "duplicates": {
+   "involvedEntries": 10,
+   "excess": 6,
+   "round1Excess": 6,
+   "round3Excess": 6
+  },
+  "errorTypes": {
+   "labels": [
+    "発表日の誤り",
+    "モダリティ誤り（判定級）",
+    "モダリティ注記級",
+    "重複関与",
+    "パラメータ問題",
+    "提供形態",
+    "出典URL破損"
+   ],
+   "round1": [
+    10,
+    8,
+    5,
+    10,
+    3,
+    2,
+    1
+   ],
+   "round3": [
+    10,
+    8,
+    9,
+    10,
+    2,
+    2,
+    1
+   ],
+   "note": "第1回のモダリティ公表集計は9件（数え方の内訳は非明示）。ここでは第1回証跡の項目別判定から再集計した判定級8件・注記級5件を用いた"
+  },
+  "recordChanges": {
+   "entriesChangedAnyField": 17,
+   "entriesChangedSubstantive": 11,
+   "entriesChangedProseOnly": 6,
+   "verdictChanges": 0,
+   "fieldImprovements": 5,
+   "fieldDegradations": 6
+  }
+ },
+ "entries": [
+  {
+   "spaceId": 1,
+   "spaceName": "Inkling 2 Small",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "platformLabel",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 1,
+    "name": "Inkling 2 Small",
+    "provider": "Thinking Machines Lab",
+    "announcedDate": "2026-11-05",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "LLM",
+    "paramsB": 594,
+    "contextTokens": 1000000,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド＋ローカル",
+    "specs": "594B MoE / 17B active · 1M context",
+    "vramGbs": {
+     "fp16": 1190,
+     "int8": 596,
+     "int4": 299
+    },
+    "sourceName": "pulse.ecneproject.com",
+    "sourceUrl": "https://pulse.ecneproject.com/articles/small-is-doing-a-lot-of-heavy-lifting-thinking-machines-lab-s-594b-moe-model-lan-06bec8",
+    "firstSeenAt": "2026-11-08T12:31:56.933Z",
+    "isNew": true,
+    "highlight": "594BのMoEながら推論時のactiveは17Bで、Artificial Analysis Intelligence Indexで31を記録し第1世代から大きく向上したと報じられている。オープンウェイト路線のモデルとして公開されたとしている。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "推論・思考に強い",
+     "高速・軽量",
+     "オープンウェイト（自前運用可）"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "existence": "一致（公式発表を確認）",
+    "announcedDate": "一致（2026-11-05）",
+    "paramsB": "一致（公式発表の公称 594B total / 17B active。第1回の「確認不能」から進展）",
+    "openWeight": "齟齬（未公開: 当初クローズドウェイト。Apache 2.0 公開は安全性テスト完了後の予定で、本監査時点でも HF に Inkling 2 系リポジトリなし）",
+    "platformLabel": "一部齟齬（クラウド=Tinker 提供は実在するが、ローカルはウェイト未公開のため不可。第1回の「ローカル」単独表記からは部分的に改善）",
+    "modality": "注記（公式発表が明記する入力は画像。Space の音声入出力は一次資料に見当たらない）",
+    "vram": "換算式一致だが、ウェイト自体が未公開であり VRAM 表は依然として実態の裏付けがない"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: org thinkingmachines のリポジトリ一覧",
+     "url": "https://huggingface.co/api/models?author=thinkingmachines",
+     "found": "Inkling / Inkling-Small (2026-07) のみ。Inkling 2 系リポジトリは存在しない。Inkling-Small は 265.96B, Apache-2.0"
+    },
+    {
+     "source": "Artificial Analysis changelog (独立カタログ)",
+     "found": "Inkling 2 Small の発表と Intelligence Index 31 は裏付けられるが、ウェイトは 'pending weights release'（未公開）"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12） + 公式ページ直接再読（2026-11-12）",
+    "detail": "thinkingmachines org のリポジトリ一覧を再取得: Inkling / Inkling-Small（2026-07）系のみで Inkling 2 系リポジトリは存在しない。公式発表「Introducing Inkling 2 Small」(thinkingmachines.ai) を直接精読: 594B total / 17B active、画像入力、当初は Tinker 経由のクローズドウェイト、Apache 2.0 公開は外部安全性テスト完了後の「来週」予定と明記",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": true,
+    "brokenSourceUrl": false
+   },
+   "notes": "主要な齟齬は継続。公式発表の直接精読により、594B は提供元の公称値であることが本回で確認できた（第1回は確認不能）。しかしウェイトは本監査時点でも未公開であり、「オープンウェイト／ローカル／VRAM表」という提示の裏付け不足は変わらない。第3回で platformLabel が「クラウド＋ローカル」に変わり、クラウド（Tinker）分は実態に合ったが、ローカル分は依然として成立しない。"
+  },
+  {
+   "spaceId": 2,
+   "spaceName": "GPT-6 Cyber",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "kind",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 2,
+    "name": "GPT-6 Cyber",
+    "provider": "OpenAI",
+    "announcedDate": "2026-11-05",
+    "access": "限定提供",
+    "isOpenWeight": false,
+    "kind": "LLM / サイバーセキュリティ特化",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "intelsi.si",
+    "sourceUrl": "https://intelsi.si/timeline",
+    "firstSeenAt": "2026-11-08T12:31:56.959Z",
+    "isNew": true,
+    "highlight": "承認されたDaybreak Red顧客向けに限定提供されるサイバーセキュリティ特化モデルで、サイバー分野でCriticalに分類されたと報じられている。一般ユーザーは申請なしに利用できない点が特徴である。",
+    "strengths": [
+     "承認されたDaybreak Red顧客向けに限定提供されるサイバーセキュリティ特化モデルで、サイバー分野でCritica…",
+     "一般ユーザーは申請なしに利用できない点が特徴である。"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "provider": "一致",
+    "access": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "OpenAI 公式発表 'GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents' (2026-11-05) および System Card",
+     "found": "GPT-6 Astra のサイバー特化版。Daybreak Red の承認顧客に限定提供。ExploitGym 48.5%（ベンダー公称）"
+    },
+    {
+     "source": "OpenAI API ドキュメント",
+     "found": "モデルID gpt-6-cyber、コンテキスト 1,050,000、価格 $20/$100 per 1M"
+    }
+   ],
+   "round3Recheck": {
+    "method": "第1回一次資料所見の継続採用",
+    "detail": "Space 記録の変更は kind の文言のみ。第1回に精読した OpenAI 公式発表の所見を継続採用",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "kind の文言変更（「LLM（サイバー特化）」→「LLM / サイバーセキュリティ特化」）のみで、実質的な変化なし。判定は一致を継続。"
+  },
+  {
+   "spaceId": 3,
+   "spaceName": "Gemini Omni 1.2 Flash",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "modalityLabels",
+    "provider"
+   ],
+   "spaceRecord": {
+    "id": 3,
+    "name": "Gemini Omni 1.2 Flash",
+    "provider": "Google",
+    "announcedDate": "2026-11-05",
+    "access": "一般提供",
+    "isOpenWeight": false,
+    "kind": "マルチモーダル",
+    "paramsB": null,
+    "contextTokens": 131072,
+    "modalityLabels": [
+     "入力: テキスト・画像・動画",
+     "出力: 動画"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.swarchitect.net",
+    "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+    "firstSeenAt": "2026-11-08T12:31:56.972Z",
+    "isNew": true,
+    "highlight": "一般提供となり、マルチモーダル生成が広く利用できるようになったと報じられている。高速・軽量なFlashクラスとして位置付けられているとしている。Gemini Omni系のFlash版が一般提供となり、マルチモーダル生成が広く利用できるようになったと報じられている。",
+    "strengths": [
+     "マルチモーダル理解",
+     "高速・軽量"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "access": "一致",
+    "modality": "概ね一致（出力「動画」は公式の中心と整合し、第1回の出力過剰表記の注記は解消。入力は参照用の音声キューも公式に含まれるため、その省略は軽微な注記）",
+    "provider": "一致（Google。第1回の Google DeepMind から変更されたが、公式ブログの発行主体は Google であり許容）"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "Google 公式ブログ 'Gemini Omni 1.2 Flash: 15-second video and lower pricing' (2026-11-05)",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+     "found": "GA（Gemini API / Gemini for business）、ネイティブ15秒動画、720p $0.07/秒（1.1 比 -30%）"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "Google 公式ブログ「Gemini Omni 1.2 Flash: 15-second video and lower pricing」(blog.google, 2026-11-05) を直接再読: GA（Gemini API / Gemini for business）、ネイティブ15秒動画、参照入力として画像・短いモーションクリップ・音声キューを併用可能、出力は動画",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "第1回の注記（出力モダリティの過剰表記の可能性）は、第3回で出力が「動画」のみとなったことで実質的に解消した。一方で入力から音声が脱落したが、公式は参照入力として音声キューを挙げており、軽微な過小として注記に留める。判定は一致を継続。"
+  },
+  {
+   "spaceId": 4,
+   "spaceName": "Hy4",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight"
+   ],
+   "spaceRecord": {
+    "id": 4,
+    "name": "Hy4",
+    "provider": "Tencent",
+    "announcedDate": "2026-11-04",
+    "access": "一般提供",
+    "isOpenWeight": false,
+    "kind": "マルチモーダル",
+    "paramsB": 770,
+    "contextTokens": 1048576,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": "770B total / 49B active · 1,048,576 context",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "unicornapi.net",
+    "sourceUrl": "https://unicornapi.net/blog/tencent-releases-full-hy4-ai-model-see-images-use-computer",
+    "firstSeenAt": "2026-11-08T12:31:56.986Z",
+    "isNew": true,
+    "highlight": "8月のプレビュー版に視覚理解と、コマンドライン／GUIでのコンピュータ操作を追加した正式版で、ウェイトは近日公開予定としている。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "コンピュータ操作・GUIエージェント",
+     "マルチモーダル理解"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "duplicate": "id20 と重複",
+    "paramsB": "確認不能",
+    "announcedDate": "イベント自体は二次裏付けあり"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: tencent org",
+     "found": "Hy4 本体のウェイトリポジトリは存在せず、tencent/Hy4-preview (2026-08-27) のみ"
+    },
+    {
+     "source": "llm-releases.com Hunyuan ファミリ年表 (二次カタログ)",
+     "found": "2026-11-04 のイベント自体は裏付けられる"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "tencent org のリポジトリ一覧を再取得: Hy4-preview（2026-08-27）のみで Hy4 本体のウェイトリポジトリは存在しない。770B/49B の一次裏付けなし",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": true,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 5,
+   "spaceName": "Kimi K3.1 Pro",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "announcedDate",
+    "highlight",
+    "kind",
+    "sourceName",
+    "sourceUrl"
+   ],
+   "spaceRecord": {
+    "id": 5,
+    "name": "Kimi K3.1 Pro",
+    "provider": "Moonshot AI",
+    "announcedDate": "2026-11-02",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "マルチモーダル LLM",
+    "paramsB": 2800,
+    "contextTokens": 1048576,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド＋ローカル",
+    "specs": "2.8T MoE / 104B active · 1,048,576 context",
+    "vramGbs": {
+     "fp16": 5602,
+     "int8": 2802,
+     "int4": 1402
+    },
+    "sourceName": "csuite.so",
+    "sourceUrl": "https://csuite.so/blog/ai-models-roundup-november-2026",
+    "firstSeenAt": "2026-11-08T12:31:56.998Z",
+    "isNew": true,
+    "highlight": "Moonshotが約束していたフルウェイトをHugging Faceで公開した2.8兆パラメータのMoEモデルで、MoonViT-V2による画像入力に対応する。モデルカードではTerminal-Bench 4.0で65.7%を記録したとしている。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "マルチモーダル理解",
+     "オープンウェイト（自前運用可）"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "paramsB": "一致",
+    "context": "一致",
+    "openWeight": "一致",
+    "announcedDate": "一致（HF 作成日 2026-11-02 と完全一致。第1回の2日差注記は解消）"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: moonshotai/Kimi-K3.1-Pro",
+     "url": "https://huggingface.co/api/models/moonshotai/Kimi-K3.1-Pro",
+     "found": "createdAt 2026-11-02、safetensors 総パラメータ 2.780T、text_config max_position_embeddings 1048576、カード表記 2.8T / 104B active、独自 Kimi ライセンス"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "moonshotai/Kimi-K3.1-Pro を再取得: createdAt 2026-11-02T04:13:51Z、safetensors 総パラメータ 2,780,110,363,392（2.780T）、pipeline image-text-to-text、ライセンス other（Kimi）。第1回取得値と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "第1回で注記した発表日の2日差は、第3回で Space の日付が 2026-11-02（HF 作成日と完全一致）に書き換わり解消した。本監査で唯一、主要項目の日付が一次資料に一致するようになった変更。出典は i10x.ai から csuite.so に変わったが二次情報源のまま。判定は一致を継続。"
+  },
+  {
+   "spaceId": 6,
+   "spaceName": "GPT-Image-2.6 Sunburst and Flare",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 6,
+    "name": "GPT-Image-2.6 Sunburst and Flare",
+    "provider": "OpenAI",
+    "announcedDate": "2026-11-04",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "画像生成",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: 画像"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "essamamdani.com",
+    "sourceUrl": "https://essamamdani.com/blog/ai-model-releases-november-2026",
+    "firstSeenAt": "2026-11-08T12:31:57.010Z",
+    "isNew": false,
+    "highlight": "SunburstとFlareの2モデルとして画像の生成・編集に対応し、SVGやアニメーションGIFの生成も可能としている。11月4日にChatGPT、Codex、APIで提供が始まった。",
+    "strengths": [
+     "SunburstとFlareの2モデルとして画像の生成・編集に対応し、SVGやアニメーションGIFの生成も可能としている…",
+     "11月4日にChatGPT、Codex、APIで提供が始まった。"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "duplicate": "id17 と同一リリース"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "OpenAI API changelog / Images 2.6 発表 (2026-11-04)",
+     "found": "API モデル gpt-image-2.6-sunburst / gpt-image-2.6-flare を同時提供。生成50%高速化はベンダー公称"
+    }
+   ],
+   "round3Recheck": {
+    "method": "第1回一次資料所見の継続採用",
+    "detail": "Space 記録は第1回と同一。第1回の OpenAI 公式発表照合を継続採用",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 7,
+   "spaceName": "Ripple-65B Preview",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 7,
+    "name": "Ripple-65B Preview",
+    "provider": "Ricursive Intelligence",
+    "announcedDate": "2026-11-04",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "LLM",
+    "paramsB": 65,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "ローカル",
+    "specs": "65B · Apache 2.0",
+    "vramGbs": {
+     "fp16": 132,
+     "int8": 67,
+     "int4": 34.5
+    },
+    "sourceName": "benchlm.ai",
+    "sourceUrl": "https://benchlm.ai/blog/posts/llm-news-november-7-2026",
+    "firstSeenAt": "2026-11-08T12:31:57.022Z",
+    "isNew": false,
+    "highlight": "Ricursive Intelligenceが11月4日にApache 2.0で公開した65Bのプレビューモデル。検索結果からは用途や性能の詳細は確認できないため、オープンウェイトでの公開自体が中心の発表となっている。",
+    "strengths": [
+     "オープンウェイト（自前運用可）",
+     "Ricursive Intelligenceが11月4日にApache 2.0で公開した65Bのプレビューモデル。",
+     "検索結果からは用途や性能の詳細は確認できないため、オープンウェイトでの公開自体が中心の発表となっている。"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "paramsB": "一致",
+    "license": "一致",
+    "announcedDate": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: ricursiveAI/Ripple-65B-Preview",
+     "url": "https://huggingface.co/api/models/ricursiveAI/Ripple-65B-Preview",
+     "found": "createdAt 2026-11-04、総パラメータ 64.78B、ライセンス Apache-2.0"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "ricursiveAI/Ripple-65B-Preview を再取得: createdAt 2026-11-04、総パラメータ 64.78B、Apache-2.0。第1回取得値と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 8,
+   "spaceName": "LongCat-2.5",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 8,
+    "name": "LongCat-2.5",
+    "provider": "Meituan",
+    "announcedDate": "2026-11-10",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "LLM",
+    "paramsB": 1600,
+    "contextTokens": 1000000,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド＋ローカル",
+    "specs": "MITライセンスでウェイト公開",
+    "vramGbs": {
+     "fp16": 3202,
+     "int8": 1602,
+     "int4": 802
+    },
+    "sourceName": "forum.astracruz.com",
+    "sourceUrl": "https://forum.astracruz.com/category/8/new-ai-model-releases",
+    "firstSeenAt": "2026-11-08T12:31:57.034Z",
+    "isNew": false,
+    "highlight": "MeituanがMITライセンスでウェイトを公開し、商用の推論・学習利用を明示的に許可したとしている。基盤モデル自体は以前に発表済みであり、今回はウェイト公開が新規点である。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "推論・思考に強い",
+     "オープンウェイト（自前運用可）"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "齟齬（6日差）",
+    "modality": "齟齬",
+    "paramsB": "公称転記（実ファイル総数と不一致）",
+    "license": "一致（MIT）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: meituan-longcat/LongCat-2.5",
+     "url": "https://huggingface.co/api/models/meituan-longcat/LongCat-2.5",
+     "found": "createdAt 2026-11-04、safetensors 総パラメータ 1.7798T、ライセンス MIT、pipeline_tag image-text-to-text（ネイティブマルチモーダル）。カード自身の公称は '1.6 trillion total parameters, ~48B activated'。config の max_position_embeddings 524288 + rope scaling、カードは 1M 評価を提示"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "meituan-longcat/LongCat-2.5 を再取得: createdAt 2026-11-04T11:48:50Z、lastModified 2026-11-10T07:28:07Z、総パラメータ 1,779,752,648,320（約1.78T）、MIT、pipeline image-text-to-text。第1回取得値と同一。Space の発表日 2026-11-10 は lastModified とも一致する",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": true,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": true,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "齟齬は全て継続。加えて本回、Space の発表日（2026-11-10）が実リポジトリの最終更新日（lastModified 2026-11-10）とも一致することを確認した。第1回が ERNIE（id18）・P-H3-Image（id28）で指摘した「更新日を発表日に」する型と同型の可能性がある。"
+  },
+  {
+   "spaceId": 9,
+   "spaceName": "Gemini 4 Carbon",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "access",
+    "highlight",
+    "specs",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 9,
+    "name": "Gemini 4 Carbon",
+    "provider": "Google DeepMind",
+    "announcedDate": "2026-11-10",
+    "access": "一般提供",
+    "isOpenWeight": false,
+    "kind": "LLM",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": "$2 input / $10 output per 1M tokens (11月30日まで)",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "intelsi.si",
+    "sourceUrl": "https://intelsi.si/timeline",
+    "firstSeenAt": "2026-11-08T12:31:57.047Z",
+    "isNew": true,
+    "highlight": "10月28日からサイバー防御組織などに限定されていたモデルが一般提供となり、有料Gemini APIとGeminiアプリのAI Ultra加入者向けに公開された。コーディングや調査などの長いエージェント作業向けの最強モデルとGoogleは位置付けている。",
+    "strengths": [
+     "コード生成に強い",
+     "エージェント用途"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "access": "一致（第3回で「API提供」から「一般提供」に変更され、公式の GA 発表の枠組みと整合）",
+    "specs": "一致（第3回で追加された導入価格 $2/$10・11月30日までは公式ブログと一致）",
+    "modality": "注記（公式は視覚理解に言及しており、入力「テキスト」のみは過小の可能性。第1回の注記が継続）"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "Google 公式ブログ 'Gemini 4 Carbon is now available' (blog.google, 2026-11-10)",
+     "found": "GA 日 2026-11-10、導入価格 $2/$10 per 1M、2026-10-28 の Fairwind 限定先行提供の経緯も Space の記述と整合"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "Google 公式ブログ「Gemini 4 Carbon is now available」(blog.google, 2026-11-10) を直接再読: 開発者・企業・科学者・消費者向けに提供開始、導入価格 $2/$10 per 1M（Gemini 4 Argon と同額）、視覚理解（visual understanding）への言及あり",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "第3回で access が「一般提供」に、specs に導入価格が追加され、いずれも公式 GA 発表（2026-11-10）と整合する方向の変更だった。入力モダリティの注記は継続。判定は一致を継続。"
+  },
+  {
+   "spaceId": 10,
+   "spaceName": "Genie 4",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 10,
+    "name": "Genie 4",
+    "provider": "Google DeepMind",
+    "announcedDate": "2026-10-27",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "ワールドモデル",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: ワールド"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.lyragen.co.uk",
+    "sourceUrl": "https://www.lyragen.co.uk/blog/ai-research-digest-2026-11-02",
+    "firstSeenAt": "2026-11-08T12:31:57.059Z",
+    "isNew": false,
+    "highlight": "DeepMindが10月27日に発表した新世代のインタラクティブなワールドモデルで、リアルタイムでユーザーが操作できる世界をシミュレーションするとしている。",
+    "strengths": [
+     "DeepMindが10月27日に発表した新世代のインタラクティブなワールドモデルで、リアルタイムでユーザーが操作できる世…"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "access": "注記（実態は限定プレビュー）",
+    "modality": "注記（音声出力の欠落）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Google DeepMind 公式ブログ 'Genie 4: A new generation of world simulation'（本文を直接精読）",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+     "found": "記事日付 October 27, 2026。研究プレビューとして信頼済みテスターへ提供開始。Project Genie（Google AI Ultra）・Gemini API / AI Studio の早期アクセスは『近日』。音声をネイティブ生成する初のリアルタイムワールドモデル"
+    }
+   ],
+   "round3Recheck": {
+    "method": "第1回一次資料所見の継続採用",
+    "detail": "Space 記録は第1回と同一。第1回に直接精読した DeepMind 公式ブログの所見を継続採用",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 11,
+   "spaceName": "GPT-6.1 Terra",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 11,
+    "name": "GPT-6.1 Terra",
+    "provider": "OpenAI",
+    "announcedDate": "2026-10-26",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "LLM",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.lyragen.co.uk",
+    "sourceUrl": "https://www.lyragen.co.uk/blog/ai-research-digest-2026-11-02",
+    "firstSeenAt": "2026-11-08T13:32:05.763Z",
+    "isNew": false,
+    "highlight": "OpenAIが10月26日に発表したミッドレンジモデルで、GPT-5.6 Terraのおよそ半額の価格設定とされている。コストを抑えた位置づけの新モデルとして登場した。",
+    "strengths": [
+     "コストを抑えた位置づけの新モデルとして登場した。",
+     "OpenAIが10月26日に発表したミッドレンジモデルで、GPT-5.6 Terraのおよそ半額の価格設定とされている。"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "modality": "注記（視覚入力の欠落）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "OpenAI 公式発表 'Introducing GPT-6.1 Terra' (2026-10-26)",
+     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+     "found": "視覚推論・コンピュータ操作向け高速モデル。API 名 gpt-6.1-terra、コンテキスト 1,050,000（公式ドキュメント）"
+    }
+   ],
+   "round3Recheck": {
+    "method": "第1回一次資料所見の継続採用",
+    "detail": "Space 記録は第1回と同一。第1回に精読した OpenAI 公式発表の所見を継続採用",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 12,
+   "spaceName": "Kanana-2-v-decide-3b-2611",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 12,
+    "name": "Kanana-2-v-decide-3b-2611",
+    "provider": "Kakao",
+    "announcedDate": "2026-11-06",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "意思決定モデル",
+    "paramsB": 3.67,
+    "contextTokens": 20480,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド＋ローカル",
+    "specs": "3.67B parameters total · up to 10 images · up to 20,480 tokens input",
+    "vramGbs": {
+     "fp16": 9.3,
+     "int8": 5.7,
+     "int4": 3.8
+    },
+    "sourceName": "www.llm-releases.com",
+    "sourceUrl": "https://www.llm-releases.com/models/kanana-2-v-decide-3b-2611",
+    "firstSeenAt": "2026-11-08T15:33:12.661Z",
+    "isNew": false,
+    "highlight": "Kakaoが11月6日にHugging Faceでオープンウェイトとして公開した意思決定モデルで、テキストや最大10枚の画像を含む状態に対し、選択肢・Yes/No・スコアへの回答と各回答の確率を返す。テキストを生成せず、KakaoはDecision Indexなどで平均61.23を記録したとしている。",
+    "strengths": [
+     "オープンウェイト（自前運用可）",
+     "Kakaoが11月6日にHugging Faceでオープンウェイトとして公開した意思決定モデルで、テキストや最大10枚の…",
+     "テキストを生成せず、KakaoはDecision Indexなどで平均61.23を記録したとしている。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "duplicate": "id22 と重複",
+    "modality": "齟齬（入出力とも）",
+    "paramsB": "一致",
+    "announcedDate": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: kakaocorp/kanana-2-v-decide-3b-2611",
+     "url": "https://huggingface.co/api/models/kakaocorp/kanana-2-v-decide-3b-2611",
+     "found": "safetensors 総パラメータ 3.665B、config max_length 20480、pipeline_tag zero-shot-classification、ライセンス kanana-open-license（other）。出力は候補に対する確率・選択・スコアでありテキスト生成ではない"
+    },
+    {
+     "source": "Kakao Tech Blog posts/846 (2026-11-06)",
+     "url": "https://tech.kakao.com/posts/846",
+     "found": "公式発表日 2026-11-06"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "kakaocorp/kanana-2-v-decide-3b-2611 を再取得: 総パラメータ 3,665,430,640（3.665B）、pipeline zero-shot-classification、ライセンス other（kanana）。第1回取得値と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": true,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 13,
+   "spaceName": "Gemini Robotics 1.5 and Gemini Robotics-ER 1.5",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 13,
+    "name": "Gemini Robotics 1.5 and Gemini Robotics-ER 1.5",
+    "provider": "Google DeepMind",
+    "announcedDate": "2026-11-06",
+    "access": null,
+    "isOpenWeight": false,
+    "kind": "ロボティクス",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "turbo.gadgets360.com",
+    "sourceUrl": "https://turbo.gadgets360.com/en/ai/google-deepmind-gemini-robotics-1-5-ai-models-robots-reasoning-action-vision-unveiled-news-9348389",
+    "firstSeenAt": "2026-11-08T15:33:12.676Z",
+    "isNew": false,
+    "highlight": "Google DeepMindが11月6日に発表した、汎用ロボット向けに連携して動作する2つのモデルで、推論と行動・視覚を担うとしている。",
+    "strengths": [
+     "推論・思考に強い",
+     "Google DeepMindが11月6日に発表した、汎用ロボット向けに連携して動作する2つのモデルで、推論と行動・視覚…"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "齟齬（1年以上）",
+    "duplicate": "4件重複の一角",
+    "modality": "齟齬"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Google DeepMind 公式ブログ 'Gemini Robotics 1.5 brings AI agents into the physical world'（本文を直接精読）",
+     "url": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+     "found": "記事日付 September 25, 2025。Robotics 1.5 は VLA（視覚・言語→モーター指令）、ER 1.5 は VLM。ER 1.5 は Gemini API 経由で提供、Robotics 1.5 は選定パートナーのみ"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "DeepMind 公式ブログ「Gemini Robotics 1.5 brings AI agents into the physical world」を直接再読: 記事日付 September 25, 2025。Robotics 1.5 は VLA（視覚情報と指示→モーター指令）、ER 1.5 は Gemini API 経由で提供、Robotics 1.5 は選定パートナーのみ",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": true,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "第1回で最も重大とした齟齬は完全に継続。公式発表日（2025-09-25）を本回も公式ブログで再確認した。Space の日付・重複・出典（二次記事）に一切の変化なし。"
+  },
+  {
+   "spaceId": 14,
+   "spaceName": "Gemini Robotics 1.5",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 14,
+    "name": "Gemini Robotics 1.5",
+    "provider": "Google DeepMind",
+    "announcedDate": "2026-11-10",
+    "access": "限定提供",
+    "isOpenWeight": false,
+    "kind": "ロボティクス向けモデル",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "turbo.gadgets360.com",
+    "sourceUrl": "https://turbo.gadgets360.com/en/ai/google-deepmind-gemini-robotics-1-5-ai-models-robots-reasoning-action-vision-unveiled-news-9348389",
+    "firstSeenAt": "2026-11-08T16:31:10.941Z",
+    "isNew": false,
+    "highlight": "自然言語の指示でタスクを実行するモデルとして発表された。ER 1.5が計画し、1.5が実行する2モデル構成で、1.5は当面選定パートナー限定としている。",
+    "strengths": [
+     "自然言語の指示でタスクを実行するモデルとして発表された。",
+     "ER 1.5が計画し、1.5が実行する2モデル構成で、1.5は当面選定パートナー限定としている。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "齟齬（1年以上）",
+    "duplicate": "4件重複の一角",
+    "modality": "齟齬（出力）",
+    "access": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "同上 DeepMind 公式ブログ (2025-09-25)",
+     "found": "Robotics 1.5 は選定パートナー提供（access の『限定提供』は妥当）。出力はモーター指令（アクション）でありテキストではない"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "id13 と同一の DeepMind 公式ブログを再読（2025-09-25）",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": true,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 15,
+   "spaceName": "Gemini Robotics-ER 1.5",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 15,
+    "name": "Gemini Robotics-ER 1.5",
+    "provider": "Google DeepMind",
+    "announcedDate": "2026-11-10",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "ロボティクス向けモデル",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "turbo.gadgets360.com",
+    "sourceUrl": "https://turbo.gadgets360.com/en/ai/google-deepmind-gemini-robotics-1-5-ai-models-robots-reasoning-action-vision-unveiled-news-9348389",
+    "firstSeenAt": "2026-11-08T16:31:10.953Z",
+    "isNew": false,
+    "highlight": "高度な推論で計画を担うプランナーとして発表され、Gemini API経由で提供されるとしている。Gemini Robotics 1.5と組み合わせて汎用ロボットを動かす構成になっている。",
+    "strengths": [
+     "推論・思考に強い",
+     "高度な推論で計画を担うプランナーとして発表され、Gemini API経由で提供されるとしている。",
+     "Gemini Robotics 1.5と組み合わせて汎用ロボットを動かす構成になっている。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "齟齬（1年以上）",
+    "duplicate": "4件重複の一角",
+    "access": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "同上 DeepMind 公式ブログ (2025-09-25)",
+     "found": "ER 1.5 は Gemini API / Google AI Studio 経由で開発者提供（access は妥当）"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "id13 と同一の DeepMind 公式ブログを再読（2025-09-25）",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 16,
+   "spaceName": "Gemini Robotics 1.5 / Gemini Robotics-ER 1.5",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 16,
+    "name": "Gemini Robotics 1.5 / Gemini Robotics-ER 1.5",
+    "provider": "Google DeepMind",
+    "announcedDate": "2026-11-09",
+    "access": "発表",
+    "isOpenWeight": false,
+    "kind": "ロボティクス",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "turbo.gadgets360.com",
+    "sourceUrl": "https://turbo.gadgets360.com/en/ai/google-deepmind-gemini-robotics-1-5-ai-models-robots-reasoning-action-vision-unveiled-news-9348389",
+    "firstSeenAt": "2026-11-08T18:35:20.028Z",
+    "isNew": false,
+    "highlight": "Google DeepMindが11月9日に発表した汎用ロボット向けの2モデルで、Gemini Robotics-ER 1.5とGemini Robotics 1.5が連携して動作するよう設計されている。",
+    "strengths": [
+     "Google DeepMindが11月9日に発表した汎用ロボット向けの2モデルで、Gemini Robotics-ER …"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "齟齬（1年以上）",
+    "duplicate": "4件重複の一角"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "同上 DeepMind 公式ブログ (2025-09-25)"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "id13 と同一の DeepMind 公式ブログを再読（2025-09-25）",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 17,
+   "spaceName": "GPT-Image-2.6",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 17,
+    "name": "GPT-Image-2.6",
+    "provider": "OpenAI",
+    "announcedDate": "2026-11-04",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "画像生成",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: 画像"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.swarchitect.net",
+    "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+    "firstSeenAt": "2026-11-08T19:34:37.354Z",
+    "isNew": true,
+    "highlight": "11月4日に発表されたGPT-Image系の新バージョンの画像生成モデルで、同日の主要な新モデル一覧に挙げられている。",
+    "strengths": [
+     "11月4日に発表されたGPT-Image系の新バージョンの画像生成モデルで、同日の主要な新モデル一覧に挙げられている。"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "duplicate": "id6 と同一リリース（注記）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "OpenAI 発表 'ChatGPT Images 2.6' / API changelog (2026-11-04)",
+     "found": "ChatGPT・Codex・API で提供。API 側の2バリアントは id6 が別途収録"
+    }
+   ],
+   "round3Recheck": {
+    "method": "第1回一次資料所見の継続採用",
+    "detail": "Space 記録は第1回と同一。第1回の OpenAI 公式発表照合を継続採用",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 18,
+   "spaceName": "ERNIE 5.5 Flash Base",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 18,
+    "name": "ERNIE 5.5 Flash Base",
+    "provider": "Baidu",
+    "announcedDate": "2026-11-05",
+    "access": "発表",
+    "isOpenWeight": true,
+    "kind": "LLM",
+    "paramsB": 280,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": 562,
+     "int8": 282,
+     "int4": 142
+    },
+    "sourceName": "vorluxai.com",
+    "sourceUrl": "https://vorluxai.com/en/blog/sin-humo-2026-11-08-en/",
+    "firstSeenAt": "2026-11-09T09:34:31.216Z",
+    "isNew": false,
+    "highlight": "Baiduが11月5日に発表したMoEモデルで、追加学習向けのベースモデルとして提供されるとしている。",
+    "strengths": [
+     "高速・軽量",
+     "オープンウェイト（自前運用可）"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "齟齬（作成日と15日差、更新日と一致）",
+    "paramsB": "一致（公称）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: baidu/ERNIE-5.5-Flash-Base",
+     "url": "https://huggingface.co/api/models/baidu/ERNIE-5.5-Flash-Base",
+     "found": "createdAt 2026-10-21、lastModified 2026-11-05。README の公称 '280B total, 14B activated'。config max_position 1048576"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "baidu/ERNIE-5.5-Flash-Base を再取得: createdAt 2026-10-21T08:40:58Z、lastModified 2026-11-05、safetensors 総パラメータ 286,245,697,882。第1回取得値（作成日・更新日）と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。 HF 再取得でも作成日 2026-10-21・更新日 2026-11-05 は不変で、Space の日付は引き続き更新日と一致する。"
+  },
+  {
+   "spaceId": 19,
+   "spaceName": "NorKa Pro / Mini / Nano",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 19,
+    "name": "NorKa Pro / Mini / Nano",
+    "provider": "NorKa",
+    "announcedDate": "2026-11-06",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "GUI自動化",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド＋ローカル",
+    "specs": "9B〜397B · OSWorld Verified: Pro 88 / Mini 85 / Nano 78.9",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "af.net",
+    "sourceUrl": "https://af.net/realtime/ai-model-releases-november-2026/",
+    "firstSeenAt": "2026-11-09T10:33:45.750Z",
+    "isNew": false,
+    "highlight": "NorKaが11月6日に公開したオープンウェイトのデスクトップGUI自動化モデル群で、Pro・Mini・Nanoの3系統がある。OSWorld VerifiedでPro 88、Mini 85、Nano 78.9とされている。",
+    "strengths": [
+     "コンピュータ操作・GUIエージェント",
+     "高速・軽量",
+     "オープンウェイト（自前運用可）"
+    ]
+   },
+   "round1Verdict": "not_found",
+   "round1VerdictJp": "実在を確認できず",
+   "round3Verdict": "not_found",
+   "round3VerdictJp": "実在を確認できず",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "existence": "確認できず",
+    "openWeight": "裏付けなし"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face 全文検索 'norka'",
+     "found": "無関係なノルウェーの 'norkart' 系モデルしか返らない。NorKa 名義のリポジトリは存在しない"
+    },
+    {
+     "source": "独立カタログ (llm-releases.com 等) のファミリ年表",
+     "found": "該当エントリなし"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "Hugging Face 全文検索「norka」を再実行: 無関係な norkart 系モデルのみ。NorKa 名義のリポジトリは存在しない",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "実在を確認できない状態が継続。HF 検索でも痕跡なし。Space の収録内容（オープンウェイト表記・ベンチマーク数値）にも変化なし。"
+  },
+  {
+   "spaceId": 20,
+   "spaceName": "Hunyuan Hy4",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 20,
+    "name": "Hunyuan Hy4",
+    "provider": "Tencent",
+    "announcedDate": "2026-11-04",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "LLM",
+    "paramsB": null,
+    "contextTokens": 1000000,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": "1M context",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.bam.dog",
+    "sourceUrl": "https://www.bam.dog/issues/2026-11-04",
+    "firstSeenAt": "2026-11-09T11:31:30.210Z",
+    "isNew": false,
+    "highlight": "Tencentが11月4日に公開した言語モデルで、同社が最強クラスのオープンウェイトモデルの一つとしているが、ウェイトとシステムカードはまだ公開されておらず近日中の公開とされている。OpenRouter経由で100万トークンのコンテキストで利用できる。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "Tencentが11月4日に公開した言語モデルで、同社が最強クラスのオープンウェイトモデルの一つとしているが、ウェイトと…",
+     "OpenRouter経由で100万トークンのコンテキストで利用できる。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "duplicate": "id4 と重複"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "llm-releases.com Hunyuan ファミリ年表 (二次カタログ)",
+     "found": "2026-11-04 のイベントは id4 と同一"
+    },
+    {
+     "source": "Hugging Face API: tencent / Tencent-Hunyuan org",
+     "found": "Hy4 の LLM ウェイトリポジトリは存在しない"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "tencent org 一覧を再取得: id4 と同一イベント。Hy4 の LLM ウェイトリポジトリは存在しない",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 21,
+   "spaceName": "Hydrogen-1.0",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 21,
+    "name": "Hydrogen-1.0",
+    "provider": "Deep Principle",
+    "announcedDate": "2026-11-02",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "LLM",
+    "paramsB": null,
+    "contextTokens": 1000000,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド＋ローカル",
+    "specs": "1M context / 最大128,000出力トークン / BF16・MITライセンス",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.zeniteq.com",
+    "sourceUrl": "https://www.zeniteq.com/hydrogen-1-0-brings-open-weights-to-scientific-ai-jggrz5",
+    "firstSeenAt": "2026-11-09T11:31:30.433Z",
+    "isNew": false,
+    "highlight": "Z.aiのGLM-5.3をポストトレーニングし、化学・材料科学・生命科学の問題解決に特化させたとしている。MITライセンスのBF16ウェイトを公開し、100万トークンのコンテキストと最大12.8万トークンの出力をうたっているとしている。",
+    "strengths": [
+     "高速・軽量",
+     "オープンウェイト（自前運用可）"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "license": "一致",
+    "context": "一致",
+    "announcedDate": "概ね一致（注記）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: deep-principle/Hydrogen-1.0",
+     "url": "https://huggingface.co/api/models/deep-principle/Hydrogen-1.0",
+     "found": "createdAt 2026-10-31、lastModified 2026-11-02、総パラメータ 753.33B、ライセンス MIT、コンテキスト 1M"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "deep-principle/Hydrogen-1.0 を再取得: createdAt 2026-10-31、lastModified 2026-11-02、総パラメータ 753.33B、MIT。第1回取得値と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 22,
+   "spaceName": "Kanana-2-v-decide",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 22,
+    "name": "Kanana-2-v-decide",
+    "provider": "Kakao",
+    "announcedDate": "2026-11-06",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "マルチモーダル",
+    "paramsB": 3.67,
+    "contextTokens": 20480,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド＋ローカル",
+    "specs": "3.67B · 20,480 context · 最大10画像",
+    "vramGbs": {
+     "fp16": 9.3,
+     "int8": 5.7,
+     "int4": 3.8
+    },
+    "sourceName": "neuralbrew.ai",
+    "sourceUrl": "https://neuralbrew.ai/en/articles/2026/11/kakao-kanana-2-v-decide-open-weights/",
+    "firstSeenAt": "2026-11-09T12:31:51.206Z",
+    "isNew": false,
+    "highlight": "エージェントの意思決定向けのマルチモーダルモデルで、テキスト生成ではなく確率・選択肢・スコアを出力するとしている。最大10枚の画像に対応し、20,480トークンのコンテキストに対応するとしている。",
+    "strengths": [
+     "マルチモーダル理解",
+     "エージェント用途",
+     "オープンウェイト（自前運用可）"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "duplicate": "id12 と重複",
+    "modality": "齟齬（出力）",
+    "paramsB": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: kakaocorp/kanana-2-v-decide-3b-2611（id12 と同一資料）",
+     "found": "入力テキスト・画像は正しい。出力は確率・選択・スコア（テキスト生成ではない）"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "id12 と同一リポジトリを再取得（3.665B、zero-shot-classification）",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": true,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": true,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 23,
+   "spaceName": "Ling-3.2-flash",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 23,
+    "name": "Ling-3.2-flash",
+    "provider": "inclusionAI (Ant Group)",
+    "announcedDate": "2026-11-05",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "マルチモーダル",
+    "paramsB": 560,
+    "contextTokens": 1000000,
+    "modalityLabels": [
+     "入力: テキスト・画像・動画",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": "560B MoE / 25B active · 1M context",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "ashutoshai.com",
+    "sourceUrl": "https://ashutoshai.com/ai-compass/2026/11/05/inclusionai-ling-3-2-flash/",
+    "firstSeenAt": "2026-11-09T12:31:51.302Z",
+    "isNew": false,
+    "highlight": "テキスト・画像・動画をインターリーブで取り込むネイティブマルチモーダルMoEで、複雑な視覚理解やマルチモーダルな長時間エージェント実行、3D空間理解を狙っている。560Bの総パラメータで1Mコンテキストに対応するとしている。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "マルチモーダル理解",
+     "エージェント用途",
+     "高速・軽量"
+    ]
+   },
+   "round1Verdict": "unverifiable",
+   "round1VerdictJp": "一次資料で確認不能",
+   "round3Verdict": "unverifiable",
+   "round3VerdictJp": "一次資料で確認不能",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "existence": "一次資料なし",
+    "paramsB": "確認不能"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: inclusionAI org のリポジトリ一覧",
+     "found": "Ling-3.1-flash (createdAt 2026-10-13, 572.12B, MIT) と Ling-3.1-flash-1019 のみ。Ling-3.2 系は存在しない"
+    },
+    {
+     "source": "llm-releases.com Ling ファミリ年表 (二次カタログ)",
+     "found": "直近イベントとして 2026-11-05 が記録されており、何らかの発表があった可能性は否定できない"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "inclusionAI org 一覧と HF 検索「Ling-3.2」「Ling-3.2-flash」を再実行: Ling-3.1-flash / Ling-3.1-flash-1019 のみで Ling-3.2 系は存在しない",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "一次資料で確認できない状態が継続。inclusionAI org と HF 検索の再確認でも Ling-3.2 系は存在しない。"
+  },
+  {
+   "spaceId": 24,
+   "spaceName": "Cosmos 3 Nano",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 24,
+    "name": "Cosmos 3 Nano",
+    "provider": "Nvidia",
+    "announcedDate": "2026-11-05",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "ワールドモデル",
+    "paramsB": 16,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: ワールド"
+    ],
+    "platformLabel": "ローカル",
+    "specs": "16B × 4チェックポイント · OpenMDW1.1",
+    "vramGbs": {
+     "fp16": 34,
+     "int8": 18,
+     "int4": 10
+    },
+    "sourceName": "www.tun.com",
+    "sourceUrl": "https://www.tun.com/home/?p=%3F%3F%3F%3F%EB%9D%BC%EC%9D%B8%3Avx27%3F%3F%3F%3F%EC%9D%B8%EC%B2%9C%EC%B6%9C%EC%9E%A5%EB%A7%88%EC%82%AC%EC%A7%80%3F%3F%3F%3F%EC%9D%B8%EC%B2%9C%EC%B6%9C%EC%9E%A5%EC%83%B5%3F%3F%3F%3F%EC%9D%B8%EC%B2%9C%EC%B6%9C%EC%9E%A5%EC%95%88%EB%A7%88%3F%3F%3F%3F%EF%B8%8F%EC%9D%BC%EB%B3%B8%EC%9D%B8%EC%B6%9C%EC%9E%A5%EB%A7%88%E3%82%B5%E3%83%BC%E3%82%B8%EC%98%88%EC%95%BD%EC%84%B1%EC%9D%B8%EC%97%90%EC%9D%B4%EB%AF%B8%3F%3F%3F%3Fdksak%EB%B0%A9&kwd=HGTG",
+    "firstSeenAt": "2026-11-09T20:37:06.207Z",
+    "isNew": false,
+    "highlight": "Nvidiaが11月5日にCosmos 3のオープンウェイトチェックポイント4種を公開し、いずれも16Bパラメータで自動運転とロボット操作のシミュレーション向けに特化しているとしている。OpenMDW1.1ライセンスで商用利用も可能とされている。",
+    "strengths": [
+     "オープンウェイト（自前運用可）",
+     "Nvidiaが11月5日にCosmos 3のオープンウェイトチェックポイント4種を公開し、いずれも16Bパラメータで自動…",
+     "OpenMDW1.1ライセンスで商用利用も可能とされている。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "齟齬（根拠なし）",
+    "sourceUrl": "破損（スパム風URL）",
+    "paramsB": "概ね一致",
+    "license": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: nvidia/Cosmos3-Nano",
+     "url": "https://huggingface.co/api/models/nvidia/Cosmos3-Nano",
+     "found": "createdAt 2026-03-10、総パラメータ 15.75B、ライセンス OpenMDW 1.1。派生リポジトリ (Sim/Transfer) も 2026-08-31 までで、2026-11-05 に対応する一次イベントは存在しない"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "nvidia/Cosmos3-Nano を再取得: createdAt 2026-03-10、総パラメータ 15.75B。第1回取得値と同一。2026-11-05 に対応する一次イベントは引き続き存在しない",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": true
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。 破損した出典URL（韓国語スパム文言を含む文字化けURL）もそのまま残っている。"
+  },
+  {
+   "spaceId": 25,
+   "spaceName": "Claude Fable 5.2",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "access",
+    "highlight",
+    "modalityLabels",
+    "sourceName",
+    "sourceUrl",
+    "specs",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 25,
+    "name": "Claude Fable 5.2",
+    "provider": "Anthropic",
+    "announcedDate": "2026-11-09",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "LLM",
+    "paramsB": null,
+    "contextTokens": 1000000,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": "1M context · 128K max output",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "blog.sandbase.ai",
+    "sourceUrl": "https://blog.sandbase.ai/claude-fable-5-2-release-whats-new-2026/",
+    "firstSeenAt": "2026-11-10T00:36:09.362Z",
+    "isNew": true,
+    "highlight": "Artificial AnalysisのIntelligence Index v5で64.6を記録して首位になったと報じられ、価格は入力$8／出力$40 per 1M tokensでFable 5.1より20%安いとしている。1Mコンテキストと128K最大出力に対応する。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "Artificial AnalysisのIntelligence Index v5で64.6を記録して首位になったと報じ…",
+     "1Mコンテキストと128K最大出力に対応する。"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "context": "一致",
+    "access": "注記（公式は Fable を全ユーザー向けとする。「API提供」は誤りではないが狭い）",
+    "modality": "注記（第3回で入力から画像が脱落。公式発表は vision の改善と視覚ベンチマークを明示しており過小表記）",
+    "specs": "第3回で追加された「1M context · 128K max output」は、第1回に確認した 1M コンテキストと整合"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "Anthropic 公式発表 'Claude Fable 5.2 and Claude Mythos 5.2' (2026-11-09)",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "found": "価格 $8/$40 per 1M（5.1 世代の $10/$50 から低下）、モデルページに 1M コンテキスト。Fable は全ユーザー向け"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "Anthropic 公式発表「Claude Fable 5.2 and Claude Mythos 5.2」(anthropic.com) を直接再読: 「coding, reasoning, and vision」の改善を明記し視覚ベンチ（Chartography 等）を掲載。価格 $8/$40。Fable は全ユーザー向け、Mythos は検証プログラム経由",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "判定自体は一致を継続するが、第3回の書き換えで入力モダリティから画像が脱落し、公式発表（vision の改善を明示）と比べて過小になった。access の「API提供」への変更も公式の「全ユーザー向け」より狭い。正確だった項目が書き換えで後退した例。"
+  },
+  {
+   "spaceId": 26,
+   "spaceName": "Claude Mythos 5.2",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "modalityLabels",
+    "sourceName",
+    "sourceUrl",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 26,
+    "name": "Claude Mythos 5.2",
+    "provider": "Anthropic",
+    "announcedDate": "2026-11-09",
+    "access": "限定提供",
+    "isOpenWeight": false,
+    "kind": "LLM",
+    "paramsB": null,
+    "contextTokens": 1000000,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "intelsi.si",
+    "sourceUrl": "https://intelsi.si/timeline",
+    "firstSeenAt": "2026-11-10T00:36:09.375Z",
+    "isNew": true,
+    "highlight": "Fable 5.2と同日に発表された上位モデルで、サイバーセキュリティやバイオ医療研究に携わる検証済み組織のみに限定提供され、Fableより制限が少ないとしている。同社は前世代比で最大30%高速化し20%低コストになったと述べている。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "高速・軽量"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "access": "一致",
+    "modality": "注記（第3回で入力から画像が脱落。Fable と同一基盤モデルであり公式は vision を明示。過小表記）"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "Anthropic 公式発表 (id25 と同一)",
+     "found": "Mythos 5.2 は Fable 5.2 と同一モデルで、検証済み組織（Cyber / Life Sciences Verification Programs）限定"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "id25 と同一の Anthropic 公式発表を再読: Fable と Mythos は同一基盤モデルで vision を含む",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "判定は一致を継続。ただし第3回で入力モダリティから画像が脱落し（id25 と同一の変更）、公式が明示する視覚能力と比べて過小になった。出典も二次情報源のまま差し替えられた。"
+  },
+  {
+   "spaceId": 27,
+   "spaceName": "Muse Ember",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "modalityLabels"
+   ],
+   "spaceRecord": {
+    "id": 27,
+    "name": "Muse Ember",
+    "provider": "Meta",
+    "announcedDate": "2026-11-09",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "マルチモーダル",
+    "paramsB": null,
+    "contextTokens": 1000000,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.swarchitect.net",
+    "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+    "firstSeenAt": "2026-11-10T06:34:48.647Z",
+    "isNew": true,
+    "highlight": "Metaが11月9日に発表したMuse系の新モデルで、今週の主要モデルリリースの一つとして複数のトラッカーに挙げられている。",
+    "strengths": [
+     "超長文コンテキスト（1M+）",
+     "マルチモーダル理解"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致（二次裏付け）",
+    "modality": "注記（過小が進行: 第1回「テキスト・画像」から第3回「テキスト」のみに縮小。独立カタログの記録はテキスト・画像・音声・動画・PDF）"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face",
+     "found": "プロプライエタリのためリポジトリなし（想定内）"
+    },
+    {
+     "source": "llm-releases.com / Artificial Analysis (独立カタログ)",
+     "found": "2026-11-09 リリース、1.0M コンテキスト、最大出力 524K。入力はテキスト・画像・音声・動画・PDF と記録"
+    }
+   ],
+   "round3Recheck": {
+    "method": "二次情報源による裏付け再確認（2026-11-12）",
+    "detail": "Space 記録の変更はモダリティのみ。実在・日付・コンテキストは第1回と同じく独立カタログ（llm-releases.com / Artificial Analysis）の記録で裏付け。一次資料の直接精読には第1回・本回とも至っていない",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "判定は一致を継続。ただし入力モダリティは第1回の「テキスト・画像」から「テキスト」のみに縮小し、独立カタログの記録（テキスト・画像・音声・動画・PDF）との乖離が第1回より広がった。"
+  },
+  {
+   "spaceId": 28,
+   "spaceName": "P-H3-Image",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "isNew",
+    "platformLabel"
+   ],
+   "spaceRecord": {
+    "id": 28,
+    "name": "P-H3-Image",
+    "provider": "Pruna AI",
+    "announcedDate": "2026-11-03",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "画像生成",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: 画像"
+    ],
+    "platformLabel": "ローカル可",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.kombitz.com",
+    "sourceUrl": "https://www.kombitz.com/2026/11/07/ai-image-video-model-news-roundup-november-7-2026/",
+    "firstSeenAt": "2026-11-10T12:31:54.714Z",
+    "isNew": false,
+    "highlight": "MiniMaxの動画モデルH3を蒸留して作られた高速な画像生成モデルで、動画モデルを画像専用に再構築した点が新しいとされている。ライセンスはMiniMaxのコミュニティライセンスとされている。",
+    "strengths": [
+     "高速・軽量",
+     "オープンウェイト（自前運用可）"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "齟齬（作成日と7日差、更新日と一致）",
+    "license": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: PrunaAI/P-H3-Image",
+     "url": "https://huggingface.co/api/models/PrunaAI/P-H3-Image",
+     "found": "createdAt 2026-10-27、lastModified 2026-11-03、総パラメータ 33.12B、ライセンス minimax-h3-community"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "PrunaAI/P-H3-Image を再取得: createdAt 2026-10-27T09:16:58Z、lastModified 2026-11-03、総パラメータ 33.12B。第1回取得値と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "発表日の齟齬は継続（Space の日付は引き続き最終更新日と一致）。platformLabel の「ローカル可」への文言変更は判定に影響しない。"
+  },
+  {
+   "spaceId": 29,
+   "spaceName": "MiniMax H3-Image",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 29,
+    "name": "MiniMax H3-Image",
+    "provider": "MiniMax",
+    "announcedDate": "2026-11-10",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "画像生成",
+    "paramsB": 33.1,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: 画像"
+    ],
+    "platformLabel": "クラウド＋ローカル",
+    "specs": "33.1B · 4K output",
+    "vramGbs": {
+     "fp16": 68.2,
+     "int8": 35.1,
+     "int4": 18.6
+    },
+    "sourceName": "cryptobriefing.com",
+    "sourceUrl": "https://cryptobriefing.com/minimax-h3-image-open-weight-4k-model/",
+    "firstSeenAt": "2026-11-10T22:38:33.962Z",
+    "isNew": false,
+    "highlight": "4K解像度で画像の生成と編集ができるオープンウェイトモデルで、Hugging Face、MiniMax Code、APIで提供される。ただしコミュニティライセンスで米国・EU・英国・韓国での利用が除外されているとしている。",
+    "strengths": [
+     "オープンウェイト（自前運用可）",
+     "4K解像度で画像の生成と編集ができるオープンウェイトモデルで、Hugging Face、MiniMax Code、API…",
+     "ただしコミュニティライセンスで米国・EU・英国・韓国での利用が除外されているとしている。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "paramsB": "一致",
+    "license": "一致",
+    "announcedDate": "齟齬（7日差）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: MiniMaxAI/MiniMax-H3-Image",
+     "url": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-H3-Image",
+     "found": "createdAt 2026-11-03、README に 'Diffusion transformer: 33.1B parameters'、ライセンス minimax-h3-image-community-license-agreement（除外地域 = EU・英国・韓国・米国、とライセンス本文に明記）"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "MiniMaxAI/MiniMax-H3-Image を再取得: createdAt 2026-11-03。第1回取得値と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 30,
+   "spaceName": "K-EXAONE 2.5",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 30,
+    "name": "K-EXAONE 2.5",
+    "provider": "LG AI Research",
+    "announcedDate": "2026-11-09",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "LLM",
+    "paramsB": 750,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": "750B total / 約31B active",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "forum.astracruz.com",
+    "sourceUrl": "https://forum.astracruz.com/category/8/new-ai-model-releases",
+    "firstSeenAt": "2026-11-10T22:38:34.024Z",
+    "isNew": false,
+    "highlight": "LG AI Researchが、750B総パラメータで約31Bをアクティブ化する大規模モデルへのホスト型APIアクセスを11月9日に開いたとしている。",
+    "strengths": [
+     "LG AI Researchが、750B総パラメータで約31Bをアクティブ化する大規模モデルへのホスト型APIアクセスを…"
+    ]
+   },
+   "round1Verdict": "unverifiable",
+   "round1VerdictJp": "一次資料で確認不能",
+   "round3Verdict": "unverifiable",
+   "round3VerdictJp": "一次資料で確認不能",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致（二次裏付け）",
+    "paramsB": "一次資料で確認不能"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face",
+     "found": "API 専用ラインのためウェイトリポジトリなし。LGAI-EXAONE org の既存モデルは別ライン"
+    },
+    {
+     "source": "llm-releases.com K-EXAONE ファミリ年表 (二次カタログ)",
+     "found": "2026-11-09 に無料のプロプライエタリ API としてリリース、コンテキスト 524,288、テキスト入出力 — 日付と提供形態は Space と整合"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "LGAI-EXAONE org 一覧を再取得: K-EXAONE-2.0-750B-A37B（2026-07-29）は存在するが、K-EXAONE 2.5 のウェイトリポジトリはなく、「750B total / 約31B active」の一次裏付けは引き続き得られない",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "確認不能が継続。K-EXAONE 2.5 の一次資料は本回も得られなかった（org 内に存在するのは K-EXAONE-2.0-750B-A37B 等で、2.5 の 750B/約31B を裏付ける一次資料はない）。"
+  },
+  {
+   "spaceId": 31,
+   "spaceName": "SWE-2 Flash",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 31,
+    "name": "SWE-2 Flash",
+    "provider": "Windsurf",
+    "announcedDate": "2026-11-04",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "コード特化",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・コード",
+     "出力: テキスト・コード"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.swarchitect.net",
+    "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+    "firstSeenAt": "2026-11-11T00:34:58.728Z",
+    "isNew": false,
+    "highlight": "11月4日に発表されたソフトウェアエンジニアリング向けのFlashモデルだが、検索結果には提供形態や詳細な仕様は明記されていない。",
+    "strengths": [
+     "コード生成に強い",
+     "高速・軽量"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "provider": "注記（実態は Cognition）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "llm-releases.com Windsurf ファミリ年表 (二次カタログ)",
+     "found": "Cognition が 2026-11-04 に Devin Desktop / CLI 向けにリリース。ベースは Thinking Machines の Inkling-Small"
+    }
+   ],
+   "round3Recheck": {
+    "method": "第1回一次資料所見の継続採用",
+    "detail": "Space 記録は第1回と同一。第1回の独立カタログ裏付けを継続採用",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 32,
+   "spaceName": "Seedream 5.5",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "modalityLabels",
+    "provider",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 32,
+    "name": "Seedream 5.5",
+    "provider": "ByteDance",
+    "announcedDate": "2026-11-09",
+    "access": "一般提供",
+    "isOpenWeight": false,
+    "kind": "画像生成",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: 画像"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.swarchitect.net",
+    "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+    "firstSeenAt": "2026-11-11T15:31:46.476Z",
+    "isNew": true,
+    "highlight": "11月9日に発表されたSeedream系の新バージョンの画像生成モデルで、同日の主要な新モデル一覧に挙げられている。",
+    "strengths": [
+     "11月9日に発表されたSeedream系の新バージョンの画像生成モデルで、同日の主要な新モデル一覧に挙げられている。"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "access": "注記",
+    "modality": "注記（第3回で入力から画像が脱落。実モデルは参照画像による編集に対応しており過小表記）",
+    "provider": "表記変更のみ（ByteDance Seed → ByteDance）"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "ByteDance Seed 公式ローンチ記事 (2026-11-09)",
+     "found": "発表日は Space と一致。ローンチ時点では API ID・価格は未公表で、提供は段階展開"
+    }
+   ],
+   "round3Recheck": {
+    "method": "二次情報源による裏付け再確認（2026-11-12）",
+    "detail": "ByteDance Seed 公式発表（2026-11-09）の内容を二次情報源で再確認: Seedream 5.5 は画像生成・編集モデルで、最大10枚の参照画像による編集に対応。発表日は Space と一致",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "判定は一致を継続。ただし第3回で入力モダリティから画像が脱落し、参照画像による編集に対応する実モデルと比べて過小になった。提供元表記は ByteDance Seed から ByteDance に変更（実質同一）。"
+  },
+  {
+   "spaceId": 33,
+   "spaceName": "Koa Decisions",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 33,
+    "name": "Koa Decisions",
+    "provider": "Salesforce",
+    "announcedDate": "2026-11-06",
+    "access": "企業向け提供",
+    "isOpenWeight": false,
+    "kind": "意思決定モデル",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像・音声",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.goodiebase.com",
+    "sourceUrl": "https://www.goodiebase.com/news/salesforce-koa-decisions-enterprise-model-2026-11-06",
+    "firstSeenAt": "2026-11-11T18:31:53.918Z",
+    "isNew": false,
+    "highlight": "回答を生成するのではなく次の一手や意図のルーティングを選ぶモデルで、Agentforce向けHyperClassifierの後継として発表された。GoogleのオープンウェイトGemmaを適応して作られ、テキストに加えて画像と音声も受け付けるとしている。",
+    "strengths": [
+     "回答を生成するのではなく次の一手や意図のルーティングを選ぶモデルで、Agentforce向けHyperClassifie…",
+     "GoogleのオープンウェイトGemmaを適応して作られ、テキストに加えて画像と音声も受け付けるとしている。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "modality": "齟齬（出力）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Salesforce 公式ニュース (salesforce.com/news, 2026-11-06)",
+     "found": "HyperClassifier の後継。Google のオープンウェイト Gemma を基盤に自社手法で学習。入力はテキスト・画像・音声。出力はカテゴリ選択・可否判定・スコア。提供は Agentforce Labs のデモ等で、Koa 自体のウェイトはダウンロード提供されていない。NVIDIA 連携の Koa 推論モデルとは別物（Space のこの区別は正しい）"
+    }
+   ],
+   "round3Recheck": {
+    "method": "二次情報源による裏付け再確認（2026-11-12）",
+    "detail": "Salesforce 公式発表（2026-11-06）の内容を二次情報源で再確認: 出力はカテゴリ選択・可否判定・スコア、入力はテキスト・画像・音声、Agentforce Labs のデモ提供でウェイトのダウンロード提供はない",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": true,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "出力モダリティの齟齬は継続。Salesforce 公式発表の内容（出力は選択・判定・スコア）を二次情報源で再確認した。"
+  },
+  {
+   "spaceId": 34,
+   "spaceName": "Shizuku-Duplex",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 34,
+    "name": "Shizuku-Duplex",
+    "provider": "Shizuku AI Labs",
+    "announcedDate": "2026-11-08",
+    "access": null,
+    "isOpenWeight": false,
+    "kind": "音声",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: 音声",
+     "出力: 音声"
+    ],
+    "platformLabel": "クラウド",
+    "specs": "80 ms full-duplex",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "explainx.ai",
+    "sourceUrl": "https://explainx.ai/blog/shizuku-duplex-japanese-full-duplex-voice-80ms-interaction-background-2026",
+    "firstSeenAt": "2026-11-11T18:31:53.934Z",
+    "isNew": false,
+    "highlight": "80msごとに音声を処理する全二重の日本語音声モデルで、相づちや話し手の割り込みに対応し、話しながら聞き続けられるとしている。背景のLLMによるウェブ検索も、通話を保留にせず行えるとしている。",
+    "strengths": [
+     "80msごとに音声を処理する全二重の日本語音声モデルで、相づちや話し手の割り込みに対応し、話しながら聞き続けられるとして…",
+     "背景のLLMによるウェブ検索も、通話を保留にせず行えるとしている。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "access": "齟齬（含意: 研究発表のみで利用手段なし）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Shizuku AI 公式ブログ (本文を直接精読)",
+     "url": "https://shizuku.ai/blog/1/",
+     "found": "公開日 2026-11-08。日本語全二重音声対話モデルの研究発表。80ms 刻みの処理や背景モデルによる Web 検索等の技術記述は Space の要約と整合するが、ウェイト・API・デモ・ウェイトリストのいずれも存在せず、コンパニオンAI『しずく』は将来目標と明記"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "Shizuku AI 公式ブログ（shizuku.ai/blog/1/）を直接再読: 公開日 2026-11-08。研究発表であり、ウェイト・API・デモ・ウェイトリストのいずれも存在せず、コンパニオンAI「しずく」は将来目標と明記。第1回所見から変化なし",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": true,
+    "brokenSourceUrl": false
+   },
+   "notes": "提供形態の含意の齟齬は継続。公式ブログを再読しても、研究発表のみで利用手段が存在しない点に変化はない。"
+  },
+  {
+   "spaceId": 35,
+   "spaceName": "Qwen4-Max",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 35,
+    "name": "Qwen4-Max",
+    "provider": "Alibaba",
+    "announcedDate": "2026-11-11",
+    "access": null,
+    "isOpenWeight": false,
+    "kind": "マルチモーダル",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "www.scriptbyai.com",
+    "sourceUrl": "https://www.scriptbyai.com/ai-model-release-calendar/",
+    "firstSeenAt": "2026-11-12T01:33:09.001Z",
+    "isNew": false,
+    "highlight": "AlibabaのQwenシリーズとして11月11日に挙がった汎用・マルチモーダルモデルで、11月の発表の中でも最も新しいものの一つとしている。",
+    "strengths": [
+     "マルチモーダル理解",
+     "AlibabaのQwenシリーズとして11月11日に挙がった汎用・マルチモーダルモデルで、11月の発表の中でも最も新しい…"
+    ]
+   },
+   "round1Verdict": "not_found",
+   "round1VerdictJp": "実在を確認できず",
+   "round3Verdict": "not_found",
+   "round3VerdictJp": "実在を確認できず",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "existence": "単体リリースとして実在せず",
+    "duplicate": "id39 の幽霊版"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Alibaba / Qwen 公式発表 (@Alibaba_Qwen および公式ドキュメント)",
+     "found": "公式に存在するのは Qwen4-Max-Preview のみ（モデルID qwen4-max-preview、Token Plan 限定、プレビューは 2026-11-25 終了）。非プレビューの単体『Qwen4-Max』リリースは存在しない"
+    }
+   ],
+   "round3Recheck": {
+    "method": "二次情報源による裏付け再確認（2026-11-12）",
+    "detail": "Alibaba 公式発表・公式ドキュメントに基づく二次情報源を再確認: 公式に存在するのは Qwen4-Max-Preview（モデルID qwen4-max-preview、Token Plan 限定、プレビューは 2026-11-25 終了）のみで、非プレビューの単体「Qwen4-Max」リリースは存在しない",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "幽霊エントリは継続。Space の収録内容に変化はなく、公式に単体版が存在しないことも再確認した。実在する Preview（id39）と並立したままである。"
+  },
+  {
+   "spaceId": 36,
+   "spaceName": "Gemini Robotics 2.5",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "highlight",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 36,
+    "name": "Gemini Robotics 2.5",
+    "provider": "Google",
+    "announcedDate": "2026-11-10",
+    "access": null,
+    "isOpenWeight": false,
+    "kind": "ロボティクス",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "theagenticweekly.com",
+    "sourceUrl": "https://theagenticweekly.com/models/this-week",
+    "firstSeenAt": "2026-11-12T02:32:57.111Z",
+    "isNew": true,
+    "highlight": "Googleが11月10日にリリースしたロボティクス向けモデルの新版で、Agentic Weeklyの直近7日間のデータセットで最も新しい検証済みリリースとされている。",
+    "strengths": [
+     "エージェント用途",
+     "Googleが11月10日にリリースしたロボティクス向けモデルの新版で、Agentic Weeklyの直近7日間のデータ…"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "modality": "齟齬（入出力とも）",
+    "benchmarkAttribution": "齟齬（別モデルの数値）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Google DeepMind 公式発表 (2026-11-10)",
+     "found": "最も高性能な VLA と位置付け、ロボティクスパートナーへ展開。ASIMOV-Jailbreak 耐性 99.5% は同時発表の Gemini 4 Argon の数値であり、Robotics 2.5 自体の評価ではない（この取り違えは報道でも指摘された）"
+    }
+   ],
+   "round3Recheck": {
+    "method": "二次情報源による裏付け再確認（2026-11-12）",
+    "detail": "DeepMind 公式発表（2026-11-10）の内容を二次情報源で再確認: Robotics 2.5 は VLA（カメラ入力→ロボットの動作）。ASIMOV-Jailbreak 99.5% は同時発表の Gemini 4 Argon の数値であり Robotics 2.5 自体の評価ではないことが報道でも明示されている",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": true,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "齟齬は継続。モダリティ（入出力とも）に加え、要約中の ASIMOV-Jailbreak 99.5%（別モデル Gemini 4 Argon の数値）の取り違えもそのまま残っている。"
+  },
+  {
+   "spaceId": 37,
+   "spaceName": "AlphaGenome 2",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 37,
+    "name": "AlphaGenome 2",
+    "provider": "Google DeepMind",
+    "announcedDate": "2026-11-12",
+    "access": "研究用API（非商用）",
+    "isOpenWeight": false,
+    "kind": "ゲノム予測モデル",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "sxf.si",
+    "sourceUrl": "https://sxf.si/brief/",
+    "firstSeenAt": "2026-11-12T04:33:41.949Z",
+    "isNew": false,
+    "highlight": "特定の細胞タイプにおけるDNA制御を予測し、107M超の学習プロファイルで学習したとされている。研究用API経由の非商用利用に限られ、臨床用途ではないとしている。",
+    "strengths": [
+     "特定の細胞タイプにおけるDNA制御を予測し、107M超の学習プロファイルで学習したとされている。",
+     "研究用API経由の非商用利用に限られ、臨床用途ではないとしている。"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "概ね一致（1日差・TZ注記）",
+    "access": "一致"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Google DeepMind 公式ブログ (2026-11-11 付)",
+     "found": "AlphaGenome API 経由で非商用研究に提供。学習は 68 組織・100M 超（107M）の細胞プロファイル — Space の『107M超』と整合。臨床用途ではない旨も一致"
+    }
+   ],
+   "round3Recheck": {
+    "method": "第1回一次資料所見の継続採用",
+    "detail": "Space 記録は第1回と同一。第1回に精読した DeepMind 公式ブログの所見を継続採用",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 38,
+   "spaceName": "Praxis-1",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 38,
+    "name": "Praxis-1",
+    "provider": "Runway",
+    "announcedDate": "2026-11-12",
+    "access": "オープンウェイト",
+    "isOpenWeight": true,
+    "kind": "ワールドアクションモデル",
+    "paramsB": 27,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: ワールド"
+    ],
+    "platformLabel": "ローカル",
+    "specs": "27B",
+    "vramGbs": {
+     "fp16": 56,
+     "int8": 29,
+     "int4": 15.5
+    },
+    "sourceName": "sxf.si",
+    "sourceUrl": "https://sxf.si/brief/",
+    "firstSeenAt": "2026-11-12T04:33:41.973Z",
+    "isNew": false,
+    "highlight": "Runwayは27Bパラメータのワールドアクションモデルのウェイトとファインチューニング用ソフトウェアを公開し、RoboLab-120で46.2%の成功率を報告している。",
+    "strengths": [
+     "オープンウェイト（自前運用可）",
+     "Runwayは27Bパラメータのワールドアクションモデルのウェイトとファインチューニング用ソフトウェアを公開し、Robo…"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "paramsB": "一致",
+    "license": "一致",
+    "announcedDate": "齟齬（約8日差）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Hugging Face API: runwayml/praxis-1-base",
+     "url": "https://huggingface.co/api/models/runwayml/praxis-1-base",
+     "found": "createdAt 2026-11-04（兄弟リポジトリ praxis-1-droid 11-03、praxis-1-yam 11-05）、safetensors 総パラメータ 27.202B、ライセンス Apache-2.0、README に '27.2B-parameter MoE video-diffusion policy'"
+    }
+   ],
+   "round3Recheck": {
+    "method": "Hugging Face 公開API 再取得（2026-11-12）",
+    "detail": "runwayml/praxis-1-base を再取得: createdAt 2026-11-04、総パラメータ 27.20B、Apache-2.0、pipeline robotics。第1回取得値と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": true,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "Space 記録は第1回スナップショットと同一。第1回の一次資料所見も不変であり、判定は第1回から変化なし。"
+  },
+  {
+   "spaceId": 39,
+   "spaceName": "Qwen4-Max-Preview",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": true,
+   "changedFieldsSinceRound1": [
+    "access",
+    "highlight",
+    "isNew",
+    "kind",
+    "modalityLabels",
+    "provider",
+    "sourceName",
+    "sourceUrl",
+    "strengths"
+   ],
+   "spaceRecord": {
+    "id": 39,
+    "name": "Qwen4-Max-Preview",
+    "provider": "Alibaba",
+    "announcedDate": "2026-11-11",
+    "access": "プレビュー",
+    "isOpenWeight": false,
+    "kind": "LLM",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": null,
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "springprompt.com",
+    "sourceUrl": "https://springprompt.com/trends",
+    "firstSeenAt": "2026-11-12T04:33:41.996Z",
+    "isNew": true,
+    "highlight": "AlibabaのQwen4-Maxのプレビュー版として11月11日に発表され、リリーストラッカーでは今週最も新しい主要モデルとされている。",
+    "strengths": [
+     "AlibabaのQwen4-Maxのプレビュー版として11月11日に発表され、リリーストラッカーでは今週最も新しい主要モ…"
+    ]
+   },
+   "round1Verdict": "match",
+   "round1VerdictJp": "一致",
+   "round3Verdict": "match",
+   "round3VerdictJp": "一致",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "access": "注記（「プレビュー」は正しいが、Token Plan 限定という側面が脱落）",
+    "modality": "注記（第1回は「テキスト・画像・動画」で公式と一致していたが、第3回で「テキスト」のみに縮小。公式仕様はテキスト・画像・動画入力）",
+    "kind": "注記（「マルチモーダル」から「LLM」に変更。公式はマルチモーダルと位置づける）"
+   },
+   "fieldVerdictsSource": "round3",
+   "primaryEvidence": [
+    {
+     "source": "Alibaba / Qwen 公式発表 (@Alibaba_Qwen, 2026-11-11) および公式スペック",
+     "found": "モデルID qwen4-max-preview、Token Plan 限定提供、プレビュー終了 2026-11-25、1M コンテキスト、入力はテキスト・画像・動画"
+    }
+   ],
+   "round3Recheck": {
+    "method": "二次情報源による裏付け再確認（2026-11-12）",
+    "detail": "Alibaba 公式ドキュメントに基づく二次情報源を再確認: Qwen4-Max-Preview の入力はテキスト・画像・動画、1M コンテキスト、Token Plan 限定、プレビュー 2026-11-25 終了。第1回の公式発表照合と同一",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": false,
+    "modalityNoteLevel": true,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "判定は一致を継続するが、第1回時点で公式と一致していた入出力モダリティが、第3回の書き換えで「テキスト／テキスト」に縮小し公式仕様（テキスト・画像・動画入力）と乖離した。access も「限定提供」から「プレビュー」に変わり Token Plan 限定の側面が落ちた。正確だったエントリが自動書き換えで後退した代表例。"
+  },
+  {
+   "spaceId": 40,
+   "spaceName": "Gemini Decision 1",
+   "changeClass": "継続（同一ID）",
+   "spaceRecordChanged": false,
+   "changedFieldsSinceRound1": [],
+   "spaceRecord": {
+    "id": 40,
+    "name": "Gemini Decision 1",
+    "provider": "Google",
+    "announcedDate": "2026-11-11",
+    "access": "API提供",
+    "isOpenWeight": false,
+    "kind": "意思決定モデル",
+    "paramsB": null,
+    "contextTokens": null,
+    "modalityLabels": [
+     "入力: テキスト・画像",
+     "出力: テキスト"
+    ],
+    "platformLabel": "クラウド",
+    "specs": "最大1,000 questions · $0.10 / 1M input tokens · 約200ms latency",
+    "vramGbs": {
+     "fp16": null,
+     "int8": null,
+     "int4": null
+    },
+    "sourceName": "latent.space",
+    "sourceUrl": "https://latent.space/p/ainews-d-day-decision-models-day/",
+    "firstSeenAt": "2026-11-12T06:32:38.842Z",
+    "isNew": false,
+    "highlight": "閉じた選択肢の判定を1回のパスでスコアリングする較正済みマルチモーダル意思決定モデルで、最大1,000件の質問を扱え、入力100万トークンあたり$0.10・約200msのレイテンシとしている。Googleが新たに意思決定モデル市場へ参入する製品とされる。",
+    "strengths": [
+     "マルチモーダル理解",
+     "閉じた選択肢の判定を1回のパスでスコアリングする較正済みマルチモーダル意思決定モデルで、最大1,000件の質問を扱え、入…",
+     "Googleが新たに意思決定モデル市場へ参入する製品とされる。"
+    ]
+   },
+   "round1Verdict": "discrepancy",
+   "round1VerdictJp": "齟齬",
+   "round3Verdict": "discrepancy",
+   "round3VerdictJp": "齟齬",
+   "verdictChanged": false,
+   "fieldVerdicts": {
+    "announcedDate": "一致",
+    "specs": "一致",
+    "modality": "齟齬（出力は確率、入力は過小）"
+   },
+   "fieldVerdictsSource": "round1-carried",
+   "primaryEvidence": [
+    {
+     "source": "Google 公式発表およびモデルページ (Decisions API, 2026-11-11)",
+     "found": "$0.10/1M 入力、最大1,000 questions、レイテンシ 150–250ms、コンテキスト 262,144。出力は確率・校正済み信頼度であり、出力トークンはゼロ — テキスト生成は明示的に非対応。入力はテキスト・画像・動画・音声・PDF"
+    }
+   ],
+   "round3Recheck": {
+    "method": "公式ページ直接再読（2026-11-12）",
+    "detail": "Google 公式ブログ「Gemini Decisions API: Fast multimodal decisions」(blog.google, 2026-11-11) を直接再読: 入力はテキスト・画像・音声・動画・PDF（最大256K）、最大1,000問、出力は確率と信頼度スコアで出力トークンはゼロ、$0.10/1M 入力、150–250ms",
+    "accessedAt": "2026-11-12"
+   },
+   "errorFlags": {
+    "dateError": false,
+    "modalityVerdictError": true,
+    "modalityNoteLevel": false,
+    "duplicateInvolved": false,
+    "paramProblem": false,
+    "accessProblem": false,
+    "brokenSourceUrl": false
+   },
+   "notes": "出力モダリティの齟齬は継続。Google 公式ブログを再読し、出力が確率・信頼度で出力トークンがゼロであることを再確認した。意思決定モデル3件すべての出力「テキスト」表記は、第3回でも全て残っている。"
+  }
+ ]
+}

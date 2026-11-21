@@ -1,0 +1,296 @@
+{
+ "measured_at": "2026-11-16T17:49:28.221369+09:00",
+ "population": "~/MEMORY.md + ~/memory/**",
+ "total_files": 50,
+ "total_bytes": 1727696,
+ "total_lines": 7851,
+ "read_errors": [],
+ "categories": {
+  "curated": {
+   "files": 1,
+   "bytes": 30398,
+   "lines": 48
+  },
+  "daily": {
+   "files": 24,
+   "bytes": 766816,
+   "lines": 4524
+  },
+  "bank": {
+   "files": 4,
+   "bytes": 882001,
+   "lines": 2673
+  },
+  "people": {
+   "files": 17,
+   "bytes": 41593,
+   "lines": 526
+  },
+  "groups": {
+   "files": 3,
+   "bytes": 6589,
+   "lines": 70
+  },
+  "shopping": {
+   "files": 1,
+   "bytes": 299,
+   "lines": 10
+  }
+ },
+ "daily": {
+  "count": 24,
+  "first": "2026-10-24",
+  "last": "2026-11-16",
+  "expected_days_in_range": 24,
+  "missing_dates": [],
+  "bytes_min": 4587,
+  "bytes_max": 108577,
+  "bytes_median": 26604.0,
+  "bytes_total": 766816,
+  "lines_total": 4524,
+  "smallest": {
+   "date": "2026-10-28",
+   "bytes": 4587,
+   "lines": 61
+  },
+  "largest": {
+   "date": "2026-11-12",
+   "bytes": 108577,
+   "lines": 416
+  },
+  "detail": [
+   {
+    "date": "2026-10-24",
+    "bytes": 10621,
+    "lines": 73
+   },
+   {
+    "date": "2026-10-25",
+    "bytes": 28988,
+    "lines": 128
+   },
+   {
+    "date": "2026-10-26",
+    "bytes": 4866,
+    "lines": 67
+   },
+   {
+    "date": "2026-10-27",
+    "bytes": 6980,
+    "lines": 60
+   },
+   {
+    "date": "2026-10-28",
+    "bytes": 4587,
+    "lines": 61
+   },
+   {
+    "date": "2026-10-29",
+    "bytes": 8745,
+    "lines": 94
+   },
+   {
+    "date": "2026-10-30",
+    "bytes": 8538,
+    "lines": 74
+   },
+   {
+    "date": "2026-10-31",
+    "bytes": 13896,
+    "lines": 112
+   },
+   {
+    "date": "2026-11-01",
+    "bytes": 12365,
+    "lines": 89
+   },
+   {
+    "date": "2026-11-02",
+    "bytes": 20972,
+    "lines": 117
+   },
+   {
+    "date": "2026-11-03",
+    "bytes": 24220,
+    "lines": 195
+   },
+   {
+    "date": "2026-11-04",
+    "bytes": 67520,
+    "lines": 359
+   },
+   {
+    "date": "2026-11-05",
+    "bytes": 33074,
+    "lines": 213
+   },
+   {
+    "date": "2026-11-06",
+    "bytes": 44867,
+    "lines": 293
+   },
+   {
+    "date": "2026-11-07",
+    "bytes": 32297,
+    "lines": 182
+   },
+   {
+    "date": "2026-11-08",
+    "bytes": 19624,
+    "lines": 160
+   },
+   {
+    "date": "2026-11-09",
+    "bytes": 58932,
+    "lines": 372
+   },
+   {
+    "date": "2026-11-10",
+    "bytes": 60395,
+    "lines": 378
+   },
+   {
+    "date": "2026-11-11",
+    "bytes": 40367,
+    "lines": 290
+   },
+   {
+    "date": "2026-11-12",
+    "bytes": 108577,
+    "lines": 416
+   },
+   {
+    "date": "2026-11-13",
+    "bytes": 41271,
+    "lines": 206
+   },
+   {
+    "date": "2026-11-14",
+    "bytes": 21666,
+    "lines": 109
+   },
+   {
+    "date": "2026-11-15",
+    "bytes": 57119,
+    "lines": 322
+   },
+   {
+    "date": "2026-11-16",
+    "bytes": 36329,
+    "lines": 154
+   }
+  ]
+ },
+ "bank_files": [
+  {
+   "name": "reflections.md",
+   "bytes": 738106,
+   "lines": 2321
+  },
+  {
+   "name": "world.md",
+   "bytes": 79559,
+   "lines": 204
+  },
+  {
+   "name": "experience.md",
+   "bytes": 53705,
+   "lines": 116
+  },
+  {
+   "name": "opinions.md",
+   "bytes": 10631,
+   "lines": 32
+  }
+ ],
+ "index_consistency": {
+  "people": {
+   "index_entries": 16,
+   "listed_files": [
+    "alice.md",
+    "astra.md",
+    "chise.md",
+    "claude.md",
+    "codex.md",
+    "den.md",
+    "dots.md",
+    "gpt.md",
+    "hikari.md",
+    "junpe.md",
+    "momi-chan.md",
+    "radar.md",
+    "riku.md",
+    "saeki-ryo.md",
+    "sora.md",
+    "sui.md"
+   ],
+   "pages_on_disk": 16,
+   "listed_but_missing_on_disk": [],
+   "on_disk_but_not_listed": []
+  },
+  "groups": {
+   "index_entries": 2,
+   "listed_files": [
+    "tsubuyai-tech-editors.md",
+    "vrchat-friends.md"
+   ],
+   "pages_on_disk": 2,
+   "listed_but_missing_on_disk": [],
+   "on_disk_but_not_listed": []
+  }
+ },
+ "largest_files": [
+  {
+   "rel": "memory/bank/reflections.md",
+   "bytes": 738106,
+   "lines": 2321
+  },
+  {
+   "rel": "memory/2026-11-12.md",
+   "bytes": 108577,
+   "lines": 416
+  },
+  {
+   "rel": "memory/bank/world.md",
+   "bytes": 79559,
+   "lines": 204
+  },
+  {
+   "rel": "memory/2026-11-04.md",
+   "bytes": 67520,
+   "lines": 359
+  },
+  {
+   "rel": "memory/2026-11-10.md",
+   "bytes": 60395,
+   "lines": 378
+  },
+  {
+   "rel": "memory/2026-11-09.md",
+   "bytes": 58932,
+   "lines": 372
+  },
+  {
+   "rel": "memory/2026-11-15.md",
+   "bytes": 57119,
+   "lines": 322
+  },
+  {
+   "rel": "memory/bank/experience.md",
+   "bytes": 53705,
+   "lines": 116
+  },
+  {
+   "rel": "memory/2026-11-06.md",
+   "bytes": 44867,
+   "lines": 293
+  },
+  {
+   "rel": "memory/2026-11-13.md",
+   "bytes": 41271,
+   "lines": 206
+  }
+ ],
+ "email_pattern_matches_in_contents_total": 135,
+ "files_with_email_pattern": 21
+}

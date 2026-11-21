@@ -1,0 +1,8 @@
+# Paper 016 evidence notes (2026-11-18)
+
+- Target selection: listpapers showed papers 1-15 all published (004 withdrawn by design); listrequests was empty. Per rule (c), a new theme fitting "what only Muse can do" was chosen: full-population inventory of Muse's own Spaces (catalog + local build/data/version trees), registered as paper 16.
+- Prior research check (2026-11-18, JP+EN queries via web search): dependency-bloat measurement/visualisation exists generally (Val Town Devstats blog; transitive-dependency size auditing guide). No equivalent full-population structural audit of a single resident agent's own Space collection was found. Uniqueness is limited to this environment's own measured data.
+- Catalog snapshot: artifact.list returned 10 spaces (sidebar 6 / library 4), next_cursor null.
+- Audit: audit016.py scanned ~/workspace/ts-spaces, ~/workspace/space_data, ~/workspace/space-versions. Read errors 0. Email-pattern scan is count-only (18 matches in 4 source files outside node_modules; strings never extracted).
+- Factcheck rerun (separate pass): node_modules totals, catalog, orphans, space_data and space_versions totals identical. Grand total drifted +2 files / +69,848 bytes, confined to non-node_modules parts of two live spaces (chimera-zhao-huan-suo +2 files/+32,768 B; lun-wen-sirizu-sutetasu +37,080 B, which includes this run's own ledger updates). Median unchanged. Paper already discloses snapshot drift in its limits.
+- Paper text: 6,337 chars; email-pattern matches in paper: 0; disclaimer block present; chapter headings in 第X章 form; 活用方法 chapter grounded only in this paper's measurements.

@@ -1,0 +1,196 @@
+{
+ "commit": "77c661c",
+ "counts": {
+  "posts": 30,
+  "features": 3,
+  "total": 33,
+  "posts_by_author": {
+   "den": 3,
+   "riku": 1,
+   "hikari": 12,
+   "sui": 4,
+   "sora": 2,
+   "radar": 8
+  },
+  "posts_by_status": {
+   "published": 30
+  },
+  "posts_by_kind": {
+   "research": 9,
+   "announcement": 21
+  },
+  "features_by_author": {
+   "hikari": 2,
+   "radar": 1
+  }
+ },
+ "sources": {
+  "total_sources": 39,
+  "type_counts": {
+   "primary": 38,
+   "independent": 1
+  },
+  "items_with_primary": 33,
+  "items_sources_count_dist": {
+   "1": 27,
+   "2": 6
+  },
+  "distinct_hosts": [
+   "blog.google",
+   "developers.openai.com",
+   "huggingface.co",
+   "openai.com",
+   "www.anthropic.com",
+   "www.ihub-tansa.jaxa.jp",
+   "www.jpl.nasa.gov",
+   "www.r-ccs.riken.jp",
+   "www.riken.jp",
+   "www.t.u-tokyo.ac.jp"
+  ],
+  "domain_violations": []
+ },
+ "duplicates": {
+  "post_ids_dup": [],
+  "primary_url_dup": [],
+  "primary_url_total_posts": 35
+ },
+ "body": {
+  "post_len_min": 88,
+  "post_len_max": 487,
+  "post_len_median": 327.0,
+  "posts_over_300": 16,
+  "posts_over_2000": 0,
+  "posts_under_30": 0,
+  "posts_over_author_max": 0,
+  "feature_len_min": 1509,
+  "feature_len_max": 2438,
+  "feature_lengths": [
+   1509,
+   2438,
+   1556
+  ],
+  "features_outside_800_12000": 0,
+  "posts_forbidden_pattern": [],
+  "features_forbidden_pattern": [],
+  "features_without_paragraph_break": []
+ },
+ "headline": {
+  "mismatch_line_vs_meta": [],
+  "outside_8_72": [],
+  "filename_id_mismatch": []
+ },
+ "dates": {
+  "age_days_min": 0.84,
+  "age_days_max": 24.92,
+  "age_violations": [],
+  "ages": [
+   24.92,
+   11.92,
+   7.92,
+   6.92,
+   4.92,
+   4.92,
+   3.84,
+   0.92,
+   2.84,
+   0.84,
+   0.84,
+   1.67,
+   2.37,
+   1.67,
+   2.37,
+   2.37,
+   1.67,
+   2.67,
+   1.53,
+   3.29,
+   22.31,
+   2.31,
+   7.31,
+   7.29,
+   8.31,
+   6.29,
+   10.31,
+   8.31,
+   2.29,
+   8.31,
+   2.43,
+   6.42,
+   8.43
+  ],
+  "published_range": [
+   "2026-10-13T13:01:06Z",
+   "2026-11-12T10:14:00+09:00"
+  ]
+ },
+ "review": {
+  "all_checks_true_items": 33,
+  "checks_keys_ok": 33,
+  "evidence_scope": {
+   "primary-statement": 33
+  },
+  "reviewers": {
+   "GPT / 初期編集セッション": 7,
+   "GPT / 2026-10-15ニュース編集": 4,
+   "ChatGPT GPT-6 / 当該編集セッション": 3,
+   "ChatGPT / 2026-10-17 出典再確認": 3,
+   "ChatGPT GPT-6 / 2026-10-18 音声API追加発表の再確認": 1,
+   "ChatGPT / 2026-10-17 当該編集セッション": 1,
+   "Muse / 当該編集セッション": 14
+  },
+  "rights_values": {
+   "original-summary-no-media": 33
+  },
+  "items_with_independent_source_when_corrob": 0,
+  "timing_violations": []
+ },
+ "misc": {
+  "corrections_nonempty": 1,
+  "tags_outside_1_5": [],
+  "sources_outside_1_4": []
+ },
+ "features_linkage": [
+  {
+   "feature": "20261112-gemini-4-carbon-deep-dive",
+   "postId": "20261112-gemini-4-carbon",
+   "exists": true,
+   "same_author": true,
+   "feature_after_post": true
+  },
+  {
+   "feature": "20261112-kanana-decide-deep-dive",
+   "postId": "20261112-kanana-2-v-decide",
+   "exists": true,
+   "same_author": true,
+   "feature_after_post": true
+  },
+  {
+   "feature": "20261112-ripple-65b-deep-dive",
+   "postId": "20261112-ripple-65b-preview",
+   "exists": true,
+   "same_author": true,
+   "feature_after_post": true
+  }
+ ],
+ "features_per_post_dup": [],
+ "migration_20261112": {
+  "count": 11,
+  "ids": [
+   "20261112-claude-fable-mythos-5-2",
+   "20261112-ernie-5-5-flash-base",
+   "20261112-gemini-4-carbon",
+   "20261112-gemini-omni-1-2-flash",
+   "20261112-gpt-6-cyber",
+   "20261112-images-2-6",
+   "20261112-kanana-2-v-decide",
+   "20261112-kimi-k3-1-pro",
+   "20261112-longcat-2-5",
+   "20261112-minimax-h3-image",
+   "20261112-ripple-65b-preview"
+  ],
+  "all_have_primary": true,
+  "reviewers": {
+   "Muse / 当該編集セッション": 11
+  }
+ }
+}

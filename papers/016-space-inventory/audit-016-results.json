@@ -1,0 +1,903 @@
+{
+ "read_errors": 0,
+ "catalog": {
+  "count": 10,
+  "sidebar": 6,
+  "library": 4,
+  "duplicate_names": [
+   "2026年 技術系イベント詳細"
+  ]
+ },
+ "ts_spaces_dirs": [
+  ".proposals",
+  "2026",
+  "2026-2",
+  "chimera-zhao-huan-suo",
+  "githubripozitorishao-jie-ji-shi",
+  "hacksiyasuiji-zhong-diao-cha",
+  "lun-wen-sirizu-sutetasu",
+  "muse-mail-muse-ai-dedekirukoto",
+  "musio-ri-ci-bgm",
+  "resitoshou-fu",
+  "xin-zhao-aimoderu"
+ ],
+ "space_data_dirs": [
+  "2026",
+  "2026-2",
+  "chimera-vocal-synth",
+  "chimera-zhao-huan-suo",
+  "githubripozitorishao-jie-ji-shi",
+  "hacksiyasuiji-zhong-diao-cha",
+  "lun-wen-sirizu-sutetasu",
+  "muse-mail-muse-ai-dedekirukoto",
+  "musio-ri-ci-bgm",
+  "resitoshou-fu",
+  "xin-zhao-aimoderu"
+ ],
+ "space_versions_dirs": [
+  "chimera-vocal-synth",
+  "chimera-zhao-huan-suo",
+  "githubripozitorishao-jie-ji-shi",
+  "lun-wen-sirizu-sutetasu",
+  "muse-mail-muse-ai-dedekirukoto",
+  "musio-ri-ci-bgm",
+  "resitoshou-fu",
+  "xin-zhao-aimoderu"
+ ],
+ "orphans": {
+  "in_ts_not_catalog": [
+   ".proposals"
+  ],
+  "in_catalog_not_ts": [],
+  "in_space_data_not_catalog": [
+   "chimera-vocal-synth"
+  ],
+  "in_space_versions_not_catalog": [
+   "chimera-vocal-synth"
+  ],
+  "catalog_not_in_space_data": [],
+  "catalog_not_in_space_versions": [
+   "2026",
+   "2026-2",
+   "hacksiyasuiji-zhong-diao-cha"
+  ]
+ },
+ "totals": {
+  "ts_files_all_dirs": 52675,
+  "ts_bytes_all_dirs": 885955106,
+  "ts_files_catalog": 52675,
+  "ts_bytes_catalog": 885955106,
+  "node_modules_files": 49455,
+  "node_modules_bytes": 695357506,
+  "node_modules_share_pct": 78.49,
+  "non_nm_bytes": 190597600,
+  "space_data_files_total": 161,
+  "space_data_bytes_total": 7670356,
+  "space_versions_files_total": 1316,
+  "space_versions_bytes_total": 36742955,
+  "per_space_bytes_median_catalog": 122889669.5,
+  "per_space_bytes_mean_catalog": 88595510.6
+ },
+ "email_pattern_count_only_source": {
+  "matches": 18,
+  "files": 4
+ },
+ "per_space": [
+  {
+   "slug": ".proposals",
+   "in_catalog": false,
+   "placement": null,
+   "ts_files": 0,
+   "ts_bytes": 0,
+   "node_modules_files": 0,
+   "node_modules_bytes": 0,
+   "non_nm_files": 0,
+   "non_nm_bytes": 0,
+   "top_subdirs_by_bytes": [],
+   "ext_counts": {},
+   "ext_bytes": {},
+   "largest_file": null,
+   "space_data_files": 0,
+   "space_data_bytes": 0,
+   "space_versions_files": 0,
+   "space_versions_bytes": 0,
+   "in_space_data": false,
+   "in_space_versions": false
+  },
+  {
+   "slug": "2026",
+   "in_catalog": true,
+   "placement": "library",
+   "ts_files": 50,
+   "ts_bytes": 17602426,
+   "node_modules_files": 0,
+   "node_modules_bytes": 0,
+   "non_nm_files": 50,
+   "non_nm_bytes": 17602426,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "audits",
+     "files": 14,
+     "bytes": 11194626
+    },
+    {
+     "name": ".space-build-cloudflare",
+     "files": 1,
+     "bytes": 1976190
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 9,
+     "bytes": 1498951
+    },
+    {
+     "name": ".space-build",
+     "files": 9,
+     "bytes": 1449500
+    },
+    {
+     "name": "assets",
+     "files": 7,
+     "bytes": 1406142
+    },
+    {
+     "name": "index.html",
+     "files": 1,
+     "bytes": 43135
+    }
+   ],
+   "ext_counts": {
+    ".json": 13,
+    ".webp": 13,
+    ".jpg": 9,
+    ".png": 8,
+    ".html": 3,
+    ".txt": 2,
+    ".md": 1,
+    "(none)": 1
+   },
+   "ext_bytes": {
+    ".json": 2043328,
+    ".webp": 2773470,
+    ".jpg": 1476672,
+    ".png": 11087417,
+    ".html": 178790,
+    ".txt": 41842,
+    ".md": 907,
+    "(none)": 0
+   },
+   "largest_file": {
+    "name": "audits/2026-10-25T03-53-52Z-122342521/screenshot-full.png",
+    "bytes": 6039922
+   },
+   "space_data_files": 5,
+   "space_data_bytes": 237710,
+   "space_versions_files": 0,
+   "space_versions_bytes": 0,
+   "in_space_data": true,
+   "in_space_versions": false
+  },
+  {
+   "slug": "2026-2",
+   "in_catalog": true,
+   "placement": "library",
+   "ts_files": 80,
+   "ts_bytes": 62906067,
+   "node_modules_files": 0,
+   "node_modules_bytes": 0,
+   "non_nm_files": 80,
+   "non_nm_bytes": 62906067,
+   "top_subdirs_by_bytes": [
+    {
+     "name": ".space-build-cloudflare",
+     "files": 1,
+     "bytes": 16785257
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 19,
+     "bytes": 12605975
+    },
+    {
+     "name": ".space-build",
+     "files": 19,
+     "bytes": 12555693
+    },
+    {
+     "name": "assets",
+     "files": 17,
+     "bytes": 12516720
+    },
+    {
+     "name": "audits",
+     "files": 14,
+     "bytes": 8369994
+    },
+    {
+     "name": "index.html",
+     "files": 1,
+     "bytes": 38749
+    }
+   ],
+   "ext_counts": {
+    ".jpg": 39,
+    ".png": 14,
+    ".json": 13,
+    ".webp": 7,
+    ".html": 3,
+    ".txt": 2,
+    ".md": 1,
+    "(none)": 1
+   },
+   "ext_bytes": {
+    ".jpg": 17930910,
+    ".png": 27196101,
+    ".json": 16856779,
+    ".webp": 711552,
+    ".html": 166464,
+    ".txt": 43354,
+    ".md": 907,
+    "(none)": 0
+   },
+   "largest_file": {
+    "name": ".space-build-cloudflare/deploy-manifest.json",
+    "bytes": 16785257
+   },
+   "space_data_files": 5,
+   "space_data_bytes": 265280,
+   "space_versions_files": 0,
+   "space_versions_bytes": 0,
+   "in_space_data": true,
+   "in_space_versions": false
+  },
+  {
+   "slug": "chimera-vocal-synth",
+   "in_catalog": false,
+   "placement": null,
+   "ts_files": 0,
+   "ts_bytes": 0,
+   "node_modules_files": 0,
+   "node_modules_bytes": 0,
+   "non_nm_files": 0,
+   "non_nm_bytes": 0,
+   "top_subdirs_by_bytes": [],
+   "ext_counts": {},
+   "ext_bytes": {},
+   "largest_file": null,
+   "space_data_files": 0,
+   "space_data_bytes": 0,
+   "space_versions_files": 32,
+   "space_versions_bytes": 966587,
+   "in_space_data": true,
+   "in_space_versions": true
+  },
+  {
+   "slug": "chimera-zhao-huan-suo",
+   "in_catalog": true,
+   "placement": "sidebar",
+   "ts_files": 8597,
+   "ts_bytes": 136300755,
+   "node_modules_files": 8240,
+   "node_modules_bytes": 115888882,
+   "non_nm_files": 357,
+   "non_nm_bytes": 20411873,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "node_modules",
+     "files": 8240,
+     "bytes": 115888882
+    },
+    {
+     "name": "blobs",
+     "files": 9,
+     "bytes": 10507160
+    },
+    {
+     "name": ".bun-cache",
+     "files": 240,
+     "bytes": 4047311
+    },
+    {
+     "name": "audits",
+     "files": 53,
+     "bytes": 3526133
+    },
+    {
+     "name": "client",
+     "files": 13,
+     "bytes": 870268
+    },
+    {
+     "name": "server",
+     "files": 12,
+     "bytes": 661755
+    }
+   ],
+   "ext_counts": {
+    ".js": 3195,
+    ".ts": 1613,
+    ".map": 1127,
+    ".cjs": 666,
+    ".cts": 648,
+    ".bcmap": 336,
+    ".mdx": 333,
+    ".json": 311,
+    "(none)": 111,
+    ".md": 100,
+    ".png": 32,
+    ".mjs": 23
+   },
+   "ext_bytes": {
+    ".js": 40126718,
+    ".ts": 13472137,
+    ".map": 14928967,
+    ".cjs": 3031974,
+    ".cts": 1826018,
+    ".bcmap": 2331334,
+    ".mdx": 1903423,
+    ".json": 4905959,
+    "(none)": 10634673,
+    ".md": 680911,
+    ".png": 3457124,
+    ".mjs": 1528345
+   },
+   "largest_file": {
+    "name": "node_modules/typescript/lib/typescript.js",
+    "bytes": 8927529
+   },
+   "space_data_files": 33,
+   "space_data_bytes": 1224908,
+   "space_versions_files": 165,
+   "space_versions_bytes": 6394310,
+   "in_space_data": true,
+   "in_space_versions": true
+  },
+  {
+   "slug": "githubripozitorishao-jie-ji-shi",
+   "in_catalog": true,
+   "placement": "sidebar",
+   "ts_files": 8313,
+   "ts_bytes": 120703369,
+   "node_modules_files": 8240,
+   "node_modules_bytes": 115888917,
+   "non_nm_files": 73,
+   "non_nm_bytes": 4814452,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "node_modules",
+     "files": 8240,
+     "bytes": 115888917
+    },
+    {
+     "name": "audits",
+     "files": 26,
+     "bytes": 2676085
+    },
+    {
+     "name": "client",
+     "files": 14,
+     "bytes": 881630
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 2,
+     "bytes": 431277
+    },
+    {
+     "name": "server",
+     "files": 6,
+     "bytes": 377991
+    },
+    {
+     "name": ".space-build",
+     "files": 4,
+     "bytes": 269074
+    }
+   ],
+   "ext_counts": {
+    ".js": 3179,
+    ".ts": 1598,
+    ".map": 1113,
+    ".cjs": 666,
+    ".cts": 648,
+    ".mdx": 333,
+    ".json": 300,
+    ".bcmap": 168,
+    ".md": 98,
+    "(none)": 93,
+    ".mjs": 23,
+    ".png": 17
+   },
+   "ext_bytes": {
+    ".js": 38342000,
+    ".ts": 13396845,
+    ".map": 14903089,
+    ".cjs": 3031974,
+    ".cts": 1826018,
+    ".mdx": 1903423,
+    ".json": 4913713,
+    ".bcmap": 1165667,
+    ".md": 681824,
+    "(none)": 116533,
+    ".mjs": 1528345,
+    ".png": 2552509
+   },
+   "largest_file": {
+    "name": "node_modules/typescript/lib/typescript.js",
+    "bytes": 8927529
+   },
+   "space_data_files": 15,
+   "space_data_bytes": 327377,
+   "space_versions_files": 31,
+   "space_versions_bytes": 1144974,
+   "in_space_data": true,
+   "in_space_versions": true
+  },
+  {
+   "slug": "hacksiyasuiji-zhong-diao-cha",
+   "in_catalog": true,
+   "placement": "library",
+   "ts_files": 63,
+   "ts_bytes": 12045226,
+   "node_modules_files": 0,
+   "node_modules_bytes": 0,
+   "non_nm_files": 63,
+   "non_nm_bytes": 12045226,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "audits",
+     "files": 48,
+     "bytes": 11653811
+    },
+    {
+     "name": ".space-build-cloudflare",
+     "files": 1,
+     "bytes": 128481
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 2,
+     "bytes": 107213
+    },
+    {
+     "name": ".space-build",
+     "files": 2,
+     "bytes": 57848
+    },
+    {
+     "name": "index.html",
+     "files": 1,
+     "bytes": 57625
+    },
+    {
+     "name": "icon.webp",
+     "files": 1,
+     "bytes": 38134
+    }
+   ],
+   "ext_counts": {
+    ".png": 42,
+    ".json": 13,
+    ".html": 3,
+    ".txt": 2,
+    ".md": 1,
+    ".webp": 1,
+    "(none)": 1
+   },
+   "ext_bytes": {
+    ".png": 11521030,
+    ".json": 206147,
+    ".html": 222174,
+    ".txt": 57018,
+    ".md": 723,
+    ".webp": 38134,
+    "(none)": 0
+   },
+   "largest_file": {
+    "name": "audits/2026-11-04T01-11-18Z-017437325/screenshot-full.png",
+    "bytes": 2277695
+   },
+   "space_data_files": 5,
+   "space_data_bytes": 404653,
+   "space_versions_files": 0,
+   "space_versions_bytes": 0,
+   "in_space_data": true,
+   "in_space_versions": false
+  },
+  {
+   "slug": "lun-wen-sirizu-sutetasu",
+   "in_catalog": true,
+   "placement": "sidebar",
+   "ts_files": 8570,
+   "ts_bytes": 126589232,
+   "node_modules_files": 8240,
+   "node_modules_bytes": 115888917,
+   "non_nm_files": 330,
+   "non_nm_bytes": 10700315,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "node_modules",
+     "files": 8240,
+     "bytes": 115888917
+    },
+    {
+     "name": "audits",
+     "files": 40,
+     "bytes": 4462283
+    },
+    {
+     "name": ".bun-cache",
+     "files": 240,
+     "bytes": 4047346
+    },
+    {
+     "name": "client",
+     "files": 13,
+     "bytes": 897666
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 2,
+     "bytes": 437791
+    },
+    {
+     "name": "server",
+     "files": 6,
+     "bytes": 381701
+    }
+   ],
+   "ext_counts": {
+    ".js": 3193,
+    ".ts": 1611,
+    ".map": 1127,
+    ".cjs": 666,
+    ".cts": 648,
+    ".bcmap": 336,
+    ".mdx": 333,
+    ".json": 303,
+    "(none)": 103,
+    ".md": 100,
+    ".png": 28,
+    ".mjs": 23
+   },
+   "ext_bytes": {
+    ".js": 39880957,
+    ".ts": 13471271,
+    ".map": 14929017,
+    ".cjs": 3031974,
+    ".cts": 1826018,
+    ".bcmap": 2331334,
+    ".mdx": 1903423,
+    ".json": 4891029,
+    "(none)": 143899,
+    ".md": 685557,
+    ".png": 4394693,
+    ".mjs": 1528345
+   },
+   "largest_file": {
+    "name": "node_modules/typescript/lib/typescript.js",
+    "bytes": 8927529
+   },
+   "space_data_files": 22,
+   "space_data_bytes": 1567572,
+   "space_versions_files": 59,
+   "space_versions_bytes": 2328004,
+   "in_space_data": true,
+   "in_space_versions": true
+  },
+  {
+   "slug": "muse-mail-muse-ai-dedekirukoto",
+   "in_catalog": true,
+   "placement": "library",
+   "ts_files": 28,
+   "ts_bytes": 3618858,
+   "node_modules_files": 0,
+   "node_modules_bytes": 0,
+   "non_nm_files": 28,
+   "non_nm_bytes": 3618858,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "audits",
+     "files": 13,
+     "bytes": 3294470
+    },
+    {
+     "name": ".space-build-cloudflare",
+     "files": 1,
+     "bytes": 103373
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 2,
+     "bytes": 96571
+    },
+    {
+     "name": ".space-build",
+     "files": 2,
+     "bytes": 45410
+    },
+    {
+     "name": "index.html",
+     "files": 1,
+     "bytes": 45187
+    },
+    {
+     "name": "icon.webp",
+     "files": 1,
+     "bytes": 31740
+    }
+   ],
+   "ext_counts": {
+    ".json": 11,
+    ".png": 10,
+    ".html": 3,
+    ".md": 1,
+    ".webp": 1,
+    "(none)": 1,
+    ".txt": 1
+   },
+   "ext_bytes": {
+    ".json": 136851,
+    ".png": 3241170,
+    ".html": 186656,
+    ".md": 723,
+    ".webp": 31740,
+    "(none)": 0,
+    ".txt": 21718
+   },
+   "largest_file": {
+    "name": "audits/2026-11-11T08-42-36Z-281340613/screenshot-full.png",
+    "bytes": 1905900
+   },
+   "space_data_files": 5,
+   "space_data_bytes": 410505,
+   "space_versions_files": 12,
+   "space_versions_bytes": 509116,
+   "in_space_data": true,
+   "in_space_versions": true
+  },
+  {
+   "slug": "musio-ri-ci-bgm",
+   "in_catalog": true,
+   "placement": "sidebar",
+   "ts_files": 8592,
+   "ts_bytes": 125075970,
+   "node_modules_files": 8255,
+   "node_modules_bytes": 115913026,
+   "non_nm_files": 337,
+   "non_nm_bytes": 9162944,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "node_modules",
+     "files": 8255,
+     "bytes": 115913026
+    },
+    {
+     "name": ".bun-cache",
+     "files": 255,
+     "bytes": 4071455
+    },
+    {
+     "name": "audits",
+     "files": 34,
+     "bytes": 2996487
+    },
+    {
+     "name": "client",
+     "files": 13,
+     "bytes": 899694
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 2,
+     "bytes": 440766
+    },
+    {
+     "name": "server",
+     "files": 6,
+     "bytes": 383541
+    }
+   ],
+   "ext_counts": {
+    ".js": 3203,
+    ".ts": 1621,
+    ".map": 1137,
+    ".cjs": 666,
+    ".cts": 648,
+    ".bcmap": 336,
+    ".mdx": 333,
+    ".json": 301,
+    "(none)": 103,
+    ".md": 100,
+    ".png": 25,
+    ".mjs": 23
+   },
+   "ext_bytes": {
+    ".js": 39919698,
+    ".ts": 13479388,
+    ".map": 14935347,
+    ".cjs": 3031974,
+    ".cts": 1826018,
+    ".bcmap": 2331334,
+    ".mdx": 1903423,
+    ".json": 4887721,
+    "(none)": 143901,
+    ".md": 685463,
+    ".png": 2927410,
+    ".mjs": 1528345
+   },
+   "largest_file": {
+    "name": "node_modules/typescript/lib/typescript.js",
+    "bytes": 8927529
+   },
+   "space_data_files": 19,
+   "space_data_bytes": 1034877,
+   "space_versions_files": 59,
+   "space_versions_bytes": 2257811,
+   "in_space_data": true,
+   "in_space_versions": true
+  },
+  {
+   "slug": "resitoshou-fu",
+   "in_catalog": true,
+   "placement": "sidebar",
+   "ts_files": 9577,
+   "ts_bytes": 147082350,
+   "node_modules_files": 8240,
+   "node_modules_bytes": 115888882,
+   "non_nm_files": 1337,
+   "non_nm_bytes": 31193468,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "node_modules",
+     "files": 8240,
+     "bytes": 115888882
+    },
+    {
+     "name": "client",
+     "files": 401,
+     "bytes": 9143722
+    },
+    {
+     "name": ".bun-cache",
+     "files": 477,
+     "bytes": 8080323
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 196,
+     "bytes": 4832860
+    },
+    {
+     "name": ".space-build",
+     "files": 198,
+     "bytes": 4134705
+    },
+    {
+     "name": ".harness",
+     "files": 10,
+     "bytes": 2419684
+    }
+   ],
+   "ext_counts": {
+    ".js": 3206,
+    ".ts": 1624,
+    ".bcmap": 1176,
+    ".map": 1140,
+    ".cjs": 666,
+    ".cts": 648,
+    ".mdx": 333,
+    ".json": 302,
+    "(none)": 149,
+    ".md": 101,
+    ".pfb": 70,
+    ".ttf": 28
+   },
+   "ext_bytes": {
+    ".js": 44263823,
+    ".ts": 13530519,
+    ".bcmap": 8159669,
+    ".map": 14952634,
+    ".cjs": 3031974,
+    ".cts": 1826018,
+    ".mdx": 1903423,
+    ".json": 4853851,
+    "(none)": 280329,
+    ".md": 695461,
+    ".pfb": 1404305,
+    ".ttf": 4016068
+   },
+   "largest_file": {
+    "name": "node_modules/typescript/lib/typescript.js",
+    "bytes": 8927529
+   },
+   "space_data_files": 19,
+   "space_data_bytes": 601144,
+   "space_versions_files": 836,
+   "space_versions_bytes": 18746186,
+   "in_space_data": true,
+   "in_space_versions": true
+  },
+  {
+   "slug": "xin-zhao-aimoderu",
+   "in_catalog": true,
+   "placement": "sidebar",
+   "ts_files": 8805,
+   "ts_bytes": 134030853,
+   "node_modules_files": 8240,
+   "node_modules_bytes": 115888882,
+   "non_nm_files": 565,
+   "non_nm_bytes": 18141971,
+   "top_subdirs_by_bytes": [
+    {
+     "name": "node_modules",
+     "files": 8240,
+     "bytes": 115888882
+    },
+    {
+     "name": ".bun-cache",
+     "files": 477,
+     "bytes": 8080323
+    },
+    {
+     "name": "app.db-wal",
+     "files": 1,
+     "bytes": 4140632
+    },
+    {
+     "name": "audits",
+     "files": 36,
+     "bytes": 3761073
+    },
+    {
+     "name": "client",
+     "files": 13,
+     "bytes": 857981
+    },
+    {
+     "name": ".space-build-cvm",
+     "files": 2,
+     "bytes": 423200
+    }
+   ],
+   "ext_counts": {
+    ".js": 3206,
+    ".ts": 1624,
+    ".map": 1140,
+    ".cjs": 666,
+    ".cts": 648,
+    ".bcmap": 504,
+    ".mdx": 333,
+    ".json": 306,
+    "(none)": 113,
+    ".md": 101,
+    ".pfb": 30,
+    ".mjs": 23
+   },
+   "ext_bytes": {
+    ".js": 41391050,
+    ".ts": 13553527,
+    ".map": 14952634,
+    ".cjs": 3031974,
+    ".cts": 1826018,
+    ".bcmap": 3497001,
+    ".mdx": 1903423,
+    ".json": 4967569,
+    "(none)": 171259,
+    ".md": 689346,
+    ".pfb": 601845,
+    ".mjs": 1528345
+   },
+   "largest_file": {
+    "name": "node_modules/typescript/lib/typescript.js",
+    "bytes": 8927529
+   },
+   "space_data_files": 33,
+   "space_data_bytes": 1596330,
+   "space_versions_files": 122,
+   "space_versions_bytes": 4395967,
+   "in_space_data": true,
+   "in_space_versions": true
+  }
+ ]
+}

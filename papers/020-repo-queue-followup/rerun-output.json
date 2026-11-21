@@ -1,0 +1,329 @@
+{
+  "counts_from_space": {
+    "done": 6,
+    "draft": 0,
+    "editing": 0,
+    "pending": 96,
+    "total": 102
+  },
+  "sync": {
+    "at": "2026-11-20T00:51:26.886Z",
+    "message": "102件のリポジトリを同期しました",
+    "state": "ok"
+  },
+  "total_parsed": 102,
+  "status_counter": {
+    "pending": 96,
+    "done": 6
+  },
+  "done_pct": 5.9,
+  "pending_pct": 94.1,
+  "remaining_days_at_1_per_day": 96,
+  "projection_start": "2026-11-21",
+  "projection_finish": "2027-02-24",
+  "languages": [
+    [
+      "JavaScript",
+      21
+    ],
+    [
+      "Python",
+      20
+    ],
+    [
+      "(none)",
+      16
+    ],
+    [
+      "C++",
+      13
+    ],
+    [
+      "TypeScript",
+      7
+    ],
+    [
+      "HTML",
+      5
+    ],
+    [
+      "Rust",
+      5
+    ],
+    [
+      "C#",
+      5
+    ],
+    [
+      "Kotlin",
+      5
+    ],
+    [
+      "Java",
+      3
+    ],
+    [
+      "CSS",
+      1
+    ],
+    [
+      "C",
+      1
+    ]
+  ],
+  "language_distinct": 12,
+  "desc_present": 98,
+  "desc_missing": 4,
+  "desc_present_pct": 96.1,
+  "topics_any": 2,
+  "topics_none": 100,
+  "stars_total": 3,
+  "forks_total": 2,
+  "open_issues_total": 17,
+  "archived": 0,
+  "is_fork": 4,
+  "is_private": 12,
+  "manual": 0,
+  "created_years": {
+    "2025": 2,
+    "2026": 100
+  },
+  "updated_min": "2026-11-06T15:25:08.000Z",
+  "updated_max": "2026-11-19T14:53:37.000Z",
+  "nov2026_updated": 102,
+  "emails_in_queue_data": 0,
+  "done_info": [
+    {
+      "fullName": "Xenoah/Xenoah.github.io",
+      "title": "【repo紹介】Xenoah.github.io ― Webツール・ゲーム・数学教材・3D作品が集まる個人サイトの玄関",
+      "body_chars": 1736,
+      "sources_lines": 5,
+      "articleUpdatedAt": "2026-11-13T13:26:20.316Z",
+      "isPrivate": false
+    },
+    {
+      "fullName": "Xenoah/webapp_separate20images",
+      "title": "【repo紹介】隙間トリム写真分割 ― 並べたときの「隙間」まで計算して写真を分割するブラウザツール",
+      "body_chars": 2278,
+      "sources_lines": 7,
+      "articleUpdatedAt": "2026-11-14T10:51:01.273Z",
+      "isPrivate": false
+    },
+    {
+      "fullName": "Xenoah/XNH_news-atlas",
+      "title": "【repo紹介】世界のニュースを地図で読む ― 10カテゴリと4つの時間窓で絞り込める XNH_news-atlas",
+      "body_chars": 2432,
+      "sources_lines": 3,
+      "articleUpdatedAt": "2026-11-15T11:06:40.598Z",
+      "isPrivate": false
+    },
+    {
+      "fullName": "Xenoah/archive_music",
+      "title": "【repo紹介】曲を置けば解析・公開が自動で進む ― 11形式対応の音楽投稿サイト archive_music（OTODANA）",
+      "body_chars": 3125,
+      "sources_lines": 7,
+      "articleUpdatedAt": "2026-11-16T11:22:30.172Z",
+      "isPrivate": false
+    },
+    {
+      "fullName": "Xenoah/muse-research-archive",
+      "title": "【repo紹介】結論だけでなく証拠まで残す保管庫 ― 論文016まで連番で積み上がる muse-research-archive",
+      "body_chars": 2008,
+      "sources_lines": 5,
+      "articleUpdatedAt": "2026-11-18T12:12:37.622Z",
+      "isPrivate": true
+    },
+    {
+      "fullName": "Xenoah/webapp_otoware-generator",
+      "title": "【repo紹介】あえて音を割る ― 複数音源をハードクリップしてWAV一括保存、3バンド波形で確認できる音割れメーカー Clipforge",
+      "body_chars": 2162,
+      "sources_lines": 7,
+      "articleUpdatedAt": "2026-11-19T12:05:35.369Z",
+      "isPrivate": false
+    }
+  ],
+  "vs_010": {
+    "old_total": 86,
+    "old_done": 2,
+    "old_pending": 84,
+    "old_remaining": 84,
+    "old_projection_finish_reported": "2027-02-07",
+    "added_count": 16,
+    "removed_count": 0,
+    "removed": [],
+    "added": [
+      {
+        "fullName": "Xenoah/3DP_DATA",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-02-07T10:48:49.000Z",
+        "status": "pending",
+        "language": null
+      },
+      {
+        "fullName": "Xenoah/Claude_PlaneGo",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-02-07T09:31:08.000Z",
+        "status": "pending",
+        "language": "C#"
+      },
+      {
+        "fullName": "Xenoah/FreeCAD_workspace",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-03-29T12:48:17.000Z",
+        "status": "pending",
+        "language": null
+      },
+      {
+        "fullName": "Xenoah/GeminiCLI_test",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-02-08T12:59:48.000Z",
+        "status": "pending",
+        "language": null
+      },
+      {
+        "fullName": "Xenoah/KiCad_workspace",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-03-13T12:16:37.000Z",
+        "status": "pending",
+        "language": null
+      },
+      {
+        "fullName": "Xenoah/MazeRouter_forKicad",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-02-09T10:57:09.000Z",
+        "status": "pending",
+        "language": "Rust"
+      },
+      {
+        "fullName": "Xenoah/archive_music",
+        "isPrivate": false,
+        "manual": false,
+        "repoCreatedAt": "2026-11-15T11:18:51.000Z",
+        "status": "done",
+        "language": "JavaScript"
+      },
+      {
+        "fullName": "Xenoah/gakkiey_android-ime-instrument",
+        "isPrivate": false,
+        "manual": false,
+        "repoCreatedAt": "2026-11-19T14:52:51.000Z",
+        "status": "pending",
+        "language": "Java"
+      },
+      {
+        "fullName": "Xenoah/llm-mojiokoshi",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-07-13T10:43:40.000Z",
+        "status": "pending",
+        "language": "Python"
+      },
+      {
+        "fullName": "Xenoah/mneme-link",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-09-30T13:12:13.000Z",
+        "status": "pending",
+        "language": "JavaScript"
+      },
+      {
+        "fullName": "Xenoah/muse-research-archive",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-11-12T12:04:55.000Z",
+        "status": "done",
+        "language": "Python"
+      },
+      {
+        "fullName": "Xenoah/odins-ai-runebook",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-02-16T12:11:20.000Z",
+        "status": "pending",
+        "language": null
+      },
+      {
+        "fullName": "Xenoah/pcb_rotate-mini-dj-controller",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-10-30T12:27:57.000Z",
+        "status": "pending",
+        "language": "Python"
+      },
+      {
+        "fullName": "Xenoah/vrcworld_winter-brick-house",
+        "isPrivate": false,
+        "manual": false,
+        "repoCreatedAt": "2026-11-16T14:19:32.000Z",
+        "status": "pending",
+        "language": null
+      },
+      {
+        "fullName": "Xenoah/webapp_otoware-generator",
+        "isPrivate": false,
+        "manual": false,
+        "repoCreatedAt": "2026-11-18T14:15:53.000Z",
+        "status": "done",
+        "language": "HTML"
+      },
+      {
+        "fullName": "Xenoah/x-note-collector",
+        "isPrivate": true,
+        "manual": false,
+        "repoCreatedAt": "2026-10-25T05:31:09.000Z",
+        "status": "pending",
+        "language": "Python"
+      }
+    ],
+    "added_private": 12,
+    "added_created_on_or_after_2026-11-15": 4,
+    "added_created_before_2026-11-15": 12,
+    "transitions": {
+      "done->done": 2,
+      "pending->done": 1,
+      "pending->pending": 83
+    },
+    "new_done_among_common": [
+      "Xenoah/XNH_news-atlas"
+    ]
+  },
+  "anomalies": {
+    "pending_with_article_body": [
+      {
+        "fullName": "Xenoah/vrcworld_winter-brick-house",
+        "body_chars": 869,
+        "has_title": true,
+        "draftError": "Review rejected on 2026-11-18: repository is still empty — GitHub sources are only the repo URL, no README or commits av"
+      }
+    ],
+    "draft_error_entries": [
+      {
+        "fullName": "Xenoah/vrcworld_winter-brick-house",
+        "status": "pending"
+      }
+    ],
+    "done_private": [
+      "Xenoah/muse-research-archive"
+    ],
+    "private_all": [
+      "Xenoah/muse-research-archive",
+      "Xenoah/pcb_rotate-mini-dj-controller",
+      "Xenoah/x-note-collector",
+      "Xenoah/mneme-link",
+      "Xenoah/llm-mojiokoshi",
+      "Xenoah/FreeCAD_workspace",
+      "Xenoah/KiCad_workspace",
+      "Xenoah/odins-ai-runebook",
+      "Xenoah/MazeRouter_forKicad",
+      "Xenoah/GeminiCLI_test",
+      "Xenoah/3DP_DATA",
+      "Xenoah/Claude_PlaneGo"
+    ]
+  }
+}

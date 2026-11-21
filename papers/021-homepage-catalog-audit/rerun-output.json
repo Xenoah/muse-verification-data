@@ -1,0 +1,359 @@
+{
+  "total": 108,
+  "unique_ids": 108,
+  "dup_ids": [],
+  "unique_titles": 108,
+  "dup_titles": [],
+  "categories": [
+    [
+      "software",
+      21
+    ],
+    [
+      "tools",
+      17
+    ],
+    [
+      "music",
+      16
+    ],
+    [
+      "games",
+      15
+    ],
+    [
+      "community",
+      11
+    ],
+    [
+      "images",
+      10
+    ],
+    [
+      "data",
+      8
+    ],
+    [
+      "models",
+      6
+    ],
+    [
+      "learn",
+      4
+    ]
+  ],
+  "category_distinct": 9,
+  "invalid_categories": [],
+  "invalid_ids": [],
+  "pages_present": 46,
+  "pages_null": 62,
+  "pages_present_pct": 42.59,
+  "null_with_reason": 62,
+  "null_without_reason_ids": [],
+  "source_only_reasons_top": [
+    [
+      "組み込みファームウェア",
+      11
+    ],
+    [
+      "Windows用アプリ",
+      7
+    ],
+    [
+      "Android用アプリ",
+      6
+    ],
+    [
+      "Chrome拡張機能",
+      5
+    ],
+    [
+      "公開サイト準備中（現在はGitHubで参照）",
+      4
+    ],
+    [
+      "VRChatワールド制作データ",
+      4
+    ],
+    [
+      "Rokid Glasses用アプリ",
+      3
+    ],
+    [
+      "GitHubで公開",
+      3
+    ],
+    [
+      "VS Code拡張機能",
+      2
+    ],
+    [
+      "TenTenV向けワールド",
+      1
+    ]
+  ],
+  "source_only_reasons_distinct": 26,
+  "src_present": 108,
+  "src_missing_ids": [],
+  "distinct_repos_referenced": 86,
+  "distinct_external_repos": 85,
+  "in_site_entries": 23,
+  "external_repo_entries": 85,
+  "self_repo_entries": 23,
+  "pages_dup": [],
+  "src_dup_distinct_urls": 0,
+  "src_dup_total_entries": 0,
+  "updated_present": 17,
+  "updated_missing": 91,
+  "updated_min": "2026-08-20",
+  "updated_max": "2026-11-18",
+  "updated_future_ids": [],
+  "featured": 4,
+  "featured_ids": [
+    "portavek-handheld-synthesizer",
+    "svg-converter",
+    "train-simulator",
+    "intmath"
+  ],
+  "thumbnail_slug": 35,
+  "pending_pages_url": 4,
+  "desc_len_min": 6,
+  "desc_len_max": 154,
+  "desc_len_median": 46.0,
+  "desc_missing": 0,
+  "title_missing": 0,
+  "field_keys": [
+    [
+      "id",
+      108
+    ],
+    [
+      "title",
+      108
+    ],
+    [
+      "description",
+      108
+    ],
+    [
+      "category",
+      108
+    ],
+    [
+      "pagesUrl",
+      108
+    ],
+    [
+      "sourceUrl",
+      108
+    ],
+    [
+      "sourceOnlyReason",
+      62
+    ],
+    [
+      "thumbnailSlug",
+      35
+    ],
+    [
+      "updated",
+      17
+    ],
+    [
+      "pendingPagesUrl",
+      4
+    ],
+    [
+      "featured",
+      4
+    ]
+  ],
+  "non_https_pages": [],
+  "non_https_src": [],
+  "emails_in_projects_json": 0,
+  "projects_htm_count_line": null,
+  "generated_files": {
+    "_includes/site_menu.html": {
+      "bytes": 45204,
+      "ids_found": 59,
+      "pages_urls_found": 0
+    },
+    "sitemap.xml": {
+      "bytes": 14386,
+      "ids_found": 33,
+      "pages_urls_found": 46
+    },
+    "sitemap.htm": {
+      "bytes": 1552,
+      "ids_found": 0,
+      "pages_urls_found": 0
+    }
+  },
+  "generated_reconciliation": {
+    "catalog_articles": 108,
+    "catalog_titles_found": 108,
+    "catalog_source_urls_found": 108,
+    "menu_titles_found": 108,
+    "featured_titles_found": 4,
+    "sitemap_pages_urls_found": 46
+  },
+  "pages_null_by_category": [
+    [
+      "software",
+      21
+    ],
+    [
+      "tools",
+      11
+    ],
+    [
+      "community",
+      8
+    ],
+    [
+      "music",
+      7
+    ],
+    [
+      "games",
+      4
+    ],
+    [
+      "models",
+      4
+    ],
+    [
+      "learn",
+      3
+    ],
+    [
+      "data",
+      3
+    ],
+    [
+      "images",
+      1
+    ]
+  ],
+  "pages_present_by_category": [
+    [
+      "games",
+      11
+    ],
+    [
+      "music",
+      9
+    ],
+    [
+      "images",
+      9
+    ],
+    [
+      "tools",
+      6
+    ],
+    [
+      "data",
+      5
+    ],
+    [
+      "community",
+      3
+    ],
+    [
+      "models",
+      2
+    ],
+    [
+      "learn",
+      1
+    ]
+  ],
+  "external_repos_list": [
+    "Xenoah/5w1h-generator",
+    "Xenoah/Android_MusicPlayerWithVJ",
+    "Xenoah/Android_SimpleSpeedMater",
+    "Xenoah/Claude_Photogrammetric",
+    "Xenoah/Codex_Photogrammetric",
+    "Xenoah/EKO-EchoKeys-Overlay",
+    "Xenoah/ESP32-AtomPLC-bambu_monitor",
+    "Xenoah/ESP32-AtomPLC-sample",
+    "Xenoah/ESP32-bambu-MQTT",
+    "Xenoah/Hyakuyo-bako_m5atom__env3sensor",
+    "Xenoah/Imakita-Industry_forYT",
+    "Xenoah/Kasynel-Slicer",
+    "Xenoah/LadduinoIDE",
+    "Xenoah/LightNobel_VRnoJunin",
+    "Xenoah/M5Stack_GPSLapTimer",
+    "Xenoah/M5Stack_OkiClock",
+    "Xenoah/MedjedBuilder",
+    "Xenoah/MedjedVR",
+    "Xenoah/Memo_3DP",
+    "Xenoah/Penplot-Gcoder",
+    "Xenoah/TenTenV",
+    "Xenoah/WEBAPP_2DCAD",
+    "Xenoah/WEBAPP_PDF-EDITOR",
+    "Xenoah/Windows_MusicPlayerWithVJ",
+    "Xenoah/Windows_Utaidasu",
+    "Xenoah/XNH_BBS",
+    "Xenoah/XNH_news-atlas",
+    "Xenoah/ama-mado",
+    "Xenoah/archive-3dmodels",
+    "Xenoah/archive_music",
+    "Xenoah/ascii-dlp",
+    "Xenoah/audio-ayatori",
+    "Xenoah/blender-agent",
+    "Xenoah/chat-avatar_gpt-extensions",
+    "Xenoah/chip-loom-mcu-studio",
+    "Xenoah/codex_test",
+    "Xenoah/cores3-usb-spectrum",
+    "Xenoah/cores3_muse",
+    "Xenoah/cubew",
+    "Xenoah/dt-cue_precision-media-player",
+    "Xenoah/esp32-s3-box-lite-easy",
+    "Xenoah/flightsim-rust",
+    "Xenoah/frame-match-camera",
+    "Xenoah/gakkiey_android-ime-instrument",
+    "Xenoah/game-sandbox",
+    "Xenoah/gametest20260613",
+    "Xenoah/grok-coding-vscode",
+    "Xenoah/map_autumn-leaves",
+    "Xenoah/meshcopia",
+    "Xenoah/moji-mic",
+    "Xenoah/onhand-llm-for-android",
+    "Xenoah/owl-of-minerva",
+    "Xenoah/pcb-z80-2sc1815",
+    "Xenoah/pcb_voice-pitcher",
+    "Xenoah/pocket-photogrammetry-scan",
+    "Xenoah/pop-se-for-vscode",
+    "Xenoah/portavek-handheld-synthesizer",
+    "Xenoah/print-on-web_p12-pro",
+    "Xenoah/rescue-deletedfiles_rust",
+    "Xenoah/rokid-doom",
+    "Xenoah/rokid-imu-hud",
+    "Xenoah/rokid-spectrum-hud",
+    "Xenoah/rpg-text-sfx_gpt-extensions",
+    "Xenoah/seekdeck-webdj",
+    "Xenoah/show-filesize_for-win",
+    "Xenoah/shrike-lite-playground",
+    "Xenoah/stackchan-codex",
+    "Xenoah/stackchan-llm-mqtt-fft",
+    "Xenoah/stackchan-mqtt",
+    "Xenoah/suno-nonstop-dj",
+    "Xenoah/tentenvworld_3a-nac",
+    "Xenoah/tentenvworld_oboro-yashiki",
+    "Xenoah/test_m-vr",
+    "Xenoah/topple-cup",
+    "Xenoah/tsubuyai-tech",
+    "Xenoah/voicemeld",
+    "Xenoah/vrc-gathering",
+    "Xenoah/vrcworld_drive-roadster",
+    "Xenoah/vrcworld_jujo-yokocho",
+    "Xenoah/vrcworld_tech-tech-cafe",
+    "Xenoah/vrcworld_winter-brick-house",
+    "Xenoah/wave-daw",
+    "Xenoah/webapp_otoware-generator",
+    "Xenoah/webapp_separate20images",
+    "Xenoah/yt-quay-android"
+  ]
+}

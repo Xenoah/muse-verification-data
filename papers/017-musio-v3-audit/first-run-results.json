@@ -1,0 +1,5078 @@
+{
+ "zip_count": 50,
+ "tracks": [
+  {
+   "zip": "01-morning-routine.zip",
+   "zip_size_disk": 3893838,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 139502,
+    "track.json": 316,
+    "track.mid": 9407,
+    "track.mp3": 3937581
+   },
+   "track_json": {
+    "title": "Morning Routine",
+    "artist": "Xenoah",
+    "genre": "Lo-Fi Hip Hop",
+    "tags": [
+     "bgm",
+     "lofi",
+     "chill"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 82,
+    "key": "F major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "a1301864ed0084a0d4b82f1bcba8a2877cf5f6441b6c2dd29d08c27e3cb19c0d",
+   "mid_size": 9407,
+   "midi": {
+    "midi_duration_sec": 152.18,
+    "noteons": 1159,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 53,
+    "pitch_max": 89,
+    "drum_noteons": 616,
+    "kick_noteons": 119,
+    "total_bars": 52,
+    "bars_with_drum": 42,
+    "bars_with_kick": 40,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      731707
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 139502
+   },
+   "mp3": {
+    "duration": 164.0,
+    "format_bit_rate": 192077,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -0.9,
+    "mean_volume_db": -26.5
+   },
+   "queue_id": 1,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 164.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "02-coffee-and-sunshine.zip",
+   "zip_size_disk": 3832464,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 168184,
+    "track.json": 318,
+    "track.mid": 22307,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Coffee and Sunshine",
+    "artist": "Xenoah",
+    "genre": "Bossa Nova",
+    "tags": [
+     "bgm",
+     "latin",
+     "cafe"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 122,
+    "key": "C major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "5418e8c15e854d3a0b82e8eb32a0087e800f9acae1533d6abdcb6bcb5d4f52f8",
+   "mid_size": 22307,
+   "midi": {
+    "midi_duration_sec": 149.496,
+    "noteons": 2772,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 47,
+    "pitch_max": 89,
+    "drum_noteons": 1675,
+    "kick_noteons": 238,
+    "total_bars": 76,
+    "bars_with_drum": 64,
+    "bars_with_kick": 60,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      491803
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 168184
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.5,
+    "mean_volume_db": -26.3
+   },
+   "queue_id": 2,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "03-midnight-conversation.zip",
+   "zip_size_disk": 3825395,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 125390,
+    "track.json": 322,
+    "track.mid": 11739,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Midnight Conversation",
+    "artist": "Xenoah",
+    "genre": "Smooth Jazz",
+    "tags": [
+     "bgm",
+     "jazz",
+     "lounge"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 96,
+    "key": "Eb major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "11c86d04a51646045a4003ba128edcf88df1cebfd884285e462ef3ddc237f0c4",
+   "mid_size": 11739,
+   "midi": {
+    "midi_duration_sec": 149.984,
+    "noteons": 1451,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 50,
+    "pitch_max": 89,
+    "drum_noteons": 774,
+    "kick_noteons": 90,
+    "total_bars": 60,
+    "bars_with_drum": 48,
+    "bars_with_kick": 46,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      625000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 125390
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.7,
+    "mean_volume_db": -27.8
+   },
+   "queue_id": 3,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "04-downtown-shuffle.zip",
+   "zip_size_disk": 3893316,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 192443,
+    "track.json": 317,
+    "track.mid": 21395,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Downtown Shuffle",
+    "artist": "Xenoah",
+    "genre": "Jazz Fusion",
+    "tags": [
+     "bgm",
+     "jazz",
+     "fusion"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 112,
+    "key": "G major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "fa5d1543a87ea31d58cf700751d1b8c5ff44809a0ba689ef1e2478ea182689fe",
+   "mid_size": 21395,
+   "midi": {
+    "midi_duration_sec": 149.989,
+    "noteons": 2658,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 55,
+    "pitch_max": 88,
+    "drum_noteons": 1424,
+    "kick_noteons": 162,
+    "total_bars": 70,
+    "bars_with_drum": 58,
+    "bars_with_kick": 55,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      535714
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 192443
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -21.7
+   },
+   "queue_id": 4,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "05-lazy-afternoon.zip",
+   "zip_size_disk": 4016972,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 182218,
+    "track.json": 318,
+    "track.mid": 12384,
+    "track.mp3": 4033197
+   },
+   "track_json": {
+    "title": "Lazy Afternoon",
+    "artist": "Xenoah",
+    "genre": "Acoustic Folk",
+    "tags": [
+     "bgm",
+     "acoustic",
+     "folk"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 92,
+    "key": "D major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "f33b4b0d2ed598247efdee2e0adc1595eb0c3a66c3d8b4113eb197bea3b53b3b",
+   "mid_size": 12384,
+   "midi": {
+    "midi_duration_sec": 156.505,
+    "noteons": 1533,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 50,
+    "pitch_max": 96,
+    "drum_noteons": 612,
+    "kick_noteons": 81,
+    "total_bars": 60,
+    "bars_with_drum": 46,
+    "bars_with_kick": 42,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      652173
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 182218
+   },
+   "mp3": {
+    "duration": 168.0,
+    "format_bit_rate": 192057,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -0.9,
+    "mean_volume_db": -30.0
+   },
+   "queue_id": 5,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 168.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "06-everyday-happiness.zip",
+   "zip_size_disk": 3944172,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 244244,
+    "track.json": 315,
+    "track.mid": 17139,
+    "track.mp3": 3889197
+   },
+   "track_json": {
+    "title": "Everyday Happiness",
+    "artist": "Xenoah",
+    "genre": "Indie Pop",
+    "tags": [
+     "bgm",
+     "indie",
+     "pop"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 118,
+    "key": "C major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "c4be0719ece6c3f51f00d36ce33d5d3c5bbbcf3407c7d21bbf742b31fd779174",
+   "mid_size": 17139,
+   "midi": {
+    "midi_duration_sec": 150.496,
+    "noteons": 2126,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 48,
+    "pitch_max": 88,
+    "drum_noteons": 872,
+    "kick_noteons": 149,
+    "total_bars": 74,
+    "bars_with_drum": 62,
+    "bars_with_kick": 56,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      508474
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 244244
+   },
+   "mp3": {
+    "duration": 162.0,
+    "format_bit_rate": 192059,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.6,
+    "mean_volume_db": -25.7
+   },
+   "queue_id": 6,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 162.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "07-open-road.zip",
+   "zip_size_disk": 3931235,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 148645,
+    "track.json": 312,
+    "track.mid": 18917,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Open Road",
+    "artist": "Xenoah",
+    "genre": "Country Rock",
+    "tags": [
+     "bgm",
+     "country",
+     "rock"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 124,
+    "key": "A major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "0c8c3a3bfb871cde6df297ce70c100ee985682ceece95d8647aacc6f010cb27a",
+   "mid_size": 18917,
+   "midi": {
+    "midi_duration_sec": 150.0,
+    "noteons": 2357,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 57,
+    "pitch_max": 96,
+    "drum_noteons": 1046,
+    "kick_noteons": 173,
+    "total_bars": 78,
+    "bars_with_drum": 75,
+    "bars_with_kick": 72,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      483870
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 148645
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -23.8
+   },
+   "queue_id": 7,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "08-garage-weekend.zip",
+   "zip_size_disk": 3877280,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 167561,
+    "track.json": 313,
+    "track.mid": 14163,
+    "track.mp3": 3913389
+   },
+   "track_json": {
+    "title": "Garage Weekend",
+    "artist": "Xenoah",
+    "genre": "Blues Rock",
+    "tags": [
+     "bgm",
+     "blues",
+     "rock"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 108,
+    "key": "E major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "03f6f256dc1986127c42f5edd77635ccaa189db48277180aad70b14e7baf67ea",
+   "mid_size": 14163,
+   "midi": {
+    "midi_duration_sec": 151.099,
+    "noteons": 1754,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 33,
+    "pitch_max": 78,
+    "drum_noteons": 768,
+    "kick_noteons": 118,
+    "total_bars": 68,
+    "bars_with_drum": 56,
+    "bars_with_kick": 51,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      555555
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 167561
+   },
+   "mp3": {
+    "duration": 163.0,
+    "format_bit_rate": 192068,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.5,
+    "mean_volume_db": -25.7
+   },
+   "queue_id": 8,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 163.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "09-full-throttle.zip",
+   "zip_size_disk": 3927250,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 170336,
+    "track.json": 313,
+    "track.mid": 19261,
+    "track.mp3": 3841389
+   },
+   "track_json": {
+    "title": "Full Throttle",
+    "artist": "Xenoah",
+    "genre": "Hard Rock",
+    "tags": [
+     "bgm",
+     "rock",
+     "driving"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 138,
+    "key": "E minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "2e1547a728169159c7abcad041f8d48c696430226b763cd00528a2157592724d",
+   "mid_size": 19261,
+   "midi": {
+    "midi_duration_sec": 148.695,
+    "noteons": 2400,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 52,
+    "pitch_max": 96,
+    "drum_noteons": 1140,
+    "kick_noteons": 190,
+    "total_bars": 86,
+    "bars_with_drum": 83,
+    "bars_with_kick": 79,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      434782
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 170336
+   },
+   "mp3": {
+    "duration": 160.0,
+    "format_bit_rate": 192069,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.1,
+    "mean_volume_db": -24.0
+   },
+   "queue_id": 9,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 160.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "10-steel-velocity.zip",
+   "zip_size_disk": 3976465,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 191431,
+    "track.json": 317,
+    "track.mid": 25197,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Steel Velocity",
+    "artist": "Xenoah",
+    "genre": "Heavy Metal",
+    "tags": [
+     "bgm",
+     "metal",
+     "driving"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 160,
+    "key": "D minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "ee170f263b56da90570311a1981fe9acf9f2a09249589253f793aa82df9dd218",
+   "mid_size": 25197,
+   "midi": {
+    "midi_duration_sec": 149.25,
+    "noteons": 3142,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 31,
+    "pitch_max": 84,
+    "drum_noteons": 1652,
+    "kick_noteons": 525,
+    "total_bars": 100,
+    "bars_with_drum": 97,
+    "bars_with_kick": 92,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      375000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 191431
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.0,
+    "mean_volume_db": -20.7
+   },
+   "queue_id": 10,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "11-neon-highway.zip",
+   "zip_size_disk": 3774716,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 149009,
+    "track.json": 315,
+    "track.mid": 20973,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Neon Highway",
+    "artist": "Xenoah",
+    "genre": "Synthwave",
+    "tags": [
+     "bgm",
+     "synthwave",
+     "retro"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 102,
+    "key": "A minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-16"
+   },
+   "mid_sha256_inzip": "84ad3ca739901fee7c1a698b8a1d2d10472136bce34a9e632de0683f62d349b6",
+   "mid_size": 20973,
+   "midi": {
+    "midi_duration_sec": 149.412,
+    "noteons": 2614,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 45,
+    "pitch_max": 84,
+    "drum_noteons": 1266,
+    "kick_noteons": 179,
+    "total_bars": 64,
+    "bars_with_drum": 61,
+    "bars_with_kick": 59,
+    "four_floor_bars": 18,
+    "tempos": [
+     [
+      0,
+      588235
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 149009
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.5,
+    "mean_volume_db": -19.2
+   },
+   "queue_id": 11,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "12-digital-horizon.zip",
+   "zip_size_disk": 4023217,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 160256,
+    "track.json": 320,
+    "track.mid": 27221,
+    "track.mp3": 4105197
+   },
+   "track_json": {
+    "title": "Digital Horizon",
+    "artist": "Xenoah",
+    "genre": "Future Bass",
+    "tags": [
+     "bgm",
+     "electronic",
+     "edm"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 150,
+    "key": "F# minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "ba701dff015776ac0b5db8bc48adde14eb6ba0669413cf6fcc3fe1f1ed661aa3",
+   "mid_size": 27221,
+   "midi": {
+    "midi_duration_sec": 159.2,
+    "noteons": 3367,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 54,
+    "pitch_max": 96,
+    "drum_noteons": 1600,
+    "kick_noteons": 213,
+    "total_bars": 100,
+    "bars_with_drum": 69,
+    "bars_with_kick": 67,
+    "four_floor_bars": 25,
+    "tempos": [
+     [
+      0,
+      400000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 160256
+   },
+   "mp3": {
+    "duration": 171.0,
+    "format_bit_rate": 192056,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -19.2
+   },
+   "queue_id": 12,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 171.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "build",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "13-electric-momentum.zip",
+   "zip_size_disk": 3997719,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 138529,
+    "track.json": 329,
+    "track.mid": 29813,
+    "track.mp3": 4105197
+   },
+   "track_json": {
+    "title": "Electric Momentum",
+    "artist": "Xenoah",
+    "genre": "Progressive House",
+    "tags": [
+     "bgm",
+     "house",
+     "electronic"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 126,
+    "key": "C minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "3e23fcc7c3ff5322ae90c7924b41567de9d956160e92ed370ae0c52f6d4d5e4c",
+   "mid_size": 29813,
+   "midi": {
+    "midi_duration_sec": 159.047,
+    "noteons": 3697,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 48,
+    "pitch_max": 84,
+    "drum_noteons": 1371,
+    "kick_noteons": 170,
+    "total_bars": 84,
+    "bars_with_drum": 59,
+    "bars_with_kick": 56,
+    "four_floor_bars": 22,
+    "tempos": [
+     [
+      0,
+      476190
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 138529
+   },
+   "mp3": {
+    "duration": 171.0,
+    "format_bit_rate": 192056,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -19.0
+   },
+   "queue_id": 13,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 171.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "build",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "14-afterhours-circuit.zip",
+   "zip_size_disk": 3733944,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 99592,
+    "track.json": 323,
+    "track.mid": 17435,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Afterhours Circuit",
+    "artist": "Xenoah",
+    "genre": "Deep House",
+    "tags": [
+     "bgm",
+     "house",
+     "electronic"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 122,
+    "key": "F minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "fd02654a609f41467698fe7a41a2c2ffbfec32c7135f125f056db36f4a2d4c3d",
+   "mid_size": 17435,
+   "midi": {
+    "midi_duration_sec": 149.498,
+    "noteons": 2163,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 53,
+    "pitch_max": 84,
+    "drum_noteons": 1347,
+    "kick_noteons": 173,
+    "total_bars": 76,
+    "bars_with_drum": 64,
+    "bars_with_kick": 59,
+    "four_floor_bars": 17,
+    "tempos": [
+     [
+      0,
+      491803
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 99592
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -19.2
+   },
+   "queue_id": 14,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "15-industrial-pulse.zip",
+   "zip_size_disk": 3852482,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 195990,
+    "track.json": 318,
+    "track.mid": 35087,
+    "track.mp3": 3889197
+   },
+   "track_json": {
+    "title": "Industrial Pulse",
+    "artist": "Xenoah",
+    "genre": "Techno",
+    "tags": [
+     "bgm",
+     "techno",
+     "electronic"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 130,
+    "key": "G minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "131a46ddb19548f0a7813b4f53ee694b20e5ce557320e97c7c8227a15efc6058",
+   "mid_size": 35087,
+   "midi": {
+    "midi_duration_sec": 150.461,
+    "noteons": 4379,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 55,
+    "pitch_max": 84,
+    "drum_noteons": 1890,
+    "kick_noteons": 211,
+    "total_bars": 82,
+    "bars_with_drum": 79,
+    "bars_with_kick": 74,
+    "four_floor_bars": 22,
+    "tempos": [
+     [
+      0,
+      461538
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 195990
+   },
+   "mp3": {
+    "duration": 162.0,
+    "format_bit_rate": 192059,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -18.4
+   },
+   "queue_id": 15,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 162.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "16-breakneck.zip",
+   "zip_size_disk": 3517956,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 178633,
+    "track.json": 315,
+    "track.mid": 23857,
+    "track.mp3": 3577581
+   },
+   "track_json": {
+    "title": "Breakneck",
+    "artist": "Xenoah",
+    "genre": "Drum and Bass",
+    "tags": [
+     "bgm",
+     "dnb",
+     "electronic"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 174,
+    "key": "D minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "49930f989c924974b373782685360023963825233b3aaa62659fbdbcc9ddb164",
+   "mid_size": 23857,
+   "midi": {
+    "midi_duration_sec": 137.241,
+    "noteons": 2976,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 36,
+    "pitch_max": 84,
+    "drum_noteons": 2086,
+    "kick_noteons": 179,
+    "total_bars": 100,
+    "bars_with_drum": 97,
+    "bars_with_kick": 91,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      344827
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 178633
+   },
+   "mp3": {
+    "duration": 149.0,
+    "format_bit_rate": 192084,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -18.1
+   },
+   "queue_id": 16,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 149.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "17-gravity-drop.zip",
+   "zip_size_disk": 4035777,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 149094,
+    "track.json": 316,
+    "track.mid": 11975,
+    "track.mp3": 4129389
+   },
+   "track_json": {
+    "title": "Gravity Drop",
+    "artist": "Xenoah",
+    "genre": "Dubstep",
+    "tags": [
+     "bgm",
+     "dubstep",
+     "electronic"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 140,
+    "key": "F minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "c0da6f04a9fbb37d1a0485fa35564e76034ce4397f1f1b809664be2664ac3d6e",
+   "mid_size": 11975,
+   "midi": {
+    "midi_duration_sec": 160.286,
+    "noteons": 1460,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 53,
+    "pitch_max": 84,
+    "drum_noteons": 660,
+    "kick_noteons": 75,
+    "total_bars": 94,
+    "bars_with_drum": 65,
+    "bars_with_kick": 60,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      428571
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 149094
+   },
+   "mp3": {
+    "duration": 172.0,
+    "format_bit_rate": 192064,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -21.2
+   },
+   "queue_id": 17,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 172.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "build",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "18-pixel-runner.zip",
+   "zip_size_disk": 3760106,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 111216,
+    "track.json": 313,
+    "track.mid": 27634,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Pixel Runner",
+    "artist": "Xenoah",
+    "genre": "Chiptune",
+    "tags": [
+     "bgm",
+     "chiptune",
+     "retro"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 140,
+    "key": "C major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "e822d4e2b22abdbb554b753e9dbfabae9ae0722608eb0c2d8ffc324e6b4d2557",
+   "mid_size": 27634,
+   "midi": {
+    "midi_duration_sec": 150.0,
+    "noteons": 3420,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 38,
+    "pitch_max": 84,
+    "drum_noteons": 562,
+    "kick_noteons": 155,
+    "total_bars": 88,
+    "bars_with_drum": 85,
+    "bars_with_kick": 81,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      428571
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 111216
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -18.1
+   },
+   "queue_id": 18,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "19-puzzle-garden.zip",
+   "zip_size_disk": 4132308,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 66893,
+    "track.json": 328,
+    "track.mid": 10170,
+    "track.mp3": 4297581
+   },
+   "track_json": {
+    "title": "Puzzle Garden",
+    "artist": "Xenoah",
+    "genre": "Minimal Electronic",
+    "tags": [
+     "bgm",
+     "minimal",
+     "electronic"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 100,
+    "key": "A minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "fccb1a2042cc4f62c990c08f6e2819f9409228899d42a246f68de46f4dec7e3a",
+   "mid_size": 10170,
+   "midi": {
+    "midi_duration_sec": 167.985,
+    "noteons": 1218,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 45,
+    "pitch_max": 90,
+    "drum_noteons": 277,
+    "kick_noteons": 76,
+    "total_bars": 70,
+    "bars_with_drum": 42,
+    "bars_with_kick": 38,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      600000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 66893
+   },
+   "mp3": {
+    "duration": 179.0,
+    "format_bit_rate": 192070,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -20.8
+   },
+   "queue_id": 19,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 179.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "float",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "20-floating-islands.zip",
+   "zip_size_disk": 4128168,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 86825,
+    "track.json": 318,
+    "track.mid": 14361,
+    "track.mp3": 4273389
+   },
+   "track_json": {
+    "title": "Floating Islands",
+    "artist": "Xenoah",
+    "genre": "Dream Pop",
+    "tags": [
+     "bgm",
+     "dreampop",
+     "chill"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 104,
+    "key": "D major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "8a7ef10f22f44b6bca1c6eda145ba7ee65f2726c64a6a59d06d44da197427f1f",
+   "mid_size": 14361,
+   "midi": {
+    "midi_duration_sec": 166.139,
+    "noteons": 1766,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 50,
+    "pitch_max": 93,
+    "drum_noteons": 633,
+    "kick_noteons": 103,
+    "total_bars": 72,
+    "bars_with_drum": 42,
+    "bars_with_kick": 40,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      576923
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 86825
+   },
+   "mp3": {
+    "duration": 178.0,
+    "format_bit_rate": 192062,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -22.4
+   },
+   "queue_id": 20,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 178.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "float",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "21-infinite-cosmos.zip",
+   "zip_size_disk": 4437350,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 100187,
+    "track.json": 319,
+    "track.mid": 2776,
+    "track.mp3": 4681197
+   },
+   "track_json": {
+    "title": "Infinite Cosmos",
+    "artist": "Xenoah",
+    "genre": "Space Ambient",
+    "tags": [
+     "bgm",
+     "ambient",
+     "space"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 60,
+    "key": "C major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "f3e5643cbe62e8c55bb0805629c0e2e98032b86121118f4fea0a1e08c32230d9",
+   "mid_size": 2776,
+   "midi": {
+    "midi_duration_sec": 183.975,
+    "noteons": 321,
+    "channels_used": [
+     0,
+     1,
+     2
+    ],
+    "n_channels": 3,
+    "pitch_min": 48,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 46,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      1000000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 100187
+   },
+   "mp3": {
+    "duration": 195.0,
+    "format_bit_rate": 192049,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -18.2
+   },
+   "queue_id": 21,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 195.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "stillness",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "22-silent-laboratory.zip",
+   "zip_size_disk": 4757453,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 114417,
+    "track.json": 319,
+    "track.mid": 2541,
+    "track.mp3": 5017581
+   },
+   "track_json": {
+    "title": "Silent Laboratory",
+    "artist": "Xenoah",
+    "genre": "Dark Ambient",
+    "tags": [
+     "bgm",
+     "ambient",
+     "dark"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 56,
+    "key": "D minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "7eb9143b135302627867cbabe9eb26fbffd60eff61d17a4ee199874925703bbe",
+   "mid_size": 2541,
+   "midi": {
+    "midi_duration_sec": 197.116,
+    "noteons": 294,
+    "channels_used": [
+     0,
+     1,
+     2
+    ],
+    "n_channels": 3,
+    "pitch_min": 50,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 46,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      1071428
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 114417
+   },
+   "mp3": {
+    "duration": 209.0,
+    "format_bit_rate": 192060,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -19.6
+   },
+   "queue_id": 22,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 209.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "stillness",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "23-rain-on-glass.zip",
+   "zip_size_disk": 4190451,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 140775,
+    "track.json": 317,
+    "track.mid": 5218,
+    "track.mp3": 4273389
+   },
+   "track_json": {
+    "title": "Rain on Glass",
+    "artist": "Xenoah",
+    "genre": "Ambient Piano",
+    "tags": [
+     "bgm",
+     "ambient",
+     "piano"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 72,
+    "key": "A minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "f7a8fcef66115f6c508ec69a517d10accd6d79c8134e65627b27255e47604361",
+   "mid_size": 5218,
+   "midi": {
+    "midi_duration_sec": 166.646,
+    "noteons": 603,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "n_channels": 4,
+    "pitch_min": 45,
+    "pitch_max": 93,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 50,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      833333
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 140775
+   },
+   "mp3": {
+    "duration": 178.0,
+    "format_bit_rate": 192062,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -23.6
+   },
+   "queue_id": 23,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 178.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "float",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "24-quiet-reflections.zip",
+   "zip_size_disk": 3895317,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 78944,
+    "track.json": 326,
+    "track.mid": 6294,
+    "track.mp3": 4057389
+   },
+   "track_json": {
+    "title": "Quiet Reflections",
+    "artist": "Xenoah",
+    "genre": "Neo-Classical",
+    "tags": [
+     "bgm",
+     "neoclassical",
+     "piano"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 76,
+    "key": "C minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "f22fe2ceaaa4189dbf3eb944c37dd51985441990b5edd2ec45ee94f11c961f84",
+   "mid_size": 6294,
+   "midi": {
+    "midi_duration_sec": 157.875,
+    "noteons": 737,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "n_channels": 4,
+    "pitch_min": 48,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 50,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      789473
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 78944
+   },
+   "mp3": {
+    "duration": 169.0,
+    "format_bit_rate": 192065,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.4,
+    "mean_volume_db": -18.2
+   },
+   "queue_id": 24,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 169.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "25-the-grand-discovery.zip",
+   "zip_size_disk": 4021469,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 153596,
+    "track.json": 337,
+    "track.mid": 8128,
+    "track.mp3": 4105197
+   },
+   "track_json": {
+    "title": "The Grand Discovery",
+    "artist": "Xenoah",
+    "genre": "Cinematic Orchestral",
+    "tags": [
+     "bgm",
+     "cinematic",
+     "orchestral"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 92,
+    "key": "D major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "1231e891a63ebe902292a47d04d74a848bc20d792f057e08937fda90b26fe4ba",
+   "mid_size": 8128,
+   "midi": {
+    "midi_duration_sec": 159.782,
+    "noteons": 955,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     8
+    ],
+    "n_channels": 5,
+    "pitch_min": 36,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 62,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      652173
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 153596
+   },
+   "mp3": {
+    "duration": 171.0,
+    "format_bit_rate": 192056,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -15.9
+   },
+   "queue_id": 25,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 171.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "build",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "26-the-final-stand.zip",
+   "zip_size_disk": 4085129,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 120880,
+    "track.json": 324,
+    "track.mid": 9884,
+    "track.mp3": 4153581
+   },
+   "track_json": {
+    "title": "The Final Stand",
+    "artist": "Xenoah",
+    "genre": "Epic Orchestral",
+    "tags": [
+     "bgm",
+     "epic",
+     "orchestral"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 100,
+    "key": "D minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "9ae249fd2eda3dcff2d3f7a1ad934a430cf4ca5ba2664d509b9ff7e06a631237",
+   "mid_size": 9884,
+   "midi": {
+    "midi_duration_sec": 161.4,
+    "noteons": 1169,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     8
+    ],
+    "n_channels": 5,
+    "pitch_min": 36,
+    "pitch_max": 95,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 68,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      600000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 120880
+   },
+   "mp3": {
+    "duration": 173.0,
+    "format_bit_rate": 192073,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -17.9
+   },
+   "queue_id": 26,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 173.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "build",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "27-hidden-kingdom.zip",
+   "zip_size_disk": 3990507,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 185892,
+    "track.json": 328,
+    "track.mid": 7698,
+    "track.mp3": 4081581
+   },
+   "track_json": {
+    "title": "Hidden Kingdom",
+    "artist": "Xenoah",
+    "genre": "Fantasy Orchestral",
+    "tags": [
+     "bgm",
+     "fantasy",
+     "orchestral"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 88,
+    "key": "G major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "f0369139ef26d2053a0077ef7ec306860f75628e908ee2fc1a69ab158b43e7f2",
+   "mid_size": 7698,
+   "midi": {
+    "midi_duration_sec": 158.165,
+    "noteons": 905,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     8
+    ],
+    "n_channels": 5,
+    "pitch_min": 36,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 58,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      681818
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 185892
+   },
+   "mp3": {
+    "duration": 170.0,
+    "format_bit_rate": 192074,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.4,
+    "mean_volume_db": -18.6
+   },
+   "queue_id": 27,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 170.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "28-clockwork-mystery.zip",
+   "zip_size_disk": 4405262,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 165284,
+    "track.json": 333,
+    "track.mid": 5020,
+    "track.mp3": 4537197
+   },
+   "track_json": {
+    "title": "Clockwork Mystery",
+    "artist": "Xenoah",
+    "genre": "Suspense Soundtrack",
+    "tags": [
+     "bgm",
+     "suspense",
+     "soundtrack"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 84,
+    "key": "B minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "163a4f6c66e532b71a81bdade53a770978c0bf86cd9a6b3519b4108d72abcbe9",
+   "mid_size": 5020,
+   "midi": {
+    "midi_duration_sec": 177.125,
+    "noteons": 581,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     8
+    ],
+    "n_channels": 5,
+    "pitch_min": 36,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 62,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      714285
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 165284
+   },
+   "mp3": {
+    "duration": 189.0,
+    "format_bit_rate": 192050,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -18.2
+   },
+   "queue_id": 28,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 189.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "stillness",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "29-something-in-the-dark.zip",
+   "zip_size_disk": 4491934,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 120198,
+    "track.json": 327,
+    "track.mid": 2734,
+    "track.mp3": 4681197
+   },
+   "track_json": {
+    "title": "Something in the Dark",
+    "artist": "Xenoah",
+    "genre": "Horror Ambient",
+    "tags": [
+     "bgm",
+     "horror",
+     "ambient"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 60,
+    "key": "E minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "c8f20c8bcf2642a7f8e3e5513c8576d29262233a58593bbbe91a6b97643493ad",
+   "mid_size": 2734,
+   "midi": {
+    "midi_duration_sec": 183.975,
+    "noteons": 316,
+    "channels_used": [
+     0,
+     1,
+     2,
+     8
+    ],
+    "n_channels": 4,
+    "pitch_min": 36,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 46,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      1000000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 120198
+   },
+   "mp3": {
+    "duration": 195.0,
+    "format_bit_rate": 192049,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -18.1
+   },
+   "queue_id": 29,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 195.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "stillness",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "30-the-last-goodbye.zip",
+   "zip_size_disk": 4036406,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 135960,
+    "track.json": 334,
+    "track.mid": 5491,
+    "track.mp3": 4177197
+   },
+   "track_json": {
+    "title": "The Last Goodbye",
+    "artist": "Xenoah",
+    "genre": "Emotional Soundtrack",
+    "tags": [
+     "bgm",
+     "emotional",
+     "soundtrack"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 68,
+    "key": "F major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "ea6039fdbbf5cf2c442bd631f87f78f8e3c7d7b889149b9e475c3998d504d846",
+   "mid_size": 5491,
+   "midi": {
+    "midi_duration_sec": 162.331,
+    "noteons": 641,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "n_channels": 4,
+    "pitch_min": 53,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 46,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      882352
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 135960
+   },
+   "mp3": {
+    "duration": 174.0,
+    "format_bit_rate": 192055,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -17.1
+   },
+   "queue_id": 30,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 174.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "31-festival-streets.zip",
+   "zip_size_disk": 3947775,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 236542,
+    "track.json": 309,
+    "track.mid": 23651,
+    "track.mp3": 3889197
+   },
+   "track_json": {
+    "title": "Festival Streets",
+    "artist": "Xenoah",
+    "genre": "Ska",
+    "tags": [
+     "bgm",
+     "ska",
+     "upbeat"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 150,
+    "key": "Bb major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "48ac6dcfe8d94228a5078e736938d4675cc73064cdcdb95eede5393d200a6994",
+   "mid_size": 23651,
+   "midi": {
+    "midi_duration_sec": 150.393,
+    "noteons": 2936,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 53,
+    "pitch_max": 91,
+    "drum_noteons": 1078,
+    "kick_noteons": 147,
+    "total_bars": 94,
+    "bars_with_drum": 78,
+    "bars_with_kick": 72,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      400000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 236542
+   },
+   "mp3": {
+    "duration": 162.0,
+    "format_bit_rate": 192059,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -23.8
+   },
+   "queue_id": 31,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 162.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "32-island-breeze.zip",
+   "zip_size_disk": 3848975,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 166574,
+    "track.json": 309,
+    "track.mid": 12067,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Island Breeze",
+    "artist": "Xenoah",
+    "genre": "Reggae",
+    "tags": [
+     "bgm",
+     "reggae",
+     "chill"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 74,
+    "key": "A major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "3b23634c92ed516f54b25a4950f8db6fe7afad3d186cc09e07ccab1e2ec8b919",
+   "mid_size": 12067,
+   "midi": {
+    "midi_duration_sec": 149.176,
+    "noteons": 1494,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 57,
+    "pitch_max": 96,
+    "drum_noteons": 496,
+    "kick_noteons": 52,
+    "total_bars": 46,
+    "bars_with_drum": 36,
+    "bars_with_kick": 32,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      810810
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 166574
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -0.9,
+    "mean_volume_db": -29.2
+   },
+   "queue_id": 32,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "33-golden-coast.zip",
+   "zip_size_disk": 4304055,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 159495,
+    "track.json": 319,
+    "track.mid": 18731,
+    "track.mp3": 4297581
+   },
+   "track_json": {
+    "title": "Golden Coast",
+    "artist": "Xenoah",
+    "genre": "Tropical House",
+    "tags": [
+     "bgm",
+     "tropical",
+     "house"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 112,
+    "key": "E major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "23a2ed737c03383ccd2ba92070039b97f5bb9f460709f567abf7428bc68d3414",
+   "mid_size": 18731,
+   "midi": {
+    "midi_duration_sec": 167.129,
+    "noteons": 2307,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 52,
+    "pitch_max": 96,
+    "drum_noteons": 964,
+    "kick_noteons": 118,
+    "total_bars": 78,
+    "bars_with_drum": 46,
+    "bars_with_kick": 44,
+    "four_floor_bars": 7,
+    "tempos": [
+     [
+      0,
+      535714
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 159495
+   },
+   "mp3": {
+    "duration": 179.0,
+    "format_bit_rate": 192070,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -21.5
+   },
+   "queue_id": 33,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 179.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "float",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "34-rhythm-of-the-city.zip",
+   "zip_size_disk": 3865946,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 191766,
+    "track.json": 317,
+    "track.mid": 25657,
+    "track.mp3": 3841389
+   },
+   "track_json": {
+    "title": "Rhythm of the City",
+    "artist": "Xenoah",
+    "genre": "Latin Funk",
+    "tags": [
+     "bgm",
+     "latin",
+     "funk"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 116,
+    "key": "C minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "3aacf6b64091495f533b00c4e52dea2d440b44bf22303f93eea1a4040f5cb618",
+   "mid_size": 25657,
+   "midi": {
+    "midi_duration_sec": 148.955,
+    "noteons": 3191,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 36,
+    "pitch_max": 81,
+    "drum_noteons": 1454,
+    "kick_noteons": 151,
+    "total_bars": 72,
+    "bars_with_drum": 60,
+    "bars_with_kick": 51,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      517241
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 191766
+   },
+   "mp3": {
+    "duration": 160.0,
+    "format_bit_rate": 192069,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.9,
+    "mean_volume_db": -23.1
+   },
+   "queue_id": 34,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 160.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "35-midnight-tango.zip",
+   "zip_size_disk": 3926976,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 100141,
+    "track.json": 319,
+    "track.mid": 15512,
+    "track.mp3": 4009581
+   },
+   "track_json": {
+    "title": "Midnight Tango",
+    "artist": "Xenoah",
+    "genre": "Argentine Tango",
+    "tags": [
+     "bgm",
+     "tango",
+     "latin"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 120,
+    "key": "A minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "8364977f801bf22b4d018ff0cc036d200fc3134588fb154aa212e8749cf5ef7b",
+   "mid_size": 15512,
+   "midi": {
+    "midi_duration_sec": 155.988,
+    "noteons": 1901,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 45,
+    "pitch_max": 96,
+    "drum_noteons": 539,
+    "kick_noteons": 115,
+    "total_bars": 78,
+    "bars_with_drum": 62,
+    "bars_with_kick": 59,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      500000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 100141
+   },
+   "mp3": {
+    "duration": 167.0,
+    "format_bit_rate": 192075,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -23.8
+   },
+   "queue_id": 35,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 167.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "36-desert-caravan.zip",
+   "zip_size_disk": 3863592,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 107722,
+    "track.json": 321,
+    "track.mid": 14697,
+    "track.mp3": 3985389
+   },
+   "track_json": {
+    "title": "Desert Caravan",
+    "artist": "Xenoah",
+    "genre": "Middle Eastern Folk",
+    "tags": [
+     "bgm",
+     "world",
+     "folk"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 96,
+    "key": "D minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "a114e60210e39216a75f2369063c81cdd1b00b6d2a8d51e5eebce0f40627df14",
+   "mid_size": 14697,
+   "midi": {
+    "midi_duration_sec": 154.984,
+    "noteons": 1824,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 50,
+    "pitch_max": 96,
+    "drum_noteons": 1178,
+    "kick_noteons": 169,
+    "total_bars": 62,
+    "bars_with_drum": 46,
+    "bars_with_kick": 43,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      625000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 107722
+   },
+   "mp3": {
+    "duration": 166.0,
+    "format_bit_rate": 192066,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.4,
+    "mean_volume_db": -19.1
+   },
+   "queue_id": 36,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 166.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "37-eastern-winds.zip",
+   "zip_size_disk": 3953242,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 198617,
+    "track.json": 331,
+    "track.mid": 6853,
+    "track.mp3": 4009581
+   },
+   "track_json": {
+    "title": "Eastern Winds",
+    "artist": "Xenoah",
+    "genre": "Traditional Japanese",
+    "tags": [
+     "bgm",
+     "japanese",
+     "traditional"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 80,
+    "key": "D minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "79472e74036eb1c45552e145f627bcdff59ae1e0c2a6d23135a8115e9a63ab72",
+   "mid_size": 6853,
+   "midi": {
+    "midi_duration_sec": 155.981,
+    "noteons": 806,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     8
+    ],
+    "n_channels": 5,
+    "pitch_min": 36,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 52,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      750000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 198617
+   },
+   "mp3": {
+    "duration": 167.0,
+    "format_bit_rate": 192075,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -18.5
+   },
+   "queue_id": 37,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 167.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "38-bamboo-moon.zip",
+   "zip_size_disk": 3893032,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 189656,
+    "track.json": 327,
+    "track.mid": 6543,
+    "track.mp3": 3985389
+   },
+   "track_json": {
+    "title": "Bamboo Moon",
+    "artist": "Xenoah",
+    "genre": "Chinese Traditional",
+    "tags": [
+     "bgm",
+     "chinese",
+     "traditional"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 84,
+    "key": "G major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "c157a18a932497a6b24b15f5bca12b0e2bf9a7a39cd1819a78c3f0f33d81ce49",
+   "mid_size": 6543,
+   "midi": {
+    "midi_duration_sec": 154.268,
+    "noteons": 765,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "n_channels": 4,
+    "pitch_min": 55,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 54,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      714285
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 189656
+   },
+   "mp3": {
+    "duration": 166.0,
+    "format_bit_rate": 192066,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -17.3
+   },
+   "queue_id": 38,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 166.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "39-mountain-temple.zip",
+   "zip_size_disk": 3905196,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 164536,
+    "track.json": 328,
+    "track.mid": 9453,
+    "track.mp3": 3985389
+   },
+   "track_json": {
+    "title": "Mountain Temple",
+    "artist": "Xenoah",
+    "genre": "Indian Classical Fusion",
+    "tags": [
+     "bgm",
+     "indian",
+     "world"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 90,
+    "key": "D major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "290556a979ed30b0588b8b7f175c76d960cd8b551d66419cdd35563ebbb3b76e",
+   "mid_size": 9453,
+   "midi": {
+    "midi_duration_sec": 154.65,
+    "noteons": 1169,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 50,
+    "pitch_max": 95,
+    "drum_noteons": 594,
+    "kick_noteons": 82,
+    "total_bars": 58,
+    "bars_with_drum": 44,
+    "bars_with_kick": 41,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      666666
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 164536
+   },
+   "mp3": {
+    "duration": 166.0,
+    "format_bit_rate": 192066,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.5,
+    "mean_volume_db": -19.1
+   },
+   "queue_id": 39,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 166.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "40-emerald-highlands.zip",
+   "zip_size_disk": 3903323,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 130918,
+    "track.json": 318,
+    "track.mid": 15249,
+    "track.mp3": 3985389
+   },
+   "track_json": {
+    "title": "Emerald Highlands",
+    "artist": "Xenoah",
+    "genre": "Celtic Folk",
+    "tags": [
+     "bgm",
+     "celtic",
+     "folk"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 112,
+    "key": "D major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "3ef420040d19ebd9224d37d71b5b0ff62ae18115d2c42ab97186f164c5eb5f85",
+   "mid_size": 15249,
+   "midi": {
+    "midi_duration_sec": 154.272,
+    "noteons": 1889,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 50,
+    "pitch_max": 96,
+    "drum_noteons": 754,
+    "kick_noteons": 100,
+    "total_bars": 72,
+    "bars_with_drum": 56,
+    "bars_with_kick": 53,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      535714
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 130918
+   },
+   "mp3": {
+    "duration": 166.0,
+    "format_bit_rate": 192066,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.5,
+    "mean_volume_db": -21.6
+   },
+   "queue_id": 40,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 166.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "41-northern-lights.zip",
+   "zip_size_disk": 3980744,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 153434,
+    "track.json": 315,
+    "track.mid": 9639,
+    "track.mp3": 4081581
+   },
+   "track_json": {
+    "title": "Northern Lights",
+    "artist": "Xenoah",
+    "genre": "Nordic Folk",
+    "tags": [
+     "bgm",
+     "nordic",
+     "folk"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 88,
+    "key": "A minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "193b2e05fc8c3d7feb799e879ddd143e13906bcd7da95591889a079bceb6a090",
+   "mid_size": 9639,
+   "midi": {
+    "midi_duration_sec": 158.165,
+    "noteons": 1193,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 36,
+    "pitch_max": 90,
+    "drum_noteons": 597,
+    "kick_noteons": 84,
+    "total_bars": 58,
+    "bars_with_drum": 44,
+    "bars_with_kick": 41,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      681818
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 153434
+   },
+   "mp3": {
+    "duration": 170.0,
+    "format_bit_rate": 192074,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -0.8,
+    "mean_volume_db": -21.9
+   },
+   "queue_id": 41,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 170.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "42-afternoon-in-paris.zip",
+   "zip_size_disk": 3915862,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 149313,
+    "track.json": 322,
+    "track.mid": 17915,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Afternoon in Paris",
+    "artist": "Xenoah",
+    "genre": "French Musette",
+    "tags": [
+     "bgm",
+     "french",
+     "cafe"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 132,
+    "key": "G major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "7cf056aa910ab89031730ad2a77299ffc963fccb6af1405ab50336eca134012a",
+   "mid_size": 17915,
+   "midi": {
+    "midi_duration_sec": 149.079,
+    "noteons": 2221,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 40,
+    "pitch_max": 95,
+    "drum_noteons": 1041,
+    "kick_noteons": 125,
+    "total_bars": 82,
+    "bars_with_drum": 68,
+    "bars_with_kick": 64,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      454545
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 149313
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -0.8,
+    "mean_volume_db": -24.8
+   },
+   "queue_id": 42,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "43-velvet-groove.zip",
+   "zip_size_disk": 3730523,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 104857,
+    "track.json": 311,
+    "track.mid": 10573,
+    "track.mp3": 3913389
+   },
+   "track_json": {
+    "title": "Velvet Groove",
+    "artist": "Xenoah",
+    "genre": "Neo Soul",
+    "tags": [
+     "bgm",
+     "soul",
+     "groove"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 92,
+    "key": "Eb major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "ba151e7a32a537d11e040cbff1a81dd928b98d495c04f42abc6e77251e9dcb78",
+   "mid_size": 10573,
+   "midi": {
+    "midi_duration_sec": 151.291,
+    "noteons": 1305,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 51,
+    "pitch_max": 89,
+    "drum_noteons": 713,
+    "kick_noteons": 133,
+    "total_bars": 58,
+    "bars_with_drum": 48,
+    "bars_with_kick": 45,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      652173
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 104857
+   },
+   "mp3": {
+    "duration": 163.0,
+    "format_bit_rate": 192068,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -24.8
+   },
+   "queue_id": 43,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 163.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "44-retro-boulevard.zip",
+   "zip_size_disk": 3786942,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 212984,
+    "track.json": 314,
+    "track.mid": 26771,
+    "track.mp3": 3841389
+   },
+   "track_json": {
+    "title": "Retro Boulevard",
+    "artist": "Xenoah",
+    "genre": "Disco Funk",
+    "tags": [
+     "bgm",
+     "disco",
+     "funk"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 116,
+    "key": "A minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "2c08be88c6ec02d1ac34c2d3bb91698873d5cc23c4bb298b405ac1b7c55b8572",
+   "mid_size": 26771,
+   "midi": {
+    "midi_duration_sec": 148.955,
+    "noteons": 3333,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 45,
+    "pitch_max": 96,
+    "drum_noteons": 1261,
+    "kick_noteons": 158,
+    "total_bars": 72,
+    "bars_with_drum": 60,
+    "bars_with_kick": 56,
+    "four_floor_bars": 15,
+    "tempos": [
+     [
+      0,
+      517241
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 212984
+   },
+   "mp3": {
+    "duration": 160.0,
+    "format_bit_rate": 192069,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -24.8
+   },
+   "queue_id": 44,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 160.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "45-urban-shadows.zip",
+   "zip_size_disk": 3718419,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 114907,
+    "track.json": 316,
+    "track.mid": 8508,
+    "track.mp3": 3841389
+   },
+   "track_json": {
+    "title": "Urban Shadows",
+    "artist": "Xenoah",
+    "genre": "Trip Hop",
+    "tags": [
+     "bgm",
+     "triphop",
+     "downtempo"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 84,
+    "key": "C minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "7927264a3c08b3baec60332164941de9756759456b4c7e50124a2f4bc79d97e9",
+   "mid_size": 8508,
+   "midi": {
+    "midi_duration_sec": 148.553,
+    "noteons": 1047,
+    "channels_used": [
+     0,
+     1,
+     2,
+     9
+    ],
+    "n_channels": 4,
+    "pitch_min": 48,
+    "pitch_max": 89,
+    "drum_noteons": 607,
+    "kick_noteons": 112,
+    "total_bars": 52,
+    "bars_with_drum": 42,
+    "bars_with_kick": 38,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      714285
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 114907
+   },
+   "mp3": {
+    "duration": 160.0,
+    "format_bit_rate": 192069,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -20.1
+   },
+   "queue_id": 45,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 160.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "46-executive-vision.zip",
+   "zip_size_disk": 4010219,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 178966,
+    "track.json": 321,
+    "track.mid": 17597,
+    "track.mp3": 3913389
+   },
+   "track_json": {
+    "title": "Executive Vision",
+    "artist": "Xenoah",
+    "genre": "Corporate Pop",
+    "tags": [
+     "bgm",
+     "corporate",
+     "pop"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 110,
+    "key": "C major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "a2d645a163b88a11089792dfcbde4c8c8a2c607be7d4a651587e94d6a0b1e798",
+   "mid_size": 17597,
+   "midi": {
+    "midi_duration_sec": 151.636,
+    "noteons": 2192,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 48,
+    "pitch_max": 96,
+    "drum_noteons": 947,
+    "kick_noteons": 171,
+    "total_bars": 70,
+    "bars_with_drum": 67,
+    "bars_with_kick": 65,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      545454
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 178966
+   },
+   "mp3": {
+    "duration": 163.0,
+    "format_bit_rate": 192068,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -0.6,
+    "mean_volume_db": -24.0
+   },
+   "queue_id": 46,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 163.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "47-breaking-bulletin.zip",
+   "zip_size_disk": 3781742,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 166886,
+    "track.json": 336,
+    "track.mid": 24168,
+    "track.mp3": 3865581
+   },
+   "track_json": {
+    "title": "Breaking Bulletin",
+    "artist": "Xenoah",
+    "genre": "Broadcast Electronic",
+    "tags": [
+     "bgm",
+     "broadcast",
+     "electronic"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 128,
+    "key": "G minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "8ef92aa2ca7e561202754881652a0f4965fc592e355a450bf5f133c23be0c79d",
+   "mid_size": 24168,
+   "midi": {
+    "midi_duration_sec": 149.062,
+    "noteons": 2990,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 55,
+    "pitch_max": 84,
+    "drum_noteons": 523,
+    "kick_noteons": 141,
+    "total_bars": 80,
+    "bars_with_drum": 77,
+    "bars_with_kick": 72,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      468750
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 166886
+   },
+   "mp3": {
+    "duration": 161.0,
+    "format_bit_rate": 192078,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -17.3
+   },
+   "queue_id": 47,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 161.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "drive",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "48-tiny-troubles.zip",
+   "zip_size_disk": 3933998,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 184858,
+    "track.json": 326,
+    "track.mid": 13297,
+    "track.mp3": 4009581
+   },
+   "track_json": {
+    "title": "Tiny Troubles",
+    "artist": "Xenoah",
+    "genre": "Comedy Orchestral",
+    "tags": [
+     "bgm",
+     "comedy",
+     "orchestral"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 120,
+    "key": "C major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "79d2bcad46773f1e98306ab227e9dc2d282870bf79ad5510bb91fd648e27da14",
+   "mid_size": 13297,
+   "midi": {
+    "midi_duration_sec": 155.494,
+    "noteons": 1584,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     8
+    ],
+    "n_channels": 5,
+    "pitch_min": 36,
+    "pitch_max": 96,
+    "drum_noteons": 0,
+    "kick_noteons": 0,
+    "total_bars": 78,
+    "bars_with_drum": 0,
+    "bars_with_kick": 0,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      500000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 184858
+   },
+   "mp3": {
+    "duration": 167.0,
+    "format_bit_rate": 192075,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.3,
+    "mean_volume_db": -22.5
+   },
+   "queue_id": 48,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 167.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "narrative",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "49-winter-lanterns.zip",
+   "zip_size_disk": 3999289,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 208154,
+    "track.json": 320,
+    "track.mid": 19371,
+    "track.mp3": 3889197
+   },
+   "track_json": {
+    "title": "Winter Lanterns",
+    "artist": "Xenoah",
+    "genre": "Holiday Swing",
+    "tags": [
+     "bgm",
+     "holiday",
+     "swing"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 140,
+    "key": "F major",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "e8bb3a95a56e281fb482b850fa118c11075c4e78904ed817fe053fdeb7f31023",
+   "mid_size": 19371,
+   "midi": {
+    "midi_duration_sec": 150.846,
+    "noteons": 2403,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 52,
+    "pitch_max": 96,
+    "drum_noteons": 1126,
+    "kick_noteons": 132,
+    "total_bars": 88,
+    "bars_with_drum": 74,
+    "bars_with_kick": 68,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      428571
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 208154
+   },
+   "mp3": {
+    "duration": 162.0,
+    "format_bit_rate": 192059,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.2,
+    "mean_volume_db": -25.5
+   },
+   "queue_id": 49,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 162.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "groove",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  },
+  {
+   "zip": "50-until-tomorrow.zip",
+   "zip_size_disk": 4173273,
+   "crc_ok": true,
+   "contents": [
+    "cover.jpg",
+    "track.json",
+    "track.mid",
+    "track.mp3"
+   ],
+   "member_sizes": {
+    "cover.jpg": 93756,
+    "track.json": 317,
+    "track.mid": 14206,
+    "track.mp3": 4177197
+   },
+   "track_json": {
+    "title": "Until Tomorrow",
+    "artist": "Xenoah",
+    "genre": "Post-Rock",
+    "tags": [
+     "bgm",
+     "postrock",
+     "guitar"
+    ],
+    "generationTools": [
+     "Musio"
+    ],
+    "bpm": 100,
+    "key": "E minor",
+    "license": "All rights reserved",
+    "status": "public",
+    "download": false,
+    "createdAt": "2026-11-17"
+   },
+   "mid_sha256_inzip": "9f7ac6c118d0adb3c865d4166afdf6711982ee56299d6b2b9af7c1aa65f86e4a",
+   "mid_size": 14206,
+   "midi": {
+    "midi_duration_sec": 162.0,
+    "noteons": 1753,
+    "channels_used": [
+     0,
+     1,
+     2,
+     3,
+     9
+    ],
+    "n_channels": 5,
+    "pitch_min": 52,
+    "pitch_max": 96,
+    "drum_noteons": 698,
+    "kick_noteons": 103,
+    "total_bars": 68,
+    "bars_with_drum": 47,
+    "bars_with_kick": 44,
+    "four_floor_bars": 0,
+    "tempos": [
+     [
+      0,
+      600000
+     ]
+    ]
+   },
+   "midi_format": 0,
+   "midi_ppq": 480,
+   "cover": {
+    "format": "JPEG",
+    "size_px": [
+     720,
+     720
+    ],
+    "bytes": 93756
+   },
+   "mp3": {
+    "duration": 174.0,
+    "format_bit_rate": 192055,
+    "codec": "mp3",
+    "sample_rate": 48000,
+    "channels": 2,
+    "max_volume_db": -1.1,
+    "mean_volume_db": -23.6
+   },
+   "queue_id": 50,
+   "manifest_found": true,
+   "check_zip_size_manifest": true,
+   "check_mid_sha_manifest": true,
+   "check_contents_manifest": true,
+   "manifest_duration": 174.0,
+   "duration_diff_ffprobe_minus_manifest": 0.0,
+   "intent": "build",
+   "check_title_manifest_vs_trackjson": true,
+   "check_bpm_manifest_vs_trackjson": true,
+   "check_key_manifest_vs_trackjson": true,
+   "check_genre_manifest_vs_trackjson": true,
+   "check_title_queue_vs_trackjson": true,
+   "check_bpm_queue_vs_trackjson": true,
+   "check_key_queue_vs_trackjson": true,
+   "check_genre_queue_vs_trackjson": true,
+   "queue_done": true
+  }
+ ],
+ "errors": [],
+ "aggregates": {
+  "n_ok": 50,
+  "total_duration_sec": 8411.0,
+  "duration_min": 149.0,
+  "duration_max": 209.0,
+  "duration_median": 166.0,
+  "duration_mean": 168.22,
+  "n_under_120s": 0,
+  "n_under_138s": 0,
+  "all_contents_exact4": true,
+  "all_crc_ok": true,
+  "all_mid_sha_match": true,
+  "all_zip_size_match": true,
+  "all_trackjson_match_manifest": true,
+  "all_trackjson_match_queue": true,
+  "intent_counts": {
+   "groove": 15,
+   "narrative": 12,
+   "drive": 9,
+   "build": 6,
+   "float": 4,
+   "stillness": 4
+  },
+  "total_zip_bytes": 198829181,
+  "total_mp3_bytes": 201935178,
+  "total_mid_bytes": 756677,
+  "mp3_codecs": {
+   "mp3": 50
+  },
+  "mp3_sample_rates": {
+   "48000": 50
+  },
+  "mp3_bitrates": {
+   "192077": 1,
+   "192078": 11,
+   "192057": 1,
+   "192059": 4,
+   "192068": 3,
+   "192069": 4,
+   "192056": 3,
+   "192084": 1,
+   "192064": 1,
+   "192070": 2,
+   "192062": 2,
+   "192049": 2,
+   "192060": 1,
+   "192065": 1,
+   "192073": 1,
+   "192074": 2,
+   "192050": 1,
+   "192055": 2,
+   "192075": 3,
+   "192066": 4
+  },
+  "cover_formats": {
+   "JPEG": 50
+  },
+  "cover_sizes_px": {
+   "720x720": 50
+  },
+  "silent_tracks_maxvol_le_-60": [],
+  "maxvol_min": -1.9,
+  "maxvol_max": -0.6,
+  "four_floor_total_bars_with_drum": 2249,
+  "four_floor_total_bars": 126,
+  "tracks_over40pct_fourfloor": [],
+  "tracks_no_drums": [
+   "21-infinite-cosmos.zip",
+   "22-silent-laboratory.zip",
+   "23-rain-on-glass.zip",
+   "24-quiet-reflections.zip",
+   "25-the-grand-discovery.zip",
+   "26-the-final-stand.zip",
+   "27-hidden-kingdom.zip",
+   "28-clockwork-mystery.zip",
+   "29-something-in-the-dark.zip",
+   "30-the-last-goodbye.zip",
+   "37-eastern-winds.zip",
+   "38-bamboo-moon.zip",
+   "48-tiny-troubles.zip"
+  ],
+  "duration_diff_abs_max": 0.0,
+  "midi_vs_mp3_duration_diff_abs_max": 12.0,
+  "produced_dates": {
+   "2026-11-17": 1,
+   "2026-11-18": 42,
+   "2026-11-19": 7
+  },
+  "manifest_status_counts": {
+   "produced": 50
+  },
+  "manifest_count": 50,
+  "queue_count": 50,
+  "queue_done_count": 50
+ }
+}

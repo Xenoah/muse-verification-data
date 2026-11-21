@@ -1,0 +1,37 @@
+{
+ "CONNECTOR.md": {
+  "files": 111,
+  "bytes": 697229
+ },
+ "connector.yaml": {
+  "files": 111,
+  "bytes": 43362
+ },
+ "manifest.yaml": {
+  "files": 109,
+  "bytes": 483236
+ },
+ "references_md": {
+  "files": 71,
+  "bytes": 392936
+ },
+ "scripts": {
+  "files": 2,
+  "bytes": 16631
+ },
+ "other": {
+  "files": 0,
+  "bytes": 0
+ },
+ "total_files": 404,
+ "total_bytes": 1633394,
+ "uber_courier_files": {
+  "CONNECTOR.md": 12578,
+  "connector.yaml": 503,
+  "manifest.yaml": 2479,
+  "references/order-monitoring.md": 4734,
+  "references/service-and-support.md": 1181,
+  "scripts/order-hook.sh": 828,
+  "scripts/order_hook.py": 15803
+ }
+}

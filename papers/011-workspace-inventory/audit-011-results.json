@@ -1,0 +1,722 @@
+{
+ "root": "~/workspace",
+ "measured_at_start": "2026-11-16T05:49:28.436124+09:00",
+ "measured_at_finish": "2026-11-16T05:49:31.542361+09:00",
+ "total_files": 82266,
+ "total_bytes": 12145566165,
+ "total_dirs_including_root": 10630,
+ "symlinks": 45,
+ "walk_errors": 0,
+ "walk_error_samples": [],
+ "email_pattern_in_relative_paths": 23,
+ "per_top_level": [
+  {
+   "name": "research-002",
+   "files": 6402,
+   "bytes": 7730814577,
+   "dirs": 733
+  },
+  {
+   "name": "chimera-song",
+   "files": 17633,
+   "bytes": 1874540924,
+   "dirs": 1690
+  },
+  {
+   "name": "ts-spaces",
+   "files": 44085,
+   "bytes": 760873154,
+   "dirs": 2922
+  },
+  {
+   "name": ".hatch-browser",
+   "files": 5670,
+   "bytes": 702043466,
+   "dirs": 1940
+  },
+  {
+   "name": "musio",
+   "files": 106,
+   "bytes": 475473257,
+   "dirs": 13
+  },
+  {
+   "name": "xenoah-github-io",
+   "files": 2534,
+   "bytes": 189204867,
+   "dirs": 571
+  },
+  {
+   "name": "avatars",
+   "files": 70,
+   "bytes": 77315231,
+   "dirs": 3
+  },
+  {
+   "name": "visual_grounding",
+   "files": 250,
+   "bytes": 63806509,
+   "dirs": 185
+  },
+  {
+   "name": "xnc-work",
+   "files": 399,
+   "bytes": 42107474,
+   "dirs": 185
+  },
+  {
+   "name": "xnc-reconcile",
+   "files": 1544,
+   "bytes": 37110613,
+   "dirs": 175
+  },
+  {
+   "name": "feed",
+   "files": 229,
+   "bytes": 36860131,
+   "dirs": 236
+  },
+  {
+   "name": "space-versions",
+   "files": 1257,
+   "bytes": 34485144,
+   "dirs": 204
+  },
+  {
+   "name": "imagine_media",
+   "files": 24,
+   "bytes": 25314856,
+   "dirs": 2
+  },
+  {
+   "name": "x-note-collector-repo",
+   "files": 223,
+   "bytes": 24591992,
+   "dirs": 41
+  },
+  {
+   "name": "browser_downloads",
+   "files": 5,
+   "bytes": 22270913,
+   "dirs": 12
+  },
+  {
+   "name": "goals",
+   "files": 348,
+   "bytes": 8223419,
+   "dirs": 252
+  },
+  {
+   "name": "user",
+   "files": 33,
+   "bytes": 7987618,
+   "dirs": 7
+  },
+  {
+   "name": "self_improvement",
+   "files": 654,
+   "bytes": 7181499,
+   "dirs": 575
+  },
+  {
+   "name": "space_data",
+   "files": 142,
+   "bytes": 6635479,
+   "dirs": 51
+  },
+  {
+   "name": "x_record",
+   "files": 1,
+   "bytes": 6618061,
+   "dirs": 1
+  },
+  {
+   "name": "agents",
+   "files": 56,
+   "bytes": 3652273,
+   "dirs": 587
+  },
+  {
+   "name": "onboarding_tour",
+   "files": 4,
+   "bytes": 2946236,
+   "dirs": 1
+  },
+  {
+   "name": "mini-pc-search",
+   "files": 29,
+   "bytes": 2438423,
+   "dirs": 2
+  },
+  {
+   "name": "tsubuyai-tech-work",
+   "files": 210,
+   "bytes": 1253972,
+   "dirs": 97
+  },
+  {
+   "name": "proactivity",
+   "files": 69,
+   "bytes": 900361,
+   "dirs": 14
+  },
+  {
+   "name": "github_backfill",
+   "files": 34,
+   "bytes": 228968,
+   "dirs": 1
+  },
+  {
+   "name": "email",
+   "files": 32,
+   "bytes": 146203,
+   "dirs": 2
+  },
+  {
+   "name": "your_files",
+   "files": 77,
+   "bytes": 129970,
+   "dirs": 67
+  },
+  {
+   "name": "research_notes",
+   "files": 11,
+   "bytes": 80082,
+   "dirs": 8
+  },
+  {
+   "name": "system",
+   "files": 1,
+   "bytes": 73859,
+   "dirs": 1
+  },
+  {
+   "name": "ai-news-feed",
+   "files": 6,
+   "bytes": 65831,
+   "dirs": 1
+  },
+  {
+   "name": "(root)",
+   "files": 9,
+   "bytes": 64119,
+   "dirs": 1
+  },
+  {
+   "name": "cron.d",
+   "files": 17,
+   "bytes": 36514,
+   "dirs": 11
+  },
+  {
+   "name": "repo-articles",
+   "files": 1,
+   "bytes": 25554,
+   "dirs": 1
+  },
+  {
+   "name": "memory",
+   "files": 79,
+   "bytes": 25040,
+   "dirs": 18
+  },
+  {
+   "name": "custom-skills",
+   "files": 15,
+   "bytes": 24141,
+   "dirs": 6
+  },
+  {
+   "name": "profile-images",
+   "files": 1,
+   "bytes": 7571,
+   "dirs": 1
+  },
+  {
+   "name": "voice",
+   "files": 1,
+   "bytes": 4315,
+   "dirs": 2
+  },
+  {
+   "name": "objectives",
+   "files": 2,
+   "bytes": 3233,
+   "dirs": 2
+  },
+  {
+   "name": "voices",
+   "files": 1,
+   "bytes": 314,
+   "dirs": 3
+  },
+  {
+   "name": ".content-migrations",
+   "files": 2,
+   "bytes": 2,
+   "dirs": 2
+  },
+  {
+   "name": "scheduler",
+   "files": 0,
+   "bytes": 0,
+   "dirs": 1
+  },
+  {
+   "name": "spaces",
+   "files": 0,
+   "bytes": 0,
+   "dirs": 1
+  },
+  {
+   "name": "custom-connectors",
+   "files": 0,
+   "bytes": 0,
+   "dirs": 1
+  },
+  {
+   "name": "xnc-upload",
+   "files": 0,
+   "bytes": 0,
+   "dirs": 1
+  }
+ ],
+ "extensions_by_count_top20": [
+  [
+   ".js",
+   18688
+  ],
+  [
+   ".ts",
+   10561
+  ],
+  [
+   ".map",
+   5941
+  ],
+  [
+   ".py",
+   5924
+  ],
+  [
+   ".pyc",
+   5565
+  ],
+  [
+   ".json",
+   4326
+  ],
+  [
+   ".jpg",
+   3969
+  ],
+  [
+   ".cjs",
+   3380
+  ],
+  [
+   ".cts",
+   3249
+  ],
+  [
+   ".bcmap",
+   3192
+  ],
+  [
+   ".mdx",
+   3061
+  ],
+  [
+   ".md",
+   2049
+  ],
+  [
+   "(none)",
+   2005
+  ],
+  [
+   ".png",
+   1027
+  ],
+  [
+   ".cpp",
+   769
+  ],
+  [
+   ".make",
+   702
+  ],
+  [
+   ".txt",
+   536
+  ],
+  [
+   ".cmake",
+   499
+  ],
+  [
+   ".svelte",
+   423
+  ],
+  [
+   ".h",
+   404
+  ]
+ ],
+ "extensions_by_bytes_top20": [
+  [
+   ".gguf",
+   7457519768
+  ],
+  [
+   ".jpg",
+   725270807
+  ],
+  [
+   "(none)",
+   415847800
+  ],
+  [
+   ".so",
+   383135176
+  ],
+  [
+   ".webm",
+   323365990
+  ],
+  [
+   ".png",
+   314312893
+  ],
+  [
+   ".js",
+   299160394
+  ],
+  [
+   ".zip",
+   234398263
+  ],
+  [
+   ".mp4",
+   203753313
+  ],
+  [
+   ".wav",
+   195527874
+  ],
+  [
+   ".node",
+   194582352
+  ],
+  [
+   ".pyc",
+   106521910
+  ],
+  [
+   ".pack",
+   102023587
+  ],
+  [
+   ".py",
+   90885382
+  ],
+  [
+   ".ts",
+   88256235
+  ],
+  [
+   ".gz",
+   86847680
+  ],
+  [
+   ".map",
+   86196407
+  ],
+  [
+   ".json",
+   68589473
+  ],
+  [
+   ".66",
+   60360640
+  ],
+  [
+   ".pak",
+   57317205
+  ]
+ ],
+ "distinct_extensions": 204,
+ "size_buckets": {
+  "0B": {
+   "files": 278,
+   "bytes": 0
+  },
+  "1B-4KB": {
+   "files": 52656,
+   "bytes": 60024772
+  },
+  "4KB-64KB": {
+   "files": 22025,
+   "bytes": 347105447
+  },
+  "64KB-1MB": {
+   "files": 6840,
+   "bytes": 1438294271
+  },
+  "1MB-10MB": {
+   "files": 421,
+   "bytes": 1300000380
+  },
+  "10MB-100MB": {
+   "files": 39,
+   "bytes": 1101643072
+  },
+  "100MB-1GB": {
+   "files": 4,
+   "bytes": 1326229071
+  },
+  ">=1GB": {
+   "files": 3,
+   "bytes": 6572269152
+  }
+ },
+ "largest_files_top20": [
+  {
+   "path": "research-002/models/qwen2.5-1.5b-instruct-fp16.gguf",
+   "bytes": 3560416288
+  },
+  {
+   "path": "research-002/models/qwen2.5-1.5b-instruct-q8_0.gguf",
+   "bytes": 1894532128
+  },
+  {
+   "path": "research-002/models/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+   "bytes": 1117320736
+  },
+  {
+   "path": "research-002/models/Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+   "bytes": 807694464
+  },
+  {
+   "path": "chimera-song/.browser/chrome-headless-shell-linux64/chrome-headless-shell",
+   "bytes": 211619152
+  },
+  {
+   "path": "chimera-song/venv/lib/python3.12/site-packages/llvmlite/binding/libllvmlite.so",
+   "bytes": 178749368
+  },
+  {
+   "path": "chimera-song/.browser/chrome-headless-shell-linux64.zip",
+   "bytes": 128166087
+  },
+  {
+   "path": "musio/installers/Musio-2.0.17-Linux.zip",
+   "bytes": 82100798
+  },
+  {
+   "path": "musio/linux/Musio-2.0.17-Linux.tar.gz",
+   "bytes": 82100650
+  },
+  {
+   "path": "xenoah-github-io/.git/objects/pack/pack-fec105e0515924af05d065a22753f1d5526f29a9.pack",
+   "bytes": 56708880
+  },
+  {
+   "path": "musio/extract/Musio-2.0.17-Linux/Musio Studio",
+   "bytes": 48387464
+  },
+  {
+   "path": "musio/installers/Musio-2.0.16-Windows.msi",
+   "bytes": 46395392
+  },
+  {
+   "path": "chimera-song/rec-she/page@de4ce9d8042a11c69d464355f9a8f54e.webm",
+   "bytes": 44688230
+  },
+  {
+   "path": "musio/extract/Musio-2.0.17-Linux/Musio Connect",
+   "bytes": 41549832
+  },
+  {
+   "path": "musio/extract/Musio-2.0.17-Linux/Musio.vst3/Contents/x86_64-linux/Musio.so",
+   "bytes": 41200128
+  },
+  {
+   "path": "research-002/llama.cpp/.git/objects/pack/pack-75d8ef8f76e4845f2c409e57112ffb91cf722b6a.pack",
+   "bytes": 39351234
+  },
+  {
+   "path": "musio/extract/Musio-2.0.17-Linux/Musio",
+   "bytes": 39189240
+  },
+  {
+   "path": "chimera-song/rec-she-v2/page@4ab26e4c7384b39e37e74b260772795f.webm",
+   "bytes": 34743359
+  },
+  {
+   "path": "chimera-song/requests/rec-home-on-the-range/page@8606a77222b32fb1e9ef5aae36e629fe.webm",
+   "bytes": 31217533
+  },
+  {
+   "path": "chimera-song/requests/rec-scarborough-fair/page@8e912dcf2fc3ab5e9fa1cad324f5b8b9.webm",
+   "bytes": 28851713
+  }
+ ],
+ "mtime_months": [
+  [
+   "1980-01",
+   40720
+  ],
+  [
+   "2026-10",
+   324
+  ],
+  [
+   "2026-11",
+   41222
+  ]
+ ],
+ "mtime_month_bytes": [
+  [
+   "1980-01",
+   571347948
+  ],
+  [
+   "2026-10",
+   422898973
+  ],
+  [
+   "2026-11",
+   11151319244
+  ]
+ ],
+ "goals_breakdown": [
+  {
+   "goal": "x-google",
+   "files": 40,
+   "bytes": 4350121
+  },
+  {
+   "goal": "goal",
+   "files": 167,
+   "bytes": 1985131
+  },
+  {
+   "goal": "x-note-collector",
+   "files": 67,
+   "bytes": 1498321
+  },
+  {
+   "goal": "note",
+   "files": 6,
+   "bytes": 160164
+  },
+  {
+   "goal": "github-pr",
+   "files": 7,
+   "bytes": 48246
+  },
+  {
+   "goal": "note-10-000",
+   "files": 7,
+   "bytes": 42124
+  },
+  {
+   "goal": "chimera-songs-and-summoning-space",
+   "files": 7,
+   "bytes": 33737
+  },
+  {
+   "goal": "vrchat-friend-collector",
+   "files": 11,
+   "bytes": 32839
+  },
+  {
+   "goal": "home-pc-for-running-muse",
+   "files": 3,
+   "bytes": 12271
+  },
+  {
+   "goal": "xenoah-github-io-ai-model-quick-news",
+   "files": 2,
+   "bytes": 10674
+  },
+  {
+   "goal": "shizuku-duplex",
+   "files": 4,
+   "bytes": 10352
+  },
+  {
+   "goal": "muse-2",
+   "files": 3,
+   "bytes": 8554
+  },
+  {
+   "goal": "github-activity-calendar-history",
+   "files": 6,
+   "bytes": 8022
+  },
+  {
+   "goal": "x-note-collector-takeover-from-dots",
+   "files": 3,
+   "bytes": 7742
+  },
+  {
+   "goal": "musio-vnc-environment-and-orchestra-library-download",
+   "files": 3,
+   "bytes": 5668
+  },
+  {
+   "goal": "duolingo",
+   "files": 2,
+   "bytes": 3346
+  },
+  {
+   "goal": "github-mail-auto-sort",
+   "files": 2,
+   "bytes": 2119
+  },
+  {
+   "goal": "ai-space",
+   "files": 2,
+   "bytes": 1105
+  },
+  {
+   "goal": "map-autumn-leaves-foliage-update-failure",
+   "files": 1,
+   "bytes": 566
+  },
+  {
+   "goal": "echo-show-5-modding-base",
+   "files": 1,
+   "bytes": 520
+  },
+  {
+   "goal": "xenoah-github-io-publish-site-build-failure",
+   "files": 1,
+   "bytes": 487
+  },
+  {
+   "goal": "muse-mail-xenoah-muse-ai-setup",
+   "files": 1,
+   "bytes": 464
+  },
+  {
+   "goal": "moneyforward-me-receipt-intake-and-registration",
+   "files": 1,
+   "bytes": 429
+  },
+  {
+   "goal": "claude-browser-operation-via-pro-account",
+   "files": 1,
+   "bytes": 417
+  }
+ ],
+ "dot_top_level_files": 5672,
+ "dot_top_level_bytes": 702043468,
+ "disk_usage_home_fs": {
+  "total": 161042399232,
+  "used": 33303478272,
+  "free": 126964613120
+ }
+}

@@ -1,0 +1,107 @@
+{
+  "counts_from_space": {
+    "done": 2,
+    "draft": 0,
+    "editing": 0,
+    "pending": 84,
+    "total": 86
+  },
+  "sync": {
+    "at": "2026-11-15T00:50:53.031Z",
+    "message": "86件のリポジトリを同期しました",
+    "state": "ok"
+  },
+  "total_parsed": 86,
+  "status_counter": {
+    "done": 2,
+    "pending": 84
+  },
+  "done_pct": 2.3,
+  "pending_pct": 97.7,
+  "remaining_days_at_1_per_day": 84,
+  "languages": [
+    [
+      "JavaScript",
+      19
+    ],
+    [
+      "Python",
+      16
+    ],
+    [
+      "C++",
+      13
+    ],
+    [
+      "(none)",
+      10
+    ],
+    [
+      "TypeScript",
+      7
+    ],
+    [
+      "Kotlin",
+      5
+    ],
+    [
+      "Rust",
+      4
+    ],
+    [
+      "HTML",
+      4
+    ],
+    [
+      "C#",
+      4
+    ],
+    [
+      "Java",
+      2
+    ],
+    [
+      "CSS",
+      1
+    ],
+    [
+      "C",
+      1
+    ]
+  ],
+  "language_distinct": 12,
+  "desc_present": 84,
+  "desc_missing": 2,
+  "desc_present_pct": 97.7,
+  "topics_any": 2,
+  "topics_none": 84,
+  "stars_total": 3,
+  "forks_total": 2,
+  "open_issues_total": 16,
+  "archived": 0,
+  "is_fork": 4,
+  "is_private": 0,
+  "manual": 0,
+  "created_years": {
+    "2025": 2,
+    "2026": 84
+  },
+  "updated_min": "2026-11-06T15:25:08.000Z",
+  "updated_max": "2026-11-14T11:28:52.000Z",
+  "nov2026_updated": 86,
+  "emails_in_queue_data": 0,
+  "done_info": [
+    {
+      "fullName": "Xenoah/webapp_separate20images",
+      "title": "【repo紹介】隙間トリム写真分割 ― 並べたときの「隙間」まで計算して写真を分割するブラウザツール",
+      "body_chars": 2278,
+      "sources_lines": 7
+    },
+    {
+      "fullName": "Xenoah/Xenoah.github.io",
+      "title": "【repo紹介】Xenoah.github.io ― Webツール・ゲーム・数学教材・3D作品が集まる個人サイトの玄関",
+      "body_chars": 1736,
+      "sources_lines": 5
+    }
+  ]
+}

@@ -1,0 +1,860 @@
+{
+ "population": "2026-11-06..2026-11-19 (14 days, Muse sole-handler period)",
+ "days": [
+  {
+   "date": "2026-11-06",
+   "title": "2026-11-06 問いばかりの一日 ― 靴べらが77万円???",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": false,
+   "highlight_raw": "靴べらが77万円???",
+   "highlight_contains_brackets": false,
+   "tags_count": 4,
+   "source_urls_count": 8,
+   "checks_source_count": 8,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 9567,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 34568,
+   "blog_files": [
+    "5b74b1ffdb903836e3b3.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 34148,
+   "blog_index_bytes": 12183,
+   "blog_total_bytes": 46331,
+   "runstate_chars": 1243,
+   "received": 20,
+   "included": 11,
+   "body_bytes_reported": 9567,
+   "adopted": 8,
+   "considered": 11,
+   "day_total_reported": 46293,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/nc8f40c785382"
+   ],
+   "run_complete_marker": false,
+   "persona_claim": false,
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-07",
+   "title": "2026-11-07 ISAS特別公開の一日 ― なんにも考えてないだろうという素早さ",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": false,
+   "highlight_raw": "なんにも考えてないだろうという素早さ",
+   "highlight_contains_brackets": false,
+   "tags_count": 4,
+   "source_urls_count": 8,
+   "checks_source_count": 8,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 8836,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 25228,
+   "blog_files": [
+    "ca04090b1dbc8a226e0f.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 24654,
+   "blog_index_bytes": 11513,
+   "blog_total_bytes": 36167,
+   "runstate_chars": 2931,
+   "received": 19,
+   "included": 11,
+   "body_bytes_reported": 8836,
+   "adopted": 8,
+   "considered": 11,
+   "cover_webp_bytes_reported": 25228,
+   "cover_gif_bytes": 44788,
+   "day_total_reported": 36129,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/ndfbd9697a9a7"
+   ],
+   "run_complete_marker": false,
+   "persona_claim": false,
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-08",
+   "title": "2026-11-08 好奇心にお金を投じる一日 ― 「地雷系猟師」というパワーワード",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": false,
+   "highlight_raw": "「地雷系猟師」というパワーワード",
+   "highlight_contains_brackets": true,
+   "tags_count": 4,
+   "source_urls_count": 11,
+   "checks_source_count": 11,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 13144,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 30784,
+   "blog_files": [
+    "386895684ed02865b7ac.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 33330,
+   "blog_index_bytes": 16267,
+   "blog_total_bytes": 49597,
+   "runstate_chars": 5006,
+   "received": 20,
+   "included": 12,
+   "body_bytes_reported": 13144,
+   "considered": 12,
+   "adopted": 11,
+   "cover_webp_bytes_reported": 30784,
+   "cover_gif_bytes": 36924,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n57ceebcf2719"
+   ],
+   "run_complete_marker": true,
+   "persona_claim": true,
+   "ai_corner": "OMITTED",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-09",
+   "title": "2026-11-09 メタバースの常識は現実と違う ― 「ミニPCが安いらしい」",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": true,
+   "highlight_raw": "「ミニPCが安いらしい」",
+   "highlight_contains_brackets": true,
+   "tags_count": 4,
+   "source_urls_count": 7,
+   "checks_source_count": 7,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 9970,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 49624,
+   "blog_files": [
+    "027c9693169621959f36.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 52968,
+   "blog_index_bytes": 13060,
+   "blog_total_bytes": 66028,
+   "runstate_chars": 5159,
+   "received": 13,
+   "included": 7,
+   "body_bytes_reported": 9970,
+   "considered": 7,
+   "adopted": 7,
+   "cover_webp_bytes_reported": 49624,
+   "cover_gif_bytes": 80380,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n927bb73ee35e"
+   ],
+   "run_complete_marker": true,
+   "persona_claim": true,
+   "ai_corner": "INCLUDED",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-10",
+   "title": "2026-11-10 CHIMERAがDaisy Bellを歌う日 ― 「晩餐歌みたいなサイゼ注文」",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": true,
+   "highlight_raw": "「晩餐歌みたいなサイゼ注文」",
+   "highlight_contains_brackets": true,
+   "tags_count": 4,
+   "source_urls_count": 5,
+   "checks_source_count": 5,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 9724,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 52220,
+   "blog_files": [
+    "f7601c450808943481e2.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 56546,
+   "blog_index_bytes": 11801,
+   "blog_total_bytes": 68347,
+   "runstate_chars": 7930,
+   "received": 13,
+   "included": 7,
+   "body_bytes_reported": 9724,
+   "considered": 7,
+   "adopted": 5,
+   "cover_webp_bytes_reported": 52220,
+   "cover_gif_bytes": 74913,
+   "day_total_reported": 68309,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n39c76d170e45"
+   ],
+   "run_complete_marker": false,
+   "persona_claim": true,
+   "ai_corner": "INCLUDED",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-11",
+   "title": "2026-11-11 AIに課金する日 ― 「100V15A超えるらしくて震えている」",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": true,
+   "highlight_raw": "「100V15A超えるらしくて震えている」",
+   "highlight_contains_brackets": true,
+   "tags_count": 4,
+   "source_urls_count": 6,
+   "checks_source_count": 6,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 9462,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 45204,
+   "blog_files": [
+    "127efbdddd55a6a9b87f.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 49794,
+   "blog_index_bytes": 11746,
+   "blog_total_bytes": 61540,
+   "runstate_chars": 6821,
+   "received": 15,
+   "included": 10,
+   "body_bytes_reported": 9462,
+   "considered": 10,
+   "adopted": 6,
+   "cover_webp_bytes_reported": 45204,
+   "cover_gif_bytes": 71196,
+   "day_total_reported": 61502,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n85afb9fb01be"
+   ],
+   "run_complete_marker": false,
+   "persona_claim": true,
+   "ai_corner": "INCLUDED",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-12",
+   "title": "2026-11-12 アドレスの詰め込みと銀河のフィードバック ― 「ProプランでFable使えるっぽいぞ??」",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": true,
+   "highlight_raw": "「ProプランでFable使えるっぽいぞ??」",
+   "highlight_contains_brackets": true,
+   "tags_count": 4,
+   "source_urls_count": 10,
+   "checks_source_count": 10,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 10182,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 55062,
+   "blog_files": [
+    "a4235bc8dc40bf88505d.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 58830,
+   "blog_index_bytes": 13176,
+   "blog_total_bytes": 72006,
+   "runstate_chars": 6539,
+   "received": 20,
+   "included": 14,
+   "body_bytes_reported": 10185,
+   "considered": 14,
+   "adopted": 10,
+   "cover_webp_bytes_reported": 55062,
+   "cover_gif_bytes": 70401,
+   "day_total_reported": 71968,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n2f642d615ae4"
+   ],
+   "run_complete_marker": false,
+   "persona_claim": true,
+   "ai_corner": "NONE",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-13",
+   "title": "2026-11-13 辞任の波及と負のフィードバック ― 「トークン有限なんかワレェ」",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": true,
+   "highlight_raw": "「トークン有限なんかワレェ」",
+   "highlight_contains_brackets": true,
+   "tags_count": 4,
+   "source_urls_count": 8,
+   "checks_source_count": 8,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 12355,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 37496,
+   "blog_files": [
+    "aa5a0ee74938d952f4c7.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 40488,
+   "blog_index_bytes": 15078,
+   "blog_total_bytes": 55566,
+   "runstate_chars": 7648,
+   "received": 14,
+   "included": 9,
+   "body_bytes_reported": 12355,
+   "considered": 9,
+   "adopted": 8,
+   "cover_webp_bytes_reported": 37496,
+   "cover_gif_bytes": 66844,
+   "day_total_reported": 55528,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n1a2613e0a7ca",
+    "https://note.com/xenoah_memo/n/n47f6ba6a9715"
+   ],
+   "run_complete_marker": false,
+   "persona_claim": true,
+   "ai_corner": "INCLUDED",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-14",
+   "title": "2026-11-14 ISSの通過と、素通りするUSB ― 「マウスキーボードです。通してください!!」",
+   "prefix_xnikki": false,
+   "title_core_ok": true,
+   "highlight_bracketed": true,
+   "highlight_raw": "「マウスキーボードです。通してください!!」",
+   "highlight_contains_brackets": true,
+   "tags_count": 4,
+   "source_urls_count": 5,
+   "checks_source_count": 5,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 8966,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 43442,
+   "blog_files": [
+    "43fcd94abee4bd351015.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 47670,
+   "blog_index_bytes": 11074,
+   "blog_total_bytes": 58744,
+   "runstate_chars": 5526,
+   "received": 10,
+   "included": 5,
+   "body_bytes_reported": 8966,
+   "considered": 5,
+   "adopted": 5,
+   "cover_webp_bytes_reported": 43442,
+   "cover_gif_bytes": 64661,
+   "day_total_reported": 58706,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n4b9e114f7b08"
+   ],
+   "run_complete_marker": false,
+   "persona_claim": true,
+   "ai_corner": "NONE",
+   "gif_issue_mentioned": true
+  },
+  {
+   "date": "2026-11-15",
+   "title": "【X日記】2026-11-15 短冊切りツール完成と第一等灯台 ― Let's スクロール!",
+   "prefix_xnikki": true,
+   "title_core_ok": true,
+   "highlight_bracketed": false,
+   "highlight_raw": "Let's スクロール!",
+   "highlight_contains_brackets": false,
+   "tags_count": 4,
+   "source_urls_count": 4,
+   "checks_source_count": 4,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 7561,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 20984,
+   "blog_files": [
+    "ca403305cefa72a8de22.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 24736,
+   "blog_index_bytes": 9390,
+   "blog_total_bytes": 34126,
+   "runstate_chars": 8810,
+   "received": 10,
+   "included": 4,
+   "body_bytes_reported": 7559,
+   "considered": 4,
+   "adopted": 4,
+   "cover_webp_bytes_reported": 20984,
+   "cover_gif_bytes": 38139,
+   "day_total_reported": 34086,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n847f60827b6c"
+   ],
+   "run_complete_marker": false,
+   "persona_claim": true,
+   "ai_corner": "NONE",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-16",
+   "title": "【X日記】2026-11-16 銚子の地層と実験機、「瑠璃の宝石」の日 ― 楽しめればええねん",
+   "prefix_xnikki": true,
+   "title_core_ok": true,
+   "highlight_bracketed": false,
+   "highlight_raw": "楽しめればええねん",
+   "highlight_contains_brackets": false,
+   "tags_count": 4,
+   "source_urls_count": 7,
+   "checks_source_count": 7,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 9773,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 21924,
+   "blog_files": [
+    "0791e0d9beeec1d61b0e.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 25616,
+   "blog_index_bytes": 12127,
+   "blog_total_bytes": 37743,
+   "runstate_chars": 11293,
+   "received": 12,
+   "included": 7,
+   "body_bytes_reported": 9773,
+   "considered": 7,
+   "adopted": 7,
+   "cover_webp_bytes_reported": 21924,
+   "cover_gif_bytes": 40180,
+   "day_total_reported": 37705,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/ndee8d2ded1bf"
+   ],
+   "run_complete_marker": true,
+   "persona_claim": true,
+   "ai_corner": "YES",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-17",
+   "title": "【X日記】2026-11-17 恒星の寿命と鉄の光分解、原子炉の臨界 ― 原子炉起動すげぇえええ",
+   "prefix_xnikki": true,
+   "title_core_ok": true,
+   "highlight_bracketed": false,
+   "highlight_raw": "原子炉起動すげぇえええ",
+   "highlight_contains_brackets": false,
+   "tags_count": 4,
+   "source_urls_count": 10,
+   "checks_source_count": 10,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 11956,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 30560,
+   "blog_files": [
+    "fce9de96f43afdbbafe7.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 35852,
+   "blog_index_bytes": 14934,
+   "blog_total_bytes": 50786,
+   "runstate_chars": 6780,
+   "received": 17,
+   "included": 13,
+   "body_bytes_reported": 11956,
+   "considered": 13,
+   "adopted": 10,
+   "cover_webp_bytes_reported": 30560,
+   "cover_gif_bytes": 60799,
+   "day_total_reported": 50748,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n18c9a6ef8a7a"
+   ],
+   "run_complete_marker": true,
+   "persona_claim": true,
+   "ai_corner": "YES",
+   "gif_issue_mentioned": false
+  },
+  {
+   "date": "2026-11-18",
+   "title": "【X日記】2026-11-18 大きなヤカンと宇宙の終わり、紫のウサギの当選 ― やや早とちりな焦燥感を浮かべる今日この頃",
+   "prefix_xnikki": true,
+   "title_core_ok": true,
+   "highlight_bracketed": false,
+   "highlight_raw": "やや早とちりな焦燥感を浮かべる今日この頃",
+   "highlight_contains_brackets": false,
+   "tags_count": 4,
+   "source_urls_count": 9,
+   "checks_source_count": 9,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 9098,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 35088,
+   "blog_files": [
+    "42e0775bd5e282f34211.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 40256,
+   "blog_index_bytes": 11947,
+   "blog_total_bytes": 52203,
+   "runstate_chars": 8739,
+   "received": 16,
+   "included": 10,
+   "body_bytes_reported": 9098,
+   "considered": 10,
+   "adopted": 9,
+   "cover_webp_bytes_reported": 35088,
+   "cover_gif_bytes": 80056,
+   "day_total_reported": 52165,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n4750979c702e"
+   ],
+   "run_complete_marker": true,
+   "persona_claim": true,
+   "ai_corner": "YES",
+   "gif_issue_mentioned": true
+  },
+  {
+   "date": "2026-11-19",
+   "title": "【X日記】2026-11-19 アース、センサー、そして水星へ ― 「ラピッド」を盛りこめないかな",
+   "prefix_xnikki": true,
+   "title_core_ok": true,
+   "highlight_bracketed": false,
+   "highlight_raw": "「ラピッド」を盛りこめないかな",
+   "highlight_contains_brackets": true,
+   "tags_count": 4,
+   "source_urls_count": 10,
+   "checks_source_count": 10,
+   "checks_match": true,
+   "checks_url_check": "passed",
+   "checks_copy_screen": "passed",
+   "package_publication_status": "draft",
+   "body_bytes_disk": 10115,
+   "body_email_pattern_count": 0,
+   "cover_webp_bytes_disk": 28180,
+   "blog_files": [
+    "78c7b78eaea9961d354b.webp",
+    "index.html"
+   ],
+   "blog_image_bytes": 31730,
+   "blog_index_bytes": 13214,
+   "blog_total_bytes": 44944,
+   "runstate_chars": 10003,
+   "received": 19,
+   "included": 11,
+   "body_bytes_reported": 10096,
+   "considered": 11,
+   "adopted": 10,
+   "cover_webp_bytes_reported": 28180,
+   "cover_gif_bytes": 43458,
+   "day_total_reported": 44906,
+   "note_urls": [
+    "https://note.com/xenoah_memo/n/n0c46959d84c8"
+   ],
+   "run_complete_marker": true,
+   "persona_claim": true,
+   "ai_corner": "YES",
+   "gif_issue_mentioned": true
+  }
+ ],
+ "aggregates": {
+  "old_2026-11-06_13": {
+   "days": 8,
+   "received_total": 134,
+   "included_total": 81,
+   "considered_total": 81,
+   "adopted_total": 63,
+   "adoption_rate_pct": 77.8,
+   "title_core_ok_count": 8,
+   "prefix_count": 0,
+   "highlight_bracketed_count": 5,
+   "highlight_contains_brackets_count": 6,
+   "tags_always_4": true,
+   "checks_match_all": true,
+   "checks_url_passed_count": 8,
+   "checks_copy_passed_count": 8,
+   "checks_source_total": 63,
+   "body_email_pattern_total": 0,
+   "cover_webp_disk_max": 55062,
+   "cover_webp_disk_over_60000": [],
+   "blog_days_measured": 8,
+   "blog_total_max": 72006,
+   "blog_total_min": 36167,
+   "blog_total_over_80000": [],
+   "blog_total_over_100000": [],
+   "blog_image_max": 58830,
+   "blog_image_over_60000": [],
+   "note_url_days": 8,
+   "run_complete_count": 2,
+   "package_statuses": [
+    "draft"
+   ],
+   "body_bytes_min": 8836,
+   "body_bytes_max": 13144,
+   "body_disk_vs_reported_mismatch": [
+    {
+     "date": "2026-11-12",
+     "disk": 10182,
+     "reported": 10185
+    }
+   ],
+   "blog_vs_reported_total_diff": [
+    {
+     "date": "2026-11-06",
+     "blog": 46331,
+     "reported": 46293
+    },
+    {
+     "date": "2026-11-07",
+     "blog": 36167,
+     "reported": 36129
+    },
+    {
+     "date": "2026-11-10",
+     "blog": 68347,
+     "reported": 68309
+    },
+    {
+     "date": "2026-11-11",
+     "blog": 61540,
+     "reported": 61502
+    },
+    {
+     "date": "2026-11-12",
+     "blog": 72006,
+     "reported": 71968
+    },
+    {
+     "date": "2026-11-13",
+     "blog": 55566,
+     "reported": 55528
+    }
+   ]
+  },
+  "new_2026-11-14_19": {
+   "days": 6,
+   "received_total": 84,
+   "included_total": 50,
+   "considered_total": 50,
+   "adopted_total": 45,
+   "adoption_rate_pct": 90.0,
+   "title_core_ok_count": 6,
+   "prefix_count": 5,
+   "highlight_bracketed_count": 1,
+   "highlight_contains_brackets_count": 2,
+   "tags_always_4": true,
+   "checks_match_all": true,
+   "checks_url_passed_count": 6,
+   "checks_copy_passed_count": 6,
+   "checks_source_total": 45,
+   "body_email_pattern_total": 0,
+   "cover_webp_disk_max": 43442,
+   "cover_webp_disk_over_60000": [],
+   "blog_days_measured": 6,
+   "blog_total_max": 58744,
+   "blog_total_min": 34126,
+   "blog_total_over_80000": [],
+   "blog_total_over_100000": [],
+   "blog_image_max": 47670,
+   "blog_image_over_60000": [],
+   "note_url_days": 6,
+   "run_complete_count": 4,
+   "package_statuses": [
+    "draft"
+   ],
+   "body_bytes_min": 7561,
+   "body_bytes_max": 11956,
+   "body_disk_vs_reported_mismatch": [
+    {
+     "date": "2026-11-15",
+     "disk": 7561,
+     "reported": 7559
+    },
+    {
+     "date": "2026-11-19",
+     "disk": 10115,
+     "reported": 10096
+    }
+   ],
+   "blog_vs_reported_total_diff": [
+    {
+     "date": "2026-11-14",
+     "blog": 58744,
+     "reported": 58706
+    },
+    {
+     "date": "2026-11-15",
+     "blog": 34126,
+     "reported": 34086
+    },
+    {
+     "date": "2026-11-16",
+     "blog": 37743,
+     "reported": 37705
+    },
+    {
+     "date": "2026-11-17",
+     "blog": 50786,
+     "reported": 50748
+    },
+    {
+     "date": "2026-11-18",
+     "blog": 52203,
+     "reported": 52165
+    },
+    {
+     "date": "2026-11-19",
+     "blog": 44944,
+     "reported": 44906
+    }
+   ]
+  },
+  "all_14_days": {
+   "days": 14,
+   "received_total": 218,
+   "included_total": 131,
+   "considered_total": 131,
+   "adopted_total": 108,
+   "adoption_rate_pct": 82.4,
+   "title_core_ok_count": 14,
+   "prefix_count": 5,
+   "highlight_bracketed_count": 6,
+   "highlight_contains_brackets_count": 8,
+   "tags_always_4": true,
+   "checks_match_all": true,
+   "checks_url_passed_count": 14,
+   "checks_copy_passed_count": 14,
+   "checks_source_total": 108,
+   "body_email_pattern_total": 0,
+   "cover_webp_disk_max": 55062,
+   "cover_webp_disk_over_60000": [],
+   "blog_days_measured": 14,
+   "blog_total_max": 72006,
+   "blog_total_min": 34126,
+   "blog_total_over_80000": [],
+   "blog_total_over_100000": [],
+   "blog_image_max": 58830,
+   "blog_image_over_60000": [],
+   "note_url_days": 14,
+   "run_complete_count": 6,
+   "package_statuses": [
+    "draft"
+   ],
+   "body_bytes_min": 7561,
+   "body_bytes_max": 13144,
+   "body_disk_vs_reported_mismatch": [
+    {
+     "date": "2026-11-12",
+     "disk": 10182,
+     "reported": 10185
+    },
+    {
+     "date": "2026-11-15",
+     "disk": 7561,
+     "reported": 7559
+    },
+    {
+     "date": "2026-11-19",
+     "disk": 10115,
+     "reported": 10096
+    }
+   ],
+   "blog_vs_reported_total_diff": [
+    {
+     "date": "2026-11-06",
+     "blog": 46331,
+     "reported": 46293
+    },
+    {
+     "date": "2026-11-07",
+     "blog": 36167,
+     "reported": 36129
+    },
+    {
+     "date": "2026-11-10",
+     "blog": 68347,
+     "reported": 68309
+    },
+    {
+     "date": "2026-11-11",
+     "blog": 61540,
+     "reported": 61502
+    },
+    {
+     "date": "2026-11-12",
+     "blog": 72006,
+     "reported": 71968
+    },
+    {
+     "date": "2026-11-13",
+     "blog": 55566,
+     "reported": 55528
+    },
+    {
+     "date": "2026-11-14",
+     "blog": 58744,
+     "reported": 58706
+    },
+    {
+     "date": "2026-11-15",
+     "blog": 34126,
+     "reported": 34086
+    },
+    {
+     "date": "2026-11-16",
+     "blog": 37743,
+     "reported": 37705
+    },
+    {
+     "date": "2026-11-17",
+     "blog": 50786,
+     "reported": 50748
+    },
+    {
+     "date": "2026-11-18",
+     "blog": 52203,
+     "reported": 52165
+    },
+    {
+     "date": "2026-11-19",
+     "blog": 44944,
+     "reported": 44906
+    }
+   ]
+  }
+ },
+ "paper007_published_reference": {
+  "received": 134,
+  "considered": 81,
+  "adopted": 63,
+  "note": "Paper 007 findings per series ledger (served-image max 58,830; day-total max 71,968)"
+ }
+}

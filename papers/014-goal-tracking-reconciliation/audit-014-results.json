@@ -1,0 +1,599 @@
+{
+ "root": "~/workspace/goals",
+ "read_errors": 0,
+ "filesystem": {
+  "dirs": 27,
+  "with_goal_md": 27,
+  "goal_md_id_present": 27,
+  "goal_md_slug_matches_dir": 27,
+  "goal_md_slug_mismatch": [],
+  "total_files": 425,
+  "total_bytes": 9162781,
+  "goal_md_bytes_total": 17478,
+  "goal_md_bytes_median": 464,
+  "goal_md_bytes_max": {
+   "slug": "note-10-000",
+   "bytes": 5436
+  },
+  "goal_md_bytes_min": {
+   "slug": "github-mail-auto-sort",
+   "bytes": 306
+  },
+  "max_total": {
+   "slug": "x-google",
+   "bytes": 4350190,
+   "files": 40
+  },
+  "dirs_with_cron_defs": 15,
+  "cron_defs_total": 23,
+  "dirs_with_docs": 6,
+  "docs_total": 40,
+  "hidden_total": 331,
+  "empty_dirs": [
+   "claude-browser-operation-via-pro-account",
+   "echo-show-5-modding-base",
+   "map-autumn-leaves-foliage-update-failure",
+   "moneyforward-me-receipt-intake-and-registration",
+   "muse-mail-xenoah-muse-ai-setup",
+   "vrchat-brick-christmas-house",
+   "x-ai",
+   "xenoah-github-io-publish-site-build-failure"
+  ]
+ },
+ "tracking": {
+  "items": 26,
+  "active": 21,
+  "completed": 5,
+  "attention": {
+   "user_action_required": 8,
+   "new_information": 2,
+   "does_not_need_attention": 16
+  }
+ },
+ "usergoals": {
+  "items": 1,
+  "active": 1,
+  "categories": {
+   "money": 1
+  }
+ },
+ "reconciliation": {
+  "fs_only": [],
+  "tracking_only_no_fs": [],
+  "usergoal_only_no_fs": [],
+  "tracking_and_fs": [
+   "ai-space",
+   "chimera-songs-and-summoning-space",
+   "claude-browser-operation-via-pro-account",
+   "duolingo",
+   "echo-show-5-modding-base",
+   "github-activity-calendar-history",
+   "github-mail-auto-sort",
+   "github-pr",
+   "goal",
+   "home-pc-for-running-muse",
+   "map-autumn-leaves-foliage-update-failure",
+   "moneyforward-me-receipt-intake-and-registration",
+   "muse-2",
+   "muse-mail-xenoah-muse-ai-setup",
+   "musio-daily-bgm",
+   "musio-vnc-environment-and-orchestra-library-download",
+   "note",
+   "shizuku-duplex",
+   "vrchat-brick-christmas-house",
+   "vrchat-friend-collector",
+   "x-ai",
+   "x-google",
+   "x-note-collector",
+   "x-note-collector-takeover-from-dots",
+   "xenoah-github-io-ai-model-quick-news",
+   "xenoah-github-io-publish-site-build-failure"
+  ],
+  "usergoal_and_fs": [
+   "note-10-000"
+  ],
+  "tracking_and_usergoal_overlap": [],
+  "union": 27
+ },
+ "email_pattern_count_only_goal_md": {
+  "matches": 3,
+  "files": 2
+ },
+ "per_goal": [
+  {
+   "slug": "ai-space",
+   "has_goal_md": true,
+   "goal_md_bytes": 442,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "ai-space",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 2,
+   "total_bytes": 1105,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons"
+   ]
+  },
+  {
+   "slug": "chimera-songs-and-summoning-space",
+   "has_goal_md": true,
+   "goal_md_bytes": 492,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "chimera-songs-and-summoning-space",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 7,
+   "total_bytes": 33737,
+   "files_docs": 0,
+   "hidden_files": 5,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "claude-browser-operation-via-pro-account",
+   "has_goal_md": true,
+   "goal_md_bytes": 417,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "claude-browser-operation-via-pro-account",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 1,
+   "total_bytes": 417,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)"
+   ]
+  },
+  {
+   "slug": "duolingo",
+   "has_goal_md": true,
+   "goal_md_bytes": 462,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "duolingo",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 2,
+   "total_bytes": 3346,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons"
+   ]
+  },
+  {
+   "slug": "echo-show-5-modding-base",
+   "has_goal_md": true,
+   "goal_md_bytes": 520,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "echo-show-5-modding-base",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 1,
+   "total_bytes": 520,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)"
+   ]
+  },
+  {
+   "slug": "github-activity-calendar-history",
+   "has_goal_md": true,
+   "goal_md_bytes": 409,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "github-activity-calendar-history",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 7,
+   "total_bytes": 8608,
+   "files_docs": 0,
+   "hidden_files": 5,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "github-mail-auto-sort",
+   "has_goal_md": true,
+   "goal_md_bytes": 306,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "github-mail-auto-sort",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 2,
+   "total_bytes": 2119,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons"
+   ]
+  },
+  {
+   "slug": "github-pr",
+   "has_goal_md": true,
+   "goal_md_bytes": 414,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "github-pr",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 9,
+   "total_bytes": 57162,
+   "files_docs": 0,
+   "hidden_files": 6,
+   "cron_defs": 2,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "goal",
+   "has_goal_md": true,
+   "goal_md_bytes": 632,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "goal",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 216,
+   "total_bytes": 2640846,
+   "files_docs": 26,
+   "hidden_files": 184,
+   "cron_defs": 4,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "files",
+    "hidden_files",
+    "references"
+   ]
+  },
+  {
+   "slug": "home-pc-for-running-muse",
+   "has_goal_md": true,
+   "goal_md_bytes": 361,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "home-pc-for-running-muse",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 3,
+   "total_bytes": 12404,
+   "files_docs": 0,
+   "hidden_files": 1,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "map-autumn-leaves-foliage-update-failure",
+   "has_goal_md": true,
+   "goal_md_bytes": 566,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "map-autumn-leaves-foliage-update-failure",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 1,
+   "total_bytes": 566,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)"
+   ]
+  },
+  {
+   "slug": "moneyforward-me-receipt-intake-and-registration",
+   "has_goal_md": true,
+   "goal_md_bytes": 429,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "moneyforward-me-receipt-intake-and-registration",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 1,
+   "total_bytes": 429,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)"
+   ]
+  },
+  {
+   "slug": "muse-2",
+   "has_goal_md": true,
+   "goal_md_bytes": 477,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "muse-2",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 3,
+   "total_bytes": 8554,
+   "files_docs": 0,
+   "hidden_files": 1,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "muse-mail-xenoah-muse-ai-setup",
+   "has_goal_md": true,
+   "goal_md_bytes": 464,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "muse-mail-xenoah-muse-ai-setup",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 1,
+   "total_bytes": 464,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)"
+   ]
+  },
+  {
+   "slug": "musio-daily-bgm",
+   "has_goal_md": true,
+   "goal_md_bytes": 403,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "musio-daily-bgm",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 2,
+   "total_bytes": 1000,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons"
+   ]
+  },
+  {
+   "slug": "musio-vnc-environment-and-orchestra-library-download",
+   "has_goal_md": true,
+   "goal_md_bytes": 481,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "musio-vnc-environment-and-orchestra-library-download",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 3,
+   "total_bytes": 5668,
+   "files_docs": 0,
+   "hidden_files": 1,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "note",
+   "has_goal_md": true,
+   "goal_md_bytes": 526,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "note",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 6,
+   "total_bytes": 160164,
+   "files_docs": 1,
+   "hidden_files": 4,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)",
+    "files",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "note-10-000",
+   "has_goal_md": true,
+   "goal_md_bytes": 5436,
+   "goal_md_lines": 38,
+   "goal_md_id_present": true,
+   "goal_md_slug": "note-10-000",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 19,
+   "total_bytes": 154098,
+   "files_docs": 1,
+   "hidden_files": 12,
+   "cron_defs": 2,
+   "subdirs": [
+    "(top)",
+    "agent_notes",
+    "crons",
+    "files",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "shizuku-duplex",
+   "has_goal_md": true,
+   "goal_md_bytes": 580,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "shizuku-duplex",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 4,
+   "total_bytes": 13080,
+   "files_docs": 0,
+   "hidden_files": 2,
+   "cron_defs": 1,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "vrchat-brick-christmas-house",
+   "has_goal_md": true,
+   "goal_md_bytes": 544,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "vrchat-brick-christmas-house",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 1,
+   "total_bytes": 544,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)"
+   ]
+  },
+  {
+   "slug": "vrchat-friend-collector",
+   "has_goal_md": true,
+   "goal_md_bytes": 472,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "vrchat-friend-collector",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 11,
+   "total_bytes": 32839,
+   "files_docs": 9,
+   "hidden_files": 1,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)",
+    "files",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "x-ai",
+   "has_goal_md": true,
+   "goal_md_bytes": 375,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "x-ai",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 1,
+   "total_bytes": 375,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)"
+   ]
+  },
+  {
+   "slug": "x-google",
+   "has_goal_md": true,
+   "goal_md_bytes": 556,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "x-google",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 40,
+   "total_bytes": 4350190,
+   "files_docs": 0,
+   "hidden_files": 36,
+   "cron_defs": 3,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "x-note-collector",
+   "has_goal_md": true,
+   "goal_md_bytes": 426,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "x-note-collector",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 76,
+   "total_bytes": 1655643,
+   "files_docs": 0,
+   "hidden_files": 73,
+   "cron_defs": 2,
+   "subdirs": [
+    "(top)",
+    "crons",
+    "hidden_files"
+   ]
+  },
+  {
+   "slug": "x-note-collector-takeover-from-dots",
+   "has_goal_md": true,
+   "goal_md_bytes": 383,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "x-note-collector-takeover-from-dots",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 3,
+   "total_bytes": 7742,
+   "files_docs": 2,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)",
+    "files"
+   ]
+  },
+  {
+   "slug": "xenoah-github-io-ai-model-quick-news",
+   "has_goal_md": true,
+   "goal_md_bytes": 418,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "xenoah-github-io-ai-model-quick-news",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 2,
+   "total_bytes": 10674,
+   "files_docs": 1,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)",
+    "files"
+   ]
+  },
+  {
+   "slug": "xenoah-github-io-publish-site-build-failure",
+   "has_goal_md": true,
+   "goal_md_bytes": 487,
+   "goal_md_lines": 7,
+   "goal_md_id_present": true,
+   "goal_md_slug": "xenoah-github-io-publish-site-build-failure",
+   "goal_md_slug_matches_dir": true,
+   "total_files": 1,
+   "total_bytes": 487,
+   "files_docs": 0,
+   "hidden_files": 0,
+   "cron_defs": 0,
+   "subdirs": [
+    "(top)"
+   ]
+  }
+ ]
+}

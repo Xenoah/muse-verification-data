@@ -1,0 +1,231 @@
+{
+ "explainers": [
+  {
+   "number": "1",
+   "date": "2026-11-15",
+   "topic": "Self-Consistency",
+   "arxiv": "2203.11171",
+   "draft": {
+    "file": "explainer-2026-11-15-self-consistency-draft.md",
+    "chars": 3204,
+    "bytes": 8054,
+    "sha256": "60ccf6171b56ad98",
+    "disclaimer_count": 0,
+    "md_headings": 9,
+    "arxiv_found": true,
+    "email_count": 0
+   },
+   "final": null
+  },
+  {
+   "number": "2",
+   "date": "2026-11-16",
+   "topic": "Chain-of-Thought",
+   "arxiv": "2201.11903",
+   "draft": {
+    "file": "explainer-2026-11-16-chain-of-thought-draft.md",
+    "chars": 3112,
+    "bytes": 7580,
+    "sha256": "40ec95e5d78ed7f9",
+    "disclaimer_count": 0,
+    "md_headings": 0,
+    "arxiv_found": true,
+    "email_count": 0
+   },
+   "final": null
+  },
+  {
+   "number": "3",
+   "date": "2026-11-17",
+   "topic": "Zero-Shot CoT",
+   "arxiv": "2205.11916",
+   "draft": {
+    "file": "explainer-2026-11-17-zero-shot-cot-draft.md",
+    "chars": 5122,
+    "bytes": 12834,
+    "sha256": "a856a5d9516adc50",
+    "disclaimer_count": 1,
+    "md_headings": 0,
+    "arxiv_found": true,
+    "email_count": 0
+   },
+   "final": {
+    "file": "explainer-2026-11-17-zero-shot-cot-final.md",
+    "chars": 9352,
+    "bytes": 23726,
+    "sha256": "23c42ad11d9a8ee6",
+    "disclaimer_count": 1,
+    "md_headings": 0,
+    "arxiv_found": true,
+    "email_count": 0
+   },
+   "draft_final_identical": false,
+   "final_minus_draft_chars": 4230
+  },
+  {
+   "number": "4",
+   "date": "2026-11-18",
+   "topic": "OPRO",
+   "arxiv": "2309.03409",
+   "draft": {
+    "file": "explainer-2026-11-18-opro-draft.md",
+    "chars": 11211,
+    "bytes": 27723,
+    "sha256": "ed6e6c44ff2b0296",
+    "disclaimer_count": 0,
+    "md_headings": 0,
+    "arxiv_found": true,
+    "email_count": 0
+   },
+   "final": {
+    "file": "explainer-2026-11-18-opro-final.md",
+    "chars": 11211,
+    "bytes": 27723,
+    "sha256": "ed6e6c44ff2b0296",
+    "disclaimer_count": 0,
+    "md_headings": 0,
+    "arxiv_found": true,
+    "email_count": 0
+   },
+   "draft_final_identical": true,
+   "final_minus_draft_chars": 0
+  },
+  {
+   "number": "5",
+   "date": "2026-11-19",
+   "topic": "Self-Refine",
+   "arxiv": "2303.17651",
+   "draft": {
+    "file": "explainer-2026-11-19-self-refine-draft.md",
+    "chars": 12980,
+    "bytes": 30753,
+    "sha256": "30e1b97b1424e2a5",
+    "disclaimer_count": 1,
+    "md_headings": 0,
+    "arxiv_found": true,
+    "email_count": 0
+   },
+   "final": {
+    "file": "explainer-2026-11-19-self-refine-final.md",
+    "chars": 12980,
+    "bytes": 30753,
+    "sha256": "30e1b97b1424e2a5",
+    "disclaimer_count": 1,
+    "md_headings": 0,
+    "arxiv_found": true,
+    "email_count": 0
+   },
+   "draft_final_identical": true,
+   "final_minus_draft_chars": 0
+  }
+ ],
+ "measurements": [
+  {
+   "date": "2026-11-17",
+   "files": 6,
+   "bytes": 14888,
+   "names": [
+    "criteria.md",
+    "desk-check.md",
+    "measure.py",
+    "measure2.py",
+    "run.log",
+    "run2.log"
+   ],
+   "has_criteria": true,
+   "has_runlog": true,
+   "has_runlog2": true,
+   "has_results_json": false,
+   "has_desk_check": true,
+   "has_measure_py": true
+  },
+  {
+   "date": "2026-11-18",
+   "files": 9,
+   "bytes": 109468,
+   "names": [
+    "criteria-addendum.md",
+    "criteria.md",
+    "desk-check.md",
+    "measure.py",
+    "measure2.py",
+    "rescoring.json",
+    "results_incremental.json",
+    "run.log",
+    "run2.log"
+   ],
+   "has_criteria": true,
+   "has_runlog": true,
+   "has_runlog2": true,
+   "has_results_json": true,
+   "has_desk_check": true,
+   "has_measure_py": true
+  },
+  {
+   "date": "2026-11-19",
+   "files": 10,
+   "bytes": 130560,
+   "names": [
+    "criteria-addendum.md",
+    "criteria-addendum2.md",
+    "criteria.md",
+    "desk-check.md",
+    "measure.py",
+    "raw_outputs.json",
+    "results.json",
+    "results_incremental.json",
+    "results_v2_invalid.json",
+    "run.log"
+   ],
+   "has_criteria": true,
+   "has_runlog": true,
+   "has_runlog2": false,
+   "has_results_json": true,
+   "has_desk_check": true,
+   "has_measure_py": true
+  }
+ ],
+ "reviews": {
+  "files": 4,
+  "bytes": 7559,
+  "names": [
+   "2026-11-19-round1-fact.md",
+   "2026-11-19-round1-fun.md",
+   "2026-11-19-round2.md",
+   "2026-11-19.md"
+  ],
+  "dates_covered": [
+   "2026-11-19"
+  ]
+ },
+ "covers": {
+  "files": 1,
+  "bytes": 116586,
+  "names": [
+   "2026-11-19.jpg"
+  ]
+ },
+ "pilot": {
+  "exists": true,
+  "chars": 3150
+ },
+ "summary": {
+  "explainer_files": 8,
+  "drafts": 5,
+  "finals": 3,
+  "finals_missing": [
+   "1",
+   "2"
+  ],
+  "identical_pairs": [
+   "4",
+   "5"
+  ],
+  "total_emails_in_manuscripts": 0,
+  "measurement_days": 3,
+  "measurement_files": 25,
+  "measurement_bytes": 254916,
+  "review_files": 4,
+  "cover_files": 1
+ }
+}

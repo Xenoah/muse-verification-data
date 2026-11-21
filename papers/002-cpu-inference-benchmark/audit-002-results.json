@@ -1,0 +1,347 @@
+{
+ "study": "paper-002-cpu-inference-benchmark",
+ "measured_on": "2026-11-12 (UTC logs; JST 2026-11-12 evening)",
+ "environment": {
+  "cpu": "AMD EPYC 9D25 126-Core Processor (4 vCPU visible, KVM full virtualization, AVX-512/AVX-VNNI flags)",
+  "runtime_quota": {
+   "sharedCpuMillis": 1500,
+   "note": "1.5 vCPU quota despite 4 visible vCPUs",
+   "sharedMemoryLimitBytes": 6442450944
+  },
+  "free_m_total_mb": 7934,
+  "kernel": "Linux 7.0.0-44-generic x86_64",
+  "env_log": "logs/env.txt"
+ },
+ "software": {
+  "llama.cpp_repo": "https://github.com/ggml-org/llama.cpp",
+  "commit": "827466b9efa0574806bad7732bcd78bfb6d9311d",
+  "license": "MIT",
+  "build": "CMake Release, CPU-only, LLAMA_CURL=OFF, -j 2"
+ },
+ "bench_protocol": "llama-bench -m <model> -p 512 -n 128 -t 4 -r 3 -o md ; 3 independent invocations per config; report = median and min-max of the 3 invocation means",
+ "memory_protocol": "llama-cli (-f prompt -n 128 -st --temp 0 -s 42 -t 4 --no-display-prompt), peak RSS via RUSAGE_CHILDREN ru_maxrss recorded by measure_run.py (GNU time not installed); default context size (model-dependent) unless noted",
+ "results": {
+  "qwen-q4km": {
+   "model": "Qwen2.5-1.5B-Instruct",
+   "file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+   "quant": "Q4_K_M",
+   "file_bytes": 1117320736,
+   "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+   "bench": {
+    "runs": [
+     {
+      "pp512": {
+       "mean_ts": 39.68,
+       "std_ts": 2.51
+      },
+      "tg128": {
+       "mean_ts": 6.91,
+       "std_ts": 0.35
+      }
+     },
+     {
+      "pp512": {
+       "mean_ts": 43.31,
+       "std_ts": 1.19
+      },
+      "tg128": {
+       "mean_ts": 7.58,
+       "std_ts": 0.74
+      }
+     },
+     {
+      "pp512": {
+       "mean_ts": 44.8,
+       "std_ts": 1.06
+      },
+      "tg128": {
+       "mean_ts": 7.83,
+       "std_ts": 0.28
+      }
+     }
+    ],
+    "pp512": {
+     "invocation_means": [
+      39.68,
+      43.31,
+      44.8
+     ],
+     "median": 43.31,
+     "min": 39.68,
+     "max": 44.8
+    },
+    "tg128": {
+     "invocation_means": [
+      6.91,
+      7.58,
+      7.83
+     ],
+     "median": 7.58,
+     "min": 6.91,
+     "max": 7.83
+    }
+   },
+   "memory_default_ctx": {
+    "per_question_kb": {
+     "q1": 2068164,
+     "q2": 2697944,
+     "q3": 2700868
+    },
+    "median_kb": 2697944,
+    "min_kb": 2068164,
+    "max_kb": 2700868,
+    "median_mib": 2634.7
+   }
+  },
+  "qwen-q8": {
+   "model": "Qwen2.5-1.5B-Instruct",
+   "file": "qwen2.5-1.5b-instruct-q8_0.gguf",
+   "quant": "Q8_0",
+   "file_bytes": 1894532128,
+   "sha256": "d7efb072e7724d25048a4fda0a3e10b04bdef5d06b1403a1c93bd9f1240a63c8",
+   "bench": {
+    "runs": [
+     {
+      "pp512": {
+       "mean_ts": 25.24,
+       "std_ts": 1.69
+      },
+      "tg128": {
+       "mean_ts": 5.42,
+       "std_ts": 0.19
+      }
+     },
+     {
+      "pp512": {
+       "mean_ts": 27.63,
+       "std_ts": 0.75
+      },
+      "tg128": {
+       "mean_ts": 5.03,
+       "std_ts": 0.73
+      }
+     },
+     {
+      "pp512": {
+       "mean_ts": 27.14,
+       "std_ts": 0.37
+      },
+      "tg128": {
+       "mean_ts": 5.29,
+       "std_ts": 0.25
+      }
+     }
+    ],
+    "pp512": {
+     "invocation_means": [
+      25.24,
+      27.63,
+      27.14
+     ],
+     "median": 27.14,
+     "min": 25.24,
+     "max": 27.63
+    },
+    "tg128": {
+     "invocation_means": [
+      5.42,
+      5.03,
+      5.29
+     ],
+     "median": 5.29,
+     "min": 5.03,
+     "max": 5.42
+    }
+   },
+   "memory_default_ctx": {
+    "per_question_kb": {
+     "q1": 2844664,
+     "q2": 2844456,
+     "q3": 2847252
+    },
+    "median_kb": 2844664,
+    "min_kb": 2844456,
+    "max_kb": 2847252,
+    "median_mib": 2778.0
+   }
+  },
+  "qwen-fp16": {
+   "model": "Qwen2.5-1.5B-Instruct",
+   "file": "qwen2.5-1.5b-instruct-fp16.gguf",
+   "quant": "FP16",
+   "file_bytes": 3560416288,
+   "sha256": "fc89e330deb3fd8fa560f1c0f35a1e2b8da96d59e13445559ed190307a6f5649",
+   "bench": {
+    "runs": [
+     {
+      "pp512": {
+       "mean_ts": 34.52,
+       "std_ts": 1.08
+      },
+      "tg128": {
+       "mean_ts": 4.98,
+       "std_ts": 0.18
+      }
+     },
+     {
+      "pp512": {
+       "mean_ts": 36.58,
+       "std_ts": 0.92
+      },
+      "tg128": {
+       "mean_ts": 5.8,
+       "std_ts": 0.04
+      }
+     },
+     {
+      "pp512": {
+       "mean_ts": 36.51,
+       "std_ts": 0.59
+      },
+      "tg128": {
+       "mean_ts": 5.72,
+       "std_ts": 0.27
+      }
+     }
+    ],
+    "pp512": {
+     "invocation_means": [
+      34.52,
+      36.58,
+      36.51
+     ],
+     "median": 36.51,
+     "min": 34.52,
+     "max": 36.58
+    },
+    "tg128": {
+     "invocation_means": [
+      4.98,
+      5.8,
+      5.72
+     ],
+     "median": 5.72,
+     "min": 4.98,
+     "max": 5.8
+    }
+   },
+   "memory_default_ctx": {
+    "per_question_kb": {
+     "q1": 3781364,
+     "q2": 3783392,
+     "q3": 3784524
+    },
+    "median_kb": 3783392,
+    "min_kb": 3781364,
+    "max_kb": 3784524,
+    "median_mib": 3694.7
+   }
+  },
+  "llama-q4km": {
+   "model": "Llama-3.2-1B-Instruct",
+   "file": "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+   "quant": "Q4_K_M",
+   "file_bytes": 807694464,
+   "sha256": "6f85a640a97cf2bf5b8e764087b1e83da0fdb51d7c9fab7d0fece9385611df83",
+   "bench": {
+    "runs": [
+     {
+      "pp512": {
+       "mean_ts": 64.67,
+       "std_ts": 3.92
+      },
+      "tg128": {
+       "mean_ts": 13.3,
+       "std_ts": 1.45
+      }
+     },
+     {
+      "pp512": {
+       "mean_ts": 67.27,
+       "std_ts": 6.74
+      },
+      "tg128": {
+       "mean_ts": 14.67,
+       "std_ts": 0.64
+      }
+     },
+     {
+      "pp512": {
+       "mean_ts": 64.59,
+       "std_ts": 3.17
+      },
+      "tg128": {
+       "mean_ts": 14.21,
+       "std_ts": 1.25
+      }
+     }
+    ],
+    "pp512": {
+     "invocation_means": [
+      64.67,
+      67.27,
+      64.59
+     ],
+     "median": 64.67,
+     "min": 64.59,
+     "max": 67.27
+    },
+    "tg128": {
+     "invocation_means": [
+      13.3,
+      14.67,
+      14.21
+     ],
+     "median": 14.21,
+     "min": 13.3,
+     "max": 14.67
+    }
+   },
+   "memory_default_ctx": {
+    "per_question_kb": {
+     "q1": 5072480,
+     "q2": 5531476,
+     "q3": 5531576
+    },
+    "median_kb": 5531476,
+    "min_kb": 5072480,
+    "max_kb": 5531576,
+    "median_mib": 5401.8
+   }
+  }
+ },
+ "diagnostic_ctx4096_q1_only": {
+  "note": "Additional diagnostic run (Q1 only, -c 4096) to identify why Llama-3.2-1B Q4_K_M peak RSS exceeded the much larger Qwen FP16 file: default context length inflates the KV cache.",
+  "peak_rss_kb": {
+   "llama-q4km": 1001920,
+   "qwen-q4km": 1724152
+  },
+  "peak_rss_mib": {
+   "llama-q4km": 978.4,
+   "qwen-q4km": 1683.7
+  }
+ },
+ "steal_samples": {
+  "baseline": {
+   "raw": "cpu  168606 49285 114919 1537467 31548 0 10346 7109 0 0",
+   "total": 1919280,
+   "steal": 7109
+  },
+  "final": {
+   "raw": "cpu  426519 49301 173171 2060109 51241 0 14642 13666 0 0",
+   "total": 2788649,
+   "steal": 13666
+  },
+  "delta_total_jiffies": 869369,
+  "delta_steal_jiffies": 6557,
+  "steal_share_of_delta_pct": 0.75
+ },
+ "licenses": {
+  "llama.cpp": "MIT",
+  "Qwen/Qwen2.5-1.5B-Instruct-GGUF": "apache-2.0",
+  "bartowski/Llama-3.2-1B-Instruct-GGUF": "llama3.2 (Llama 3.2 Community License)"
+ },
+ "scope_reductions": [
+  "Llama-3.2-1B Q8_0 dropped to keep total downloads <= 8 GB (final total 7.38 GB across 4 files)"
+ ]
+}

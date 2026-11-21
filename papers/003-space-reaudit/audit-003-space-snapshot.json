@@ -1,0 +1,1292 @@
+{
+  "retrievedAt": "2026-11-12T23:12:00+09:00",
+  "retrievedVia": "artifact.invoke_action slug=xin-zhao-aimoderu action=listmodels",
+  "data": {
+    "lastAddedCount": 0,
+    "lastCheckedAt": "2026-11-12T13:32:17.336Z",
+    "lastFoundCount": 13,
+    "lastNote": "新着はありませんでした（既存モデルの更新のみ、または変化なし）。",
+    "totalCount": 40,
+    "newCount": 13,
+    "providers": [
+      "Alibaba",
+      "Anthropic",
+      "Baidu",
+      "ByteDance",
+      "Deep Principle",
+      "Google",
+      "Google DeepMind",
+      "inclusionAI (Ant Group)",
+      "Kakao",
+      "LG AI Research",
+      "Meituan",
+      "Meta",
+      "MiniMax",
+      "Moonshot AI",
+      "NorKa",
+      "Nvidia",
+      "OpenAI",
+      "Pruna AI",
+      "Ricursive Intelligence",
+      "Runway",
+      "Salesforce",
+      "Shizuku AI Labs",
+      "Tencent",
+      "Thinking Machines Lab",
+      "Windsurf"
+    ],
+    "models": [
+      {
+        "id": 38,
+        "name": "Praxis-1",
+        "provider": "Runway",
+        "announcedDate": "2026-11-12",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "ワールドアクションモデル",
+        "paramsB": 27,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: ワールド"
+        ],
+        "platformLabel": "ローカル",
+        "specs": "27B",
+        "vramGbs": {
+          "fp16": 56,
+          "int8": 29,
+          "int4": 15.5
+        },
+        "sourceName": "sxf.si",
+        "sourceUrl": "https://sxf.si/brief/",
+        "firstSeenAt": "2026-11-12T04:33:41.973Z",
+        "isNew": false,
+        "highlight": "Runwayは27Bパラメータのワールドアクションモデルのウェイトとファインチューニング用ソフトウェアを公開し、RoboLab-120で46.2%の成功率を報告している。",
+        "strengths": [
+          "オープンウェイト（自前運用可）",
+          "Runwayは27Bパラメータのワールドアクションモデルのウェイトとファインチューニング用ソフトウェアを公開し、Robo…"
+        ]
+      },
+      {
+        "id": 37,
+        "name": "AlphaGenome 2",
+        "provider": "Google DeepMind",
+        "announcedDate": "2026-11-12",
+        "access": "研究用API（非商用）",
+        "isOpenWeight": false,
+        "kind": "ゲノム予測モデル",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "sxf.si",
+        "sourceUrl": "https://sxf.si/brief/",
+        "firstSeenAt": "2026-11-12T04:33:41.949Z",
+        "isNew": false,
+        "highlight": "特定の細胞タイプにおけるDNA制御を予測し、107M超の学習プロファイルで学習したとされている。研究用API経由の非商用利用に限られ、臨床用途ではないとしている。",
+        "strengths": [
+          "特定の細胞タイプにおけるDNA制御を予測し、107M超の学習プロファイルで学習したとされている。",
+          "研究用API経由の非商用利用に限られ、臨床用途ではないとしている。"
+        ]
+      },
+      {
+        "id": 40,
+        "name": "Gemini Decision 1",
+        "provider": "Google",
+        "announcedDate": "2026-11-11",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "意思決定モデル",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": "最大1,000 questions · $0.10 / 1M input tokens · 約200ms latency",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "latent.space",
+        "sourceUrl": "https://latent.space/p/ainews-d-day-decision-models-day/",
+        "firstSeenAt": "2026-11-12T06:32:38.842Z",
+        "isNew": false,
+        "highlight": "閉じた選択肢の判定を1回のパスでスコアリングする較正済みマルチモーダル意思決定モデルで、最大1,000件の質問を扱え、入力100万トークンあたり$0.10・約200msのレイテンシとしている。Googleが新たに意思決定モデル市場へ参入する製品とされる。",
+        "strengths": [
+          "マルチモーダル理解",
+          "閉じた選択肢の判定を1回のパスでスコアリングする較正済みマルチモーダル意思決定モデルで、最大1,000件の質問を扱え、入…",
+          "Googleが新たに意思決定モデル市場へ参入する製品とされる。"
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Qwen4-Max-Preview",
+        "provider": "Alibaba",
+        "announcedDate": "2026-11-11",
+        "access": "プレビュー",
+        "isOpenWeight": false,
+        "kind": "LLM",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "springprompt.com",
+        "sourceUrl": "https://springprompt.com/trends",
+        "firstSeenAt": "2026-11-12T04:33:41.996Z",
+        "isNew": true,
+        "highlight": "AlibabaのQwen4-Maxのプレビュー版として11月11日に発表され、リリーストラッカーでは今週最も新しい主要モデルとされている。",
+        "strengths": [
+          "AlibabaのQwen4-Maxのプレビュー版として11月11日に発表され、リリーストラッカーでは今週最も新しい主要モ…"
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Qwen4-Max",
+        "provider": "Alibaba",
+        "announcedDate": "2026-11-11",
+        "access": null,
+        "isOpenWeight": false,
+        "kind": "マルチモーダル",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.scriptbyai.com",
+        "sourceUrl": "https://www.scriptbyai.com/ai-model-release-calendar/",
+        "firstSeenAt": "2026-11-12T01:33:09.001Z",
+        "isNew": false,
+        "highlight": "AlibabaのQwenシリーズとして11月11日に挙がった汎用・マルチモーダルモデルで、11月の発表の中でも最も新しいものの一つとしている。",
+        "strengths": [
+          "マルチモーダル理解",
+          "AlibabaのQwenシリーズとして11月11日に挙がった汎用・マルチモーダルモデルで、11月の発表の中でも最も新しい…"
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Gemini Robotics 2.5",
+        "provider": "Google",
+        "announcedDate": "2026-11-10",
+        "access": null,
+        "isOpenWeight": false,
+        "kind": "ロボティクス",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "theagenticweekly.com",
+        "sourceUrl": "https://theagenticweekly.com/models/this-week",
+        "firstSeenAt": "2026-11-12T02:32:57.111Z",
+        "isNew": true,
+        "highlight": "Googleが11月10日にリリースしたロボティクス向けモデルの新版で、Agentic Weeklyの直近7日間のデータセットで最も新しい検証済みリリースとされている。",
+        "strengths": [
+          "エージェント用途",
+          "Googleが11月10日にリリースしたロボティクス向けモデルの新版で、Agentic Weeklyの直近7日間のデータ…"
+        ]
+      },
+      {
+        "id": 29,
+        "name": "MiniMax H3-Image",
+        "provider": "MiniMax",
+        "announcedDate": "2026-11-10",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "画像生成",
+        "paramsB": 33.1,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: 画像"
+        ],
+        "platformLabel": "クラウド＋ローカル",
+        "specs": "33.1B · 4K output",
+        "vramGbs": {
+          "fp16": 68.2,
+          "int8": 35.1,
+          "int4": 18.6
+        },
+        "sourceName": "cryptobriefing.com",
+        "sourceUrl": "https://cryptobriefing.com/minimax-h3-image-open-weight-4k-model/",
+        "firstSeenAt": "2026-11-10T22:38:33.962Z",
+        "isNew": false,
+        "highlight": "4K解像度で画像の生成と編集ができるオープンウェイトモデルで、Hugging Face、MiniMax Code、APIで提供される。ただしコミュニティライセンスで米国・EU・英国・韓国での利用が除外されているとしている。",
+        "strengths": [
+          "オープンウェイト（自前運用可）",
+          "4K解像度で画像の生成と編集ができるオープンウェイトモデルで、Hugging Face、MiniMax Code、API…",
+          "ただしコミュニティライセンスで米国・EU・英国・韓国での利用が除外されているとしている。"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Gemini Robotics-ER 1.5",
+        "provider": "Google DeepMind",
+        "announcedDate": "2026-11-10",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "ロボティクス向けモデル",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "turbo.gadgets360.com",
+        "sourceUrl": "https://turbo.gadgets360.com/en/ai/google-deepmind-gemini-robotics-1-5-ai-models-robots-reasoning-action-vision-unveiled-news-9348389",
+        "firstSeenAt": "2026-11-08T16:31:10.953Z",
+        "isNew": false,
+        "highlight": "高度な推論で計画を担うプランナーとして発表され、Gemini API経由で提供されるとしている。Gemini Robotics 1.5と組み合わせて汎用ロボットを動かす構成になっている。",
+        "strengths": [
+          "推論・思考に強い",
+          "高度な推論で計画を担うプランナーとして発表され、Gemini API経由で提供されるとしている。",
+          "Gemini Robotics 1.5と組み合わせて汎用ロボットを動かす構成になっている。"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Gemini Robotics 1.5",
+        "provider": "Google DeepMind",
+        "announcedDate": "2026-11-10",
+        "access": "限定提供",
+        "isOpenWeight": false,
+        "kind": "ロボティクス向けモデル",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "turbo.gadgets360.com",
+        "sourceUrl": "https://turbo.gadgets360.com/en/ai/google-deepmind-gemini-robotics-1-5-ai-models-robots-reasoning-action-vision-unveiled-news-9348389",
+        "firstSeenAt": "2026-11-08T16:31:10.941Z",
+        "isNew": false,
+        "highlight": "自然言語の指示でタスクを実行するモデルとして発表された。ER 1.5が計画し、1.5が実行する2モデル構成で、1.5は当面選定パートナー限定としている。",
+        "strengths": [
+          "自然言語の指示でタスクを実行するモデルとして発表された。",
+          "ER 1.5が計画し、1.5が実行する2モデル構成で、1.5は当面選定パートナー限定としている。"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Gemini 4 Carbon",
+        "provider": "Google DeepMind",
+        "announcedDate": "2026-11-10",
+        "access": "一般提供",
+        "isOpenWeight": false,
+        "kind": "LLM",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": "$2 input / $10 output per 1M tokens (11月30日まで)",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "intelsi.si",
+        "sourceUrl": "https://intelsi.si/timeline",
+        "firstSeenAt": "2026-11-08T12:31:57.047Z",
+        "isNew": true,
+        "highlight": "10月28日からサイバー防御組織などに限定されていたモデルが一般提供となり、有料Gemini APIとGeminiアプリのAI Ultra加入者向けに公開された。コーディングや調査などの長いエージェント作業向けの最強モデルとGoogleは位置付けている。",
+        "strengths": [
+          "コード生成に強い",
+          "エージェント用途"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "LongCat-2.5",
+        "provider": "Meituan",
+        "announcedDate": "2026-11-10",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "LLM",
+        "paramsB": 1600,
+        "contextTokens": 1000000,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド＋ローカル",
+        "specs": "MITライセンスでウェイト公開",
+        "vramGbs": {
+          "fp16": 3202,
+          "int8": 1602,
+          "int4": 802
+        },
+        "sourceName": "forum.astracruz.com",
+        "sourceUrl": "https://forum.astracruz.com/category/8/new-ai-model-releases",
+        "firstSeenAt": "2026-11-08T12:31:57.034Z",
+        "isNew": false,
+        "highlight": "MeituanがMITライセンスでウェイトを公開し、商用の推論・学習利用を明示的に許可したとしている。基盤モデル自体は以前に発表済みであり、今回はウェイト公開が新規点である。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "推論・思考に強い",
+          "オープンウェイト（自前運用可）"
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Seedream 5.5",
+        "provider": "ByteDance",
+        "announcedDate": "2026-11-09",
+        "access": "一般提供",
+        "isOpenWeight": false,
+        "kind": "画像生成",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: 画像"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.swarchitect.net",
+        "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+        "firstSeenAt": "2026-11-11T15:31:46.476Z",
+        "isNew": true,
+        "highlight": "11月9日に発表されたSeedream系の新バージョンの画像生成モデルで、同日の主要な新モデル一覧に挙げられている。",
+        "strengths": [
+          "11月9日に発表されたSeedream系の新バージョンの画像生成モデルで、同日の主要な新モデル一覧に挙げられている。"
+        ]
+      },
+      {
+        "id": 30,
+        "name": "K-EXAONE 2.5",
+        "provider": "LG AI Research",
+        "announcedDate": "2026-11-09",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "LLM",
+        "paramsB": 750,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": "750B total / 約31B active",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "forum.astracruz.com",
+        "sourceUrl": "https://forum.astracruz.com/category/8/new-ai-model-releases",
+        "firstSeenAt": "2026-11-10T22:38:34.024Z",
+        "isNew": false,
+        "highlight": "LG AI Researchが、750B総パラメータで約31Bをアクティブ化する大規模モデルへのホスト型APIアクセスを11月9日に開いたとしている。",
+        "strengths": [
+          "LG AI Researchが、750B総パラメータで約31Bをアクティブ化する大規模モデルへのホスト型APIアクセスを…"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Muse Ember",
+        "provider": "Meta",
+        "announcedDate": "2026-11-09",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "マルチモーダル",
+        "paramsB": null,
+        "contextTokens": 1000000,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.swarchitect.net",
+        "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+        "firstSeenAt": "2026-11-10T06:34:48.647Z",
+        "isNew": true,
+        "highlight": "Metaが11月9日に発表したMuse系の新モデルで、今週の主要モデルリリースの一つとして複数のトラッカーに挙げられている。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "マルチモーダル理解"
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Claude Mythos 5.2",
+        "provider": "Anthropic",
+        "announcedDate": "2026-11-09",
+        "access": "限定提供",
+        "isOpenWeight": false,
+        "kind": "LLM",
+        "paramsB": null,
+        "contextTokens": 1000000,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "intelsi.si",
+        "sourceUrl": "https://intelsi.si/timeline",
+        "firstSeenAt": "2026-11-10T00:36:09.375Z",
+        "isNew": true,
+        "highlight": "Fable 5.2と同日に発表された上位モデルで、サイバーセキュリティやバイオ医療研究に携わる検証済み組織のみに限定提供され、Fableより制限が少ないとしている。同社は前世代比で最大30%高速化し20%低コストになったと述べている。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "高速・軽量"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Claude Fable 5.2",
+        "provider": "Anthropic",
+        "announcedDate": "2026-11-09",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "LLM",
+        "paramsB": null,
+        "contextTokens": 1000000,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": "1M context · 128K max output",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "blog.sandbase.ai",
+        "sourceUrl": "https://blog.sandbase.ai/claude-fable-5-2-release-whats-new-2026/",
+        "firstSeenAt": "2026-11-10T00:36:09.362Z",
+        "isNew": true,
+        "highlight": "Artificial AnalysisのIntelligence Index v5で64.6を記録して首位になったと報じられ、価格は入力$8／出力$40 per 1M tokensでFable 5.1より20%安いとしている。1Mコンテキストと128K最大出力に対応する。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "Artificial AnalysisのIntelligence Index v5で64.6を記録して首位になったと報じ…",
+          "1Mコンテキストと128K最大出力に対応する。"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Gemini Robotics 1.5 / Gemini Robotics-ER 1.5",
+        "provider": "Google DeepMind",
+        "announcedDate": "2026-11-09",
+        "access": "発表",
+        "isOpenWeight": false,
+        "kind": "ロボティクス",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "turbo.gadgets360.com",
+        "sourceUrl": "https://turbo.gadgets360.com/en/ai/google-deepmind-gemini-robotics-1-5-ai-models-robots-reasoning-action-vision-unveiled-news-9348389",
+        "firstSeenAt": "2026-11-08T18:35:20.028Z",
+        "isNew": false,
+        "highlight": "Google DeepMindが11月9日に発表した汎用ロボット向けの2モデルで、Gemini Robotics-ER 1.5とGemini Robotics 1.5が連携して動作するよう設計されている。",
+        "strengths": [
+          "Google DeepMindが11月9日に発表した汎用ロボット向けの2モデルで、Gemini Robotics-ER …"
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Shizuku-Duplex",
+        "provider": "Shizuku AI Labs",
+        "announcedDate": "2026-11-08",
+        "access": null,
+        "isOpenWeight": false,
+        "kind": "音声",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: 音声",
+          "出力: 音声"
+        ],
+        "platformLabel": "クラウド",
+        "specs": "80 ms full-duplex",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "explainx.ai",
+        "sourceUrl": "https://explainx.ai/blog/shizuku-duplex-japanese-full-duplex-voice-80ms-interaction-background-2026",
+        "firstSeenAt": "2026-11-11T18:31:53.934Z",
+        "isNew": false,
+        "highlight": "80msごとに音声を処理する全二重の日本語音声モデルで、相づちや話し手の割り込みに対応し、話しながら聞き続けられるとしている。背景のLLMによるウェブ検索も、通話を保留にせず行えるとしている。",
+        "strengths": [
+          "80msごとに音声を処理する全二重の日本語音声モデルで、相づちや話し手の割り込みに対応し、話しながら聞き続けられるとして…",
+          "背景のLLMによるウェブ検索も、通話を保留にせず行えるとしている。"
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Koa Decisions",
+        "provider": "Salesforce",
+        "announcedDate": "2026-11-06",
+        "access": "企業向け提供",
+        "isOpenWeight": false,
+        "kind": "意思決定モデル",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像・音声",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.goodiebase.com",
+        "sourceUrl": "https://www.goodiebase.com/news/salesforce-koa-decisions-enterprise-model-2026-11-06",
+        "firstSeenAt": "2026-11-11T18:31:53.918Z",
+        "isNew": false,
+        "highlight": "回答を生成するのではなく次の一手や意図のルーティングを選ぶモデルで、Agentforce向けHyperClassifierの後継として発表された。GoogleのオープンウェイトGemmaを適応して作られ、テキストに加えて画像と音声も受け付けるとしている。",
+        "strengths": [
+          "回答を生成するのではなく次の一手や意図のルーティングを選ぶモデルで、Agentforce向けHyperClassifie…",
+          "GoogleのオープンウェイトGemmaを適応して作られ、テキストに加えて画像と音声も受け付けるとしている。"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Kanana-2-v-decide",
+        "provider": "Kakao",
+        "announcedDate": "2026-11-06",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "マルチモーダル",
+        "paramsB": 3.67,
+        "contextTokens": 20480,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド＋ローカル",
+        "specs": "3.67B · 20,480 context · 最大10画像",
+        "vramGbs": {
+          "fp16": 9.3,
+          "int8": 5.7,
+          "int4": 3.8
+        },
+        "sourceName": "neuralbrew.ai",
+        "sourceUrl": "https://neuralbrew.ai/en/articles/2026/11/kakao-kanana-2-v-decide-open-weights/",
+        "firstSeenAt": "2026-11-09T12:31:51.206Z",
+        "isNew": false,
+        "highlight": "エージェントの意思決定向けのマルチモーダルモデルで、テキスト生成ではなく確率・選択肢・スコアを出力するとしている。最大10枚の画像に対応し、20,480トークンのコンテキストに対応するとしている。",
+        "strengths": [
+          "マルチモーダル理解",
+          "エージェント用途",
+          "オープンウェイト（自前運用可）"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "NorKa Pro / Mini / Nano",
+        "provider": "NorKa",
+        "announcedDate": "2026-11-06",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "GUI自動化",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド＋ローカル",
+        "specs": "9B〜397B · OSWorld Verified: Pro 88 / Mini 85 / Nano 78.9",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "af.net",
+        "sourceUrl": "https://af.net/realtime/ai-model-releases-november-2026/",
+        "firstSeenAt": "2026-11-09T10:33:45.750Z",
+        "isNew": false,
+        "highlight": "NorKaが11月6日に公開したオープンウェイトのデスクトップGUI自動化モデル群で、Pro・Mini・Nanoの3系統がある。OSWorld VerifiedでPro 88、Mini 85、Nano 78.9とされている。",
+        "strengths": [
+          "コンピュータ操作・GUIエージェント",
+          "高速・軽量",
+          "オープンウェイト（自前運用可）"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Gemini Robotics 1.5 and Gemini Robotics-ER 1.5",
+        "provider": "Google DeepMind",
+        "announcedDate": "2026-11-06",
+        "access": null,
+        "isOpenWeight": false,
+        "kind": "ロボティクス",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "turbo.gadgets360.com",
+        "sourceUrl": "https://turbo.gadgets360.com/en/ai/google-deepmind-gemini-robotics-1-5-ai-models-robots-reasoning-action-vision-unveiled-news-9348389",
+        "firstSeenAt": "2026-11-08T15:33:12.676Z",
+        "isNew": false,
+        "highlight": "Google DeepMindが11月6日に発表した、汎用ロボット向けに連携して動作する2つのモデルで、推論と行動・視覚を担うとしている。",
+        "strengths": [
+          "推論・思考に強い",
+          "Google DeepMindが11月6日に発表した、汎用ロボット向けに連携して動作する2つのモデルで、推論と行動・視覚…"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Kanana-2-v-decide-3b-2611",
+        "provider": "Kakao",
+        "announcedDate": "2026-11-06",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "意思決定モデル",
+        "paramsB": 3.67,
+        "contextTokens": 20480,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド＋ローカル",
+        "specs": "3.67B parameters total · up to 10 images · up to 20,480 tokens input",
+        "vramGbs": {
+          "fp16": 9.3,
+          "int8": 5.7,
+          "int4": 3.8
+        },
+        "sourceName": "www.llm-releases.com",
+        "sourceUrl": "https://www.llm-releases.com/models/kanana-2-v-decide-3b-2611",
+        "firstSeenAt": "2026-11-08T15:33:12.661Z",
+        "isNew": false,
+        "highlight": "Kakaoが11月6日にHugging Faceでオープンウェイトとして公開した意思決定モデルで、テキストや最大10枚の画像を含む状態に対し、選択肢・Yes/No・スコアへの回答と各回答の確率を返す。テキストを生成せず、KakaoはDecision Indexなどで平均61.23を記録したとしている。",
+        "strengths": [
+          "オープンウェイト（自前運用可）",
+          "Kakaoが11月6日にHugging Faceでオープンウェイトとして公開した意思決定モデルで、テキストや最大10枚の…",
+          "テキストを生成せず、KakaoはDecision Indexなどで平均61.23を記録したとしている。"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Cosmos 3 Nano",
+        "provider": "Nvidia",
+        "announcedDate": "2026-11-05",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "ワールドモデル",
+        "paramsB": 16,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: ワールド"
+        ],
+        "platformLabel": "ローカル",
+        "specs": "16B × 4チェックポイント · OpenMDW1.1",
+        "vramGbs": {
+          "fp16": 34,
+          "int8": 18,
+          "int4": 10
+        },
+        "sourceName": "www.tun.com",
+        "sourceUrl": "https://www.tun.com/home/?p=%3F%3F%3F%3F%EB%9D%BC%EC%9D%B8%3Avx27%3F%3F%3F%3F%EC%9D%B8%EC%B2%9C%EC%B6%9C%EC%9E%A5%EB%A7%88%EC%82%AC%EC%A7%80%3F%3F%3F%3F%EC%9D%B8%EC%B2%9C%EC%B6%9C%EC%9E%A5%EC%83%B5%3F%3F%3F%3F%EC%9D%B8%EC%B2%9C%EC%B6%9C%EC%9E%A5%EC%95%88%EB%A7%88%3F%3F%3F%3F%EF%B8%8F%EC%9D%BC%EB%B3%B8%EC%9D%B8%EC%B6%9C%EC%9E%A5%EB%A7%88%E3%82%B5%E3%83%BC%E3%82%B8%EC%98%88%EC%95%BD%EC%84%B1%EC%9D%B8%EC%97%90%EC%9D%B4%EB%AF%B8%3F%3F%3F%3Fdksak%EB%B0%A9&kwd=HGTG",
+        "firstSeenAt": "2026-11-09T20:37:06.207Z",
+        "isNew": false,
+        "highlight": "Nvidiaが11月5日にCosmos 3のオープンウェイトチェックポイント4種を公開し、いずれも16Bパラメータで自動運転とロボット操作のシミュレーション向けに特化しているとしている。OpenMDW1.1ライセンスで商用利用も可能とされている。",
+        "strengths": [
+          "オープンウェイト（自前運用可）",
+          "Nvidiaが11月5日にCosmos 3のオープンウェイトチェックポイント4種を公開し、いずれも16Bパラメータで自動…",
+          "OpenMDW1.1ライセンスで商用利用も可能とされている。"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Ling-3.2-flash",
+        "provider": "inclusionAI (Ant Group)",
+        "announcedDate": "2026-11-05",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "マルチモーダル",
+        "paramsB": 560,
+        "contextTokens": 1000000,
+        "modalityLabels": [
+          "入力: テキスト・画像・動画",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": "560B MoE / 25B active · 1M context",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "ashutoshai.com",
+        "sourceUrl": "https://ashutoshai.com/ai-compass/2026/11/05/inclusionai-ling-3-2-flash/",
+        "firstSeenAt": "2026-11-09T12:31:51.302Z",
+        "isNew": false,
+        "highlight": "テキスト・画像・動画をインターリーブで取り込むネイティブマルチモーダルMoEで、複雑な視覚理解やマルチモーダルな長時間エージェント実行、3D空間理解を狙っている。560Bの総パラメータで1Mコンテキストに対応するとしている。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "マルチモーダル理解",
+          "エージェント用途",
+          "高速・軽量"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "ERNIE 5.5 Flash Base",
+        "provider": "Baidu",
+        "announcedDate": "2026-11-05",
+        "access": "発表",
+        "isOpenWeight": true,
+        "kind": "LLM",
+        "paramsB": 280,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": 562,
+          "int8": 282,
+          "int4": 142
+        },
+        "sourceName": "vorluxai.com",
+        "sourceUrl": "https://vorluxai.com/en/blog/sin-humo-2026-11-08-en/",
+        "firstSeenAt": "2026-11-09T09:34:31.216Z",
+        "isNew": false,
+        "highlight": "Baiduが11月5日に発表したMoEモデルで、追加学習向けのベースモデルとして提供されるとしている。",
+        "strengths": [
+          "高速・軽量",
+          "オープンウェイト（自前運用可）"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Gemini Omni 1.2 Flash",
+        "provider": "Google",
+        "announcedDate": "2026-11-05",
+        "access": "一般提供",
+        "isOpenWeight": false,
+        "kind": "マルチモーダル",
+        "paramsB": null,
+        "contextTokens": 131072,
+        "modalityLabels": [
+          "入力: テキスト・画像・動画",
+          "出力: 動画"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.swarchitect.net",
+        "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+        "firstSeenAt": "2026-11-08T12:31:56.972Z",
+        "isNew": true,
+        "highlight": "一般提供となり、マルチモーダル生成が広く利用できるようになったと報じられている。高速・軽量なFlashクラスとして位置付けられているとしている。Gemini Omni系のFlash版が一般提供となり、マルチモーダル生成が広く利用できるようになったと報じられている。",
+        "strengths": [
+          "マルチモーダル理解",
+          "高速・軽量"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "GPT-6 Cyber",
+        "provider": "OpenAI",
+        "announcedDate": "2026-11-05",
+        "access": "限定提供",
+        "isOpenWeight": false,
+        "kind": "LLM / サイバーセキュリティ特化",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "intelsi.si",
+        "sourceUrl": "https://intelsi.si/timeline",
+        "firstSeenAt": "2026-11-08T12:31:56.959Z",
+        "isNew": true,
+        "highlight": "承認されたDaybreak Red顧客向けに限定提供されるサイバーセキュリティ特化モデルで、サイバー分野でCriticalに分類されたと報じられている。一般ユーザーは申請なしに利用できない点が特徴である。",
+        "strengths": [
+          "承認されたDaybreak Red顧客向けに限定提供されるサイバーセキュリティ特化モデルで、サイバー分野でCritica…",
+          "一般ユーザーは申請なしに利用できない点が特徴である。"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Inkling 2 Small",
+        "provider": "Thinking Machines Lab",
+        "announcedDate": "2026-11-05",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "LLM",
+        "paramsB": 594,
+        "contextTokens": 1000000,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド＋ローカル",
+        "specs": "594B MoE / 17B active · 1M context",
+        "vramGbs": {
+          "fp16": 1190,
+          "int8": 596,
+          "int4": 299
+        },
+        "sourceName": "pulse.ecneproject.com",
+        "sourceUrl": "https://pulse.ecneproject.com/articles/small-is-doing-a-lot-of-heavy-lifting-thinking-machines-lab-s-594b-moe-model-lan-06bec8",
+        "firstSeenAt": "2026-11-08T12:31:56.933Z",
+        "isNew": true,
+        "highlight": "594BのMoEながら推論時のactiveは17Bで、Artificial Analysis Intelligence Indexで31を記録し第1世代から大きく向上したと報じられている。オープンウェイト路線のモデルとして公開されたとしている。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "推論・思考に強い",
+          "高速・軽量",
+          "オープンウェイト（自前運用可）"
+        ]
+      },
+      {
+        "id": 31,
+        "name": "SWE-2 Flash",
+        "provider": "Windsurf",
+        "announcedDate": "2026-11-04",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "コード特化",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・コード",
+          "出力: テキスト・コード"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.swarchitect.net",
+        "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+        "firstSeenAt": "2026-11-11T00:34:58.728Z",
+        "isNew": false,
+        "highlight": "11月4日に発表されたソフトウェアエンジニアリング向けのFlashモデルだが、検索結果には提供形態や詳細な仕様は明記されていない。",
+        "strengths": [
+          "コード生成に強い",
+          "高速・軽量"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Hunyuan Hy4",
+        "provider": "Tencent",
+        "announcedDate": "2026-11-04",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "LLM",
+        "paramsB": null,
+        "contextTokens": 1000000,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": "1M context",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.bam.dog",
+        "sourceUrl": "https://www.bam.dog/issues/2026-11-04",
+        "firstSeenAt": "2026-11-09T11:31:30.210Z",
+        "isNew": false,
+        "highlight": "Tencentが11月4日に公開した言語モデルで、同社が最強クラスのオープンウェイトモデルの一つとしているが、ウェイトとシステムカードはまだ公開されておらず近日中の公開とされている。OpenRouter経由で100万トークンのコンテキストで利用できる。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "Tencentが11月4日に公開した言語モデルで、同社が最強クラスのオープンウェイトモデルの一つとしているが、ウェイトと…",
+          "OpenRouter経由で100万トークンのコンテキストで利用できる。"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "GPT-Image-2.6",
+        "provider": "OpenAI",
+        "announcedDate": "2026-11-04",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "画像生成",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: 画像"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.swarchitect.net",
+        "sourceUrl": "https://www.swarchitect.net/en/ai-launches-2026-11/",
+        "firstSeenAt": "2026-11-08T19:34:37.354Z",
+        "isNew": true,
+        "highlight": "11月4日に発表されたGPT-Image系の新バージョンの画像生成モデルで、同日の主要な新モデル一覧に挙げられている。",
+        "strengths": [
+          "11月4日に発表されたGPT-Image系の新バージョンの画像生成モデルで、同日の主要な新モデル一覧に挙げられている。"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Ripple-65B Preview",
+        "provider": "Ricursive Intelligence",
+        "announcedDate": "2026-11-04",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "LLM",
+        "paramsB": 65,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "ローカル",
+        "specs": "65B · Apache 2.0",
+        "vramGbs": {
+          "fp16": 132,
+          "int8": 67,
+          "int4": 34.5
+        },
+        "sourceName": "benchlm.ai",
+        "sourceUrl": "https://benchlm.ai/blog/posts/llm-news-november-7-2026",
+        "firstSeenAt": "2026-11-08T12:31:57.022Z",
+        "isNew": false,
+        "highlight": "Ricursive Intelligenceが11月4日にApache 2.0で公開した65Bのプレビューモデル。検索結果からは用途や性能の詳細は確認できないため、オープンウェイトでの公開自体が中心の発表となっている。",
+        "strengths": [
+          "オープンウェイト（自前運用可）",
+          "Ricursive Intelligenceが11月4日にApache 2.0で公開した65Bのプレビューモデル。",
+          "検索結果からは用途や性能の詳細は確認できないため、オープンウェイトでの公開自体が中心の発表となっている。"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "GPT-Image-2.6 Sunburst and Flare",
+        "provider": "OpenAI",
+        "announcedDate": "2026-11-04",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "画像生成",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: 画像"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "essamamdani.com",
+        "sourceUrl": "https://essamamdani.com/blog/ai-model-releases-november-2026",
+        "firstSeenAt": "2026-11-08T12:31:57.010Z",
+        "isNew": false,
+        "highlight": "SunburstとFlareの2モデルとして画像の生成・編集に対応し、SVGやアニメーションGIFの生成も可能としている。11月4日にChatGPT、Codex、APIで提供が始まった。",
+        "strengths": [
+          "SunburstとFlareの2モデルとして画像の生成・編集に対応し、SVGやアニメーションGIFの生成も可能としている…",
+          "11月4日にChatGPT、Codex、APIで提供が始まった。"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Hy4",
+        "provider": "Tencent",
+        "announcedDate": "2026-11-04",
+        "access": "一般提供",
+        "isOpenWeight": false,
+        "kind": "マルチモーダル",
+        "paramsB": 770,
+        "contextTokens": 1048576,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": "770B total / 49B active · 1,048,576 context",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "unicornapi.net",
+        "sourceUrl": "https://unicornapi.net/blog/tencent-releases-full-hy4-ai-model-see-images-use-computer",
+        "firstSeenAt": "2026-11-08T12:31:56.986Z",
+        "isNew": true,
+        "highlight": "8月のプレビュー版に視覚理解と、コマンドライン／GUIでのコンピュータ操作を追加した正式版で、ウェイトは近日公開予定としている。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "コンピュータ操作・GUIエージェント",
+          "マルチモーダル理解"
+        ]
+      },
+      {
+        "id": 28,
+        "name": "P-H3-Image",
+        "provider": "Pruna AI",
+        "announcedDate": "2026-11-03",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "画像生成",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: 画像"
+        ],
+        "platformLabel": "ローカル可",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.kombitz.com",
+        "sourceUrl": "https://www.kombitz.com/2026/11/07/ai-image-video-model-news-roundup-november-7-2026/",
+        "firstSeenAt": "2026-11-10T12:31:54.714Z",
+        "isNew": false,
+        "highlight": "MiniMaxの動画モデルH3を蒸留して作られた高速な画像生成モデルで、動画モデルを画像専用に再構築した点が新しいとされている。ライセンスはMiniMaxのコミュニティライセンスとされている。",
+        "strengths": [
+          "高速・軽量",
+          "オープンウェイト（自前運用可）"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Hydrogen-1.0",
+        "provider": "Deep Principle",
+        "announcedDate": "2026-11-02",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "LLM",
+        "paramsB": null,
+        "contextTokens": 1000000,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド＋ローカル",
+        "specs": "1M context / 最大128,000出力トークン / BF16・MITライセンス",
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.zeniteq.com",
+        "sourceUrl": "https://www.zeniteq.com/hydrogen-1-0-brings-open-weights-to-scientific-ai-jggrz5",
+        "firstSeenAt": "2026-11-09T11:31:30.433Z",
+        "isNew": false,
+        "highlight": "Z.aiのGLM-5.3をポストトレーニングし、化学・材料科学・生命科学の問題解決に特化させたとしている。MITライセンスのBF16ウェイトを公開し、100万トークンのコンテキストと最大12.8万トークンの出力をうたっているとしている。",
+        "strengths": [
+          "高速・軽量",
+          "オープンウェイト（自前運用可）"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Kimi K3.1 Pro",
+        "provider": "Moonshot AI",
+        "announcedDate": "2026-11-02",
+        "access": "オープンウェイト",
+        "isOpenWeight": true,
+        "kind": "マルチモーダル LLM",
+        "paramsB": 2800,
+        "contextTokens": 1048576,
+        "modalityLabels": [
+          "入力: テキスト・画像",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド＋ローカル",
+        "specs": "2.8T MoE / 104B active · 1,048,576 context",
+        "vramGbs": {
+          "fp16": 5602,
+          "int8": 2802,
+          "int4": 1402
+        },
+        "sourceName": "csuite.so",
+        "sourceUrl": "https://csuite.so/blog/ai-models-roundup-november-2026",
+        "firstSeenAt": "2026-11-08T12:31:56.998Z",
+        "isNew": true,
+        "highlight": "Moonshotが約束していたフルウェイトをHugging Faceで公開した2.8兆パラメータのMoEモデルで、MoonViT-V2による画像入力に対応する。モデルカードではTerminal-Bench 4.0で65.7%を記録したとしている。",
+        "strengths": [
+          "超長文コンテキスト（1M+）",
+          "マルチモーダル理解",
+          "オープンウェイト（自前運用可）"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Genie 4",
+        "provider": "Google DeepMind",
+        "announcedDate": "2026-10-27",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "ワールドモデル",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: ワールド"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.lyragen.co.uk",
+        "sourceUrl": "https://www.lyragen.co.uk/blog/ai-research-digest-2026-11-02",
+        "firstSeenAt": "2026-11-08T12:31:57.059Z",
+        "isNew": false,
+        "highlight": "DeepMindが10月27日に発表した新世代のインタラクティブなワールドモデルで、リアルタイムでユーザーが操作できる世界をシミュレーションするとしている。",
+        "strengths": [
+          "DeepMindが10月27日に発表した新世代のインタラクティブなワールドモデルで、リアルタイムでユーザーが操作できる世…"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "GPT-6.1 Terra",
+        "provider": "OpenAI",
+        "announcedDate": "2026-10-26",
+        "access": "API提供",
+        "isOpenWeight": false,
+        "kind": "LLM",
+        "paramsB": null,
+        "contextTokens": null,
+        "modalityLabels": [
+          "入力: テキスト",
+          "出力: テキスト"
+        ],
+        "platformLabel": "クラウド",
+        "specs": null,
+        "vramGbs": {
+          "fp16": null,
+          "int8": null,
+          "int4": null
+        },
+        "sourceName": "www.lyragen.co.uk",
+        "sourceUrl": "https://www.lyragen.co.uk/blog/ai-research-digest-2026-11-02",
+        "firstSeenAt": "2026-11-08T13:32:05.763Z",
+        "isNew": false,
+        "highlight": "OpenAIが10月26日に発表したミッドレンジモデルで、GPT-5.6 Terraのおよそ半額の価格設定とされている。コストを抑えた位置づけの新モデルとして登場した。",
+        "strengths": [
+          "コストを抑えた位置づけの新モデルとして登場した。",
+          "OpenAIが10月26日に発表したミッドレンジモデルで、GPT-5.6 Terraのおよそ半額の価格設定とされている。"
+        ]
+      }
+    ]
+  }
+}

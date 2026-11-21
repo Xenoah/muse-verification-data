@@ -1,0 +1,19 @@
+$ git rev-parse HEAD
+ca3b6e98365d48a3c6d07cb5476b5fe70edc1c76
+$ git log --oneline -3
+ca3b6e9 Add 2026-11-20 diary to pages-first manifest
+24df380 Add 2026-11-20 diary
+94ae5a2 Add changelog entry for the catalog expansion
+$ git status --porcelain
+ M .github/workflows/blog-checks.yml
+ M blog/tests/browser/note-mirror.spec.cjs
+$ git diff --stat -- data/projects.json
+(diff empty above = projects.json unmodified)
+$ node scripts/build-projects.js --check
+Project catalog: 108 projects, generated files current.
+exit: 0
+$ node scripts/check-site.js
+SEO検査: 54ページすべて正常
+Project catalog: 108 projects, generated files current.
+Site checks passed: 108 projects, local links/assets, navigation, metadata and generated output.
+exit: 0

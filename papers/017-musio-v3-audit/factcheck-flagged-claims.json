@@ -1,0 +1,21 @@
+{
+ "channels_all_2": "True",
+ "shortest": "(16, 'Breakneck', 174, 'drive', 149.0)",
+ "longest": "(22, 'Silent Laboratory', 56, 'stillness', 209.0)",
+ "all_durations_integer": "True",
+ "midi_dur": "(7836.2, 154.26999999999998, 137.241, 197.116)",
+ "diff_range": "(11.0, 12.0)",
+ "intent_medians": "{'groove': (161.0, 160.0, 164.0), 'narrative': (167.0, 166.0, 174.0), 'drive': (161.0, 149.0, 163.0), 'build': (171.5, 171.0, 174.0), 'float': (178.5, 178.0, 179.0), 'stillness': (195.0, 189.0, 209.0)}",
+ "bars": "(46, 100, 70.0)",
+ "genres_unique": "50",
+ "bpm": "(56, 174, 106.0)",
+ "keys_unique": "16",
+ "tracks_with_fourfloor": "7",
+ "ff_top2": "[(13, 22, 59, 37.3), (12, 25, 69, 36.2)]",
+ "meanvol": "(-30.0, -15.9)",
+ "noteons_total": "93237",
+ "noteons_range": "(294, 4379, 1760.0)",
+ "channels_per_track": "Counter({5: 29, 4: 19, 3: 2})",
+ "cover_bytes": "(66893, 244244)",
+ "trackjson_has_intent": "False"
+}

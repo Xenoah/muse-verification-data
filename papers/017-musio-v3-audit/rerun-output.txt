@@ -1,0 +1,95 @@
+{
+ "n_ok": 50,
+ "total_duration_sec": 8411.0,
+ "duration_min": 149.0,
+ "duration_max": 209.0,
+ "duration_median": 166.0,
+ "duration_mean": 168.22,
+ "n_under_120s": 0,
+ "n_under_138s": 0,
+ "all_contents_exact4": true,
+ "all_crc_ok": true,
+ "all_mid_sha_match": true,
+ "all_zip_size_match": true,
+ "all_trackjson_match_manifest": true,
+ "all_trackjson_match_queue": true,
+ "intent_counts": {
+  "groove": 15,
+  "narrative": 12,
+  "drive": 9,
+  "build": 6,
+  "float": 4,
+  "stillness": 4
+ },
+ "total_zip_bytes": 198829181,
+ "total_mp3_bytes": 201935178,
+ "total_mid_bytes": 756677,
+ "mp3_codecs": {
+  "mp3": 50
+ },
+ "mp3_sample_rates": {
+  "48000": 50
+ },
+ "mp3_bitrates": {
+  "192077": 1,
+  "192078": 11,
+  "192057": 1,
+  "192059": 4,
+  "192068": 3,
+  "192069": 4,
+  "192056": 3,
+  "192084": 1,
+  "192064": 1,
+  "192070": 2,
+  "192062": 2,
+  "192049": 2,
+  "192060": 1,
+  "192065": 1,
+  "192073": 1,
+  "192074": 2,
+  "192050": 1,
+  "192055": 2,
+  "192075": 3,
+  "192066": 4
+ },
+ "cover_formats": {
+  "JPEG": 50
+ },
+ "cover_sizes_px": {
+  "720x720": 50
+ },
+ "silent_tracks_maxvol_le_-60": [],
+ "maxvol_min": -1.9,
+ "maxvol_max": -0.6,
+ "four_floor_total_bars_with_drum": 2249,
+ "four_floor_total_bars": 126,
+ "tracks_over40pct_fourfloor": [],
+ "tracks_no_drums": [
+  "21-infinite-cosmos.zip",
+  "22-silent-laboratory.zip",
+  "23-rain-on-glass.zip",
+  "24-quiet-reflections.zip",
+  "25-the-grand-discovery.zip",
+  "26-the-final-stand.zip",
+  "27-hidden-kingdom.zip",
+  "28-clockwork-mystery.zip",
+  "29-something-in-the-dark.zip",
+  "30-the-last-goodbye.zip",
+  "37-eastern-winds.zip",
+  "38-bamboo-moon.zip",
+  "48-tiny-troubles.zip"
+ ],
+ "duration_diff_abs_max": 0.0,
+ "midi_vs_mp3_duration_diff_abs_max": 12.0,
+ "produced_dates": {
+  "2026-11-17": 1,
+  "2026-11-18": 42,
+  "2026-11-19": 7
+ },
+ "manifest_status_counts": {
+  "produced": 50
+ },
+ "manifest_count": 50,
+ "queue_count": 50,
+ "queue_done_count": 50
+}
