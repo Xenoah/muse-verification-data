@@ -1,0 +1,356 @@
+{
+  "summary": {
+    "total_extensions": 9,
+    "skills": 8,
+    "connectors": 1,
+    "total_files": 29,
+    "total_bytes": 53027,
+    "read_errors": 0,
+    "skill_bytes": 42727,
+    "connector_bytes": 10300,
+    "skills_in_injected": 3,
+    "skills_not_in_injected": [
+      "app_creation_unknown_fields",
+      "bulk_calendar_history",
+      "inbox_import_publishing_check",
+      "mirrored_title_encoding_check",
+      "public_article_safety_check"
+    ],
+    "include_true": [
+      "supplied_asset_video",
+      "custom.openai"
+    ],
+    "include_false": [
+      "app_creation_unknown_fields",
+      "bulk_calendar_history",
+      "inbox_import_publishing_check",
+      "mirrored_title_encoding_check",
+      "note_article_structure_check",
+      "public_article_safety_check",
+      "resilient_long_downloads"
+    ],
+    "include_unset": [],
+    "all_have_main_and_yaml": true,
+    "categories": {
+      "Creation": 2,
+      "Personal planning": 1,
+      "Media": 1,
+      "Writing": 3,
+      "Work and knowledge": 1
+    },
+    "email_hits_in_main_docs": null,
+    "email_hits": 0,
+    "email_hit_files": 0
+  },
+  "extensions": [
+    {
+      "kind": "custom_skills",
+      "name": "app_creation_unknown_fields",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "SKILL.md",
+          "rel": "SKILL.md",
+          "bytes": 1895
+        },
+        {
+          "name": "skill.yaml",
+          "rel": "skill.yaml",
+          "bytes": 2258
+        }
+      ],
+      "file_count": 3,
+      "bytes": 4153,
+      "lines_approx": 62,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "false",
+      "category": "Creation",
+      "title": "App Creation Unknown Fields",
+      "has_bin": false,
+      "extra_files": [],
+      "in_injected_list": false
+    },
+    {
+      "kind": "custom_skills",
+      "name": "bulk_calendar_history",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "SKILL.md",
+          "rel": "SKILL.md",
+          "bytes": 3264
+        },
+        {
+          "name": "skill.yaml",
+          "rel": "skill.yaml",
+          "bytes": 1864
+        }
+      ],
+      "file_count": 3,
+      "bytes": 5128,
+      "lines_approx": 85,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "false",
+      "category": "Personal planning",
+      "title": "Bulk Calendar History",
+      "has_bin": false,
+      "extra_files": [],
+      "in_injected_list": false
+    },
+    {
+      "kind": "custom_skills",
+      "name": "inbox_import_publishing_check",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "SKILL.md",
+          "rel": "SKILL.md",
+          "bytes": 4004
+        },
+        {
+          "name": "skill.yaml",
+          "rel": "skill.yaml",
+          "bytes": 2906
+        }
+      ],
+      "file_count": 3,
+      "bytes": 6910,
+      "lines_approx": 86,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "false",
+      "category": "Media",
+      "title": "Inbox Import Publishing Check",
+      "has_bin": false,
+      "extra_files": [],
+      "in_injected_list": false
+    },
+    {
+      "kind": "custom_skills",
+      "name": "mirrored_title_encoding_check",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "SKILL.md",
+          "rel": "SKILL.md",
+          "bytes": 3295
+        },
+        {
+          "name": "skill.yaml",
+          "rel": "skill.yaml",
+          "bytes": 2864
+        }
+      ],
+      "file_count": 3,
+      "bytes": 6159,
+      "lines_approx": 82,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "false",
+      "category": "Writing",
+      "title": "Mirrored Title Encoding Check",
+      "has_bin": false,
+      "extra_files": [],
+      "in_injected_list": false
+    },
+    {
+      "kind": "custom_skills",
+      "name": "note_article_structure_check",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "SKILL.md",
+          "rel": "SKILL.md",
+          "bytes": 3071
+        },
+        {
+          "name": "skill.yaml",
+          "rel": "skill.yaml",
+          "bytes": 2530
+        }
+      ],
+      "file_count": 3,
+      "bytes": 5601,
+      "lines_approx": 73,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "false",
+      "category": "Writing",
+      "title": "Note Article Structure Check",
+      "has_bin": false,
+      "extra_files": [],
+      "in_injected_list": true
+    },
+    {
+      "kind": "custom_skills",
+      "name": "public_article_safety_check",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "SKILL.md",
+          "rel": "SKILL.md",
+          "bytes": 3017
+        },
+        {
+          "name": "skill.yaml",
+          "rel": "skill.yaml",
+          "bytes": 2581
+        }
+      ],
+      "file_count": 3,
+      "bytes": 5598,
+      "lines_approx": 78,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "false",
+      "category": "Writing",
+      "title": "Public Article Safety Check",
+      "has_bin": false,
+      "extra_files": [],
+      "in_injected_list": false
+    },
+    {
+      "kind": "custom_skills",
+      "name": "resilient_long_downloads",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "SKILL.md",
+          "rel": "SKILL.md",
+          "bytes": 2684
+        },
+        {
+          "name": "skill.yaml",
+          "rel": "skill.yaml",
+          "bytes": 2604
+        }
+      ],
+      "file_count": 3,
+      "bytes": 5288,
+      "lines_approx": 83,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "false",
+      "category": "Work and knowledge",
+      "title": "Resilient Long Downloads",
+      "has_bin": false,
+      "extra_files": [],
+      "in_injected_list": true
+    },
+    {
+      "kind": "custom_skills",
+      "name": "supplied_asset_video",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "SKILL.md",
+          "rel": "SKILL.md",
+          "bytes": 1842
+        },
+        {
+          "name": "skill.yaml",
+          "rel": "skill.yaml",
+          "bytes": 2048
+        }
+      ],
+      "file_count": 3,
+      "bytes": 3890,
+      "lines_approx": 65,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "true",
+      "category": "Creation",
+      "title": "Supplied-Asset Video",
+      "has_bin": false,
+      "extra_files": [],
+      "in_injected_list": true
+    },
+    {
+      "kind": "custom_connectors",
+      "name": "custom.openai",
+      "files": [
+        {
+          "name": ".write-lock",
+          "rel": ".write-lock",
+          "bytes": 0
+        },
+        {
+          "name": "CONNECTOR.md",
+          "rel": "CONNECTOR.md",
+          "bytes": 3952
+        },
+        {
+          "name": "openai_call.cpython-312.pyc",
+          "rel": "bin/__pycache__/openai_call.cpython-312.pyc",
+          "bytes": 3956
+        },
+        {
+          "name": "openai_call.py",
+          "rel": "bin/openai_call.py",
+          "bytes": 2136
+        },
+        {
+          "name": "connector.yaml",
+          "rel": "connector.yaml",
+          "bytes": 256
+        }
+      ],
+      "file_count": 5,
+      "bytes": 10300,
+      "lines_approx": 147,
+      "has_main_doc": true,
+      "has_yaml": true,
+      "include_in_prompt_raw": "true",
+      "category": null,
+      "title": "OpenAI",
+      "has_bin": true,
+      "extra_files": [
+        "bin/__pycache__/openai_call.cpython-312.pyc",
+        "bin/openai_call.py"
+      ],
+      "in_injected_list": true
+    }
+  ],
+  "injected_learned_skills": [
+    "supplied_asset_video",
+    "note_article_structure_check",
+    "resilient_long_downloads"
+  ],
+  "injected_custom_connectors": [
+    "custom.openai"
+  ]
+}
