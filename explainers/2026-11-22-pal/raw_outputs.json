@@ -1,0 +1,354 @@
+[
+ {
+  "tag": "Q1-A-main",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four eggs. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 24",
+  "time_s": 23.0
+ },
+ {
+  "tag": "Q1-B-main",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four eggs. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "eggs_per_day = 16\neggs_eaten_morning = 3\neggs_for_muffins = 4\neggs_sold = eggs_per_day - eggs_eaten_morning - eggs_for_muffins\nprice_per_egg = 2\nmoney_per_day = eggs_sold * price_per_egg\nresult = money_per_day",
+  "time_s": 21.3
+ },
+ {
+  "tag": "Q2-A-main",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 43812",
+  "time_s": 5.5
+ },
+ {
+  "tag": "Q2-B-main",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+  "time_s": 13.6
+ },
+ {
+  "tag": "Q3-A-main",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A factory produces 18473 bottles per day. It operates for 27 days. During that period, 12345 bottles are found to be defective and are discarded. How many non-defective bottles remain?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 15128",
+  "time_s": 7.1
+ },
+ {
+  "tag": "Q3-B-main",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A factory produces 18473 bottles per day. It operates for 27 days. During that period, 12345 bottles are found to be defective and are discarded. How many non-defective bottles remain?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "bottles_per_day = 18473\ndays = 27\ndefective_bottles = 12345\nresult = bottles_per_day * days - defective_bottles",
+  "time_s": 12.8
+ },
+ {
+  "tag": "Q4-A-main",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: Ken has $1000. He buys 48 notebooks that cost $13.75 each. How much money does he have left in dollars?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: $856.50",
+  "time_s": 7.2
+ },
+ {
+  "tag": "Q4-B-main",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: Ken has $1000. He buys 48 notebooks that cost $13.75 each. How much money does he have left in dollars?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "money_initial = 1000\nnotebooks = 48\nnotebook_cost = 13.75\nnotebooks_cost = notebooks * notebook_cost\nmoney_spent = notebooks_cost\nmoney_left = money_initial - money_spent\nresult = money_left",
+  "time_s": 16.3
+ },
+ {
+  "tag": "Q5-A-main",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A prize of $98280 is shared equally among 24 workers. How many dollars does each worker receive?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 4090",
+  "time_s": 6.3
+ },
+ {
+  "tag": "Q5-B-main",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A prize of $98280 is shared equally among 24 workers. How many dollars does each worker receive?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "prize = 98280\nworkers = 24\nresult = prize / workers",
+  "time_s": 14.2
+ },
+ {
+  "tag": "Q6-A-main",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A jacket originally costs 12500 yen. Its price is first raised by 8 percent, and the new price is then discounted by 15 percent. What is the final price in yen?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 11550\n\nStep 1: Calculate the price after the 8% increase.\nOriginal price = 12500 yen\nIncrease = 8% of 12500 = 0.08 * 12500 = 1000 yen\nNew price = Original price + Increase = 12500 + 1000 = 13500 yen\n\nStep 2: Calculate the price after the 15% discount.\nDiscount = 15% of 13500 = 0.15 * 13500 = 2025 yen\nFinal price = New price - Discount = 13500 - 2025 = 11550 yen\n\nAnswer: 11550",
+  "time_s": 29.3
+ },
+ {
+  "tag": "Q6-B-main",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A jacket originally costs 12500 yen. Its price is first raised by 8 percent, and the new price is then discounted by 15 percent. What is the final price in yen?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "original_price = 12500\nincrease_rate = 0.08\nnew_price = original_price * (1 + increase_rate)\ndiscount_rate = 0.15\nfinal_price = new_price * (1 - discount_rate)\nresult = final_price",
+  "time_s": 15.0
+ },
+ {
+  "tag": "Q7-A-main",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: Mina has 3 chairs, 5 apples, 2 desks, 7 oranges, 4 bananas, 1 lamp, and 6 peaches. How many fruits does Mina have in total?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 33",
+  "time_s": 7.4
+ },
+ {
+  "tag": "Q7-B-main",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: Mina has 3 chairs, 5 apples, 2 desks, 7 oranges, 4 bananas, 1 lamp, and 6 peaches. How many fruits does Mina have in total?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "fruits = 3 + 5 + 2 + 7 + 4 + 1 + 6\nresult = fruits",
+  "time_s": 13.2
+ },
+ {
+  "tag": "Q8-A-main",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 2067736",
+  "time_s": 7.3
+ },
+ {
+  "tag": "Q8-B-main",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+  "time_s": 13.1
+ },
+ {
+  "tag": "Q2-A-stab0",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 43812",
+  "time_s": 6.9
+ },
+ {
+  "tag": "Q2-B-stab0",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+  "time_s": 11.3
+ },
+ {
+  "tag": "Q2-A-stab1",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 43812",
+  "time_s": 6.7
+ },
+ {
+  "tag": "Q2-B-stab1",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+  "time_s": 12.0
+ },
+ {
+  "tag": "Q8-A-stab0",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 2067736",
+  "time_s": 6.6
+ },
+ {
+  "tag": "Q8-B-stab0",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+  "time_s": 12.5
+ },
+ {
+  "tag": "Q8-A-stab1",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Answer: 2067736",
+  "time_s": 7.1
+ },
+ {
+  "tag": "Q8-B-stab1",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?\nSolution:\n",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+  "time_s": 12.0
+ },
+ {
+  "tag": "Q2-A-sens0",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "Answer: 43812",
+  "time_s": 6.0
+ },
+ {
+  "tag": "Q2-B-sens0",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+  "time_s": 12.4
+ },
+ {
+  "tag": "Q2-A-sens1",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Answer: 43812",
+  "time_s": 6.1
+ },
+ {
+  "tag": "Q2-B-sens1",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+  "time_s": 11.4
+ },
+ {
+  "tag": "Q2-A-sens2",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Answer: 43812",
+  "time_s": 6.4
+ },
+ {
+  "tag": "Q2-B-sens2",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+  "time_s": 12.2
+ },
+ {
+  "tag": "Q2-A-sens3",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "Answer: 43812",
+  "time_s": 6.1
+ },
+ {
+  "tag": "Q2-B-sens3",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+  "time_s": 12.0
+ },
+ {
+  "tag": "Q2-A-sens4",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "Answer: 44412",
+  "time_s": 5.5
+ },
+ {
+  "tag": "Q2-B-sens4",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+  "time_s": 11.4
+ },
+ {
+  "tag": "Q8-A-sens0",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "Answer: 204,313,320\n\nTo find the total number of pages printed, we multiply the number of pages in one batch by the number of batches completed:\n\n\\( 234567 \\times 89 = 204,313,320 \\)",
+  "time_s": 12.4
+ },
+ {
+  "tag": "Q8-B-sens0",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+  "time_s": 11.9
+ },
+ {
+  "tag": "Q8-A-sens1",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Answer: 2047736",
+  "time_s": 5.3
+ },
+ {
+  "tag": "Q8-B-sens1",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+  "time_s": 13.9
+ },
+ {
+  "tag": "Q8-A-sens2",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Answer: 2085336 pages",
+  "time_s": 6.8
+ },
+ {
+  "tag": "Q8-B-sens2",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+  "time_s": 11.9
+ },
+ {
+  "tag": "Q8-A-sens3",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "Answer: 2067336\n\nStep 1: Determine the total number of pages printed per batch.\n   234567 pages\n\nStep 2: Determine the total number of batches printed.\n   89 batches\n\nStep 3: Multiply the number of pages per batch by the number of batches to get the total number of pages printed.\n   234567 * 89 = 2067336\n\nTherefore, the total number of pages printed is 2067336.",
+  "time_s": 16.6
+ },
+ {
+  "tag": "Q8-B-sens3",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+  "time_s": 11.1
+ },
+ {
+  "tag": "Q8-A-sens4",
+  "prompt": "Answer the following math word problem. Think step by step, then give the final line in exactly this format: Answer: <number>\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "Answer: 2101336\n\nStep 1: Calculate the number of pages printed in one batch.\n234567 pages\n\nStep 2: Calculate the number of pages printed in 89 batches.\n234567 pages/batch × 89 batches = 2101336 pages",
+  "time_s": 11.7
+ },
+ {
+  "tag": "Q8-B-sens4",
+  "prompt": "Solve each math word problem by writing a Python program. Use meaningful variable names. End the program with a variable named result that holds the final answer. Output only Python code, no explanations.\n\nProblem: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?\nSolution:\nmoney_initial = 23\nbagels = 5\nbagel_cost = 3\nmoney_spent = bagels * bagel_cost\nmoney_left = money_initial - money_spent\nresult = money_left\n\nProblem: A gardener plants 12 rows of trees. Each row has 14 trees. 9 trees die. How many trees are alive?\nSolution:\nrows = 12\ntrees_per_row = 14\ntotal_trees = rows * trees_per_row\ndead_trees = 9\nresult = total_trees - dead_trees\n\nProblem: A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?\nSolution:\n",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+  "time_s": 12.7
+ }
+]

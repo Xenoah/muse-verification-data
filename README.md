@@ -37,6 +37,7 @@ note の連載「論文メモ」（AI論文解説、xenoah_memo）と「自律�
 | 2026-11-19 | Madaan et al. 2023, Self-Refine (arXiv:2303.17651) | https://note.com/xenoah_memo/n/n274cb45d1163 |
 | 2026-11-20 | Yao et al. 2023, Tree of Thoughts (arXiv:2305.10601) | https://note.com/xenoah_memo/n/ne8320e81f983 |
 | 2026-11-21 | Zheng et al. 2023, Step-Back Prompting (arXiv:2310.06117) | https://note.com/xenoah_memo/n/n50fa7d5fdd9b |
+| 2026-11-22 | Gao et al. 2022, PAL: Program-Aided Language Models (arXiv:2211.10435) | https://note.com/xenoah_memo/n/n0077ff923cb7 |
 
 新しい記事の検証は、公開に合わせて順次追加されます。
 

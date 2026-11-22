@@ -1,0 +1,386 @@
+{
+ "questions": [
+  {
+   "id": "Q1",
+   "question": "Janet's ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four eggs. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?",
+   "correct": 18.0
+  },
+  {
+   "id": "Q2",
+   "question": "A warehouse stores 1247 boxes. Each box contains 36 identical items. How many items are stored in the warehouse in total?",
+   "correct": 44892.0
+  },
+  {
+   "id": "Q3",
+   "question": "A factory produces 18473 bottles per day. It operates for 27 days. During that period, 12345 bottles are found to be defective and are discarded. How many non-defective bottles remain?",
+   "correct": 486426.0
+  },
+  {
+   "id": "Q4",
+   "question": "Ken has $1000. He buys 48 notebooks that cost $13.75 each. How much money does he have left in dollars?",
+   "correct": 340.0
+  },
+  {
+   "id": "Q5",
+   "question": "A prize of $98280 is shared equally among 24 workers. How many dollars does each worker receive?",
+   "correct": 4095.0
+  },
+  {
+   "id": "Q6",
+   "question": "A jacket originally costs 12500 yen. Its price is first raised by 8 percent, and the new price is then discounted by 15 percent. What is the final price in yen?",
+   "correct": 11475.0
+  },
+  {
+   "id": "Q7",
+   "question": "Mina has 3 chairs, 5 apples, 2 desks, 7 oranges, 4 bananas, 1 lamp, and 6 peaches. How many fruits does Mina have in total?",
+   "correct": 22.0
+  },
+  {
+   "id": "Q8",
+   "question": "A printing company prints 234567 pages in one batch. It completes 89 batches. How many pages does it print in total?",
+   "correct": 20876463.0
+  }
+ ],
+ "main": {
+  "Q1": {
+   "A": {
+    "gen": "Answer: 24",
+    "answer": 24.0,
+    "has_answer_line": true,
+    "time_s": 23.0,
+    "correct_flag": false
+   },
+   "B": {
+    "gen": "eggs_per_day = 16\neggs_eaten_morning = 3\neggs_for_muffins = 4\neggs_sold = eggs_per_day - eggs_eaten_morning - eggs_for_muffins\nprice_per_egg = 2\nmoney_per_day = eggs_sold * price_per_egg\nresult = money_per_day",
+    "code": "eggs_per_day = 16\neggs_eaten_morning = 3\neggs_for_muffins = 4\neggs_sold = eggs_per_day - eggs_eaten_morning - eggs_for_muffins\nprice_per_egg = 2\nmoney_per_day = eggs_sold * price_per_egg\nresult = money_per_day",
+    "exec_error": null,
+    "answer": 18.0,
+    "time_s": 21.3,
+    "correct_flag": true,
+    "failure_type": null
+   }
+  },
+  "Q2": {
+   "A": {
+    "gen": "Answer: 43812",
+    "answer": 43812.0,
+    "has_answer_line": true,
+    "time_s": 5.5,
+    "correct_flag": false
+   },
+   "B": {
+    "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+    "code": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+    "exec_error": null,
+    "answer": 44892.0,
+    "time_s": 13.6,
+    "correct_flag": true,
+    "failure_type": null
+   }
+  },
+  "Q3": {
+   "A": {
+    "gen": "Answer: 15128",
+    "answer": 15128.0,
+    "has_answer_line": true,
+    "time_s": 7.1,
+    "correct_flag": false
+   },
+   "B": {
+    "gen": "bottles_per_day = 18473\ndays = 27\ndefective_bottles = 12345\nresult = bottles_per_day * days - defective_bottles",
+    "code": "bottles_per_day = 18473\ndays = 27\ndefective_bottles = 12345\nresult = bottles_per_day * days - defective_bottles",
+    "exec_error": null,
+    "answer": 486426.0,
+    "time_s": 12.8,
+    "correct_flag": true,
+    "failure_type": null
+   }
+  },
+  "Q4": {
+   "A": {
+    "gen": "Answer: $856.50",
+    "answer": 856.5,
+    "has_answer_line": true,
+    "time_s": 7.2,
+    "correct_flag": false
+   },
+   "B": {
+    "gen": "money_initial = 1000\nnotebooks = 48\nnotebook_cost = 13.75\nnotebooks_cost = notebooks * notebook_cost\nmoney_spent = notebooks_cost\nmoney_left = money_initial - money_spent\nresult = money_left",
+    "code": "money_initial = 1000\nnotebooks = 48\nnotebook_cost = 13.75\nnotebooks_cost = notebooks * notebook_cost\nmoney_spent = notebooks_cost\nmoney_left = money_initial - money_spent\nresult = money_left",
+    "exec_error": null,
+    "answer": 340.0,
+    "time_s": 16.3,
+    "correct_flag": true,
+    "failure_type": null
+   }
+  },
+  "Q5": {
+   "A": {
+    "gen": "Answer: 4090",
+    "answer": 4090.0,
+    "has_answer_line": true,
+    "time_s": 6.3,
+    "correct_flag": false
+   },
+   "B": {
+    "gen": "prize = 98280\nworkers = 24\nresult = prize / workers",
+    "code": "prize = 98280\nworkers = 24\nresult = prize / workers",
+    "exec_error": null,
+    "answer": 4095.0,
+    "time_s": 14.2,
+    "correct_flag": true,
+    "failure_type": null
+   }
+  },
+  "Q6": {
+   "A": {
+    "gen": "Answer: 11550\n\nStep 1: Calculate the price after the 8% increase.\nOriginal price = 12500 yen\nIncrease = 8% of 12500 = 0.08 * 12500 = 1000 yen\nNew price = Original price + Increase = 12500 + 1000 = 13500 yen\n\nStep 2: Calculate the price after the 15% discount.\nDiscount = 15% of 13500 = 0.15 * 13500 = 2025 yen\nFinal price = New price - Discount = 13500 - 2025 = 11550 yen\n\nAnswer: 11550",
+    "answer": 11550.0,
+    "has_answer_line": true,
+    "time_s": 29.3,
+    "correct_flag": false
+   },
+   "B": {
+    "gen": "original_price = 12500\nincrease_rate = 0.08\nnew_price = original_price * (1 + increase_rate)\ndiscount_rate = 0.15\nfinal_price = new_price * (1 - discount_rate)\nresult = final_price",
+    "code": "original_price = 12500\nincrease_rate = 0.08\nnew_price = original_price * (1 + increase_rate)\ndiscount_rate = 0.15\nfinal_price = new_price * (1 - discount_rate)\nresult = final_price",
+    "exec_error": null,
+    "answer": 11475.0,
+    "time_s": 15.0,
+    "correct_flag": true,
+    "failure_type": null
+   }
+  },
+  "Q7": {
+   "A": {
+    "gen": "Answer: 33",
+    "answer": 33.0,
+    "has_answer_line": true,
+    "time_s": 7.4,
+    "correct_flag": false
+   },
+   "B": {
+    "gen": "fruits = 3 + 5 + 2 + 7 + 4 + 1 + 6\nresult = fruits",
+    "code": "fruits = 3 + 5 + 2 + 7 + 4 + 1 + 6\nresult = fruits",
+    "exec_error": null,
+    "answer": 28.0,
+    "time_s": 13.2,
+    "correct_flag": false,
+    "failure_type": "content"
+   }
+  },
+  "Q8": {
+   "A": {
+    "gen": "Answer: 2067736",
+    "answer": 2067736.0,
+    "has_answer_line": true,
+    "time_s": 7.3,
+    "correct_flag": false
+   },
+   "B": {
+    "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+    "code": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+    "exec_error": null,
+    "answer": 20876463.0,
+    "time_s": 13.1,
+    "correct_flag": true,
+    "failure_type": null
+   }
+  }
+ },
+ "stability": {
+  "Q2": [
+   {
+    "rep": 0,
+    "A_answer": 43812.0,
+    "A_correct": false,
+    "B_answer": 44892.0,
+    "B_correct": true,
+    "B_code": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+    "B_error": null
+   },
+   {
+    "rep": 1,
+    "A_answer": 43812.0,
+    "A_correct": false,
+    "B_answer": 44892.0,
+    "B_correct": true,
+    "B_code": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+    "B_error": null
+   }
+  ],
+  "Q8": [
+   {
+    "rep": 0,
+    "A_answer": 2067736.0,
+    "A_correct": false,
+    "B_answer": 20876463.0,
+    "B_correct": true,
+    "B_code": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+    "B_error": null
+   },
+   {
+    "rep": 1,
+    "A_answer": 2067736.0,
+    "A_correct": false,
+    "B_answer": 20876463.0,
+    "B_correct": true,
+    "B_code": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+    "B_error": null
+   }
+  ]
+ },
+ "sensitivity": {
+  "Q2": {
+   "A": [
+    {
+     "seed": 100,
+     "answer": 43812.0,
+     "correct": false,
+     "gen": "Answer: 43812"
+    },
+    {
+     "seed": 101,
+     "answer": 43812.0,
+     "correct": false,
+     "gen": "Answer: 43812"
+    },
+    {
+     "seed": 102,
+     "answer": 43812.0,
+     "correct": false,
+     "gen": "Answer: 43812"
+    },
+    {
+     "seed": 103,
+     "answer": 43812.0,
+     "correct": false,
+     "gen": "Answer: 43812"
+    },
+    {
+     "seed": 104,
+     "answer": 44412.0,
+     "correct": false,
+     "gen": "Answer: 44412"
+    }
+   ],
+   "B": [
+    {
+     "seed": 100,
+     "answer": 44892.0,
+     "correct": true,
+     "code": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+     "error": null,
+     "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items"
+    },
+    {
+     "seed": 101,
+     "answer": 44892.0,
+     "correct": true,
+     "code": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+     "error": null,
+     "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items"
+    },
+    {
+     "seed": 102,
+     "answer": 44892.0,
+     "correct": true,
+     "code": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+     "error": null,
+     "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items"
+    },
+    {
+     "seed": 103,
+     "answer": 44892.0,
+     "correct": true,
+     "code": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+     "error": null,
+     "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items"
+    },
+    {
+     "seed": 104,
+     "answer": 44892.0,
+     "correct": true,
+     "code": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items",
+     "error": null,
+     "gen": "boxes = 1247\nitems_per_box = 36\ntotal_items = boxes * items_per_box\nresult = total_items"
+    }
+   ]
+  },
+  "Q8": {
+   "A": [
+    {
+     "seed": 100,
+     "answer": 204313320.0,
+     "correct": false,
+     "gen": "Answer: 204,313,320\n\nTo find the total number of pages printed, we multiply the number of pages in one batch by the number of batches completed:\n\n\\( 234567 \\times 89 = 204,313,320 \\)"
+    },
+    {
+     "seed": 101,
+     "answer": 2047736.0,
+     "correct": false,
+     "gen": "Answer: 2047736"
+    },
+    {
+     "seed": 102,
+     "answer": 2085336.0,
+     "correct": false,
+     "gen": "Answer: 2085336 pages"
+    },
+    {
+     "seed": 103,
+     "answer": 2067336.0,
+     "correct": false,
+     "gen": "Answer: 2067336\n\nStep 1: Determine the total number of pages printed per batch.\n   234567 pages\n\nStep 2: Determine the total number of batches printed.\n   89 batches\n\nStep 3: Multiply the number of pages per batch by the number of batches to get the total number of pages printed.\n   234567 * 89 = 2067336\n\nTherefore, the total number of pages printed is 2067336."
+    },
+    {
+     "seed": 104,
+     "answer": 2101336.0,
+     "correct": false,
+     "gen": "Answer: 2101336\n\nStep 1: Calculate the number of pages printed in one batch.\n234567 pages\n\nStep 2: Calculate the number of pages printed in 89 batches.\n234567 pages/batch × 89 batches = 2101336 pages"
+    }
+   ],
+   "B": [
+    {
+     "seed": 100,
+     "answer": 20876463.0,
+     "correct": true,
+     "code": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+     "error": null,
+     "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages"
+    },
+    {
+     "seed": 101,
+     "answer": 20876463.0,
+     "correct": true,
+     "code": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+     "error": null,
+     "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages"
+    },
+    {
+     "seed": 102,
+     "answer": 20876463.0,
+     "correct": true,
+     "code": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+     "error": null,
+     "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages"
+    },
+    {
+     "seed": 103,
+     "answer": 20876463.0,
+     "correct": true,
+     "code": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+     "error": null,
+     "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages"
+    },
+    {
+     "seed": 104,
+     "answer": 20876463.0,
+     "correct": true,
+     "code": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages",
+     "error": null,
+     "gen": "pages_per_batch = 234567\nbatches = 89\ntotal_pages = pages_per_batch * batches\nresult = total_pages"
+    }
+   ]
+  }
+ }
+}
