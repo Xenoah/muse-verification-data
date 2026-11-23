@@ -1,0 +1,354 @@
+[
+ {
+  "tag": "Q1-A-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A farmer harvests 120 apples in the morning and 80 apples in the afternoon. He discards 20 damaged apples. He packs the remaining apples into boxes of 5 apples each. How many boxes does he fill?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the total number of apples harvested.\nMorning harvest: 120 apples\nAfternoon harvest: 80 apples\nTotal harvest: 120 + 80 = 200 apples\n\nStep 2: Subtract the number of damaged apples.\nTotal harvest: 200 apples\nDamaged apples: 20 apples\nRemaining apples: 200 - 20 = 180 apples\n\nStep 3: Calculate the number of boxes that can be filled.\nEach box contains 5 apples.\nNumber of boxes: 180 apples / 5 apples per box = 36 boxes\n\nAnswer: 36 boxes",
+  "time_s": 38.3
+ },
+ {
+  "tag": "Q1-B-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A farmer harvests 120 apples in the morning and 80 apples in the afternoon. He discards 20 damaged apples. He packs the remaining apples into boxes of 5 apples each. How many boxes does he fill?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "To solve this problem, let's break it down step by step:\n\n1. **Total apples harvested**: The farmer harvests 120 apples in the morning and 80 apples in the afternoon. So, the total number of apples harvested is:\n   \\[\n   120 + 80 = 200 \\text{ apples}\n   \\]\n\n2. **Damaged apples discarded**: The farmer discards 20 damaged apples. So, the number of apples left after discarding the damaged ones is:\n   \\[\n   200 - 20 = 180 \\text{ apples}\n   \\]\n\n3. **Apples packed into boxes**: The farmer packs the remaining apples into boxes of 5 apples each. To find out how many boxes he fills, we divide the total number of apples by the number of apples per box:\n   \\[\n   \\frac{180}{5} = 36 \\text{ boxes}\n   \\]\n\nTherefore, the farmer fills 36 boxes with the remaining apples. Answer: 36",
+  "time_s": 42.9
+ },
+ {
+  "tag": "Q2-A-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the total number of pencils bought.\nTotal pencils = Number of packs × Pencils per pack\nTotal pencils = 15 packs × 24 pencils per pack\nTotal pencils = 360 pencils\n\nStep 2: Calculate the total number of pencils given to students.\nTotal pencils given = Number of students × Pencils per student\nTotal pencils given = 35 students × 8 pencils per student\nTotal pencils given = 280 pencils\n\nStep 3: Calculate the number of pencils left.\nPencils left = Total pencils - Total pencils given\nPencils left = 360 pencils - 280 pencils\nPencils left = 80 pencils\n\nAnswer: 80",
+  "time_s": 28.7
+ },
+ {
+  "tag": "Q2-B-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "To solve this problem, let's break it down into steps:\n\n1. **Calculate the total number of pencils bought:**\n   - The school buys 15 packs of pencils.\n   - Each pack contains 24 pencils.\n   - Therefore, the total number of pencils bought is \\( 15 \\times 24 \\).\n\n2. **Calculate the total number of pencils given to students:**\n   - The school gives 8 pencils to each of 35 students.\n   - Therefore, the total number of pencils given to students is \\( 8 \\times 35 \\).\n\n3. **Calculate the number of pencils left:**\n   - Subtract the total number of pencils given to students from the total number of pencils bought.\n\nLet's perform these calculations step by step:\n\n1. **Total number of pencils bought:**\n   \\[\n   15 \\times 24 = 360\n   \\]\n\n2. **Total number of pencils given to students:**\n   \\[\n   8 \\times 35 = 280\n   \\]\n\n3. **Number of pencils left:**\n   \\[\n   360 - 280 = 80\n   \\]\n\nTherefore, the number of pencils left is 80. Answer: 80",
+  "time_s": 42.6
+ },
+ {
+  "tag": "Q3-A-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A train travels at 60 kilometers per hour for 2.5 hours, and then at 40 kilometers per hour for 1.5 hours. How many kilometers does it travel in total?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the distance traveled at 60 kilometers per hour for 2.5 hours.\nDistance = Speed × Time\nDistance1 = 60 km/h × 2.5 h = 150 km\n\nStep 2: Calculate the distance traveled at 40 kilometers per hour for 1.5 hours.\nDistance = Speed × Time\nDistance2 = 40 km/h × 1.5 h = 60 km\n\nStep 3: Add the two distances together to find the total distance traveled.\nTotal Distance = Distance1 + Distance2\nTotal Distance = 150 km + 60 km = 210 km\n\nAnswer: 210 km",
+  "time_s": 28.8
+ },
+ {
+  "tag": "Q3-B-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A train travels at 60 kilometers per hour for 2.5 hours, and then at 40 kilometers per hour for 1.5 hours. How many kilometers does it travel in total?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "To solve this problem, we need to calculate the distance traveled by the train in two different segments and then add them together.\n\nFirst, let's calculate the distance traveled at 60 kilometers per hour for 2.5 hours:\nDistance = Speed × Time\nDistance1 = 60 km/h × 2.5 h = 150 km\n\nNext, let's calculate the distance traveled at 40 kilometers per hour for 1.5 hours:\nDistance2 = 40 km/h × 1.5 h = 60 km\n\nNow, let's add the two distances together to find the total distance traveled:\nTotal Distance = Distance1 + Distance2\nTotal Distance = 150 km + 60 km = 210 km\n\nAnswer: 210 km",
+  "time_s": 28.2
+ },
+ {
+  "tag": "Q4-A-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: Sara has 500 dollars. She buys a jacket for 120 dollars. Then she buys 3 shirts that cost 45 dollars each. How much money does she have left in dollars?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Sara starts with $500.\nStep 2: She buys a jacket for $120. So, she has $500 - $120 = $380 left.\nStep 3: She buys 3 shirts, each costing $45. So, she spends 3 * $45 = $135 on shirts.\nStep 4: Now, she has $380 - $135 = $245 left.\n\nAnswer: $245",
+  "time_s": 18.5
+ },
+ {
+  "tag": "Q4-B-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: Sara has 500 dollars. She buys a jacket for 120 dollars. Then she buys 3 shirts that cost 45 dollars each. How much money does she have left in dollars?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's break down the problem step by step:\n\n1. Sara starts with $500.\n2. She buys a jacket for $120. So, she spends $120 on the jacket.\n3. She then buys 3 shirts, each costing $45. So, she spends $45 * 3 = $135 on the shirts.\n4. Now, let's calculate the total amount spent: $120 (jacket) + $135 (shirts) = $255.\n5. Finally, we subtract the total amount spent from the initial amount: $500 - $255 = $245.\n\nAnswer: $245",
+  "time_s": 24.4
+ },
+ {
+  "tag": "Q5-A-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the amount of water drained out.\nWater drained per minute = 15 liters\nTime = 20 minutes\nTotal water drained = 15 liters/minute * 20 minutes = 300 liters\n\nStep 2: Calculate the amount of water remaining after draining.\nInitial water = 900 liters\nWater drained = 300 liters\nWater remaining after draining = 900 liters - 300 liters = 600 liters\n\nStep 3: Add the water that was added.\nWater added = 250 liters\nTotal water now = 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 21.8
+ },
+ {
+  "tag": "Q5-B-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's break down the problem step by step:\n\n1. **Initial amount of water**: 900 liters\n2. **Water drained out**: 15 liters per minute for 20 minutes\n   - Total water drained = 15 liters/minute * 20 minutes = 300 liters\n3. **Water added**: 250 liters\n\nNow, let's calculate the final amount of water in the tank:\n\n1. **Water after draining**: 900 liters - 300 liters = 600 liters\n2. **Water after adding**: 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 26.1
+ },
+ {
+  "tag": "Q6-A-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A book has 480 pages. Ken reads 30 pages per day for 6 days. After that, he reads the remaining pages at 25 pages per day. How many more days will he need to finish the book?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the number of pages Ken reads in the first 6 days.\nKen reads 30 pages per day for 6 days.\nNumber of pages read in the first 6 days = 30 pages/day * 6 days = 180 pages\n\nStep 2: Calculate the number of pages remaining after the first 6 days.\nTotal pages in the book = 480 pages\nPages read in the first 6 days = 180 pages\nRemaining pages = 480 pages - 180 pages = 300 pages\n\nStep 3: Calculate the number of days Ken needs to read the remaining pages at 25 pages per day.\nPages remaining = 300 pages\nPages read per day = 25 pages/day\nNumber of days needed = 300 pages / 25 pages/day = 12 days\n\nAnswer: Ken will need 12 more days to finish the book.",
+  "time_s": 30.8
+ },
+ {
+  "tag": "Q6-B-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A book has 480 pages. Ken reads 30 pages per day for 6 days. After that, he reads the remaining pages at 25 pages per day. How many more days will he need to finish the book?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "To solve this problem, let's break it down step by step:\n\n1. **Total pages in the book**: 480 pages\n2. **Pages read in the first 6 days**: 30 pages/day * 6 days = 180 pages\n3. **Remaining pages after the first 6 days**: 480 pages - 180 pages = 300 pages\n\nNow, let's calculate how many days Ken will need to read the remaining 300 pages at 25 pages per day:\n\n4. **Days needed to read the remaining pages**: 300 pages / 25 pages/day = 12 days\n\nSo, Ken will need 12 more days to finish the book.\n\nAnswer: 12",
+  "time_s": 24.9
+ },
+ {
+  "tag": "Q7-A-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A baker who is 40 years old makes 7 trays of muffins. Each tray holds 12 muffins. He sells 58 muffins in the morning. In the afternoon he bakes 1 more tray of muffins. How many muffins does he have now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the total number of muffins baked.\n- The baker makes 7 trays of muffins.\n- Each tray holds 12 muffins.\n- Total muffins baked = 7 trays * 12 muffins/tray = 84 muffins.\n\nStep 2: Calculate the number of muffins sold in the morning.\n- The baker sold 58 muffins in the morning.\n\nStep 3: Calculate the number of muffins baked in the afternoon.\n- The baker bakes 1 more tray of muffins in the afternoon.\n- Each tray holds 12 muffins.\n- Muffins baked in the afternoon = 1 tray * 12 muffins/tray = 12 muffins.\n\nStep 4: Calculate the total number of muffins now.\n- Total muffins now = Total muffins baked - Muffins sold in the morning + Muffins baked in the afternoon\n- Total muffins now = 84 muffins - 58 muffins + 12 muffins = 48 muffins.\n\nAnswer: 48",
+  "time_s": 30.1
+ },
+ {
+  "tag": "Q7-B-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: A baker who is 40 years old makes 7 trays of muffins. Each tray holds 12 muffins. He sells 58 muffins in the morning. In the afternoon he bakes 1 more tray of muffins. How many muffins does he have now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's break down the problem step by step:\n\n1. The baker makes 7 trays of muffins.\n2. Each tray holds 12 muffins.\n3. He sells 58 muffins in the morning.\n4. In the afternoon, he bakes 1 more tray of muffins.\n\nFirst, let's calculate the total number of muffins the baker makes:\n\\[ 7 \\text{ trays} \\times 12 \\text{ muffins/tray} = 84 \\text{ muffins} \\]\n\nNext, let's calculate the number of muffins he has after selling 58 muffins in the morning:\n\\[ 84 \\text{ muffins} - 58 \\text{ muffins} = 26 \\text{ muffins} \\]\n\nThen, let's calculate the number of muffins he has after baking 1 more tray in the afternoon:\n\\[ 26 \\text{ muffins} + 12 \\text{ muffins} = 38 \\text{ muffins} \\]\n\nSo, the baker now has 38 muffins. Answer: 38",
+  "time_s": 36.9
+ },
+ {
+  "tag": "Q8-A-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: Tom earns 2000 dollars per month. He spends 30 percent of his salary on rent. Of the money remaining after rent, he spends 25 percent on food. How many dollars does he have left after rent and food?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the amount spent on rent.\nRent = 30% of $2000 = 0.30 * $2000 = $600\n\nStep 2: Calculate the remaining salary after rent.\nRemaining salary = $2000 - $600 = $1400\n\nStep 3: Calculate the amount spent on food.\nFood = 25% of $1400 = 0.25 * $1400 = $350\n\nStep 4: Calculate the final amount left after rent and food.\nFinal amount = $1400 - $350 = $1050\n\nAnswer: $1050",
+  "time_s": 24.8
+ },
+ {
+  "tag": "Q8-B-main",
+  "prompt": "Answer the following math word problem.\n\nProblem: Tom earns 2000 dollars per month. He spends 30 percent of his salary on rent. Of the money remaining after rent, he spends 25 percent on food. How many dollars does he have left after rent and food?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's break down the problem step by step:\n\n1. Tom earns $2000 per month.\n2. He spends 30% of his salary on rent. So, the amount spent on rent is \\( 2000 \\times 0.30 = 600 \\) dollars.\n3. After paying rent, the remaining amount is \\( 2000 - 600 = 1400 \\) dollars.\n4. Of the remaining money, he spends 25% on food. So, the amount spent on food is \\( 1400 \\times 0.25 = 350 \\) dollars.\n5. After paying for food, the remaining amount is \\( 1400 - 350 = 1050 \\) dollars.\n\nAnswer: $1050",
+  "time_s": 28.4
+ },
+ {
+  "tag": "Q2-A-stab0",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the total number of pencils bought.\nTotal pencils = Number of packs × Pencils per pack\nTotal pencils = 15 packs × 24 pencils per pack\nTotal pencils = 360 pencils\n\nStep 2: Calculate the total number of pencils given to students.\nTotal pencils given = Number of students × Pencils per student\nTotal pencils given = 35 students × 8 pencils per student\nTotal pencils given = 280 pencils\n\nStep 3: Calculate the number of pencils left.\nPencils left = Total pencils - Total pencils given\nPencils left = 360 pencils - 280 pencils\nPencils left = 80 pencils\n\nAnswer: 80",
+  "time_s": 21.7
+ },
+ {
+  "tag": "Q2-B-stab0",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "To solve this problem, let's break it down into steps:\n\n1. **Calculate the total number of pencils bought:**\n   - The school buys 15 packs of pencils.\n   - Each pack contains 24 pencils.\n   - Therefore, the total number of pencils bought is \\( 15 \\times 24 \\).\n\n2. **Calculate the total number of pencils given to students:**\n   - The school gives 8 pencils to each of 35 students.\n   - Therefore, the total number of pencils given to students is \\( 8 \\times 35 \\).\n\n3. **Calculate the number of pencils left:**\n   - Subtract the total number of pencils given to students from the total number of pencils bought.\n\nLet's perform these calculations step by step:\n\n1. **Total number of pencils bought:**\n   \\[\n   15 \\times 24 = 360\n   \\]\n\n2. **Total number of pencils given to students:**\n   \\[\n   8 \\times 35 = 280\n   \\]\n\n3. **Number of pencils left:**\n   \\[\n   360 - 280 = 80\n   \\]\n\nTherefore, the number of pencils left is 80. Answer: 80",
+  "time_s": 37.4
+ },
+ {
+  "tag": "Q2-A-stab1",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the total number of pencils bought.\nTotal pencils = Number of packs × Pencils per pack\nTotal pencils = 15 packs × 24 pencils per pack\nTotal pencils = 360 pencils\n\nStep 2: Calculate the total number of pencils given to students.\nTotal pencils given = Number of students × Pencils per student\nTotal pencils given = 35 students × 8 pencils per student\nTotal pencils given = 280 pencils\n\nStep 3: Calculate the number of pencils left.\nPencils left = Total pencils - Total pencils given\nPencils left = 360 pencils - 280 pencils\nPencils left = 80 pencils\n\nAnswer: 80",
+  "time_s": 23.8
+ },
+ {
+  "tag": "Q2-B-stab1",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "To solve this problem, let's break it down into steps:\n\n1. **Calculate the total number of pencils bought:**\n   - The school buys 15 packs of pencils.\n   - Each pack contains 24 pencils.\n   - Therefore, the total number of pencils bought is \\( 15 \\times 24 \\).\n\n2. **Calculate the total number of pencils given to students:**\n   - The school gives 8 pencils to each of 35 students.\n   - Therefore, the total number of pencils given to students is \\( 8 \\times 35 \\).\n\n3. **Calculate the number of pencils left:**\n   - Subtract the total number of pencils given to students from the total number of pencils bought.\n\nLet's perform these calculations step by step:\n\n1. **Total number of pencils bought:**\n   \\[\n   15 \\times 24 = 360\n   \\]\n\n2. **Total number of pencils given to students:**\n   \\[\n   8 \\times 35 = 280\n   \\]\n\n3. **Number of pencils left:**\n   \\[\n   360 - 280 = 80\n   \\]\n\nTherefore, the number of pencils left is 80. Answer: 80",
+  "time_s": 41.4
+ },
+ {
+  "tag": "Q5-A-stab0",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the amount of water drained out.\nWater drained per minute = 15 liters\nTime = 20 minutes\nTotal water drained = 15 liters/minute * 20 minutes = 300 liters\n\nStep 2: Calculate the amount of water remaining after draining.\nInitial water = 900 liters\nWater drained = 300 liters\nWater remaining after draining = 900 liters - 300 liters = 600 liters\n\nStep 3: Add the water that was added.\nWater added = 250 liters\nTotal water now = 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 22.5
+ },
+ {
+  "tag": "Q5-B-stab0",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's break down the problem step by step:\n\n1. **Initial amount of water**: 900 liters\n2. **Water drained out**: 15 liters per minute for 20 minutes\n   - Total water drained = 15 liters/minute * 20 minutes = 300 liters\n3. **Water added**: 250 liters\n\nNow, let's calculate the final amount of water in the tank:\n\n1. **Water after draining**: 900 liters - 300 liters = 600 liters\n2. **Water after adding**: 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 24.5
+ },
+ {
+  "tag": "Q5-A-stab1",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the amount of water drained out.\nWater drained per minute = 15 liters\nTime = 20 minutes\nTotal water drained = 15 liters/minute * 20 minutes = 300 liters\n\nStep 2: Calculate the amount of water remaining after draining.\nInitial water = 900 liters\nWater drained = 300 liters\nWater remaining after draining = 900 liters - 300 liters = 600 liters\n\nStep 3: Add the water that was added.\nWater added = 250 liters\nTotal water now = 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 23.8
+ },
+ {
+  "tag": "Q5-B-stab1",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's break down the problem step by step:\n\n1. **Initial amount of water**: 900 liters\n2. **Water drained out**: 15 liters per minute for 20 minutes\n   - Total water drained = 15 liters/minute * 20 minutes = 300 liters\n3. **Water added**: 250 liters\n\nNow, let's calculate the final amount of water in the tank:\n\n1. **Water after draining**: 900 liters - 300 liters = 600 liters\n2. **Water after adding**: 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 23.8
+ },
+ {
+  "tag": "Q2-A-sens0",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "Step 1: Calculate the total number of pencils bought.\nNumber of packs = 15\nPencils per pack = 24\nTotal pencils = Number of packs × Pencils per pack\nTotal pencils = 15 × 24 = 360\n\nStep 2: Calculate the total number of pencils given to students.\nNumber of students = 35\nPencils given per student = 8\nTotal pencils given = Number of students × Pencils given per student\nTotal pencils given = 35 × 8 = 280\n\nStep 3: Calculate the number of pencils left.\nPencils left = Total pencils - Total pencils given\nPencils left = 360 - 280 = 80\n\nAnswer: 80",
+  "time_s": 25.3
+ },
+ {
+  "tag": "Q2-B-sens0",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "Let's break down the problem step by step:\n\n1. **Calculate the total number of pencils bought:**\n   - The school buys 15 packs of pencils.\n   - Each pack contains 24 pencils.\n   - Total number of pencils = Number of packs × Pencils per pack\n   - Total number of pencils = 15 packs × 24 pencils per pack = 360 pencils\n\n2. **Calculate the number of pencils given to students:**\n   - The school gives 8 pencils to each of 35 students.\n   - Total number of pencils given to students = Number of students × Pencils per student\n   - Total number of pencils given to students = 35 students × 8 pencils per student = 280 pencils\n\n3. **Calculate the number of pencils left:**\n   - Total number of pencils left = Total number of pencils - Total number of pencils given to students\n   - Total number of pencils left = 360 pencils - 280 pencils = 80 pencils\n\nAnswer: 80 pencils.",
+  "time_s": 33.9
+ },
+ {
+  "tag": "Q2-A-sens1",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Step 1: Calculate the total number of pencils bought by the school.\nNumber of packs = 15\nNumber of pencils per pack = 24\nTotal number of pencils = Number of packs × Number of pencils per pack\nTotal number of pencils = 15 × 24 = 360\n\nStep 2: Calculate the total number of pencils given to the students.\nNumber of students = 35\nNumber of pencils given to each student = 8\nTotal number of pencils given to students = Number of students × Number of pencils given to each student\nTotal number of pencils given to students = 35 × 8 = 280\n\nStep 3: Calculate the number of pencils left.\nTotal number of pencils left = Total number of pencils - Total number of pencils given to students\nTotal number of pencils left = 360 - 280 = 80\n\nAnswer: 80",
+  "time_s": 33.7
+ },
+ {
+  "tag": "Q2-B-sens1",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Let's start by understanding the problem and extracting the relevant variables and their corresponding numerals.\n\n**Relevant Variables and Numerals:**\n\n- Total number of packs of pencils: 15\n- Pencils per pack: 24\n- Number of students: 35\n- Pencils given to each student: 8\n\n**Plan:**\n\n1. Calculate the total number of pencils bought.\n2. Calculate the total number of pencils given to the students.\n3. Subtract the total number of pencils given to the students from the total number of pencils bought to find the number of pencils left.\n\n**Step 1: Calculate the total number of pencils bought.**\n\nThe total number of pencils bought can be calculated as:\n\\[ \\text{Total number of pencils bought} = \\text{Number of packs} \\times \\text{Pencils per pack} \\]\n\\[ \\text{Total number of pencils bought} = 15 \\times 24 \\]\n\\[ \\text{Total number of pencils bought} = 360 \\]\n\n**Step 2: Calculate the total number of pencils given to the students.**\n\nThe total number of pencils given to the students can be calculated as:\n\\[ \\text{Total number of pencils given to students} = \\text{Number of students} \\times \\text{Pencils given to each student} \\]\n\\[ \\text{Total number of pencils given to students} = 35 \\times 8 \\]\n\\[ \\text{Total number of pencils given to students} = 280 \\]\n\n**Step 3: Subtract the total number of pencils given to the students from the total number of pencils bought to find the number of pencils left.**\n\nThe number of pencils left can be calculated as:\n\\[ \\text{Pencils left} = \\text{Total number of pencils",
+  "time_s": 56.5
+ },
+ {
+  "tag": "Q2-A-sens2",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Step 1: Calculate the total number of pencils the school buys.\nTotal pencils = Number of packs × Pencils per pack\nTotal pencils = 15 packs × 24 pencils per pack\nTotal pencils = 360 pencils\n\nStep 2: Calculate the total number of pencils given to students.\nPencils given = Number of students × Pencils per student\nPencils given = 35 students × 8 pencils per student\nPencils given = 280 pencils\n\nStep 3: Calculate the number of pencils left.\nPencils left = Total pencils - Pencils given\nPencils left = 360 pencils - 280 pencils\nPencils left = 80 pencils\n\nAnswer: 80",
+  "time_s": 28.7
+ },
+ {
+  "tag": "Q2-B-sens2",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Let's break down the problem step by step:\n\n**Step 1: Calculate the total number of pencils bought.**\n\n- The school buys 15 packs of pencils.\n- Each pack contains 24 pencils.\n- Therefore, the total number of pencils bought is \\( 15 \\times 24 = 360 \\).\n\n**Step 2: Calculate the number of pencils given to students.**\n\n- The school gives 8 pencils to each of 35 students.\n- Therefore, the total number of pencils given to students is \\( 8 \\times 35 = 280 \\).\n\n**Step 3: Calculate the number of pencils left.**\n\n- The total number of pencils bought is 360.\n- The total number of pencils given to students is 280.\n- Therefore, the number of pencils left is \\( 360 - 280 = 80 \\).\n\n**Answer:** 80",
+  "time_s": 30.2
+ },
+ {
+  "tag": "Q2-A-sens3",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "Step 1: Calculate the total number of pencils bought.\nTotal pencils = Number of packs × Pencils per pack\nTotal pencils = 15 packs × 24 pencils per pack = 360 pencils\n\nStep 2: Calculate the total number of pencils given to the students.\nTotal pencils given = Number of students × Pencils per student\nTotal pencils given = 35 students × 8 pencils per student = 280 pencils\n\nStep 3: Calculate the number of pencils left.\nPencils left = Total pencils - Total pencils given\nPencils left = 360 pencils - 280 pencils = 80 pencils\n\nAnswer: 80",
+  "time_s": 22.1
+ },
+ {
+  "tag": "Q2-B-sens3",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "To solve this problem, let's follow these steps:\n\n1. **Calculate the total number of pencils bought:**\n   - The school buys 15 packs of pencils.\n   - Each pack contains 24 pencils.\n   - Total number of pencils bought = 15 packs * 24 pencils per pack = 360 pencils.\n\n2. **Calculate the total number of pencils given to students:**\n   - The school gives 8 pencils to each of 35 students.\n   - Total number of pencils given = 8 pencils * 35 students = 280 pencils.\n\n3. **Calculate the number of pencils left:**\n   - Total number of pencils bought - Total number of pencils given = 360 pencils - 280 pencils = 80 pencils.\n\nAnswer: 80 pencils are left.",
+  "time_s": 28.5
+ },
+ {
+  "tag": "Q2-A-sens4",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "Step 1: Calculate the total number of pencils bought.\nTotal pencils = Number of packs × Pencils per pack\nTotal pencils = 15 packs × 24 pencils/pack\nTotal pencils = 360 pencils\n\nStep 2: Calculate the total number of pencils given to students.\nPencils given = Number of students × Pencils per student\nPencils given = 35 students × 8 pencils/student\nPencils given = 280 pencils\n\nStep 3: Calculate the number of pencils left.\nPencils left = Total pencils - Pencils given\nPencils left = 360 pencils - 280 pencils\nPencils left = 80 pencils\n\nAnswer: 80",
+  "time_s": 28.3
+ },
+ {
+  "tag": "Q2-B-sens4",
+  "prompt": "Answer the following math word problem.\n\nProblem: A school buys 15 packs of pencils. Each pack contains 24 pencils. The school gives 8 pencils to each of 35 students. How many pencils are left?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "To solve this problem, let's break it down into steps:\n\n### Step 1: Calculate the total number of pencils bought.\n- The school buys 15 packs of pencils.\n- Each pack contains 24 pencils.\n- Therefore, the total number of pencils bought is \\( 15 \\times 24 \\).\n\n### Step 2: Calculate the number of pencils given to each student.\n- The school gives 8 pencils to each of 35 students.\n- Therefore, the total number of pencils given to students is \\( 8 \\times 35 \\).\n\n### Step 3: Subtract the number of pencils given to students from the total number of pencils bought.\n- This will give us the number of pencils left.\n\nLet's perform these calculations:\n- Total number of pencils bought: \\( 15 \\times 24 = 360 \\)\n- Total number of pencils given to students: \\( 8 \\times 35 = 280 \\)\n\nNow, subtract the number of pencils given to students from the total number of pencils bought:\n- Number of pencils left: \\( 360 - 280 = 80 \\)\n\nAnswer: 80",
+  "time_s": 38.7
+ },
+ {
+  "tag": "Q5-A-sens0",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "Step 1: Calculate the amount of water drained out.\nWater drained per minute = 15 liters\nTime = 20 minutes\nTotal water drained = 15 liters/minute * 20 minutes = 300 liters\n\nStep 2: Calculate the amount of water left after draining.\nInitial water in the tank = 900 liters\nWater drained = 300 liters\nWater left after draining = 900 liters - 300 liters = 600 liters\n\nStep 3: Calculate the amount of water after adding more water.\nWater added = 250 liters\nWater left after adding = 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 40.4
+ },
+ {
+  "tag": "Q5-B-sens0",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "To solve this problem, let's break it down step by step:\n\n1. **Initial amount of water**: 900 liters.\n2. **Water drained out**: 15 liters per minute for 20 minutes.\n   - Total water drained = 15 liters/minute * 20 minutes = 300 liters.\n3. **Amount of water after draining**: 900 liters - 300 liters = 600 liters.\n4. **Water added**: 250 liters.\n5. **Final amount of water in the tank**: 600 liters + 250 liters = 850 liters.\n\nAnswer: 850 liters",
+  "time_s": 32.5
+ },
+ {
+  "tag": "Q5-A-sens1",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Step 1: Calculate the amount of water that drains out.\nWater drains out at 15 liters per minute for 20 minutes.\n\\[ 15 \\, \\text{liters/minute} \\times 20 \\, \\text{minutes} = 300 \\, \\text{liters} \\]\n\nStep 2: Subtract the drained water from the initial amount.\nInitial amount: 900 liters\nDrained water: 300 liters\n\\[ 900 \\, \\text{liters} - 300 \\, \\text{liters} = 600 \\, \\text{liters} \\]\n\nStep 3: Add the water that is added.\nWater added: 250 liters\n\\[ 600 \\, \\text{liters} + 250 \\, \\text{liters} = 850 \\, \\text{liters} \\]\n\nAnswer: 850 liters",
+  "time_s": 36.3
+ },
+ {
+  "tag": "Q5-B-sens1",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Let's solve this step by step:\n\n1. **Initial amount of water in the tank:** 900 liters\n\n2. **Water drains out:** \n   - Rate: 15 liters per minute\n   - Time: 20 minutes\n   - Total water drained: \\( 15 \\text{ liters/minute} \\times 20 \\text{ minutes} = 300 \\text{ liters} \\)\n\n3. **Final amount of water after draining:** \n   - Initial water amount: 900 liters\n   - Water drained: 300 liters\n   - Water remaining: \\( 900 \\text{ liters} - 300 \\text{ liters} = 600 \\text{ liters} \\)\n\n4. **Water added to the tank:** \n   - Amount added: 250 liters\n\n5. **Final amount of water in the tank:** \n   - Remaining water after draining: 600 liters\n   - Water added: 250 liters\n   - Final amount: \\( 600 \\text{ liters} + 250 \\text{ liters} = 850 \\text{ liters} \\)\n\nAnswer: 850 liters",
+  "time_s": 43.1
+ },
+ {
+  "tag": "Q5-A-sens2",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Step 1: Calculate the amount of water drained.\nWater drained per minute: 15 liters\nTime drained: 20 minutes\nTotal water drained: 15 liters/minute * 20 minutes = 300 liters\n\nStep 2: Calculate the amount of water remaining after draining.\nInitial amount of water: 900 liters\nWater drained: 300 liters\nWater remaining after draining: 900 liters - 300 liters = 600 liters\n\nStep 3: Add the water that was added.\nWater added: 250 liters\nFinal amount of water: 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 24.4
+ },
+ {
+  "tag": "Q5-B-sens2",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Let's break down the problem step by step:\n\n1. **Initial amount of water**: The water tank starts with 900 liters of water.\n2. **Water drained out**: Water drains out at a rate of 15 liters per minute for 20 minutes.\n   - Amount of water drained: \\(15 \\, \\text{liters/minute} \\times 20 \\, \\text{minutes} = 300 \\, \\text{liters}\\)\n3. **Remaining water after drainage**: \n   - Remaining water after drainage: \\(900 \\, \\text{liters} - 300 \\, \\text{liters} = 600 \\, \\text{liters}\\)\n4. **Water added**: 250 liters of water are added to the remaining water.\n   - Final amount of water: \\(600 \\, \\text{liters} + 250 \\, \\text{liters} = 850 \\, \\text{liters}\\)\n\nTherefore, the final amount of water in the tank is 850 liters. Answer: 850",
+  "time_s": 38.5
+ },
+ {
+  "tag": "Q5-A-sens3",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "Step 1: Calculate the amount of water that drains out.\nDrainage rate = 15 liters/minute\nTime = 20 minutes\nTotal water drained = Drainage rate × Time\nTotal water drained = 15 liters/minute × 20 minutes\nTotal water drained = 300 liters\n\nStep 2: Calculate the amount of water remaining after draining.\nInitial water = 900 liters\nTotal water drained = 300 liters\nWater remaining = Initial water - Total water drained\nWater remaining = 900 liters - 300 liters\nWater remaining = 600 liters\n\nStep 3: Calculate the amount of water added.\nWater added = 250 liters\n\nStep 4: Calculate the final amount of water in the tank.\nWater remaining + Water added = 600 liters + 250 liters\nFinal amount of water = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 30.0
+ },
+ {
+  "tag": "Q5-B-sens3",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "Let's break down the problem step by step:\n\n1. **Initial amount of water:** 900 liters\n2. **Water drained:** 15 liters per minute for 20 minutes\n   - Water drained = 15 liters/minute * 20 minutes = 300 liters\n3. **Water left after drainage:** 900 liters - 300 liters = 600 liters\n4. **Water added:** 250 liters\n5. **Final amount of water:** 600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 22.2
+ },
+ {
+  "tag": "Q5-A-sens4",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's think step by step. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "Step 1: Initial amount of water in the tank = 900 liters\nStep 2: Water drains out at 15 liters per minute for 20 minutes:\n   15 liters/minute * 20 minutes = 300 liters\n   After draining, the amount of water left is:\n   900 liters - 300 liters = 600 liters\n\nStep 3: 250 liters of water are added:\n   600 liters + 250 liters = 850 liters\n\nAnswer: 850 liters",
+  "time_s": 22.4
+ },
+ {
+  "tag": "Q5-B-sens4",
+  "prompt": "Answer the following math word problem.\n\nProblem: A water tank contains 900 liters of water. Water drains out at 15 liters per minute for 20 minutes. Then 250 liters of water are added. How many liters of water are in the tank now?\n\nLet's first understand the problem, extract relevant variables and their corresponding numerals, and make a plan. Then, let's carry out the plan, calculate intermediate variables (pay attention to correct numerical calculation and commonsense), solve the problem step by step, and show the answer. Give the final line in exactly this format: Answer: <number>",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "Let's break down the problem step by step:\n\n1. **Initial amount of water**: 900 liters\n2. **Water drained out**: 15 liters per minute for 20 minutes.\n   - Total water drained = 15 liters/minute * 20 minutes = 300 liters\n3. **Water added**: 250 liters\n\nTo find the final amount of water in the tank, we need to subtract the amount drained from the initial amount and then add the amount added.\n\n**Calculation:**\n- Final amount of water = Initial amount - Drained out + Added\n- Final amount of water = 900 liters - 300 liters + 250 liters\n- Final amount of water = 900 liters - 300 liters + 250 liters = 850 liters + 250 liters = 1100 liters\n\n**Answer:** 1100 liters",
+  "time_s": 32.4
+ }
+]

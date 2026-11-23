@@ -1,0 +1,23 @@
+Q1 A 36.0 True | B 36.0 True
+Q2 A 80.0 True | B 80.0 True
+Q3 A 210.0 True | B 210.0 True
+Q4 A 245.0 True | B 245.0 True
+Q5 A 850.0 True | B 850.0 True
+Q6 A None False | B 12.0 True
+Q7 A 48.0 False | B 38.0 True
+Q8 A 1050.0 True | B 1050.0 True
+Q2 stab 0 A 80.0 B 80.0
+Q2 stab 1 A 80.0 B 80.0
+Q5 stab 0 A 850.0 B 850.0
+Q5 stab 1 A 850.0 B 850.0
+Q2 sens 0 A 80.0 B 80.0
+Q2 sens 1 A 80.0 B None
+Q2 sens 2 A 80.0 B None
+Q2 sens 3 A 80.0 B 80.0
+Q2 sens 4 A 80.0 B 80.0
+Q5 sens 0 A 850.0 B 850.0
+Q5 sens 1 A 850.0 B 850.0
+Q5 sens 2 A 850.0 B 850.0
+Q5 sens 3 A 850.0 B 850.0
+Q5 sens 4 A 850.0 B None
+SUMMARY A 6/8 B 8/8
