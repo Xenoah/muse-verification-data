@@ -1,0 +1,20 @@
+T1 6 egnkeh A adogusbktf False | B None False
+T2 6 tengrk A chhooopneggdmoilk False | B tsngrk False
+T3 8 defprndg A bkceglmno False | B drprngg False
+T4 8 gkplwfgg A ringsong False | B gkplwnfn False
+T5 10 rdertedrse A tigercloudstoneriverplanthorsebreadchairglassmouse False | B go False
+T6 10 enenoanrrh A snertapolzlemt False | B nnnomb False
+T7 12 tnwlynerrrrr A silverwintersummerflowermother False | B None False
+T8 12 netttedtedee A dragoncastleforestrocketplanetpiratewizardknightbridgelisttemplesaddle False | B None False
+T3 stab 0 A bkceglmno B drprngg
+T3 stab 1 A bkceglmno B drprngg
+T5 stab 0 A tigercloudstoneriverplanthorsebreadchairglassmouse B go
+T5 stab 1 A tigercloudstoneriverplanthorsebreadchairglassmouse B go
+T3 sens 0 A bceglmno B birdcakewolflampstarmoonroadking
+T3 sens 1 A beagwlpmsrdrkm B iawrmrdrk
+T3 sens 2 A bkcgwlpmsdrkm B None
+T3 sens 3 A bkcmwlpmsdoro B None
+T3 sens 4 A bceamlsgmr B None
+T5 sens 0 A glass B tigercloudstoneriverplanthorsebreadchairglassmouse
+T5 sens 1 A gerbircg B thclsnrpphobm
+T5 sens 2 A gkrmbhroedcj B None
