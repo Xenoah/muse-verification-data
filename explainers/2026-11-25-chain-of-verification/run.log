@@ -1,0 +1,23 @@
+T1 base prec 1.0 4 / 4 | final prec 1.0 3 / 3
+T2 base prec 1.0 4 / 4 | final prec 0.0 0 / 0
+T3 base prec 1.0 2 / 2 | final prec 1.0 2 / 2
+T4 base prec 1.0 7 / 7 | final prec 0.0 0 / 0
+T5 base prec 0.0 0 / 1 | final prec 0.0 0 / 0
+T6 base prec 1.0 5 / 5 | final prec 0.0 0 / 0
+T7 base prec 1.0 4 / 4 | final prec 1.0 1 / 1
+T8 base prec 1.0 5 / 5 | final prec 0.0 0 / 0
+T2 stab 0 {'rep': 0, 'base_precision': 1.0, 'base_pos': 4, 'base_n': 4, 'final_precision': 0.0, 'final_pos': 0, 'final_n': 0}
+T2 stab 1 {'rep': 1, 'base_precision': 1.0, 'base_pos': 4, 'base_n': 4, 'final_precision': 0.0, 'final_pos': 0, 'final_n': 0}
+T4 stab 0 {'rep': 0, 'base_precision': 1.0, 'base_pos': 7, 'base_n': 7, 'final_precision': 0.0, 'final_pos': 0, 'final_n': 0}
+T4 stab 1 {'rep': 1, 'base_precision': 1.0, 'base_pos': 7, 'base_n': 7, 'final_precision': 0.0, 'final_pos': 0, 'final_n': 0}
+T2 sens 0 1.0 -> 0.0
+T2 sens 1 1.0 -> 0.0
+T2 sens 2 1.0 -> 0.0
+T2 sens 3 1.0 -> 0.0
+T2 sens 4 1.0 -> 0.0
+T4 sens 0 1.0 -> 0.0
+T4 sens 1 1.0 -> 0.0
+T4 sens 2 1.0 -> 0.0
+T4 sens 3 1.0 -> 0.0
+T4 sens 4 1.0 -> 0.0
+SUMMARY pooled baseline precision 31/32=0.969 final 6/6=1.000

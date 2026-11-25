@@ -1,0 +1,487 @@
+{
+ "tasks": [
+  {
+   "id": "T1",
+   "question": "Name some chemical elements that are noble gases.",
+   "gold": [
+    "helium",
+    "neon",
+    "argon",
+    "krypton",
+    "xenon",
+    "radon",
+    "oganesson"
+   ]
+  },
+  {
+   "id": "T2",
+   "question": "Name some countries that share a land border with France in Europe.",
+   "gold": [
+    "belgium",
+    "luxembourg",
+    "germany",
+    "switzerland",
+    "italy",
+    "spain",
+    "andorra",
+    "monaco"
+   ]
+  },
+  {
+   "id": "T3",
+   "question": "Name some US states whose name starts with the letter M.",
+   "gold": [
+    "maine",
+    "maryland",
+    "massachusetts",
+    "michigan",
+    "minnesota",
+    "mississippi",
+    "missouri",
+    "montana"
+   ]
+  },
+  {
+   "id": "T4",
+   "question": "Name some prime numbers that are greater than 30 and less than 60.",
+   "gold": [
+    "31",
+    "37",
+    "41",
+    "43",
+    "47",
+    "53",
+    "59"
+   ]
+  },
+  {
+   "id": "T5",
+   "question": "Name some mammals that lay eggs.",
+   "gold": [
+    "platypus",
+    "short-beaked echidna",
+    "eastern long-beaked echidna",
+    "western long-beaked echidna",
+    "sir david's long-beaked echidna",
+    "attenborough's long-beaked echidna",
+    "long-beaked echidna",
+    "echidna"
+   ]
+  },
+  {
+   "id": "T6",
+   "question": "Name some dwarf planets officially recognized by the IAU.",
+   "gold": [
+    "pluto",
+    "eris",
+    "haumea",
+    "makemake",
+    "ceres"
+   ]
+  },
+  {
+   "id": "T7",
+   "question": "Name some moons of Jupiter that were discovered by Galileo (the Galilean moons).",
+   "gold": [
+    "io",
+    "europa",
+    "ganymede",
+    "callisto"
+   ]
+  },
+  {
+   "id": "T8",
+   "question": "Name some founding member countries of the European Community that signed the Treaty of Rome in 1957.",
+   "gold": [
+    "belgium",
+    "france",
+    "italy",
+    "luxembourg",
+    "netherlands",
+    "germany",
+    "west germany"
+   ]
+  }
+ ],
+ "main": {
+  "T1": {
+   "baseline": {
+    "items": [
+     "argon",
+     "krypton",
+     "xenon",
+     "radon"
+    ],
+    "pos": [
+     "argon",
+     "krypton",
+     "xenon",
+     "radon"
+    ],
+    "neg": [],
+    "n": 4,
+    "n_pos": 4,
+    "n_neg": 0,
+    "precision": 1.0,
+    "gen": "argon, krypton, xenon, radon",
+    "time_s": 50.6
+   },
+   "verifications": [
+    {
+     "item": "argon",
+     "question": "Is \"argon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "Yes, \"argon\" is a noble gas.",
+     "verdict": "yes",
+     "time_s": 21.3
+    },
+    {
+     "item": "krypton",
+     "question": "Is \"krypton\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "Yes, krypton is a noble gas.",
+     "verdict": "yes",
+     "time_s": 16.2
+    },
+    {
+     "item": "xenon",
+     "question": "Is \"xenon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "Yes, xenon is a noble gas.",
+     "verdict": "yes",
+     "time_s": 17.8
+    },
+    {
+     "item": "radon",
+     "question": "Is \"radon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, \"radon\" is not a noble gas. It is a radioactive gas.",
+     "verdict": "no",
+     "time_s": 22.0
+    }
+   ],
+   "final": {
+    "items": [
+     "argon",
+     "krypton",
+     "xenon"
+    ],
+    "pos": [
+     "argon",
+     "krypton",
+     "xenon"
+    ],
+    "neg": [],
+    "n": 3,
+    "n_pos": 3,
+    "n_neg": 0,
+    "precision": 1.0
+   }
+  },
+  "T2": {
+   "baseline": {
+    "items": [
+     "Belgium",
+     "Luxembourg",
+     "Germany",
+     "Switzerland"
+    ],
+    "pos": [
+     "Belgium",
+     "Luxembourg",
+     "Germany",
+     "Switzerland"
+    ],
+    "neg": [],
+    "n": 4,
+    "n_pos": 4,
+    "n_neg": 0,
+    "precision": 1.0,
+    "gen": "Belgium, Luxembourg, Germany, Switzerland",
+    "time_s": 20.3
+   },
+   "verifications": [
+    {
+     "item": "Belgium",
+     "question": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Belgium does not share a land border with France. France borders Belgium to the south and west.",
+     "verdict": "no",
+     "time_s": 18.8
+    },
+    {
+     "item": "Luxembourg",
+     "question": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Luxembourg does not share a land border with France. France borders Belgium and Germany, not Luxembourg.",
+     "verdict": "no",
+     "time_s": 21.5
+    },
+    {
+     "item": "Germany",
+     "question": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Germany shares a land border with France in Europe.",
+     "verdict": "no",
+     "time_s": 19.3
+    },
+    {
+     "item": "Switzerland",
+     "question": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Switzerland does not share a land border with France. France shares a land border with Switzerland, but it is not the only country that shares a land border with Switzerland.",
+     "verdict": "no",
+     "time_s": 26.0
+    }
+   ],
+   "final": {
+    "items": [],
+    "pos": [],
+    "neg": [],
+    "n": 0,
+    "n_pos": 0,
+    "n_neg": 0,
+    "precision": 0.0
+   }
+  },
+  "T3": {
+   "baseline": {
+    "items": [
+     "Maine",
+     "Michigan"
+    ],
+    "pos": [
+     "Maine",
+     "Michigan"
+    ],
+    "neg": [],
+    "n": 2,
+    "n_pos": 2,
+    "n_neg": 0,
+    "precision": 1.0,
+    "gen": "Maine, Michigan",
+    "time_s": 14.6
+   },
+   "verifications": [
+    {
+     "item": "Maine",
+     "question": "Is \"Maine\" a US state whose name starts with the letter M? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "Yes, Maine is a US state whose name starts with the letter M.",
+     "verdict": "yes",
+     "time_s": 18.0
+    },
+    {
+     "item": "Michigan",
+     "question": "Is \"Michigan\" a US state whose name starts with the letter M? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "Yes, Michigan is a US state whose name starts with the letter M.",
+     "verdict": "yes",
+     "time_s": 21.2
+    }
+   ],
+   "final": {
+    "items": [
+     "Maine",
+     "Michigan"
+    ],
+    "pos": [
+     "Maine",
+     "Michigan"
+    ],
+    "neg": [],
+    "n": 2,
+    "n_pos": 2,
+    "n_neg": 0,
+    "precision": 1.0
+   }
+  },
+  "T4": {
+   "baseline": {
+    "items": [],
+    "pos": [],
+    "neg": [],
+    "n": 0,
+    "n_pos": 0,
+    "n_neg": 0,
+    "precision": 0.0,
+    "gen": "31, 37, 41, 43, 47, 53, 59",
+    "time_s": 19.8
+   },
+   "verifications": [],
+   "final": {
+    "items": [],
+    "pos": [],
+    "neg": [],
+    "n": 0,
+    "n_pos": 0,
+    "n_neg": 0,
+    "precision": 0.0
+   }
+  },
+  "T5": {
+   "baseline": {
+    "items": [
+     "salamanders"
+    ],
+    "pos": [],
+    "neg": [
+     "salamanders"
+    ],
+    "n": 1,
+    "n_pos": 0,
+    "n_neg": 1,
+    "precision": 0.0,
+    "gen": "salamanders",
+    "time_s": 17.5
+   },
+   "verifications": [
+    {
+     "item": "salamanders",
+     "question": "Is \"salamanders\" a mammal that lays eggs (a monotreme)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, \"salamanders\" are amphibians, not mammals that lay eggs.",
+     "verdict": "no",
+     "time_s": 16.2
+    }
+   ],
+   "final": {
+    "items": [],
+    "pos": [],
+    "neg": [],
+    "n": 0,
+    "n_pos": 0,
+    "n_neg": 0,
+    "precision": 0.0
+   }
+  },
+  "T6": {
+   "baseline": {
+    "items": [
+     "Ceres",
+     "Pluto",
+     "Eris",
+     "Haumea",
+     "Makemake"
+    ],
+    "pos": [
+     "Ceres",
+     "Pluto",
+     "Eris",
+     "Haumea",
+     "Makemake"
+    ],
+    "neg": [],
+    "n": 5,
+    "n_pos": 5,
+    "n_neg": 0,
+    "precision": 1.0,
+    "gen": "Ceres, Pluto, Eris, Haumea, Makemake",
+    "time_s": 11.2
+   },
+   "verifications": [
+    {
+     "item": "Ceres",
+     "question": "Is \"Ceres\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, \"Ceres\" is not officially recognized as a dwarf planet by the IAU.",
+     "verdict": "no",
+     "time_s": 14.0
+    },
+    {
+     "item": "Pluto",
+     "question": "Is \"Pluto\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, \"Pluto\" is not officially recognized as a dwarf planet by the IAU.",
+     "verdict": "no",
+     "time_s": 14.5
+    },
+    {
+     "item": "Eris",
+     "question": "Is \"Eris\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Eris is not officially recognized as a dwarf planet by the IAU.",
+     "verdict": "no",
+     "time_s": 14.3
+    },
+    {
+     "item": "Haumea",
+     "question": "Is \"Haumea\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Haumea is not officially recognized as a dwarf planet by the IAU.",
+     "verdict": "no",
+     "time_s": 14.0
+    },
+    {
+     "item": "Makemake",
+     "question": "Is \"Makemake\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, \"Makemake\" is not officially recognized as a dwarf planet by the IAU.",
+     "verdict": "no",
+     "time_s": 16.1
+    }
+   ],
+   "final": {
+    "items": [],
+    "pos": [],
+    "neg": [],
+    "n": 0,
+    "n_pos": 0,
+    "n_neg": 0,
+    "precision": 0.0
+   }
+  },
+  "T7": {
+   "baseline": {
+    "items": [
+     "Io",
+     "Europa",
+     "Ganymede",
+     "Callisto"
+    ],
+    "pos": [
+     "Io",
+     "Europa",
+     "Ganymede",
+     "Callisto"
+    ],
+    "neg": [],
+    "n": 4,
+    "n_pos": 4,
+    "n_neg": 0,
+    "precision": 1.0,
+    "gen": "Io, Europa, Ganymede, Callisto",
+    "time_s": 11.4
+   },
+   "verifications": [
+    {
+     "item": "Io",
+     "question": "Is \"Io\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Io is not a moon of Jupiter discovered by Galileo. Galileo Galilei discovered four moons of Jupiter: Io, Europa, Ganymede, and Callisto.",
+     "verdict": "no",
+     "time_s": 17.9
+    },
+    {
+     "item": "Europa",
+     "question": "Is \"Europa\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "Yes, \"Europa\" is a moon of Jupiter discovered by Galileo. It is one of the Galilean moons.",
+     "verdict": "yes",
+     "time_s": 14.9
+    },
+    {
+     "item": "Ganymede",
+     "question": "Is \"Ganymede\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Ganymede is not a Galilean moon. It was discovered by Galileo Galilei, but it is not one of the moons he initially observed.",
+     "verdict": "no",
+     "time_s": 17.7
+    },
+    {
+     "item": "Callisto",
+     "question": "Is \"Callisto\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+     "gen": "No, Callisto is not a Galilean moon. It was discovered by Galileo Galilei, but it is not one of the four moons he first observed.",
+     "verdict": "no",
+     "time_s": 18.4
+    }
+   ],
+   "final": {
+    "items": [
+     "Europa"
+    ],
+    "pos": [
+     "Europa"
+    ],
+    "neg": [],
+    "n": 1,
+    "n_pos": 1,
+    "n_neg": 0,
+    "precision": 1.0
+   }
+  }
+ },
+ "stability": {},
+ "sensitivity": {}
+}

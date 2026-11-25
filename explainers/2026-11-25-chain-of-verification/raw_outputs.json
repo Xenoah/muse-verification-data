@@ -1,0 +1,1106 @@
+[
+ {
+  "tag": "T1-main-baseline",
+  "prompt": "Name some chemical elements that are noble gases. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "argon, krypton, xenon, radon",
+  "time_s": 10.8
+ },
+ {
+  "tag": "T1-main-verify-argon",
+  "prompt": "Is \"argon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, \"argon\" is a noble gas.",
+  "time_s": 10.6
+ },
+ {
+  "tag": "T1-main-verify-krypton",
+  "prompt": "Is \"krypton\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, krypton is a noble gas.",
+  "time_s": 12.1
+ },
+ {
+  "tag": "T1-main-verify-xenon",
+  "prompt": "Is \"xenon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, xenon is a noble gas.",
+  "time_s": 10.9
+ },
+ {
+  "tag": "T1-main-verify-radon",
+  "prompt": "Is \"radon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"radon\" is not a noble gas. It is a radioactive gas.",
+  "time_s": 13.1
+ },
+ {
+  "tag": "T2-main-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Belgium, Luxembourg, Germany, Switzerland",
+  "time_s": 10.8
+ },
+ {
+  "tag": "T2-main-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Belgium does not share a land border with France. France borders Belgium to the south and west.",
+  "time_s": 12.2
+ },
+ {
+  "tag": "T2-main-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Luxembourg does not share a land border with France. France borders Belgium and Germany, not Luxembourg.",
+  "time_s": 14.1
+ },
+ {
+  "tag": "T2-main-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Germany shares a land border with France in Europe.",
+  "time_s": 11.6
+ },
+ {
+  "tag": "T2-main-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Switzerland does not share a land border with France. France shares a land border with Switzerland, but it is not the only country that shares a land border with Switzerland.",
+  "time_s": 15.8
+ },
+ {
+  "tag": "T3-main-baseline",
+  "prompt": "Name some US states whose name starts with the letter M. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Maine, Michigan",
+  "time_s": 11.1
+ },
+ {
+  "tag": "T3-main-verify-maine",
+  "prompt": "Is \"Maine\" a US state whose name starts with the letter M? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, Maine is a US state whose name starts with the letter M.",
+  "time_s": 13.4
+ },
+ {
+  "tag": "T3-main-verify-michigan",
+  "prompt": "Is \"Michigan\" a US state whose name starts with the letter M? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, Michigan is a US state whose name starts with the letter M.",
+  "time_s": 12.0
+ },
+ {
+  "tag": "T4-main-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 14.2
+ },
+ {
+  "tag": "T4-main-verify-31",
+  "prompt": "Is \"31\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"31\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.4
+ },
+ {
+  "tag": "T4-main-verify-37",
+  "prompt": "Is \"37\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"37\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.3
+ },
+ {
+  "tag": "T4-main-verify-41",
+  "prompt": "Is \"41\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"41\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.9
+ },
+ {
+  "tag": "T4-main-verify-43",
+  "prompt": "Is \"43\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"43\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.2
+ },
+ {
+  "tag": "T4-main-verify-47",
+  "prompt": "Is \"47\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"47\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.2
+ },
+ {
+  "tag": "T4-main-verify-53",
+  "prompt": "Is \"53\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"53\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.9
+ },
+ {
+  "tag": "T4-main-verify-59",
+  "prompt": "Is \"59\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"59\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.0
+ },
+ {
+  "tag": "T5-main-baseline",
+  "prompt": "Name some mammals that lay eggs. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "salamanders",
+  "time_s": 9.1
+ },
+ {
+  "tag": "T5-main-verify-salamanders",
+  "prompt": "Is \"salamanders\" a mammal that lays eggs (a monotreme)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"salamanders\" are amphibians, not mammals that lay eggs.",
+  "time_s": 12.5
+ },
+ {
+  "tag": "T6-main-baseline",
+  "prompt": "Name some dwarf planets officially recognized by the IAU. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Ceres, Pluto, Eris, Haumea, Makemake",
+  "time_s": 11.5
+ },
+ {
+  "tag": "T6-main-verify-ceres",
+  "prompt": "Is \"Ceres\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"Ceres\" is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 14.0
+ },
+ {
+  "tag": "T6-main-verify-pluto",
+  "prompt": "Is \"Pluto\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"Pluto\" is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 14.1
+ },
+ {
+  "tag": "T6-main-verify-eris",
+  "prompt": "Is \"Eris\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Eris is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 13.3
+ },
+ {
+  "tag": "T6-main-verify-haumea",
+  "prompt": "Is \"Haumea\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Haumea is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 13.2
+ },
+ {
+  "tag": "T6-main-verify-makemake",
+  "prompt": "Is \"Makemake\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"Makemake\" is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 15.9
+ },
+ {
+  "tag": "T7-main-baseline",
+  "prompt": "Name some moons of Jupiter that were discovered by Galileo (the Galilean moons). List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Io, Europa, Ganymede, Callisto",
+  "time_s": 11.4
+ },
+ {
+  "tag": "T7-main-verify-io",
+  "prompt": "Is \"Io\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Io is not a moon of Jupiter discovered by Galileo. Galileo Galilei discovered four moons of Jupiter: Io, Europa, Ganymede, and Callisto.",
+  "time_s": 18.6
+ },
+ {
+  "tag": "T7-main-verify-europa",
+  "prompt": "Is \"Europa\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, \"Europa\" is a moon of Jupiter discovered by Galileo. It is one of the Galilean moons.",
+  "time_s": 14.4
+ },
+ {
+  "tag": "T7-main-verify-ganymede",
+  "prompt": "Is \"Ganymede\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Ganymede is not a Galilean moon. It was discovered by Galileo Galilei, but it is not one of the moons he initially observed.",
+  "time_s": 17.0
+ },
+ {
+  "tag": "T7-main-verify-callisto",
+  "prompt": "Is \"Callisto\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Callisto is not a Galilean moon. It was discovered by Galileo Galilei, but it is not one of the four moons he first observed.",
+  "time_s": 18.8
+ },
+ {
+  "tag": "T8-main-baseline",
+  "prompt": "Name some founding member countries of the European Community that signed the Treaty of Rome in 1957. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Belgium, France, West Germany, Italy, Luxembourg",
+  "time_s": 17.7
+ },
+ {
+  "tag": "T8-main-verify-belgium",
+  "prompt": "Is \"Belgium\" a founding member country of the European Community that signed the Treaty of Rome in 1957? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Belgium was not a founding member of the European Community. It joined in 1958 as one of the founding members.",
+  "time_s": 16.8
+ },
+ {
+  "tag": "T8-main-verify-france",
+  "prompt": "Is \"France\" a founding member country of the European Community that signed the Treaty of Rome in 1957? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, France was not a founding member country of the European Community. It joined in 1958 as one of the founding members.",
+  "time_s": 15.8
+ },
+ {
+  "tag": "T8-main-verify-west germany",
+  "prompt": "Is \"West Germany\" a founding member country of the European Community that signed the Treaty of Rome in 1957? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"West Germany\" was not a founding member country of the European Community that signed the Treaty of Rome in 1957. West Germany was officially known as West Germany until 1990, when it became known as Germany.",
+  "time_s": 20.3
+ },
+ {
+  "tag": "T8-main-verify-italy",
+  "prompt": "Is \"Italy\" a founding member country of the European Community that signed the Treaty of Rome in 1957? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Italy was not a founding member of the European Community. It joined in 1957 as one of the founding members, but it was not the first country to sign the Treaty of Rome.",
+  "time_s": 17.1
+ },
+ {
+  "tag": "T8-main-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a founding member country of the European Community that signed the Treaty of Rome in 1957? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Luxembourg was not a founding member of the European Community. It joined in 1958 as a founding member of the European Economic Community (EEC).",
+  "time_s": 15.0
+ },
+ {
+  "tag": "T2-stab0-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Belgium, Luxembourg, Germany, Switzerland",
+  "time_s": 11.7
+ },
+ {
+  "tag": "T2-stab0-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Belgium does not share a land border with France. France borders Belgium to the south and west.",
+  "time_s": 14.2
+ },
+ {
+  "tag": "T2-stab0-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Luxembourg does not share a land border with France. France borders Belgium and Germany, not Luxembourg.",
+  "time_s": 12.4
+ },
+ {
+  "tag": "T2-stab0-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Germany shares a land border with France in Europe.",
+  "time_s": 13.5
+ },
+ {
+  "tag": "T2-stab0-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Switzerland does not share a land border with France. France shares a land border with Switzerland, but it is not the only country that shares a land border with Switzerland.",
+  "time_s": 15.1
+ },
+ {
+  "tag": "T2-stab1-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Belgium, Luxembourg, Germany, Switzerland",
+  "time_s": 10.8
+ },
+ {
+  "tag": "T2-stab1-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Belgium does not share a land border with France. France borders Belgium to the south and west.",
+  "time_s": 14.0
+ },
+ {
+  "tag": "T2-stab1-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Luxembourg does not share a land border with France. France borders Belgium and Germany, not Luxembourg.",
+  "time_s": 12.3
+ },
+ {
+  "tag": "T2-stab1-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Germany shares a land border with France in Europe.",
+  "time_s": 11.3
+ },
+ {
+  "tag": "T2-stab1-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Switzerland does not share a land border with France. France shares a land border with Switzerland, but it is not the only country that shares a land border with Switzerland.",
+  "time_s": 15.6
+ },
+ {
+  "tag": "T4-stab0-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 13.9
+ },
+ {
+  "tag": "T4-stab0-verify-31",
+  "prompt": "Is \"31\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"31\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.5
+ },
+ {
+  "tag": "T4-stab0-verify-37",
+  "prompt": "Is \"37\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"37\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.0
+ },
+ {
+  "tag": "T4-stab0-verify-41",
+  "prompt": "Is \"41\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"41\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.5
+ },
+ {
+  "tag": "T4-stab0-verify-43",
+  "prompt": "Is \"43\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"43\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 13.9
+ },
+ {
+  "tag": "T4-stab0-verify-47",
+  "prompt": "Is \"47\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"47\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.6
+ },
+ {
+  "tag": "T4-stab0-verify-53",
+  "prompt": "Is \"53\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"53\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.4
+ },
+ {
+  "tag": "T4-stab0-verify-59",
+  "prompt": "Is \"59\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"59\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 13.7
+ },
+ {
+  "tag": "T4-stab1-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 13.5
+ },
+ {
+  "tag": "T4-stab1-verify-31",
+  "prompt": "Is \"31\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"31\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.1
+ },
+ {
+  "tag": "T4-stab1-verify-37",
+  "prompt": "Is \"37\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"37\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.7
+ },
+ {
+  "tag": "T4-stab1-verify-41",
+  "prompt": "Is \"41\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"41\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.6
+ },
+ {
+  "tag": "T4-stab1-verify-43",
+  "prompt": "Is \"43\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"43\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.1
+ },
+ {
+  "tag": "T4-stab1-verify-47",
+  "prompt": "Is \"47\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"47\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 13.5
+ },
+ {
+  "tag": "T4-stab1-verify-53",
+  "prompt": "Is \"53\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"53\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.4
+ },
+ {
+  "tag": "T4-stab1-verify-59",
+  "prompt": "Is \"59\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"59\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.5
+ },
+ {
+  "tag": "T2-sens0-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "Belgium, Luxembourg, Germany, Switzerland, Italy",
+  "time_s": 12.8
+ },
+ {
+  "tag": "T2-sens0-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, Belgium does not share a land border with France. Belgium shares a maritime border with France.",
+  "time_s": 17.0
+ },
+ {
+  "tag": "T2-sens0-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, Luxembourg does not share a land border with France. It shares a border with Germany to the west.",
+  "time_s": 14.4
+ },
+ {
+  "tag": "T2-sens0-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, Germany shares a land border with Switzerland in Europe.",
+  "time_s": 12.7
+ },
+ {
+  "tag": "T2-sens0-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, Switzerland does not share a land border with France. France shares a land border with Switzerland.",
+  "time_s": 14.4
+ },
+ {
+  "tag": "T2-sens0-verify-italy",
+  "prompt": "Is \"Italy\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, Italy does not share a land border with France. France shares a land border with Switzerland and Austria.",
+  "time_s": 15.4
+ },
+ {
+  "tag": "T2-sens1-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Belgium, Luxembourg, Germany, Switzerland",
+  "time_s": 12.2
+ },
+ {
+  "tag": "T2-sens1-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No. Belgium shares a land border with Germany and Luxembourg in Europe.",
+  "time_s": 12.6
+ },
+ {
+  "tag": "T2-sens1-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No.\nLuxembourg shares a land border with Belgium in Europe.",
+  "time_s": 14.4
+ },
+ {
+  "tag": "T2-sens1-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No.",
+  "time_s": 10.2
+ },
+ {
+  "tag": "T2-sens1-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No.\nReason: Switzerland shares a land border with Italy in Europe, not France.",
+  "time_s": 13.5
+ },
+ {
+  "tag": "T2-sens2-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Belgium, Luxembourg, Germany, Switzerland, Italy",
+  "time_s": 12.0
+ },
+ {
+  "tag": "T2-sens2-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, Belgium does not share a land border with France. France borders Belgium to the south, not to the north.",
+  "time_s": 15.8
+ },
+ {
+  "tag": "T2-sens2-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, Luxembourg does not share a land border with France. France borders Belgium to the west, Germany to the north, Switzerland to the northwest, and Italy to the southeast. Luxembourg is instead bordered by Germany to the south and southwest, and by Belgium to the east.",
+  "time_s": 21.3
+ },
+ {
+  "tag": "T2-sens2-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, Germany shares a land border with Switzerland in Europe.",
+  "time_s": 12.6
+ },
+ {
+  "tag": "T2-sens2-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, Switzerland does not share a land border with France. France borders Switzerland to the east, but they do not share a land border with each other.",
+  "time_s": 14.7
+ },
+ {
+  "tag": "T2-sens2-verify-italy",
+  "prompt": "Is \"Italy\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, Italy does not share a land border with France. France is located on the opposite side of the Mediterranean Sea from Italy.",
+  "time_s": 14.6
+ },
+ {
+  "tag": "T2-sens3-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "Belgium, Germany, Luxembourg, Monaco, Spain, Switzerland",
+  "time_s": 11.2
+ },
+ {
+  "tag": "T2-sens3-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, Belgium shares a land border with France in Europe, but it is also bordered by Luxembourg to the northeast, and by the Netherlands to the east.",
+  "time_s": 14.7
+ },
+ {
+  "tag": "T2-sens3-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, Germany does not share a land border with France. France is located on the eastern side of Germany, while Germany shares a land border with other countries such as Luxembourg, Belgium, and the Netherlands.",
+  "time_s": 15.8
+ },
+ {
+  "tag": "T2-sens3-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No. Luxembourg does not share a land border with France. France shares a land border with Belgium, Germany, Switzerland, and Italy.",
+  "time_s": 13.4
+ },
+ {
+  "tag": "T2-sens3-verify-monaco",
+  "prompt": "Is \"Monaco\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, Monaco shares a land border with France in Europe, but it is a sovereign state and not a country that shares a land border with another country.",
+  "time_s": 14.8
+ },
+ {
+  "tag": "T2-sens3-verify-spain",
+  "prompt": "Is \"Spain\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No. Spain shares a land border with Portugal in Europe.",
+  "time_s": 12.0
+ },
+ {
+  "tag": "T2-sens3-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No. Switzerland does not share a land border with France. France is located on the opposite side of the Alps to Switzerland.",
+  "time_s": 13.7
+ },
+ {
+  "tag": "T2-sens4-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "Belgium, Luxembourg, Germany, Switzerland, Italy, Monaco, Andorra",
+  "time_s": 12.4
+ },
+ {
+  "tag": "T2-sens4-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, Belgium does not share a land border with France. France is located to the south of Belgium.",
+  "time_s": 12.3
+ },
+ {
+  "tag": "T2-sens4-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, Luxembourg does not share a land border with France. France is located to the west of Luxembourg.",
+  "time_s": 13.6
+ },
+ {
+  "tag": "T2-sens4-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, Germany shares a land border with Belgium, Luxembourg, and France in Europe.",
+  "time_s": 12.6
+ },
+ {
+  "tag": "T2-sens4-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No. Switzerland shares borders with France, Italy, and Austria, but not directly with France in Europe.",
+  "time_s": 13.7
+ },
+ {
+  "tag": "T2-sens4-verify-italy",
+  "prompt": "Is \"Italy\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No. Italy shares a land border with France, but they are located on opposite sides of the Mediterranean Sea.",
+  "time_s": 14.3
+ },
+ {
+  "tag": "T2-sens4-verify-monaco",
+  "prompt": "Is \"Monaco\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, Monaco does not share a land border with France. It is an independent sovereign state.",
+  "time_s": 17.2
+ },
+ {
+  "tag": "T2-sens4-verify-andorra",
+  "prompt": "Is \"Andorra\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, Andorra is a landlocked country in Europe, not France.",
+  "time_s": 17.0
+ },
+ {
+  "tag": "T4-sens0-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 17.1
+ },
+ {
+  "tag": "T4-sens0-verify-31",
+  "prompt": "Is \"31\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, \"31\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.2
+ },
+ {
+  "tag": "T4-sens0-verify-37",
+  "prompt": "Is \"37\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, \"37\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 13.5
+ },
+ {
+  "tag": "T4-sens0-verify-41",
+  "prompt": "Is \"41\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, \"41\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.6
+ },
+ {
+  "tag": "T4-sens0-verify-43",
+  "prompt": "Is \"43\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, \"43\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.9
+ },
+ {
+  "tag": "T4-sens0-verify-47",
+  "prompt": "Is \"47\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, \"47\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.0
+ },
+ {
+  "tag": "T4-sens0-verify-53",
+  "prompt": "Is \"53\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, \"53\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 13.1
+ },
+ {
+  "tag": "T4-sens0-verify-59",
+  "prompt": "Is \"59\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "No, \"59\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 20.2
+ },
+ {
+  "tag": "T4-sens1-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 19.5
+ },
+ {
+  "tag": "T4-sens1-verify-31",
+  "prompt": "Is \"31\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No. Prime numbers are only divisible by 1 and themselves. 31 is a prime number, but it is not greater than 30 or less than 60.",
+  "time_s": 16.7
+ },
+ {
+  "tag": "T4-sens1-verify-37",
+  "prompt": "Is \"37\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No. \n37 is not a prime number because it has no divisors other than 1 and itself, which means it cannot be divided evenly by any number between 2 and 36.",
+  "time_s": 16.3
+ },
+ {
+  "tag": "T4-sens1-verify-41",
+  "prompt": "Is \"41\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No.",
+  "time_s": 10.5
+ },
+ {
+  "tag": "T4-sens1-verify-43",
+  "prompt": "Is \"43\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No.",
+  "time_s": 10.4
+ },
+ {
+  "tag": "T4-sens1-verify-47",
+  "prompt": "Is \"47\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No.",
+  "time_s": 11.3
+ },
+ {
+  "tag": "T4-sens1-verify-53",
+  "prompt": "Is \"53\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. 53 is not a prime number because it has no divisors other than 1 and 53.",
+  "time_s": 18.5
+ },
+ {
+  "tag": "T4-sens1-verify-59",
+  "prompt": "Is \"59\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "No. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. 59 is not a prime number because it has no divisors other than 1 and 59.",
+  "time_s": 18.8
+ },
+ {
+  "tag": "T4-sens2-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 15.3
+ },
+ {
+  "tag": "T4-sens2-verify-31",
+  "prompt": "Is \"31\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, \"31\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.6
+ },
+ {
+  "tag": "T4-sens2-verify-37",
+  "prompt": "Is \"37\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, \"37\" is not a prime number greater than 30 and less than 60. The number 37 is a prime number, but it is greater than 60.",
+  "time_s": 17.2
+ },
+ {
+  "tag": "T4-sens2-verify-41",
+  "prompt": "Is \"41\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, \"41\" is not a prime number greater than 30 and less than 60. The number 41 is a prime number, but it is greater than 60.",
+  "time_s": 17.0
+ },
+ {
+  "tag": "T4-sens2-verify-43",
+  "prompt": "Is \"43\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, \"43\" is not a prime number greater than 30 and less than 60. The number 43 is a prime number, but it is greater than 60.",
+  "time_s": 16.8
+ },
+ {
+  "tag": "T4-sens2-verify-47",
+  "prompt": "Is \"47\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, \"47\" is not a prime number greater than 30 and less than 60. The prime numbers in this range are 31, 37, 41, 43, and 47, but 47 is not a prime number.",
+  "time_s": 21.1
+ },
+ {
+  "tag": "T4-sens2-verify-53",
+  "prompt": "Is \"53\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, \"53\" is not a prime number greater than 30 and less than 60. The number 53 is a prime number, but it is not within the specified range.",
+  "time_s": 18.7
+ },
+ {
+  "tag": "T4-sens2-verify-59",
+  "prompt": "Is \"59\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "No, \"59\" is not a prime number greater than 30 and less than 60. The number 59 is a prime number, but it is greater than 60.",
+  "time_s": 17.1
+ },
+ {
+  "tag": "T4-sens3-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 14.2
+ },
+ {
+  "tag": "T4-sens3-verify-31",
+  "prompt": "Is \"31\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, \"31\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.1
+ },
+ {
+  "tag": "T4-sens3-verify-37",
+  "prompt": "Is \"37\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, \"37\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 12.9
+ },
+ {
+  "tag": "T4-sens3-verify-41",
+  "prompt": "Is \"41\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, \"41\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 13.6
+ },
+ {
+  "tag": "T4-sens3-verify-43",
+  "prompt": "Is \"43\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, \"43\" is not a prime number greater than 30 and less than 60 because it has no divisors other than 1 and itself, but 43 can be divided by 1, 43, and 17, which means it has more than two divisors.",
+  "time_s": 22.6
+ },
+ {
+  "tag": "T4-sens3-verify-47",
+  "prompt": "Is \"47\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, \"47\" is not a prime number.",
+  "time_s": 12.0
+ },
+ {
+  "tag": "T4-sens3-verify-53",
+  "prompt": "Is \"53\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, \"53\" is not a prime number.",
+  "time_s": 13.0
+ },
+ {
+  "tag": "T4-sens3-verify-59",
+  "prompt": "Is \"59\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "No, \"59\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.3
+ },
+ {
+  "tag": "T4-sens4-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 15.8
+ },
+ {
+  "tag": "T4-sens4-verify-31",
+  "prompt": "Is \"31\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, \"31\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.5
+ },
+ {
+  "tag": "T4-sens4-verify-37",
+  "prompt": "Is \"37\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, \"37\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.2
+ },
+ {
+  "tag": "T4-sens4-verify-41",
+  "prompt": "Is \"41\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, \"41\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.0
+ },
+ {
+  "tag": "T4-sens4-verify-43",
+  "prompt": "Is \"43\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, \"43\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 15.5
+ },
+ {
+  "tag": "T4-sens4-verify-47",
+  "prompt": "Is \"47\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, \"47\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 13.0
+ },
+ {
+  "tag": "T4-sens4-verify-53",
+  "prompt": "Is \"53\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, \"53\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 13.1
+ },
+ {
+  "tag": "T4-sens4-verify-59",
+  "prompt": "Is \"59\" a prime number greater than 30 and less than 60? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "No, \"59\" is not a prime number greater than 30 and less than 60.",
+  "time_s": 14.5
+ }
+]

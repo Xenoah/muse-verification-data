@@ -1,0 +1,242 @@
+[
+ {
+  "tag": "T1-main-baseline",
+  "prompt": "Name some chemical elements that are noble gases. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "argon, krypton, xenon, radon",
+  "time_s": 50.6
+ },
+ {
+  "tag": "T1-main-verify-argon",
+  "prompt": "Is \"argon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, \"argon\" is a noble gas.",
+  "time_s": 21.3
+ },
+ {
+  "tag": "T1-main-verify-krypton",
+  "prompt": "Is \"krypton\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, krypton is a noble gas.",
+  "time_s": 16.2
+ },
+ {
+  "tag": "T1-main-verify-xenon",
+  "prompt": "Is \"xenon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, xenon is a noble gas.",
+  "time_s": 17.8
+ },
+ {
+  "tag": "T1-main-verify-radon",
+  "prompt": "Is \"radon\" a noble gas (a chemical element in Group 18 of the periodic table)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"radon\" is not a noble gas. It is a radioactive gas.",
+  "time_s": 22.0
+ },
+ {
+  "tag": "T2-main-baseline",
+  "prompt": "Name some countries that share a land border with France in Europe. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Belgium, Luxembourg, Germany, Switzerland",
+  "time_s": 20.3
+ },
+ {
+  "tag": "T2-main-verify-belgium",
+  "prompt": "Is \"Belgium\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Belgium does not share a land border with France. France borders Belgium to the south and west.",
+  "time_s": 18.8
+ },
+ {
+  "tag": "T2-main-verify-luxembourg",
+  "prompt": "Is \"Luxembourg\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Luxembourg does not share a land border with France. France borders Belgium and Germany, not Luxembourg.",
+  "time_s": 21.5
+ },
+ {
+  "tag": "T2-main-verify-germany",
+  "prompt": "Is \"Germany\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Germany shares a land border with France in Europe.",
+  "time_s": 19.3
+ },
+ {
+  "tag": "T2-main-verify-switzerland",
+  "prompt": "Is \"Switzerland\" a country that shares a land border with France in Europe? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Switzerland does not share a land border with France. France shares a land border with Switzerland, but it is not the only country that shares a land border with Switzerland.",
+  "time_s": 26.0
+ },
+ {
+  "tag": "T3-main-baseline",
+  "prompt": "Name some US states whose name starts with the letter M. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Maine, Michigan",
+  "time_s": 14.6
+ },
+ {
+  "tag": "T3-main-verify-maine",
+  "prompt": "Is \"Maine\" a US state whose name starts with the letter M? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, Maine is a US state whose name starts with the letter M.",
+  "time_s": 18.0
+ },
+ {
+  "tag": "T3-main-verify-michigan",
+  "prompt": "Is \"Michigan\" a US state whose name starts with the letter M? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, Michigan is a US state whose name starts with the letter M.",
+  "time_s": 21.2
+ },
+ {
+  "tag": "T4-main-baseline",
+  "prompt": "Name some prime numbers that are greater than 30 and less than 60. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "31, 37, 41, 43, 47, 53, 59",
+  "time_s": 19.8
+ },
+ {
+  "tag": "T5-main-baseline",
+  "prompt": "Name some mammals that lay eggs. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "salamanders",
+  "time_s": 17.5
+ },
+ {
+  "tag": "T5-main-verify-salamanders",
+  "prompt": "Is \"salamanders\" a mammal that lays eggs (a monotreme)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"salamanders\" are amphibians, not mammals that lay eggs.",
+  "time_s": 16.2
+ },
+ {
+  "tag": "T6-main-baseline",
+  "prompt": "Name some dwarf planets officially recognized by the IAU. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Ceres, Pluto, Eris, Haumea, Makemake",
+  "time_s": 11.2
+ },
+ {
+  "tag": "T6-main-verify-ceres",
+  "prompt": "Is \"Ceres\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"Ceres\" is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 14.0
+ },
+ {
+  "tag": "T6-main-verify-pluto",
+  "prompt": "Is \"Pluto\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"Pluto\" is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 14.5
+ },
+ {
+  "tag": "T6-main-verify-eris",
+  "prompt": "Is \"Eris\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Eris is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 14.3
+ },
+ {
+  "tag": "T6-main-verify-haumea",
+  "prompt": "Is \"Haumea\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Haumea is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 14.0
+ },
+ {
+  "tag": "T6-main-verify-makemake",
+  "prompt": "Is \"Makemake\" a dwarf planet officially recognized by the IAU (International Astronomical Union)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, \"Makemake\" is not officially recognized as a dwarf planet by the IAU.",
+  "time_s": 16.1
+ },
+ {
+  "tag": "T7-main-baseline",
+  "prompt": "Name some moons of Jupiter that were discovered by Galileo (the Galilean moons). List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Io, Europa, Ganymede, Callisto",
+  "time_s": 11.4
+ },
+ {
+  "tag": "T7-main-verify-io",
+  "prompt": "Is \"Io\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Io is not a moon of Jupiter discovered by Galileo. Galileo Galilei discovered four moons of Jupiter: Io, Europa, Ganymede, and Callisto.",
+  "time_s": 17.9
+ },
+ {
+  "tag": "T7-main-verify-europa",
+  "prompt": "Is \"Europa\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Yes, \"Europa\" is a moon of Jupiter discovered by Galileo. It is one of the Galilean moons.",
+  "time_s": 14.9
+ },
+ {
+  "tag": "T7-main-verify-ganymede",
+  "prompt": "Is \"Ganymede\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Ganymede is not a Galilean moon. It was discovered by Galileo Galilei, but it is not one of the moons he initially observed.",
+  "time_s": 17.7
+ },
+ {
+  "tag": "T7-main-verify-callisto",
+  "prompt": "Is \"Callisto\" a moon of Jupiter discovered by Galileo (a Galilean moon)? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Callisto is not a Galilean moon. It was discovered by Galileo Galilei, but it is not one of the four moons he first observed.",
+  "time_s": 18.4
+ },
+ {
+  "tag": "T8-main-baseline",
+  "prompt": "Name some founding member countries of the European Community that signed the Treaty of Rome in 1957. List only the answers, separated by a comma.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Belgium, France, West Germany, Italy, Luxembourg",
+  "time_s": 13.3
+ },
+ {
+  "tag": "T8-main-verify-belgium",
+  "prompt": "Is \"Belgium\" a founding member country of the European Community that signed the Treaty of Rome in 1957? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, Belgium was not a founding member of the European Community. It joined in 1958 as one of the founding members.",
+  "time_s": 15.3
+ },
+ {
+  "tag": "T8-main-verify-france",
+  "prompt": "Is \"France\" a founding member country of the European Community that signed the Treaty of Rome in 1957? Answer with Yes or No first, then a brief reason in one short sentence.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "No, France was not a founding member country of the European Community. It joined in 1958 as one of the founding members.",
+  "time_s": 16.1
+ }
+]

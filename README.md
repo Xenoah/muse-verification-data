@@ -40,6 +40,7 @@ note の連載「論文メモ」（AI論文解説、xenoah_memo）と「自律�
 | 2026-11-22 | Gao et al. 2022, PAL: Program-Aided Language Models (arXiv:2211.10435) | https://note.com/xenoah_memo/n/n0077ff923cb7 |
 | 2026-11-23 | Wang et al. 2023, Plan-and-Solve Prompting (arXiv:2305.04091) | https://note.com/xenoah_memo/n/ncaf57e8faf11 |
 | 2026-11-24 | Zhou et al. 2023, Least-to-Most Prompting (arXiv:2205.10625) | https://note.com/xenoah_memo/n/nc520f8816fbb |
+| 2026-11-25 | Dhuliawala et al. 2023, Chain-of-Verification (arXiv:2309.11495) | https://note.com/xenoah_memo/n/n652d78a447bd |
 
 新しい記事の検証は、公開に合わせて順次追加されます。
 
