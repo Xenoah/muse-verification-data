@@ -1,0 +1,53 @@
+T1 A correct extracted 14.0 fmt True gold 14
+T1 B correct extracted 14.0 fmt True gold 14
+T2 A correct extracted 56.0 fmt True gold 56
+T2 B correct extracted 56.0 fmt True gold 56
+T3 A correct extracted 31.0 fmt True gold 31
+T3 B correct extracted 31.0 fmt True gold 31
+T4 A correct extracted 90.0 fmt True gold 90
+T4 B correct extracted 90.0 fmt True gold 90
+T5 A correct extracted 280.0 fmt True gold 280
+T5 B correct extracted 280.0 fmt True gold 280
+T6 A correct extracted 110.0 fmt True gold 110
+T6 B correct extracted 110.0 fmt True gold 110
+T7 A correct extracted 12.0 fmt True gold 12
+T7 B WRONG extracted 13.0 fmt True gold 12
+T8 A correct extracted 87.0 fmt True gold 87
+T8 B correct extracted 87.0 fmt True gold 87
+T9 A correct extracted 36.0 fmt True gold 36
+T9 B correct extracted 36.0 fmt True gold 36
+T10 A correct extracted 17.0 fmt True gold 17
+T10 B correct extracted 17.0 fmt True gold 17
+T11 A correct extracted 72.0 fmt True gold 72
+T11 B correct extracted 72.0 fmt True gold 72
+T12 A correct extracted 90.0 fmt True gold 90
+T12 B correct extracted 90.0 fmt True gold 90
+T3 stab 0 A correct
+T3 stab 0 B correct
+T3 stab 1 A correct
+T3 stab 1 B correct
+T10 stab 0 A correct
+T10 stab 0 B correct
+T10 stab 1 A correct
+T10 stab 1 B correct
+T3 sens 0 A correct
+T3 sens 0 B correct
+T3 sens 1 A correct
+T3 sens 1 B correct
+T3 sens 2 A correct
+T3 sens 2 B correct
+T3 sens 3 A WRONG
+T3 sens 3 B correct
+T3 sens 4 A correct
+T3 sens 4 B correct
+T10 sens 0 A correct
+T10 sens 0 B correct
+T10 sens 1 A correct
+T10 sens 1 B correct
+T10 sens 2 A correct
+T10 sens 2 B correct
+T10 sens 3 A correct
+T10 sens 3 B correct
+T10 sens 4 A correct
+T10 sens 4 B correct
+SUMMARY main A 12/12 B 11/12

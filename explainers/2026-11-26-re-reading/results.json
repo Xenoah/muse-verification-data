@@ -1,0 +1,694 @@
+{
+ "tasks": [
+  {
+   "id": "T1",
+   "question": "A baker makes 8 trays with 12 rolls on each tray. He sells 57 rolls in the morning and 25 rolls in the afternoon. A sign in the shop says the shop opened in 1998. How many rolls are left?",
+   "gold": 14
+  },
+  {
+   "id": "T2",
+   "question": "Mina has 5 boxes with 9 pencils in each box. She gives 7 pencils to her brother and then buys 2 more boxes of 9 pencils. Her brother is 11 years old. How many pencils does Mina have now?",
+   "gold": 56
+  },
+  {
+   "id": "T3",
+   "question": "A bus has 48 seats and starts its route completely full. At the first stop, 13 passengers get off and 9 get on. At the second stop, 17 passengers get off and 4 get on. The bus route is 22 kilometers long. How many passengers are on the bus now?",
+   "gold": 31
+  },
+  {
+   "id": "T4",
+   "question": "Ken is reading a 240-page book. He reads 35 pages on Monday and 45 pages on Tuesday. On Wednesday he reads twice as many pages as on Monday. His sister is reading a different book with 180 pages. How many pages does Ken have left to read?",
+   "gold": 90
+  },
+  {
+   "id": "T5",
+   "question": "A shop sells notebooks for 120 yen each. Saki buys 6 notebooks and pays with a 1000 yen bill. The shop also sells pens for 80 yen each, but Saki does not buy any pens. How much change does Saki get in yen?",
+   "gold": 280
+  },
+  {
+   "id": "T6",
+   "question": "A library has 7 shelves with 14 books on each shelf. One day, 23 books are borrowed. The next day, 5 new books are added to each shelf. The library has 3 floors. How many books are on the shelves now?",
+   "gold": 110
+  },
+  {
+   "id": "T7",
+   "question": "A farmer collects 126 eggs. He packs all of them into boxes that hold 6 eggs each. He sells 9 boxes. A spare empty box costs 30 yen. How many boxes does the farmer keep?",
+   "gold": 12
+  },
+  {
+   "id": "T8",
+   "question": "Yuki scored 18 points in her first game, 24 points in her second game, and 30 points in her third game. Her team had set a target of 100 points for the season. In her fourth game, she scores half as many points as in her third game. How many points has Yuki scored in total across the four games?",
+   "gold": 87
+  },
+  {
+   "id": "T9",
+   "question": "A rope is 96 meters long. It is cut into 8 equal pieces. A project uses 3 whole pieces. The rope was bought 5 years ago. How many meters of rope are used for the project?",
+   "gold": 36
+  },
+  {
+   "id": "T10",
+   "question": "Tom has 4 bags of marbles with 15 marbles in each bag. He loses 9 marbles. Then he splits all the remaining marbles equally into 3 jars. His friend has 20 marbles. How many marbles are in each jar?",
+   "gold": 17
+  },
+  {
+   "id": "T11",
+   "question": "A parking lot has 9 rows with 16 spaces in each row. In the morning, 57 cars are parked there. In the afternoon, 28 more cars arrive and 13 cars leave. The parking lot is 40 meters wide. How many empty spaces are there in the afternoon?",
+   "gold": 72
+  },
+  {
+   "id": "T12",
+   "question": "Hana bakes 5 batches of cookies with 24 cookies in each batch. She puts all the cookies into bags of 10 cookies each and gives away 3 full bags. Her oven is 10 years old. How many cookies does Hana have left?",
+   "gold": 90
+  }
+ ],
+ "main": [
+  {
+   "task": "T1",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 14,
+   "gen": "To find out how many rolls are left, we need to follow these steps:\n\n1. Calculate the total number of rolls made by the baker.\n2. Subtract the number of rolls sold in the morning and afternoon from the total number of rolls made.\n\nStep 1: Calculate the total number of rolls made.\nThe baker makes 8 trays with 12 rolls on each tray.\nTotal rolls = 8 trays * 12 rolls/tray = 96 rolls\n\nStep 2: Subtract the number of rolls sold.\nThe baker sold 57 rolls in the morning and 25 rolls in the afternoon.\nTotal rolls sold = 57 rolls + 25 rolls = 82 rolls\n\nStep 3: Calculate the number of rolls left.\nRolls left = Total rolls - Total rolls sold\nRolls left = 96 rolls - 82 rolls = 14 rolls\n\nAnswer: 14",
+   "time_s": 87.9,
+   "extracted": 14.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T1",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 14,
+   "gen": "To find out how many rolls are left, we need to follow these steps:\n\n1. Calculate the total number of rolls made by the baker.\n2. Subtract the number of rolls sold in the morning and afternoon from the total number of rolls made.\n\nStep 1: Calculate the total number of rolls made.\nThe baker makes 8 trays with 12 rolls on each tray.\nTotal rolls = 8 trays * 12 rolls/tray = 96 rolls\n\nStep 2: Subtract the number of rolls sold.\nThe baker sold 57 rolls in the morning and 25 rolls in the afternoon.\nTotal rolls sold = 57 rolls + 25 rolls = 82 rolls\n\nStep 3: Calculate the number of rolls left.\nRolls left = Total rolls - Total rolls sold\nRolls left = 96 rolls - 82 rolls = 14 rolls\n\nAnswer: 14",
+   "time_s": 63.7,
+   "extracted": 14.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T2",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 56,
+   "gen": "First, we calculate the total number of pencils Mina initially has:\n5 boxes * 9 pencils/box = 45 pencils\n\nNext, we subtract the 7 pencils she gave to her brother:\n45 pencils - 7 pencils = 38 pencils\n\nThen, we add the 2 boxes she buys:\n2 boxes * 9 pencils/box = 18 pencils\n\nFinally, we add the pencils she has after giving some to her brother:\n38 pencils + 18 pencils = 56 pencils\n\nAnswer: 56",
+   "time_s": 42.7,
+   "extracted": 56.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T2",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 56,
+   "gen": "Let's break down the problem step by step:\n\n1. Mina initially has 5 boxes with 9 pencils in each box.\n   - Total pencils initially: \\( 5 \\times 9 = 45 \\)\n\n2. Mina gives 7 pencils to her brother.\n   - Pencils left after giving: \\( 45 - 7 = 38 \\)\n\n3. Mina buys 2 more boxes of 9 pencils.\n   - Pencils added: \\( 2 \\times 9 = 18 \\)\n\n4. Total pencils now: \\( 38 + 18 = 56 \\)\n\nAnswer: 56",
+   "time_s": 50.6,
+   "extracted": 56.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers**: The bus starts with 48 seats, so there are 48 passengers on the bus.\n\n2. **First stop**:\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - Number of passengers now: \\(48 - 13 + 9 = 44\\)\n\n3. **Second stop**:\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - Number of passengers now: \\(44 - 17 + 4 = 31\\)\n\nSo, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 51.2,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers on the bus**: 48 (since the bus starts its route completely full).\n\n2. **First stop**:\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - New number of passengers: \\(48 - 13 + 9 = 44\\).\n\n3. **Second stop**:\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - New number of passengers: \\(44 - 17 + 4 = 31\\).\n\nSo, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 56.2,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T4",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 90,
+   "gen": "Ken reads 35 pages on Monday and 45 pages on Tuesday, which totals 35 + 45 = 80 pages.\nOn Wednesday, he reads twice as many pages as on Monday, which is 2 * 35 = 70 pages.\nSo in total, Ken has read 80 + 70 = 150 pages.\nThe book has 240 pages, so Ken has 240 - 150 = 90 pages left to read.\n\nAnswer: 90",
+   "time_s": 44.5,
+   "extracted": 90.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T4",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 90,
+   "gen": "First, let's calculate the total number of pages Ken has read so far:\n\n- Monday: 35 pages\n- Tuesday: 45 pages\n- Wednesday: 2 * 35 = 70 pages\n\nTotal pages read by Ken = 35 + 45 + 70 = 150 pages\n\nNow, let's find out how many pages Ken has left to read:\n\nTotal pages in the book = 240 pages\nPages read by Ken = 150 pages\n\nPages left to read = 240 - 150 = 90 pages\n\nAnswer: 90",
+   "time_s": 50.4,
+   "extracted": 90.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T5",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 280,
+   "gen": "To solve this problem, we need to calculate the total cost of the notebooks and then subtract that from the amount Saki paid.\n\n1. Calculate the total cost of the notebooks:\n   - Each notebook costs 120 yen.\n   - Saki buys 6 notebooks.\n   - Total cost of notebooks = 120 yen/notebook × 6 notebooks = 720 yen.\n\n2. Calculate the change Saki gets:\n   - Saki paid with a 1000 yen bill.\n   - Total amount paid = 1000 yen.\n   - Change = Total amount paid - Total cost of notebooks = 1000 yen - 720 yen = 280 yen.\n\nAnswer: 280",
+   "time_s": 48.3,
+   "extracted": 280.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T5",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 280,
+   "gen": "To determine how much change Saki gets, we need to follow these steps:\n\n1. Calculate the total cost of the notebooks.\n2. Subtract the total cost of the notebooks from the amount Saki paid.\n\nStep 1: Calculate the total cost of the notebooks.\nSaki buys 6 notebooks at 120 yen each.\nTotal cost of notebooks = 6 notebooks × 120 yen/notebook = 720 yen\n\nStep 2: Subtract the total cost of the notebooks from the amount Saki paid.\nSaki paid with a 1000 yen bill.\nChange = 1000 yen - 720 yen = 280 yen\n\nAnswer: 280",
+   "time_s": 51.5,
+   "extracted": 280.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T6",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 110,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of books on the shelves:**\n   - There are 7 shelves.\n   - Each shelf has 14 books.\n   - Total books initially = 7 shelves * 14 books per shelf = 98 books.\n\n2. **Books borrowed:**\n   - 23 books are borrowed.\n   - Books remaining after borrowing = 98 books - 23 books = 75 books.\n\n3. **Books added to each shelf:**\n   - 5 new books are added to each shelf.\n   - Total books added = 5 books per shelf * 7 shelves = 35 books.\n\n4. **Total books on the shelves now:**\n   - Books remaining after borrowing + Books added = 75 books + 35 books = 110 books.\n\nAnswer: 110 books.",
+   "time_s": 55.8,
+   "extracted": 110.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T6",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 110,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of books on the shelves:**\n   - There are 7 shelves.\n   - Each shelf has 14 books.\n   - Total books initially = 7 shelves * 14 books per shelf = 98 books.\n\n2. **Books borrowed:**\n   - 23 books are borrowed.\n   - Books remaining after borrowing = 98 books - 23 books = 75 books.\n\n3. **Books added to each shelf:**\n   - 5 new books are added to each shelf.\n   - Total books added = 5 books per shelf * 7 shelves = 35 books.\n\n4. **Total number of books on the shelves now:**\n   - Books remaining after borrowing + Books added = 75 books + 35 books = 110 books.\n\nAnswer: 110 books.",
+   "time_s": 64.4,
+   "extracted": 110.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T7",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 12,
+   "gen": "Step 1: Calculate the total number of boxes the farmer initially packed.\nTotal eggs = 126\nEggs per box = 6\nTotal boxes = Total eggs / Eggs per box\nTotal boxes = 126 / 6 = 21 boxes\n\nStep 2: Determine how many boxes were sold.\nBoxes sold = 9\n\nStep 3: Calculate the number of boxes left.\nBoxes left = Total boxes - Boxes sold\nBoxes left = 21 - 9 = 12 boxes\n\nStep 4: Calculate the cost of the spare empty boxes.\nCost per empty box = 30 yen\nNumber of empty boxes = 12\n\nStep 5: Calculate the total cost of the empty boxes.\nTotal cost = Cost per empty box * Number of empty boxes\nTotal cost = 30 * 12 = 360 yen\n\nAnswer: 12 boxes",
+   "time_s": 61.6,
+   "extracted": 12.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T7",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 12,
+   "gen": "To solve this problem, let's break it down step by step:\n\n1. The farmer collects 126 eggs and packs them into boxes that hold 6 eggs each.\n   - Number of boxes needed = 126 eggs / 6 eggs per box = 21 boxes\n\n2. The farmer sells 9 boxes.\n   - Number of boxes left = 21 boxes - 9 boxes = 12 boxes\n\n3. The cost of a spare empty box is 30 yen.\n   - Since the farmer has 12 boxes left, he will need to buy 1 spare empty box.\n   - Cost of 1 spare empty box = 30 yen\n\n4. The farmer keeps the 12 boxes he has left and the 1 spare empty box he bought.\n   - Total number of boxes the farmer keeps = 12 boxes + 1 spare empty box = 13 boxes\n\nAnswer: 13 boxes",
+   "time_s": 60.7,
+   "extracted": 13.0,
+   "format_ok": true,
+   "correct": false
+  },
+  {
+   "task": "T8",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 87,
+   "gen": "Let's break it down step by step:\n\n1. Yuki's points in the first game: 18 points\n2. Yuki's points in the second game: 24 points\n3. Yuki's points in the third game: 30 points\n4. Yuki's points in the fourth game: Half of the third game's points, which is 30 / 2 = 15 points\n\nNow, let's add up all the points:\n\n18 (first game) + 24 (second game) + 30 (third game) + 15 (fourth game) = 87 points\n\nAnswer: 87",
+   "time_s": 47.2,
+   "extracted": 87.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T8",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 87,
+   "gen": "First, let's calculate the points Yuki scored in her fourth game. Since she scored half as many points as in her third game, we can calculate it as follows:\n\nPoints in fourth game = Points in third game / 2\nPoints in fourth game = 30 / 2\nPoints in fourth game = 15\n\nNow, let's add up the points from all four games:\n\nPoints in first game = 18\nPoints in second game = 24\nPoints in third game = 30\nPoints in fourth game = 15\n\nTotal points = 18 + 24 + 30 + 15\nTotal points = 87\n\nAnswer: 87",
+   "time_s": 57.9,
+   "extracted": 87.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T9",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 36,
+   "gen": "Step 1: Determine the length of each piece of rope.\nTotal length of the rope: 96 meters\nNumber of pieces: 8\nLength of each piece: 96 meters / 8 = 12 meters\n\nStep 2: Calculate the total length of the pieces used for the project.\nNumber of pieces used: 3\nLength of each piece used: 12 meters\nTotal length used: 3 pieces * 12 meters = 36 meters\n\nAnswer: 36 meters",
+   "time_s": 40.4,
+   "extracted": 36.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T9",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 36,
+   "gen": "To solve this problem, we need to follow these steps:\n\n1. Determine the length of each piece of rope after cutting the 96-meter rope into 8 equal pieces.\n2. Calculate the total length of the 3 pieces used for the project.\n3. Provide the final answer.\n\nStep 1: Length of each piece\n96 meters / 8 pieces = 12 meters per piece\n\nStep 2: Total length of 3 pieces\n3 pieces * 12 meters per piece = 36 meters\n\nAnswer: 36 meters",
+   "time_s": 45.5,
+   "extracted": 36.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially had.\nTom has 4 bags with 15 marbles in each bag.\nTotal marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom lost.\nTom lost 9 marbles.\nRemaining marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Split the remaining marbles equally into 3 jars.\nMarbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\nStep 4: Compare the number of marbles in each jar to the number of marbles Tom's friend has.\nTom's friend has 20 marbles.\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 63.6,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially had.\nTom has 4 bags with 15 marbles each.\nTotal marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom lost.\nTom lost 9 marbles.\nRemaining marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Split the remaining marbles equally into 3 jars.\nMarbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 50.0,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T11",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 72,
+   "gen": "To determine the number of empty spaces in the parking lot in the afternoon, we need to follow these steps:\n\n1. Calculate the total number of spaces in the parking lot.\n2. Determine the number of cars parked in the morning.\n3. Determine the number of cars parked in the afternoon.\n4. Calculate the number of empty spaces in the afternoon.\n\nStep 1: Calculate the total number of spaces in the parking lot.\nThe parking lot has 9 rows with 16 spaces in each row.\nTotal number of spaces = 9 rows * 16 spaces/row = 144 spaces\n\nStep 2: Determine the number of cars parked in the morning.\nIn the morning, 57 cars are parked.\n\nStep 3: Determine the number of cars parked in the afternoon.\nIn the afternoon, 28 more cars arrive and 13 cars leave.\nTotal number of cars parked in the afternoon = 57 cars + 28 cars - 13 cars = 72 cars\n\nStep 4: Calculate the number of empty spaces in the afternoon.\nTotal number of spaces = 144 spaces\nNumber of cars parked in the afternoon = 72 cars\nNumber of empty spaces in the afternoon = 144 spaces - 72 cars = 72 spaces\n\nAnswer: 72",
+   "time_s": 90.0,
+   "extracted": 72.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T11",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 72,
+   "gen": "To determine the number of empty spaces in the parking lot in the afternoon, we need to follow these steps:\n\n1. Calculate the total number of spaces in the parking lot.\n2. Determine the number of cars parked in the morning.\n3. Add the number of cars that arrive in the afternoon.\n4. Subtract the number of cars that leave in the afternoon.\n5. Subtract the total number of parked cars from the total number of spaces to find the number of empty spaces.\n\nLet's go through each step:\n\n1. The total number of spaces in the parking lot is:\n   \\[\n   9 \\text{ rows} \\times 16 \\text{ spaces per row} = 144 \\text{ spaces}\n   \\]\n\n2. The number of cars parked in the morning is 57.\n\n3. In the afternoon, 28 more cars arrive, and 13 cars leave. So the net increase in the number of parked cars is:\n   \\[\n   28 - 13 = 15 \\text{ cars}\n   \\]\n\n4. The total number of parked cars in the afternoon is:\n   \\[\n   57 + 15 = 72 \\text{ cars}\n   \\]\n\n5. The number of empty spaces in the afternoon is:\n   \\[\n   144 - 72 = 72 \\text{ empty spaces}\n   \\]\n\nAnswer: 72",
+   "time_s": 94.2,
+   "extracted": 72.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T12",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 90,
+   "gen": "Step 1: Calculate the total number of cookies baked.\nHana bakes 5 batches of cookies with 24 cookies in each batch.\nTotal cookies = 5 batches * 24 cookies/batch = 120 cookies\n\nStep 2: Calculate the number of cookies in the full bags given away.\nShe gives away 3 full bags of 10 cookies each.\nCookies given away = 3 bags * 10 cookies/bag = 30 cookies\n\nStep 3: Calculate the number of cookies left.\nCookies left = Total cookies - Cookies given away\nCookies left = 120 cookies - 30 cookies = 90 cookies\n\nAnswer: 90",
+   "time_s": 47.3,
+   "extracted": 90.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T12",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 90,
+   "gen": "First, we calculate the total number of cookies baked:\n\\[ 5 \\text{ batches} \\times 24 \\text{ cookies per batch} = 120 \\text{ cookies} \\]\n\nNext, we determine how many cookies are in the 3 full bags:\n\\[ 3 \\text{ bags} \\times 10 \\text{ cookies per bag} = 30 \\text{ cookies} \\]\n\nNow, we subtract the number of cookies given away from the total number of cookies:\n\\[ 120 \\text{ cookies} - 30 \\text{ cookies} = 90 \\text{ cookies} \\]\n\nTherefore, the number of cookies Hana has left is:\nAnswer: 90",
+   "time_s": 57.6,
+   "extracted": 90.0,
+   "format_ok": true,
+   "correct": true
+  }
+ ],
+ "stability": [
+  {
+   "task": "T3",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers**: The bus starts with 48 seats, so there are 48 passengers on the bus.\n\n2. **First stop**:\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - Number of passengers now: \\(48 - 13 + 9 = 44\\)\n\n3. **Second stop**:\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - Number of passengers now: \\(44 - 17 + 4 = 31\\)\n\nSo, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 48.2,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers on the bus**: 48 (since the bus starts its route completely full).\n\n2. **First stop**:\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - New number of passengers: \\(48 - 13 + 9 = 44\\).\n\n3. **Second stop**:\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - New number of passengers: \\(44 - 17 + 4 = 31\\).\n\nSo, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 55.6,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers**: The bus starts with 48 seats, so there are 48 passengers on the bus.\n\n2. **First stop**:\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - Number of passengers now: \\(48 - 13 + 9 = 44\\)\n\n3. **Second stop**:\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - Number of passengers now: \\(44 - 17 + 4 = 31\\)\n\nSo, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 61.9,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers on the bus**: 48 (since the bus starts its route completely full).\n\n2. **First stop**:\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - New number of passengers: \\(48 - 13 + 9 = 44\\).\n\n3. **Second stop**:\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - New number of passengers: \\(44 - 17 + 4 = 31\\).\n\nSo, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 57.4,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially had.\nTom has 4 bags with 15 marbles in each bag.\nTotal marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom lost.\nTom lost 9 marbles.\nRemaining marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Split the remaining marbles equally into 3 jars.\nMarbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\nStep 4: Compare the number of marbles in each jar to the number of marbles Tom's friend has.\nTom's friend has 20 marbles.\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 58.7,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially had.\nTom has 4 bags with 15 marbles each.\nTotal marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom lost.\nTom lost 9 marbles.\nRemaining marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Split the remaining marbles equally into 3 jars.\nMarbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 62.6,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "A",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially had.\nTom has 4 bags with 15 marbles in each bag.\nTotal marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom lost.\nTom lost 9 marbles.\nRemaining marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Split the remaining marbles equally into 3 jars.\nMarbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\nStep 4: Compare the number of marbles in each jar to the number of marbles Tom's friend has.\nTom's friend has 20 marbles.\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 55.5,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "B",
+   "temp": 0.0,
+   "seed": 42,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially had.\nTom has 4 bags with 15 marbles each.\nTotal marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom lost.\nTom lost 9 marbles.\nRemaining marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Split the remaining marbles equally into 3 jars.\nMarbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 48.6,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  }
+ ],
+ "sensitivity": [
+  {
+   "task": "T3",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 100,
+   "gold": 31,
+   "gen": "To determine the number of passengers on the bus now, we need to follow the changes in the number of passengers step by step.\n\n1. **Initial number of passengers:**\n   - The bus starts completely full, so there are 48 passengers.\n\n2. **After the first stop:**\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - Number of passengers left: \\(48 - 13 + 9 = 44\\).\n\n3. **After the second stop:**\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - Number of passengers left: \\(44 - 17 + 4 = 31\\).\n\nSo, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 50.6,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 100,
+   "gold": 31,
+   "gen": "To determine the number of passengers on the bus now, we need to follow the changes at each stop and adjust for the number of seats available.\n\n1. **Initial full bus:**\n   - Seats: 48\n   - Passengers: 48\n\n2. **First stop:**\n   - Passengers get off: 13\n   - Passengers get on: 9\n   - Total change: 9 - 13 = -4 passengers\n   - New passengers: 48 - 4 = 44\n\n3. **Second stop:**\n   - Passengers get off: 17\n   - Passengers get on: 4\n   - Total change: 4 - 17 = -13 passengers\n   - New passengers: 44 - 13 = 31\n\nSo, the number of passengers on the bus now is 31.\n\nAnswer: 31",
+   "time_s": 69.9,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 101,
+   "gold": 31,
+   "gen": "Let's calculate the number of passengers on the bus step by step:\n\n1. **Initial number of passengers:**\n   - The bus starts with 48 seats and is completely full.\n   - So, initially, there are 48 passengers on the bus.\n\n2. **After the first stop:**\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - The number of passengers now is \\( 48 - 13 + 9 = 44 \\).\n\n3. **After the second stop:**\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - The number of passengers now is \\( 44 - 17 + 4 = 31 \\).\n\nTherefore, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 59.2,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 101,
+   "gold": 31,
+   "gen": "Let's start by calculating the number of passengers on the bus after each stop.\n\n**First Stop:**\n- Initially, the bus has 48 passengers.\n- 13 passengers get off: \\(48 - 13 = 35\\)\n- 9 passengers get on: \\(35 + 9 = 44\\)\n\n**Second Stop:**\n- The bus now has 44 passengers.\n- 17 passengers get off: \\(44 - 17 = 27\\)\n- 4 passengers get on: \\(27 + 4 = 31\\)\n\n**Final Calculation:**\n- The bus route is 22 kilometers long, which is not relevant to the number of passengers on the bus.\n- The number of passengers on the bus after the second stop is 31.\n\nAnswer: 31",
+   "time_s": 61.3,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 102,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers**: 48 (since the bus starts its route completely full).\n2. **First stop**: 13 passengers get off, and 9 passengers get on. So, the number of passengers now is:\n   \\[\n   48 - 13 + 9 = 42\n   \\]\n3. **Second stop**: 17 passengers get off, and 4 passengers get on. So, the number of passengers now is:\n   \\[\n   42 - 17 + 4 = 31\n   \\]\n\nTherefore, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 40.4,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 102,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers on the bus:**\n   - The bus starts completely full, so there are 48 passengers on the bus.\n\n2. **After the first stop:**\n   - 13 passengers get off the bus.\n   - 9 passengers get on the bus.\n   - Calculate the number of passengers on the bus after the first stop:\n     \\[\n     48 - 13 + 9 = 44\n     \\]\n\n3. **After the second stop:**\n   - 17 passengers get off the bus.\n   - 4 passengers get on the bus.\n   - Calculate the number of passengers on the bus after the second stop:\n     \\[\n     44 - 17 + 4 = 31\n     \\]\n\nTherefore, the number of passengers on the bus now is 31.",
+   "time_s": 50.9,
+   "extracted": 31.0,
+   "format_ok": false,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 103,
+   "gold": 31,
+   "gen": "Let's break it down step by step:\n\n1. **Initial Full State**: The bus has 48 seats and is completely full. So initially, there are 48 passengers on the bus.\n\n2. **First Stop**: At the first stop, 13 passengers get off, and 9 passengers get on. \n   - Initial: 48 passengers\n   - After first stop: 48 - 13 + 9 = 44 + 9 = 53 passengers\n\n3. **Second Stop**: At the second stop, 17 passengers get off, and 4 passengers get on.\n   - After second stop: 53 - 17 + 4 = 36 + 4 = 40 passengers\n\nSo, the final number of passengers on the bus is **40**.",
+   "time_s": 50.4,
+   "extracted": 40.0,
+   "format_ok": false,
+   "correct": false
+  },
+  {
+   "task": "T3",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 103,
+   "gold": 31,
+   "gen": "Let's break it down step by step:\n\n1. Initially, the bus is full, so there are 48 passengers on the bus.\n2. At the first stop:\n   - 13 passengers get off\n   - 9 passengers get on\n   - New total: \\(48 - 13 + 9 = 44\\)\n3. At the second stop:\n   - 17 passengers get off\n   - 4 passengers get on\n   - New total: \\(44 - 17 + 4 = 31\\)\n\nFinal answer: 31 passengers are on the bus now.",
+   "time_s": 43.9,
+   "extracted": 31.0,
+   "format_ok": false,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 104,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers**: The bus starts with 48 seats, so there are 48 passengers on the bus initially.\n\n2. **After the first stop**:\n   - 13 passengers get off: \\( 48 - 13 = 35 \\) passengers remain on the bus.\n   - 9 passengers get on: \\( 35 + 9 = 44 \\) passengers are now on the bus.\n\n3. **After the second stop**:\n   - 17 passengers get off: \\( 44 - 17 = 27 \\) passengers remain on the bus.\n   - 4 passengers get on: \\( 27 + 4 = 31 \\) passengers are now on the bus.\n\nSo, the final number of passengers on the bus is 31.\n\nAnswer: 31",
+   "time_s": 56.4,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T3",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 104,
+   "gold": 31,
+   "gen": "Let's break down the problem step by step:\n\n1. **Initial number of passengers on the bus**: 48 (since the bus starts its route completely full).\n\n2. **After the first stop**:\n   - 13 passengers get off.\n   - 9 passengers get on.\n   - New total: \\( 48 - 13 + 9 = 44 \\).\n\n3. **After the second stop**:\n   - 17 passengers get off.\n   - 4 passengers get on.\n   - New total: \\( 44 - 17 + 4 = 31 \\).\n\nSo, the final number of passengers on the bus is **31**. Answer: 31.",
+   "time_s": 43.1,
+   "extracted": 31.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 100,
+   "gold": 17,
+   "gen": "Let's break down the problem step by step:\n\n1. Tom has 4 bags of marbles with 15 marbles in each bag.\n   Total marbles = 4 bags * 15 marbles/bag = 60 marbles\n\n2. Tom loses 9 marbles.\n   Remaining marbles = 60 marbles - 9 marbles = 51 marbles\n\n3. Tom splits the remaining marbles equally into 3 jars.\n   Marbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\n4. Tom's friend has 20 marbles.\n\nAnswer: 17 marbles/jar",
+   "time_s": 38.6,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 100,
+   "gold": 17,
+   "gen": "To solve this problem, let's break it down step by step:\n\n1. Tom starts with 4 bags of marbles, each containing 15 marbles.\n   Total marbles initially = 4 bags × 15 marbles/bag = 60 marbles\n\n2. Tom loses 9 marbles:\n   Remaining marbles = 60 marbles - 9 marbles = 51 marbles\n\n3. Tom splits the remaining marbles equally into 3 jars:\n   Marbles per jar = 51 marbles ÷ 3 jars = 17 marbles/jar\n\n4. Tom's friend has 20 marbles.\n\nFinal step: We need to find the number of marbles in each jar.\n\nAnswer: 17 marbles/jar",
+   "time_s": 43.0,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 101,
+   "gold": 17,
+   "gen": "Let's solve this step by step:\n\n1. Tom initially has 4 bags of 15 marbles each:\n   \\( 4 \\times 15 = 60 \\) marbles\n\n2. Tom loses 9 marbles:\n   \\( 60 - 9 = 51 \\) marbles\n\n3. Tom splits the remaining 51 marbles equally into 3 jars:\n   \\( 51 \\div 3 = 17 \\) marbles per jar\n\nSo the answer is: Answer: 17",
+   "time_s": 32.2,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 101,
+   "gold": 17,
+   "gen": "Let's break down the problem step by step:\n\n1. Tom has 4 bags with 15 marbles each.\n   Total marbles Tom initially has = 4 bags * 15 marbles/bag = 60 marbles\n\n2. Tom loses 9 marbles.\n   Marbles left after losing = 60 marbles - 9 marbles = 51 marbles\n\n3. Tom splits the remaining 51 marbles equally into 3 jars.\n   Marbles in each jar = 51 marbles / 3 jars = 17 marbles/jar\n\n4. Tom's friend has 20 marbles.\n\n5. Since we are asked for the number of marbles in each jar, the answer is 17 marbles per jar.\n\nAnswer: 17",
+   "time_s": 42.0,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 102,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially had.\nTom has 4 bags with 15 marbles in each bag.\nTotal marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom lost.\nTom lost 9 marbles.\nRemaining marbles = Total marbles - Lost marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Divide the remaining marbles equally into 3 jars.\nNumber of marbles in each jar = Remaining marbles / Number of jars = 51 marbles / 3 jars = 17 marbles/jar\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 40.3,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 102,
+   "gold": 17,
+   "gen": "Let's break down the problem step by step:\n\n1. Tom has 4 bags of marbles with 15 marbles in each bag.\n   Total marbles = 4 bags * 15 marbles/bag = 60 marbles\n\n2. Tom loses 9 marbles.\n   Remaining marbles = 60 marbles - 9 marbles = 51 marbles\n\n3. Tom splits the remaining marbles equally into 3 jars.\n   Marbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\n4. Tom's friend has 20 marbles.\n\n5. We are asked to find out how many marbles are in each jar.\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 49.9,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 103,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially has.\nTom has 4 bags with 15 marbles in each bag. So, the total number of marbles is:\n4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom loses.\nTom loses 9 marbles, so the remaining number of marbles is:\n60 marbles - 9 marbles = 51 marbles\n\nStep 3: Split the remaining marbles into 3 jars.\nTom splits the remaining marbles equally into 3 jars, so each jar contains:\n51 marbles / 3 jars = 17 marbles per jar\n\nStep 4: Determine the number of marbles Tom's friend has.\nTom's friend has 20 marbles.\n\nStep 5: Calculate the number of marbles in each jar.\nThe question asks for the number of marbles in each jar, which we have already calculated as 17 marbles per jar.\n\nAnswer: 17",
+   "time_s": 56.0,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 103,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially has.\n4 bags × 15 marbles/bag = 60 marbles\n\nStep 2: Tom loses 9 marbles.\n60 marbles - 9 marbles = 51 marbles remaining\n\nStep 3: Tom splits the remaining marbles equally into 3 jars.\n51 marbles ÷ 3 jars = 17 marbles/jar\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 39.9,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "A",
+   "temp": 0.7,
+   "seed": 104,
+   "gold": 17,
+   "gen": "Step 1: Calculate the total number of marbles Tom initially has.\nTom has 4 bags with 15 marbles in each bag.\nTotal marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Subtract the number of marbles Tom lost.\nTom lost 9 marbles.\nRemaining marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Split the remaining marbles equally into 3 jars.\nEach jar will have 51 marbles / 3 jars = 17 marbles/jar\n\nStep 4: Compare the number of marbles in each jar with the number of marbles Tom's friend has.\nTom's friend has 20 marbles.\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 46.6,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  },
+  {
+   "task": "T10",
+   "cond": "B",
+   "temp": 0.7,
+   "seed": 104,
+   "gold": 17,
+   "gen": "Step 1: Tom starts with 4 bags of marbles with 15 marbles in each bag.\n   Total marbles = 4 bags * 15 marbles/bag = 60 marbles\n\nStep 2: Tom loses 9 marbles.\n   Remaining marbles = 60 marbles - 9 marbles = 51 marbles\n\nStep 3: Tom splits all the remaining marbles equally into 3 jars.\n   Marbles per jar = 51 marbles / 3 jars = 17 marbles/jar\n\nStep 4: His friend has 20 marbles.\n\nAnswer: 17 marbles are in each jar.",
+   "time_s": 53.8,
+   "extracted": 17.0,
+   "format_ok": true,
+   "correct": true
+  }
+ ]
+}
