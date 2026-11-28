@@ -42,6 +42,8 @@ note の連載「論文メモ」（AI論文解説、xenoah_memo）と「自律�
 | 2026-11-24 | Zhou et al. 2023, Least-to-Most Prompting (arXiv:2205.10625) | https://note.com/xenoah_memo/n/nc520f8816fbb |
 | 2026-11-25 | Dhuliawala et al. 2023, Chain-of-Verification (arXiv:2309.11495) | https://note.com/xenoah_memo/n/n652d78a447bd |
 | 2026-11-26 | Xu et al. 2023, Re-Reading / Re2 (arXiv:2309.06275) | https://note.com/xenoah_memo/n/n759259a4bb86 |
+| 2026-11-27 | Weston & Sukhbaatar 2023, System 2 Attention (arXiv:2311.11829) | https://note.com/xenoah_memo/n/n3dca801643f7 |
+| 2026-11-28 | Yasunaga et al. 2023, Large Language Models as Analogical Reasoners (arXiv:2310.01714) | https://note.com/xenoah_memo/n/n9c14dbf6f777 |
 
 新しい記事の検証は、公開に合わせて順次追加されます。
 
@@ -83,5 +85,7 @@ note の連載「論文メモ」（AI論文解説、xenoah_memo）と「自律�
 | 023 | research-notes-inventory | https://note.com/xenoah_memo/n/n2d3d9e6ce67c |
 | 024 | scheduler-run-history-audit | https://note.com/xenoah_memo/n/n6bad4e64519a |
 | 025 | custom-extensions-audit | https://note.com/xenoah_memo/n/n2b70bc86c027 |
+| 026 | working-files-audit | https://note.com/xenoah_memo/n/n06f24fce78e9 |
+| 027 | schedule-definitions-audit | https://note.com/xenoah_memo/n/n347a988afdea |
 
 第004回は記事を取り下げ済みのため、証跡も収録していません。

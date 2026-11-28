@@ -1,0 +1,426 @@
+[
+ {
+  "tag": "T1-main-A",
+  "prompt": "Question: A shop packs 8 apples in each box. Tom buys 3 boxes and also 5 loose apples. How many apples does Tom have in total?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Determine the number of apples in the boxes.\nTom buys 3 boxes, and each box contains 8 apples.\nSo, the number of apples in the boxes is 3 boxes * 8 apples/box = 24 apples.\n\nStep 2: Add the loose apples.\nTom also buys 5 loose apples.\n\nStep 3: Calculate the total number of apples.\nTotal apples = Apples in boxes + Loose apples\nTotal apples = 24 apples + 5 apples = 29 apples\n\nAnswer: 29",
+  "time_s": 64.5
+ },
+ {
+  "tag": "T1-main-B",
+  "prompt": "# Problem: A shop packs 8 apples in each box. Tom buys 3 boxes and also 5 loose apples. How many apples does Tom have in total?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A shop packs 10 apples in each box. If Tom buys 4 boxes and 6 loose apples, how many apples does Tom have in total?\n2. A shop packs 12 apples in each box. If Tom buys 5 boxes and 7 loose apples, how many apples does Tom have in total?\n3. A shop packs 15 apples in each box. If Tom buys 6 boxes and 8 loose apples, how many apples does Tom have in total?\n\n# Solve the initial problem:\nTo solve the initial problem, we need to break it down into smaller parts and then combine the results.\n\n1. Calculate the number of apples in the boxes:\n   - Each box contains 8 apples.\n   - Tom buys 3 boxes.\n   - Therefore, the number of apples in the boxes is \\( 8 \\times 3 = 24 \\).\n\n2. Add the loose apples:\n   - Tom also buys 5 loose apples.\n   - Therefore, the total number of apples is \\( 24 + 5 = 29 \\).\n\nAnswer: 29",
+  "time_s": 76.7
+ },
+ {
+  "tag": "T2-main-A",
+  "prompt": "Question: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the total cost of 6 notebooks.\n6 notebooks * 120 yen/notebook = 720 yen\n\nStep 2: Subtract the total cost from the amount Saki paid.\n1000 yen - 720 yen = 280 yen\n\nAnswer: 280",
+  "time_s": 32.8
+ },
+ {
+  "tag": "T2-main-B",
+  "prompt": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n2. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n3. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n\n# Solve the initial problem:\nTo solve the initial problem, we need to determine the total cost of 6 notebooks and then subtract that from the amount Saki paid.\n\n1. Calculate the total cost of 6 notebooks:\n   \\[\n   \\text{Total cost} = 6 \\times 120 \\text{ yen} = 720 \\text{ yen}\n   \\]\n\n2. Subtract the total cost from the amount Saki paid:\n   \\[\n   \\text{Change} = 1000 \\text{ yen} - 720 \\text{ yen} = 280 \\text{ yen}\n   \\]\n\nTherefore, the change Saki gets is 280 yen.",
+  "time_s": 81.0
+ },
+ {
+  "tag": "T3-main-A",
+  "prompt": "Question: A train travels at 60 kilometers per hour for 2.5 hours. How many kilometers does it travel?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Identify the speed of the train and the time it travels.\nSpeed = 60 kilometers per hour\nTime = 2.5 hours\n\nStep 2: Use the formula for distance, which is:\nDistance = Speed × Time\n\nStep 3: Plug in the values:\nDistance = 60 km/h × 2.5 h\n\nStep 4: Perform the multiplication:\nDistance = 150 kilometers\n\nAnswer: 150 kilometers",
+  "time_s": 42.8
+ },
+ {
+  "tag": "T3-main-B",
+  "prompt": "# Problem: A train travels at 60 kilometers per hour for 2.5 hours. How many kilometers does it travel?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A car travels at 70 kilometers per hour for 3 hours. How many kilometers does it travel?\n2. A plane travels at 800 kilometers per hour for 2 hours. How many kilometers does it travel?\n3. A ship travels at 50 kilometers per hour for 4 hours. How many kilometers does it travel?\n\n# Solve the initial problem:\nTo solve the initial problem, we can use the formula for distance, which is:\n\\[ \\text{Distance} = \\text{Speed} \\times \\text{Time} \\]\n\nGiven:\n- Speed = 60 kilometers per hour\n- Time = 2.5 hours\n\nNow, we can plug these values into the formula:\n\\[ \\text{Distance} = 60 \\, \\text{km/h} \\times 2.5 \\, \\text{hours} \\]\n\nLet's perform the multiplication:\n\\[ \\text{Distance} = 60 \\times 2.5 = 150 \\, \\text{km} \\]\n\nTherefore, the train travels 150 kilometers.",
+  "time_s": 60.3
+ },
+ {
+  "tag": "T4-main-A",
+  "prompt": "Question: Each bottle holds 500 milliliters. There are 24 bottles. How many liters of water is that in total?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Determine the total volume in milliliters.\n24 bottles * 500 milliliters/bottle = 12,000 milliliters\n\nStep 2: Convert milliliters to liters.\n12,000 milliliters / 1000 milliliters/liter = 12 liters\n\nAnswer: 12",
+  "time_s": 21.2
+ },
+ {
+  "tag": "T4-main-B",
+  "prompt": "# Problem: Each bottle holds 500 milliliters. There are 24 bottles. How many liters of water is that in total?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Problem: Each bottle holds 500 milliliters. There are 24 bottles. How many liters of water is that in total?\n\n# Relevant problems:\n1. How many milliliters are in 1 liter?\n   - 1 liter = 1000 milliliters\n\n2. How many milliliters are in 24 bottles?\n   - 24 bottles * 500 milliliters/bottle = 12000 milliliters\n\n3. How many liters are in 12000 milliliters?\n   - 12000 milliliters / 1000 milliliters/liter = 12 liters\n\n# Solve the initial problem:\nEach bottle holds 500 milliliters, and there are 24 bottles. To find the total amount of water in liters, we first convert the total milliliters to liters and then divide by 1000 to get the final answer.\n\nTotal milliliters = 24 bottles * 500 milliliters/bottle = 12000 milliliters\nTotal liters = 12000 milliliters / 1000 milliliters/liter = 12 liters\n\nAnswer: 12 liters",
+  "time_s": 56.4
+ },
+ {
+  "tag": "T5-main-A",
+  "prompt": "Question: A class has 40 students. Three fifths of the students are boys. How many girls are in the class?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Determine the number of boys.\nThree fifths of the students are boys, so we calculate:\n\\[ \\text{Number of boys} = \\frac{3}{5} \\times 40 \\]\n\nStep 2: Calculate the number of boys.\n\\[ \\text{Number of boys} = \\frac{3}{5} \\times 40 = 24 \\]\n\nStep 3: Determine the number of girls.\nSince the total number of students is 40, and 24 of them are boys, the number of girls is:\n\\[ \\text{Number of girls} = 40 - 24 \\]\n\nStep 4: Calculate the number of girls.\n\\[ \\text{Number of girls} = 40 - 24 = 16 \\]\n\nAnswer: 16",
+  "time_s": 43.5
+ },
+ {
+  "tag": "T5-main-B",
+  "prompt": "# Problem: A class has 40 students. Three fifths of the students are boys. How many girls are in the class?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A class has 40 students. Three fifths of the students are boys. How many girls are in the class?\n2. A class has 40 students. Two thirds of the students are boys. How many girls are in the class?\n3. A class has 40 students. One fourth of the students are boys. How many girls are in the class?\n\n# Solve the initial problem:\n1. Let's denote the total number of students as \\( T \\), the number of boys as \\( B \\), and the number of girls as \\( G \\).\n2. According to the problem, \\( T = 40 \\).\n3. Three fifths of the students are boys, so \\( B = \\frac{3}{5} \\times 40 = 24 \\).\n4. The number of girls is the total number of students minus the number of boys, so \\( G = T - B = 40 - 24 = 16 \\).\n\nAnswer: 16",
+  "time_s": 54.7
+ },
+ {
+  "tag": "T6-main-A",
+  "prompt": "Question: A rectangle is 6 cm wide and 9 cm long. What is half of its area in square centimeters?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the area of the rectangle.\nArea = length × width\nArea = 9 cm × 6 cm\nArea = 54 square centimeters\n\nStep 2: Find half of the area.\nHalf of the area = Area / 2\nHalf of the area = 54 square centimeters / 2\nHalf of the area = 27 square centimeters\n\nAnswer: 27",
+  "time_s": 25.8
+ },
+ {
+  "tag": "T6-main-B",
+  "prompt": "# Problem: A rectangle is 6 cm wide and 9 cm long. What is half of its area in square centimeters?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A rectangle is 4 cm wide and 7 cm long. What is half of its area in square centimeters?\n2. A rectangle is 5 cm wide and 8 cm long. What is half of its area in square centimeters?\n3. A rectangle is 3 cm wide and 6 cm long. What is half of its area in square centimeters?\n\n# Solve the initial problem:\n1. The area of the original rectangle is 6 cm * 9 cm = 54 square centimeters.\n2. Half of the area is 54 square centimeters / 2 = 27 square centimeters.\n\nAnswer: 27",
+  "time_s": 36.2
+ },
+ {
+  "tag": "T7-main-A",
+  "prompt": "Question: A jacket costs 2000 yen. It is sold at 15 percent off. How much does it cost in yen after the discount?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Determine the discount amount.\nThe jacket is sold at 15% off, so we need to calculate 15% of 2000 yen.\n15% of 2000 = 0.15 * 2000 = 300 yen\n\nStep 2: Subtract the discount from the original price.\nOriginal price = 2000 yen\nDiscounted price = Original price - Discount amount\nDiscounted price = 2000 - 300 = 1700 yen\n\nAnswer: 1700.",
+  "time_s": 29.0
+ },
+ {
+  "tag": "T7-main-B",
+  "prompt": "# Problem: A jacket costs 2000 yen. It is sold at 15 percent off. How much does it cost in yen after the discount?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A jacket costs 2000 yen. It is sold at 15 percent off. How much does it cost in yen after the discount?\n2. A jacket costs 2000 yen. It is sold at 20 percent off. How much does it cost in yen after the discount?\n3. A jacket costs 2000 yen. It is sold at 25 percent off. How much does it cost in yen after the discount?\n\n# Solve the initial problem:\nTo solve the initial problem, we need to calculate the cost of the jacket after a 15 percent discount. Here are the steps:\n\n1. Calculate the discount amount: 15% of 2000 yen.\n2. Subtract the discount amount from the original price.\n\nLet's do the calculations:\n\n1. Discount amount: \\( 2000 \\times 0.15 = 300 \\) yen.\n2. Final price: \\( 2000 - 300 = 1700 \\) yen.\n\nTherefore, the cost of the jacket after the discount is 1700 yen.",
+  "time_s": 51.8
+ },
+ {
+  "tag": "T8-main-A",
+  "prompt": "Question: There are 126 eggs. They are packed into boxes that hold 6 eggs each, with no eggs left over. How many boxes are needed?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "To find out how many boxes are needed, we can divide the total number of eggs by the number of eggs each box can hold.\n\n126 eggs ÷ 6 eggs/box = 21 boxes\n\nAnswer: 21 boxes",
+  "time_s": 17.7
+ },
+ {
+  "tag": "T8-main-B",
+  "prompt": "# Problem: There are 126 eggs. They are packed into boxes that hold 6 eggs each, with no eggs left over. How many boxes are needed?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A group of 126 friends wants to share 126 candies equally. How many candies will each friend get?\n2. A bakery has 126 cookies and wants to pack them into boxes of 6 cookies each. How many boxes will they need?\n3. A farmer has 126 apples and wants to pack them into boxes of 6 apples each. How many boxes will the farmer need?\n\n# Solve the initial problem:\nTo solve the problem of packing 126 eggs into boxes that hold 6 eggs each, we need to determine how many boxes are required. We can use the division operation to find this out.\n\n1. Divide the total number of eggs by the number of eggs each box can hold:\n   \\[\n   \\frac{126}{6} = 21\n   \\]\n\n2. The result is 21, which means we need 21 boxes to pack all 126 eggs.\n\nAnswer: 21 boxes are needed.",
+  "time_s": 49.0
+ },
+ {
+  "tag": "T9-main-A",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's denote the two consecutive whole numbers as \\( n \\) and \\( n + 1 \\).\n\nAccording to the problem, the sum of these two consecutive whole numbers is 25. So we can write the equation:\n\n\\[ n + (n + 1) = 25 \\]\n\nSimplifying the equation:\n\n\\[ 2n + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\n\\[ 2n = 24 \\]\n\nDivide both sides by 2:\n\n\\[ n = 12 \\]\n\nSo, the smaller number is 12.\n\nAnswer: 12",
+  "time_s": 39.4
+ },
+ {
+  "tag": "T9-main-B",
+  "prompt": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n\n# Relevant problems:\n1. The sum of two consecutive whole numbers is 25. If we let the smaller number be \\( x \\), then the next consecutive whole number is \\( x + 1 \\). The equation becomes:\n   \\[\n   x + (x + 1) = 25\n   \\]\n   Simplifying this, we get:\n   \\[\n   2x + 1 = 25\n   \\]\n   Subtract 1 from both sides:\n   \\[\n   2x = 24\n   \\]\n   Divide by 2:\n   \\[\n   x = 12\n   \\]\n   So, the smaller number is 12.\n\n2. Another way to approach this problem is to recognize that consecutive whole numbers are always one unit apart. If the sum is 25, then the smaller number must be one less than half of 25:\n   \\[\n   \\frac{25}{2} = 12.5\n   \\]\n   Since we are dealing with whole numbers, we round down to the nearest whole number, which is 12.\n\n3. We can also use algebraic expressions to represent the consecutive whole numbers. Let the smaller number be \\( x \\), then the next consecutive whole number is \\( x + 1 \\). The equation is:\n   \\[\n   x + (x + 1) = 25\n   \\]\n   Simplifying:\n   \\[\n   2x + 1 = 25\n   \\]\n   Subtract 1:\n   \\[\n   2x = 24\n   \\]\n   Divide by 2:\n   \\[\n   x = 12\n   \\]\n   So, the smaller number is 12.\n\n# Solve the initial problem:\nThe smaller number is 12.",
+  "time_s": 77.4
+ },
+ {
+  "tag": "T10-main-A",
+  "prompt": "Question: A test is out of 80 points. A student scores 60 points. What percentage of the full score is that?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Identify the full score and the student's score.\n- Full score: 80 points\n- Student's score: 60 points\n\nStep 2: Calculate the percentage of the full score.\n- Percentage = (Student's score / Full score) * 100\n- Percentage = (60 / 80) * 100\n- Percentage = 0.75 * 100\n- Percentage = 75%\n\nAnswer: 75%",
+  "time_s": 29.8
+ },
+ {
+  "tag": "T10-main-B",
+  "prompt": "# Problem: A test is out of 80 points. A student scores 60 points. What percentage of the full score is that?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A student scores 75 points out of 100 on a test. What percentage of the full score is that?\n2. A student scores 40 points out of 50 on a test. What percentage of the full score is that?\n3. A student scores 85 points out of 120 on a test. What percentage of the full score is that?\n\n# Solve the initial problem:\nTo find the percentage of the full score that a student scored, we use the formula:\n\\[ \\text{Percentage} = \\left( \\frac{\\text{Score}}{\\text{Full Score}} \\right) \\times 100 \\]\n\nGiven:\n- Full score = 80 points\n- Score = 60 points\n\nStep-by-step solution:\n1. Divide the score by the full score:\n\\[ \\frac{60}{80} = 0.75 \\]\n\n2. Multiply by 100 to convert to a percentage:\n\\[ 0.75 \\times 100 = 75\\% \\]\n\nFinal answer:\nAnswer: 75%",
+  "time_s": 50.5
+ },
+ {
+  "tag": "T11-main-A",
+  "prompt": "Question: Four test scores are 70, 80, 90, and 60. What is their average?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Add up all the test scores.\n70 + 80 + 90 + 60 = 300\n\nStep 2: Divide the total sum by the number of scores.\n300 / 4 = 75\n\nAnswer: 75",
+  "time_s": 17.1
+ },
+ {
+  "tag": "T11-main-B",
+  "prompt": "# Problem: Four test scores are 70, 80, 90, and 60. What is their average?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. **Average of four numbers**: If you have four numbers, you can find their average by summing them and dividing by 4.\n2. **Sum of four numbers**: To find the sum of four numbers, simply add them together.\n3. **Average of five numbers**: If you have five numbers, you can find their average by summing them and dividing by 5.\n\n# Solve the initial problem:\nTo find the average of the four test scores 70, 80, 90, and 60, we can use the formula for the average of a set of numbers:\n\n\\[\n\\text{Average} = \\frac{\\text{Sum of all numbers}}{\\text{Number of numbers}}\n\\]\n\nFirst, let's find the sum of the test scores:\n\n\\[\n70 + 80 + 90 + 60 = 300\n\\]\n\nNext, we divide the sum by the number of test scores, which is 4:\n\n\\[\n\\text{Average} = \\frac{300}{4} = 75\n\\]\n\nTherefore, the average of the four test scores is 75.",
+  "time_s": 47.2
+ },
+ {
+  "tag": "T12-main-A",
+  "prompt": "Question: A person walks at 4 kilometers per hour for 45 minutes. How many kilometers does the person walk?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Convert the time from minutes to hours.\n45 minutes = 45/60 hours = 0.75 hours\n\nStep 2: Use the formula: Distance = Speed × Time\nDistance = 4 km/h × 0.75 hours = 3 km\n\nAnswer: 3 km",
+  "time_s": 19.3
+ },
+ {
+  "tag": "T12-main-B",
+  "prompt": "# Problem: A person walks at 4 kilometers per hour for 45 minutes. How many kilometers does the person walk?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A person walks at 5 kilometers per hour for 30 minutes. How many kilometers does the person walk?\n2. A person walks at 6 kilometers per hour for 45 minutes. How many kilometers does the person walk?\n3. A person walks at 7 kilometers per hour for 30 minutes. How many kilometers does the person walk?\n\n# Solve the initial problem:\nTo solve the initial problem, we need to convert the time from minutes to hours since the speed is given in kilometers per hour. There are 60 minutes in an hour, so 45 minutes is equal to 45/60 = 0.75 hours.\n\nNow, we can use the formula for distance, which is:\n\\[ \\text{Distance} = \\text{Speed} \\times \\text{Time} \\]\n\nGiven:\n- Speed = 4 kilometers per hour\n- Time = 0.75 hours\n\nSubstitute the values into the formula:\n\\[ \\text{Distance} = 4 \\times 0.75 = 3 \\text{ kilometers} \\]\n\nTherefore, the person walks 3 kilometers.",
+  "time_s": 49.7
+ },
+ {
+  "tag": "T2-stab0-A",
+  "prompt": "Question: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the total cost of 6 notebooks.\n6 notebooks * 120 yen/notebook = 720 yen\n\nStep 2: Subtract the total cost from the amount Saki paid.\n1000 yen - 720 yen = 280 yen\n\nAnswer: 280",
+  "time_s": 26.3
+ },
+ {
+  "tag": "T2-stab0-B",
+  "prompt": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n2. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n3. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n\n# Solve the initial problem:\nTo solve the initial problem, we need to determine the total cost of 6 notebooks and then subtract that from the amount Saki paid.\n\n1. Calculate the total cost of 6 notebooks:\n   \\[\n   \\text{Total cost} = 6 \\times 120 \\text{ yen} = 720 \\text{ yen}\n   \\]\n\n2. Subtract the total cost from the amount Saki paid:\n   \\[\n   \\text{Change} = 1000 \\text{ yen} - 720 \\text{ yen} = 280 \\text{ yen}\n   \\]\n\nTherefore, the change Saki gets is 280 yen.",
+  "time_s": 52.8
+ },
+ {
+  "tag": "T2-stab1-A",
+  "prompt": "Question: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Step 1: Calculate the total cost of 6 notebooks.\n6 notebooks * 120 yen/notebook = 720 yen\n\nStep 2: Subtract the total cost from the amount Saki paid.\n1000 yen - 720 yen = 280 yen\n\nAnswer: 280",
+  "time_s": 20.1
+ },
+ {
+  "tag": "T2-stab1-B",
+  "prompt": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Relevant problems:\n1. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n2. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n3. A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n\n# Solve the initial problem:\nTo solve the initial problem, we need to determine the total cost of 6 notebooks and then subtract that from the amount Saki paid.\n\n1. Calculate the total cost of 6 notebooks:\n   \\[\n   \\text{Total cost} = 6 \\times 120 \\text{ yen} = 720 \\text{ yen}\n   \\]\n\n2. Subtract the total cost from the amount Saki paid:\n   \\[\n   \\text{Change} = 1000 \\text{ yen} - 720 \\text{ yen} = 280 \\text{ yen}\n   \\]\n\nTherefore, the change Saki gets is 280 yen.",
+  "time_s": 52.4
+ },
+ {
+  "tag": "T9-stab0-A",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's denote the two consecutive whole numbers as \\( n \\) and \\( n + 1 \\).\n\nAccording to the problem, the sum of these two consecutive whole numbers is 25. So we can write the equation:\n\n\\[ n + (n + 1) = 25 \\]\n\nSimplifying the equation:\n\n\\[ 2n + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\n\\[ 2n = 24 \\]\n\nDivide both sides by 2:\n\n\\[ n = 12 \\]\n\nSo, the smaller number is 12.\n\nAnswer: 12",
+  "time_s": 26.3
+ },
+ {
+  "tag": "T9-stab0-B",
+  "prompt": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n\n# Relevant problems:\n1. The sum of two consecutive whole numbers is 25. If we let the smaller number be \\( x \\), then the next consecutive whole number is \\( x + 1 \\). The equation becomes:\n   \\[\n   x + (x + 1) = 25\n   \\]\n   Simplifying this, we get:\n   \\[\n   2x + 1 = 25\n   \\]\n   Subtract 1 from both sides:\n   \\[\n   2x = 24\n   \\]\n   Divide by 2:\n   \\[\n   x = 12\n   \\]\n   So, the smaller number is 12.\n\n2. Another way to approach this problem is to recognize that consecutive whole numbers are always one unit apart. If the sum is 25, then the smaller number must be one less than half of 25:\n   \\[\n   \\frac{25}{2} = 12.5\n   \\]\n   Since we are dealing with whole numbers, we round down to the nearest whole number, which is 12.\n\n3. We can also use algebraic expressions to represent the consecutive whole numbers. Let the smaller number be \\( x \\), then the next consecutive whole number is \\( x + 1 \\). The equation is:\n   \\[\n   x + (x + 1) = 25\n   \\]\n   Simplifying:\n   \\[\n   2x + 1 = 25\n   \\]\n   Subtract 1:\n   \\[\n   2x = 24\n   \\]\n   Divide by 2:\n   \\[\n   x = 12\n   \\]\n   So, the smaller number is 12.\n\n# Solve the initial problem:\nThe smaller number is 12.",
+  "time_s": 92.9
+ },
+ {
+  "tag": "T9-stab1-A",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's denote the two consecutive whole numbers as \\( n \\) and \\( n + 1 \\).\n\nAccording to the problem, the sum of these two consecutive whole numbers is 25. So we can write the equation:\n\n\\[ n + (n + 1) = 25 \\]\n\nSimplifying the equation:\n\n\\[ 2n + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\n\\[ 2n = 24 \\]\n\nDivide both sides by 2:\n\n\\[ n = 12 \\]\n\nSo, the smaller number is 12.\n\nAnswer: 12",
+  "time_s": 34.1
+ },
+ {
+  "tag": "T9-stab1-B",
+  "prompt": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n\n# Relevant problems:\n1. The sum of two consecutive whole numbers is 25. If we let the smaller number be \\( x \\), then the next consecutive whole number is \\( x + 1 \\). The equation becomes:\n   \\[\n   x + (x + 1) = 25\n   \\]\n   Simplifying this, we get:\n   \\[\n   2x + 1 = 25\n   \\]\n   Subtract 1 from both sides:\n   \\[\n   2x = 24\n   \\]\n   Divide by 2:\n   \\[\n   x = 12\n   \\]\n   So, the smaller number is 12.\n\n2. Another way to approach this problem is to recognize that consecutive whole numbers are always one unit apart. If the sum is 25, then the smaller number must be one less than half of 25:\n   \\[\n   \\frac{25}{2} = 12.5\n   \\]\n   Since we are dealing with whole numbers, we round down to the nearest whole number, which is 12.\n\n3. We can also use algebraic expressions to represent the consecutive whole numbers. Let the smaller number be \\( x \\), then the next consecutive whole number is \\( x + 1 \\). The equation is:\n   \\[\n   x + (x + 1) = 25\n   \\]\n   Simplifying:\n   \\[\n   2x + 1 = 25\n   \\]\n   Subtract 1:\n   \\[\n   2x = 24\n   \\]\n   Divide by 2:\n   \\[\n   x = 12\n   \\]\n   So, the smaller number is 12.\n\n# Solve the initial problem:\nThe smaller number is 12.",
+  "time_s": 77.6
+ },
+ {
+  "tag": "T2-sens0-A",
+  "prompt": "Question: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "To solve this problem, we need to calculate the total cost of the notebooks Saki bought and then subtract that amount from the amount he paid.\n\n1. The cost of one notebook is 120 yen.\n2. Saki bought 6 notebooks, so the total cost is 120 yen/notebook × 6 notebooks = 720 yen.\n3. Saki paid with a 1000 yen bill.\n4. The change Saki gets is 1000 yen - 720 yen = 280 yen.\n\nAnswer: 280",
+  "time_s": 31.3
+ },
+ {
+  "tag": "T2-sens0-B",
+  "prompt": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "# Relevant problems:\n1. A notebook costs 120 yen. If Saki buys 6 notebooks and pays with a 1000 yen bill, how much change does Saki get in yen?\n2. If Saki buys 6 notebooks and pays with a 1000 yen bill, how many yen will Saki receive as change?\n3. If Saki buys 6 notebooks and pays with a 1000 yen bill, how much does Saki need to pay in yen?\n\n# Solve the initial problem:\nTo solve the initial problem, we need to calculate the total cost of the notebooks and then determine the change Saki receives.\n\n1. **Cost of 6 notebooks**: The cost of one notebook is 120 yen. Therefore, the total cost of 6 notebooks is:\n   \\[\n   6 \\times 120 = 720 \\text{ yen}\n   \\]\n\n2. **Amount Saki pays**: Saki pays with a 1000 yen bill. So, the amount Saki pays is 1000 yen.\n\n3. **Change Saki receives**: To find the change, we subtract the total cost of the notebooks from the amount Saki pays:\n   \\[\n   1000 - 720 = 280 \\text{ yen}\n   \\]\n\nTherefore, the change Saki gets is **280 yen**.",
+  "time_s": 65.9
+ },
+ {
+  "tag": "T2-sens1-A",
+  "prompt": "Question: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Step 1: Calculate the total cost of 6 notebooks.\nCost of 1 notebook = 120 yen\nCost of 6 notebooks = 120 yen/notebook * 6 notebooks = 720 yen\n\nStep 2: Subtract the total cost from the amount paid.\nAmount paid = 1000 yen\nChange = Amount paid - Total cost = 1000 yen - 720 yen = 280 yen\n\nAnswer: 280.",
+  "time_s": 31.0
+ },
+ {
+  "tag": "T2-sens1-B",
+  "prompt": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n\n# Relevant problems:\n1. A notebook costs 120 yen. How much would 6 notebooks cost?\n   - Solution: 6 notebooks x 120 yen/notebook = 720 yen.\n   - Answer: 720 yen\n\n2. Saki pays with a 1000 yen bill. How much change is left?\n   - Solution: 1000 yen - 720 yen = 280 yen.\n   - Answer: 280 yen\n\n3. If Saki buys 6 notebooks and pays with a 1000 yen bill, how much change does Saki get in yen?\n\n# Solve the initial problem:\n- Saki buys 6 notebooks at 120 yen each.\n- Total cost of 6 notebooks = 6 x 120 yen = 720 yen.\n- Saki pays with a 1000 yen bill.\n- Change = 1000 yen - 720 yen = 280 yen.\n\nAnswer: 280 yen",
+  "time_s": 53.9
+ },
+ {
+  "tag": "T2-sens2-A",
+  "prompt": "Question: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Step 1: Calculate the total cost of 6 notebooks.\nCost of one notebook = 120 yen\nNumber of notebooks Saki buys = 6\nTotal cost = 120 yen/notebook * 6 notebooks = 720 yen\n\nStep 2: Calculate the change Saki gets.\nSaki pays with a 1000 yen bill\nChange = 1000 yen - 720 yen = 280 yen\n\nAnswer: 280",
+  "time_s": 27.1
+ },
+ {
+  "tag": "T2-sens2-B",
+  "prompt": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "# Relevant problems:\n1. A notebook costs 120 yen. How much does a notebook cost in dollars if the exchange rate is 100 yen = 1.5 dollars?\n2. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n3. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in dollars?\n\n# Solve the initial problem:\n\nAnswer: 400\n\nExplanation:\n1. First, we determine the cost of 6 notebooks in yen: 6 notebooks * 120 yen/notebook = 720 yen.\n2. Next, we calculate the change in yen: 1000 yen - 720 yen = 280 yen.\n3. Finally, we convert the change from yen to dollars using the exchange rate: 280 yen / 100 yen/dollar = 2.8 dollars.\n\nTherefore, Saki gets 400 yen in change.",
+  "time_s": 49.2
+ },
+ {
+  "tag": "T2-sens3-A",
+  "prompt": "Question: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "Step 1: Calculate the total cost of 6 notebooks.\n120 yen/notebook * 6 notebooks = 720 yen\n\nStep 2: Subtract the total cost from the amount Saki paid.\n1000 yen - 720 yen = 280 yen\n\nAnswer: 280.",
+  "time_s": 21.9
+ },
+ {
+  "tag": "T2-sens3-B",
+  "prompt": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n\n# Relevant problems:\n1. **A pen costs 100 yen. If a customer buys 5 pens and pays with a 1000 yen bill, how much change does the customer get?**\n   - Solution: Change = 1000 yen - (5 pens * 100 yen/pen) = 1000 yen - 500 yen = 500 yen\n   - Final answer: Change = 500 yen\n\n2. **A book costs 200 yen. If a customer buys 4 books and pays with a 1000 yen bill, how much change does the customer get?**\n   - Solution: Change = 1000 yen - (4 books * 200 yen/book) = 1000 yen - 800 yen = 200 yen\n   - Final answer: Change = 200 yen\n\n3. **A jacket costs 500 yen. If a customer buys 3 jackets and pays with a 1000 yen bill, how much change does the customer get?**\n   - Solution: Change = 1000 yen - (3 jackets * 500 yen/jacket) = 1000 yen - 1500 yen = -500 yen\n   - Final answer: Change = -500 yen\n\n# Solve the initial problem:\nNow we use the idea from the third relevant problem, where the customer overpays by buying more items than they intended. In this case, Saki bought 6 notebooks but only paid for 6 notebooks, so there's no extra cost, and the change is zero yen.\n\nAnswer: 0",
+  "time_s": 79.1
+ },
+ {
+  "tag": "T2-sens4-A",
+  "prompt": "Question: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "Step 1: Determine the total cost of 6 notebooks.\nTotal cost = Number of notebooks × Cost per notebook\nTotal cost = 6 × 120 yen = 720 yen\n\nStep 2: Calculate the change from the 1000 yen bill.\nChange = Amount paid - Total cost\nChange = 1000 yen - 720 yen = 280 yen\n\nAnswer: 280",
+  "time_s": 33.5
+ },
+ {
+  "tag": "T2-sens4-B",
+  "prompt": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "# Problem: A notebook costs 120 yen. Saki buys 6 notebooks and pays with a 1000 yen bill. How much change does Saki get in yen?\n\n# Relevant Problems:\n1. **Problem:** If Saki pays with a 1000 yen bill for 6 notebooks and each notebook costs 120 yen, how much change is left?\n   - **Solution:** Total cost of 6 notebooks = 6 * 120 = 720 yen.\n   - **Final Answer:** Change = 1000 - 720 = 280 yen.\n\n2. **Problem:** If Saki pays with a 1000 yen bill for 6 notebooks and each notebook costs 120 yen, how much money does Saki give as change?\n   - **Solution:** Saki gives 280 yen as change.\n   - **Final Answer:** Change = 280 yen.\n\n3. **Problem:** If Saki buys 6 notebooks and pays with a 1000 yen bill, how many yen does Saki get back as change?\n   - **Solution:** Saki gets 280 yen back as change.\n   - **Final Answer:** Change = 280 yen.\n\n# Solve the Initial Problem:\n- Total cost of 6 notebooks = 6 * 120 = 720 yen.\n- Total amount paid = 1000 yen.\n- Change = 1000 - 720 = 280 yen.\n\n**Answer: 280 yen**",
+  "time_s": 79.6
+ },
+ {
+  "tag": "T9-sens0-A",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "Let's denote the two consecutive whole numbers as \\( n \\) and \\( n + 1 \\). According to the problem, their sum is 25. So we can set up the following equation:\n\n\\[ n + (n + 1) = 25 \\]\n\nNow, let's solve this equation step by step:\n\n1. Combine like terms:\n   \\[ 2n + 1 = 25 \\]\n\n2. Subtract 1 from both sides:\n   \\[ 2n = 24 \\]\n\n3. Divide both sides by 2:\n   \\[ n = 12 \\]\n\nSo, the smaller number is \\( n = 12 \\).\n\nAnswer: 12",
+  "time_s": 52.9
+ },
+ {
+  "tag": "T9-sens0-B",
+  "prompt": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 100,
+  "gen": "To solve the problem of finding two consecutive whole numbers that add up to 25, we can use the following steps:\n\n1. Let the smaller number be \\( x \\).\n2. The next consecutive whole number would then be \\( x + 1 \\).\n3. According to the problem, the sum of these two numbers is 25. So, we can write the equation: \n   \\[ x + (x + 1) = 25 \\]\n4. Simplify the equation:\n   \\[ 2x + 1 = 25 \\]\n5. Subtract 1 from both sides of the equation:\n   \\[ 2x = 24 \\]\n6. Divide both sides by 2:\n   \\[ x = 12 \\]\n\nThe smaller number is 12. \n\nAnswer: 12",
+  "time_s": 47.4
+ },
+ {
+  "tag": "T9-sens1-A",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "Let's think step by step:\n\n1. We know that two consecutive whole numbers add up to 25.\n2. Let's call the smaller whole number x.\n3. The next consecutive whole number would be x + 1.\n4. According to the problem, x + (x + 1) = 25.\n5. This simplifies to 2x + 1 = 25.\n6. Subtract 1 from both sides: 2x = 24.\n7. Divide by 2: x = 12.\n8. The smaller number is 12.\n\nAnswer: 12",
+  "time_s": 37.4
+ },
+ {
+  "tag": "T9-sens1-B",
+  "prompt": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 101,
+  "gen": "To solve this problem, let's recall the following relevant problems:\n\n1. **Problem**: Two consecutive whole numbers add up to 25.\n   - **Solution**: Let the smaller number be \\( x \\). The next consecutive whole number is \\( x + 1 \\). According to the problem, \\( x + (x + 1) = 25 \\). Simplifying, we get \\( 2x + 1 = 25 \\). Subtract 1 from both sides to get \\( 2x = 24 \\), and then divide by 2 to get \\( x = 12 \\). So, the smaller number is 12.\n\n2. **Problem**: A number \\( n \\) is twice another number \\( m \\).\n   - **Solution**: Let \\( m \\) be the smaller number. Then the larger number is \\( 2m \\). According to the problem, \\( m + 2m = n \\). Simplifying, we get \\( 3m = n \\). Since \\( m \\) is the smaller number, \\( m \\) must be a whole number. Without additional information, we cannot determine the exact value of \\( m \\) or \\( n \\), but we know that \\( m \\) is the smaller number.\n\n3. **Problem**: The product of two consecutive whole numbers is 180.\n   - **Solution**: Let the smaller number be \\( x \\). The next consecutive whole number is \\( x + 1 \\). According to the problem, \\( x(x + 1) = 180 \\). Simplifying, we get \\( x^2 + x = 180 \\). Rearranging, we get \\( x^2 + x - 180 = 0 \\). Factoring the quadratic equation, we get \\( (x + 15)(x - 12) = 0 \\). So, \\( x = -15 \\) or \\( x = 12 \\). Since \\( x \\) must be a whole number, \\( x = 12 \\) is the smaller number.\n\nNow, solving the initial problem:\n- Let the smaller number be \\( x \\). The next consecutive whole number is \\( x + 1 \\). According to the problem, \\( x + (x + 1) = 25 \\). Simplifying, we get \\( 2x + 1 = 25 \\). Subtract 1 from both sides to get \\( 2x = 24 \\), and then divide by 2 to get \\( x = 12 \\). So, the smaller number is \\( 12 \\).\n\nAnswer: 12",
+  "time_s": 117.6
+ },
+ {
+  "tag": "T9-sens2-A",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "Let's denote the two consecutive whole numbers as \\( x \\) and \\( x + 1 \\).\n\nAccording to the problem, their sum is 25:\n\\[ x + (x + 1) = 25 \\]\n\nCombine like terms:\n\\[ 2x + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\\[ 2x = 24 \\]\n\nDivide both sides by 2:\n\\[ x = 12 \\]\n\nSo, the smaller number is \\( 12 \\).\n\nAnswer: 12",
+  "time_s": 35.1
+ },
+ {
+  "tag": "T9-sens2-B",
+  "prompt": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 102,
+  "gen": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n\n# Relevant problems:\n1. The problem of finding two consecutive whole numbers that add up to a given sum.\n2. The problem of finding the larger number when the sum of two consecutive whole numbers is known.\n3. The problem of finding the smaller number when the larger number is known and the sum of two consecutive whole numbers is given.\n\n# Solve the initial problem:\n\nLet's denote the two consecutive whole numbers as \\( n \\) and \\( n+1 \\).\n\nGiven that they add up to 25, we can set up the following equation:\n\\[ n + (n + 1) = 25 \\]\n\nSimplify the equation:\n\\[ 2n + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\\[ 2n = 24 \\]\n\nDivide by 2:\n\\[ n = 12 \\]\n\nTherefore, the smaller number is \\( 12 \\).\n\nAnswer: 12",
+  "time_s": 46.4
+ },
+ {
+  "tag": "T9-sens3-A",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "Let's denote the two consecutive whole numbers as \\( n \\) and \\( n + 1 \\).\n\nAccording to the problem, the sum of these two consecutive whole numbers is 25. We can set up the following equation:\n\n\\[ n + (n + 1) = 25 \\]\n\nSimplifying this equation:\n\n\\[ 2n + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\n\\[ 2n = 24 \\]\n\nDivide both sides by 2:\n\n\\[ n = 12 \\]\n\nSo the smaller number is 12.\n\nAnswer: 12",
+  "time_s": 36.3
+ },
+ {
+  "tag": "T9-sens3-B",
+  "prompt": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 103,
+  "gen": "# Relevant problems: \n1. Sum of two consecutive odd numbers equals 103.\n2. Sum of two consecutive even numbers equals 98.\n3. Sum of three consecutive integers equals 60.\n\n# Solution to the initial problem:\nWe are given that two consecutive whole numbers add up to 25. Let's denote the smaller whole number as \\( x \\). Then the next consecutive whole number is \\( x + 1 \\). According to the problem, we have:\n\\[ x + (x + 1) = 25 \\]\n\nNow let's solve for \\( x \\):\n\\[ 2x + 1 = 25 \\]\n\\[ 2x = 24 \\]\n\\[ x = 12 \\]\n\nTherefore, the smaller number is \\( 12 \\).\n\nAnswer: 12",
+  "time_s": 47.3
+ },
+ {
+  "tag": "T9-sens4-A",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "Let's denote the smaller whole number as \\( x \\). Since they are consecutive whole numbers, the next whole number would be \\( x + 1 \\).\n\nAccording to the problem, the sum of these two numbers is 25. So we can write the equation:\n\n\\[ x + (x + 1) = 25 \\]\n\nNow, let's simplify and solve for \\( x \\):\n\n\\[ 2x + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\n\\[ 2x = 24 \\]\n\nDivide by 2:\n\n\\[ x = 12 \\]\n\nSo, the smaller number is 12.\n\nAnswer: 12",
+  "time_s": 32.6
+ },
+ {
+  "tag": "T9-sens4-B",
+  "prompt": "# Problem: Two consecutive whole numbers add up to 25. What is the smaller number?\n# Relevant problems: Recall three relevant and distinct problems. For each problem, describe it briefly and explain its solution step by step with its final answer.\n# Solve the initial problem: Now solve the initial problem above, following the ideas from the relevant problems. Give your final answer for the initial problem on the last line in the form 'Answer: <number>'.",
+  "temp": 0.7,
+  "seed": 104,
+  "gen": "# Relevant problems:\n1. **Sum of two consecutive whole numbers:** If the two consecutive whole numbers are \\( n \\) and \\( n+1 \\), their sum is \\( n + (n + 1) = 2n + 1 \\).\n2. **Sum of three consecutive whole numbers:** If the three consecutive whole numbers are \\( n-1, n, n+1 \\), their sum is \\( (n-1) + n + (n+1) = 3n \\).\n3. **Sum of four consecutive whole numbers:** If the four consecutive whole numbers are \\( n-3, n-2, n-1, n \\), their sum is \\( (n-3) + (n-2) + (n-1) + n = 4n - 6 \\).\n\n# Solve the initial problem:\nWe are given that the sum of two consecutive whole numbers is 25. Let's denote the two consecutive whole numbers as \\( n \\) and \\( n+1 \\). According to the problem, their sum is 25. We can set up the equation as follows:\n\n\\[ n + (n + 1) = 25 \\]\n\nSimplify the equation:\n\n\\[ 2n + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\n\\[ 2n = 24 \\]\n\nDivide both sides by 2:\n\n\\[ n = 12 \\]\n\nThe smaller number is \\( n = 12 \\).\n\nAnswer: 12",
+  "time_s": 71.8
+ },
+ {
+  "tag": "T9-stab0-A-recovery",
+  "prompt": "Question: Two consecutive whole numbers add up to 25. What is the smaller number?\nLet's think step by step. Give your final answer on the last line in the form 'Answer: <number>'.",
+  "temp": 0.0,
+  "seed": 42,
+  "gen": "Let's denote the two consecutive whole numbers as \\( n \\) and \\( n + 1 \\).\n\nAccording to the problem, the sum of these two consecutive whole numbers is 25. So we can write the equation:\n\n\\[ n + (n + 1) = 25 \\]\n\nSimplifying the equation:\n\n\\[ 2n + 1 = 25 \\]\n\nSubtract 1 from both sides:\n\n\\[ 2n = 24 \\]\n\nDivide both sides by 2:\n\n\\[ n = 12 \\]\n\nSo, the smaller number is 12.\n\nAnswer: 12",
+  "time_s": 37.6
+ }
+]

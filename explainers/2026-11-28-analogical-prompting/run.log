@@ -1,0 +1,53 @@
+T1 A correct extracted 29.0 fmt True gold 29
+T1 B correct extracted 29.0 fmt True gold 29
+T2 A correct extracted 280.0 fmt True gold 280
+T2 B correct extracted 280.0 fmt False gold 280
+T3 A correct extracted 150.0 fmt True gold 150
+T3 B correct extracted 150.0 fmt False gold 150
+T4 A correct extracted 12.0 fmt True gold 12
+T4 B correct extracted 12.0 fmt True gold 12
+T5 A correct extracted 16.0 fmt True gold 16
+T5 B correct extracted 16.0 fmt True gold 16
+T6 A correct extracted 27.0 fmt True gold 27
+T6 B correct extracted 27.0 fmt True gold 27
+T7 A correct extracted 1700.0 fmt True gold 1700
+T7 B correct extracted 1700.0 fmt False gold 1700
+T8 A correct extracted 21.0 fmt True gold 21
+T8 B correct extracted 21.0 fmt True gold 21
+T9 A correct extracted 12.0 fmt True gold 12
+T9 B correct extracted 12.0 fmt False gold 12
+T10 A correct extracted 75.0 fmt True gold 75
+T10 B correct extracted 75.0 fmt True gold 75
+T11 A correct extracted 75.0 fmt True gold 75
+T11 B correct extracted 75.0 fmt False gold 75
+T12 A correct extracted 3.0 fmt True gold 3
+T12 B correct extracted 3.0 fmt False gold 3
+T2 stab 0 A correct
+T2 stab 0 B correct
+T2 stab 1 A correct
+T2 stab 1 B correct
+T9 stab 0 A correct
+T9 stab0 B True
+T9 stab1 A True
+T9 stab1 B True
+T2 sens 0 A True
+T2 sens 0 B True
+T2 sens 1 A True
+T2 sens 1 B True
+T2 sens 2 A True
+T2 sens 2 B False
+T2 sens 3 A True
+T2 sens 3 B False
+T2 sens 4 A True
+T2 sens 4 B True
+T9 sens 0 A True
+T9 sens 0 B True
+T9 sens 1 A True
+T9 sens 1 B True
+T9 sens 2 A True
+T9 sens 2 B True
+T9 sens 3 A True
+T9 sens 3 B True
+T9 sens 4 A True
+T9 sens 4 B True
+NOTE 2026-11-28: T9 stability rep0 A was printed correct in first run run.log but JSON save was lost when process was killed; re-run once deterministically (temp0/seed42) as recovery, tagged T9-stab0-A-recovery.
